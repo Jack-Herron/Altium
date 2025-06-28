@@ -1,0 +1,22 @@
+# Altium project structure files
+*.PrjPcbStructure
+*.PrjPcbSettings
+*.ProjectCache
+*.PcbDocPreview
+*.SchDocPreview
+
+# Altium output and generated files
+History/
+__Previews/
+Project Outputs/
+*.OutJob
+*.LOG
+*.DRC
+*.ERC
+*.REP
+*.html
+
+# Backup files
+*.~*
+*.bak
+*.tmp
