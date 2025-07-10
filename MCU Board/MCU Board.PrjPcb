@@ -1068,6 +1068,41 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 
+[NetInfos]
+Net1=NetName=ETH_RD_M|NetColor=$006EFF6E
+Net2=NetName=ETH_RD_P|NetColor=$006EFF6E
+Net3=NetName=ETH_RMII_CRS_DV|NetColor=$00FFFF6E
+Net4=NetName=ETH_RMII_MDC|NetColor=$00FFFF6E
+Net5=NetName=ETH_RMII_MDIO|NetColor=$00FFFF6E
+Net6=NetName=ETH_RMII_REF_CLK|NetColor=$00FFFF6E
+Net7=NetName=ETH_RMII_RX_D0|NetColor=$00FFFF6E
+Net8=NetName=ETH_RMII_RX_D1|NetColor=$00FFFF6E
+Net9=NetName=ETH_RMII_RX_DV|NetColor=$00FFFF6E
+Net10=NetName=ETH_RMII_RX_ER|NetColor=$00FFFF6E
+Net11=NetName=ETH_RMII_TX_D0|NetColor=$00FFFF6E
+Net12=NetName=ETH_RMII_TX_D1|NetColor=$00FFFF6E
+Net13=NetName=ETH_RMII_TX_EN|NetColor=$00FFFF6E
+Net14=NetName=ETH_TD_M|NetColor=$006EFF6E
+Net15=NetName=ETH_TD_P|NetColor=$006EFF6E
+Net16=NetName=USB_DM|NetColor=$006E6EFF
+Net17=NetName=USB_DP|NetColor=$006E6EFF
+Net18=NetName=USB_ID|NetColor=$006E6EFF
+Net19=NetName=USB_PS_VBUS_EN|NetColor=$006E6EFF
+Net20=NetName=USB_PS_VBUS_FAULT|NetColor=$006E6EFF
+Net21=NetName=USB_ULPI_CLK|NetColor=$00FF6E6E
+Net22=NetName=USB_ULPI_D0|NetColor=$00FF6E6E
+Net23=NetName=USB_ULPI_D1|NetColor=$00FF6E6E
+Net24=NetName=USB_ULPI_D2|NetColor=$00FF6E6E
+Net25=NetName=USB_ULPI_D3|NetColor=$00FF6E6E
+Net26=NetName=USB_ULPI_D4|NetColor=$00FF6E6E
+Net27=NetName=USB_ULPI_D5|NetColor=$00FF6E6E
+Net28=NetName=USB_ULPI_D6|NetColor=$00FF6E6E
+Net29=NetName=USB_ULPI_D7|NetColor=$00FF6E6E
+Net30=NetName=USB_ULPI_DIR|NetColor=$00FF6E6E
+Net31=NetName=USB_ULPI_NXT|NetColor=$00FF6E6E
+Net32=NetName=USB_ULPI_STP|NetColor=$00FF6E6E
+Net33=NetName=USB_VBUS|NetColor=$006E6EFF
+
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
