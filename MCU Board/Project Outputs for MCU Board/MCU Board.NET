@@ -1,0 +1,547 @@
+Wire List
+
+<<< Component List >>>
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+BLM18PG121SN1D                  FB*            
+BLM18PG121SN1D                  FB*            
+BLM18PG121SN1D                  FB*?           
+BLM18PG121SN1D                  FB*?           
+DF40C-80DP-0.4V(51)             P?             
+DF40C-80DP-0.4V(51)             P?             
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+STM32H750XBH6                   U1             FP-TFBGA2650-A07U-IPC_C
+USB3300-EZK-TR                  U2             FP-32QFN-3304-5X5B-IPC_C
+DP83822IRHBR                    U3             FP-RHB0032B-MFG
+X322525MOB4SI                   Y*             
+X322524MSB4SI                   Y*             
+X32258MOB4SI                    Y*             
+X1A0001410001                   Y?             FP-FC-135-MFG
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00392] USB_HS_VBUS
+        R?         1       1              PASSIVE     Res1
+
+[00391] USB_HS_ULPI_STP
+        U1         L2      PC0            PASSIVE     STM32H750XBH6
+        U2         12      DIR            OUTPUT      USB3300-EZK-TR
+
+[00390] USB_HS_ULPI_NXT
+        U1         M4      PC3            PASSIVE     STM32H750XBH6
+        U2         11      NXT            OUTPUT      USB3300-EZK-TR
+
+[00389] USB_HS_ULPI_DIR
+        U1         F4      PI11           PASSIVE     STM32H750XBH6
+        U2         13      STP            INPUT       USB3300-EZK-TR
+
+[00388] USB_HS_ULPI_D7
+        U1         A5      PB5            PASSIVE     STM32H750XBH6
+        U2         17      DATA7          I/O         USB3300-EZK-TR
+
+[00387] USB_HS_ULPI_D6
+        U1         U14     PB13           PASSIVE     STM32H750XBH6
+        U2         18      DATA6          I/O         USB3300-EZK-TR
+
+[00386] USB_HS_ULPI_D5
+        U1         T14     PB12           PASSIVE     STM32H750XBH6
+        U2         19      DATA5          I/O         USB3300-EZK-TR
+
+[00385] USB_HS_ULPI_D4
+        U1         P12     PB11           PASSIVE     STM32H750XBH6
+        U2         20      DATA4          I/O         USB3300-EZK-TR
+
+[00384] USB_HS_ULPI_D3
+        U1         P11     PB10           PASSIVE     STM32H750XBH6
+        U2         21      DATA3          I/O         USB3300-EZK-TR
+
+[00383] USB_HS_ULPI_D2
+        U1         T5      PB1            PASSIVE     STM32H750XBH6
+        U2         22      DATA2          I/O         USB3300-EZK-TR
+
+[00382] USB_HS_ULPI_D1
+        U1         U5      PB0            PASSIVE     STM32H750XBH6
+        U2         23      DATA1          I/O         USB3300-EZK-TR
+
+[00381] USB_HS_ULPI_D0
+        U1         U2      PA3            PASSIVE     STM32H750XBH6
+        U2         24      DATA0          I/O         USB3300-EZK-TR
+
+[00380] USB_HS_ULPI_CLK
+        U1         T3      PA5            PASSIVE     STM32H750XBH6
+        U2         14      CLKOUT         OUTPUT      USB3300-EZK-TR
+
+[00379] USB_HS_PS_VBUS_FAULT
+        U2         10      EXTVBUS        INPUT       USB3300-EZK-TR
+
+[00378] USB_HS_PS_VBUS_EN
+        U2         3       CPEN           OUTPUT      USB3300-EZK-TR
+
+[00377] USB_HS_ID
+        U2         5       ID             INPUT       USB3300-EZK-TR
+
+[00376] USB_HS_D_P
+        U2         7       DP             I/O         USB3300-EZK-TR
+
+[00375] USB_HS_D_N
+        U2         8       DM             I/O         USB3300-EZK-TR
+
+[00374] USB_FS_VBUS
+        U1         D15     PA9            PASSIVE     STM32H750XBH6
+
+[00373] USB_FS_ID
+        U1         D14     PA10           PASSIVE     STM32H750XBH6
+
+[00372] USB_FS_D_P
+        U1         E16     PA12           PASSIVE     STM32H750XBH6
+
+[00371] USB_FS_D_N
+        U1         E17     PA11           PASSIVE     STM32H750XBH6
+
+[00204] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U2         4       VBUS           I/O         USB3300-EZK-TR
+
+[00205] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U1         J1      PH0-OSC OUT    I/O         STM32H750XBH6
+
+[00206] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U2         32      RBIAS          POWER       USB3300-EZK-TR
+
+[00207] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U2         27      XO             OUTPUT      USB3300-EZK-TR
+
+[00202] NetR?_1
+        R?         1       1              PASSIVE     Res1
+        U3         22      XO             OUTPUT      DP83822IRHBR
+
+[00203] NetR?_1
+        R?         1       1              PASSIVE     Res1
+        U3         16      RBIAS          INPUT       DP83822IRHBR
+
+[00038] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+
+[00039] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        U3         23      XI             INPUT       DP83822IRHBR
+        Y*         3                      PASSIVE     X322525MOB4SI
+
+[00040] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        R?         1       1              PASSIVE     Res1
+        Y*         3                      PASSIVE     X32258MOB4SI
+
+[00041] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        R?         1       1              PASSIVE     Res1
+        Y*         3                      PASSIVE     X322524MSB4SI
+
+[00030] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        U1         A7      VCAP           PASSIVE     STM32H750XBH6
+        U1         D17     VCAP           PASSIVE     STM32H750XBH6
+        U1         U11     VCAP           PASSIVE     STM32H750XBH6
+
+[00031] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        U2         15      VDD1.8         POWER       USB3300-EZK-TR
+        U2         26      VDD1.8         POWER       USB3300-EZK-TR
+
+[00032] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        U2         29      VDDA1.8        POWER       USB3300-EZK-TR
+
+[00033] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        R?         2       2              PASSIVE     Res1
+        Y*         1                      PASSIVE     X322525MOB4SI
+
+[00034] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        U1         J2      PH0-OSC IN     I/O         STM32H750XBH6
+        Y*         1                      PASSIVE     X32258MOB4SI
+
+[00035] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        U2         28      XI             INPUT       USB3300-EZK-TR
+        Y*         1                      PASSIVE     X322524MSB4SI
+
+[00036] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        U1         C1      PC15-OSC32 OUT PASSIVE     STM32H750XBH6
+        Y?         1       1              PASSIVE     X1A0001410001
+
+[00037] NetC?_1
+        C?         1       1              PASSIVE     Cap
+        U1         C2      PC14-OSC32 IN  PASSIVE     STM32H750XBH6
+        Y?         2       2              PASSIVE     X1A0001410001
+
+[00029] MCU_VREF_FILTERED
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        FB*?       1       1              PASSIVE     BLM18PG121SN1D
+        U1         M1      VREF+          PASSIVE     STM32H750XBH6
+
+[00028] MCU_VREF
+        FB*?       0       0              PASSIVE     BLM18PG121SN1D
+
+[00027] MCU_VDDA_FILTERED
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        FB*?       1       1              PASSIVE     BLM18PG121SN1D
+        U1         L1      VDDA           PASSIVE     STM32H750XBH6
+
+[00026] MCU_VDDA
+        FB*?       0       0              PASSIVE     BLM18PG121SN1D
+
+[00025] MCU_VBAT
+        U1         B1      VBAT           PASSIVE     STM32H750XBH6
+
+[00024] MCU_R\S\T\
+        R?         2       2              PASSIVE     Res1
+        U1         K1      R\S\T\         PASSIVE     STM32H750XBH6
+
+[00023] MCU_BOOT
+        R?         2       2              PASSIVE     Res1
+        U1         E8      BOOT0          PASSIVE     STM32H750XBH6
+
+[00022] GND
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+        U1         A1      VSS            PASSIVE     STM32H750XBH6
+        U1         A17     VSS            PASSIVE     STM32H750XBH6
+        U1         B2      VSS            PASSIVE     STM32H750XBH6
+        U1         B6      VSS            PASSIVE     STM32H750XBH6
+        U1         C10     VSS            PASSIVE     STM32H750XBH6
+        U1         C13     VSS            PASSIVE     STM32H750XBH6
+        U1         C16     VSS            PASSIVE     STM32H750XBH6
+        U1         G7      VSS            I/O         STM32H750XBH6
+        U1         G8      VSS            I/O         STM32H750XBH6
+        U1         G9      VSS            I/O         STM32H750XBH6
+        U1         G10     VSS            I/O         STM32H750XBH6
+        U1         G11     VSS            I/O         STM32H750XBH6
+        U1         G16     VSS            PASSIVE     STM32H750XBH6
+        U1         H7      VSS            POWER       STM32H750XBH6
+        U1         H8      VSS            POWER       STM32H750XBH6
+        U1         H9      VSS            POWER       STM32H750XBH6
+        U1         H10     VSS            I/O         STM32H750XBH6
+        U1         H11     VSS            I/O         STM32H750XBH6
+        U1         J3      VSS            PASSIVE     STM32H750XBH6
+        U1         J7      VSS            POWER       STM32H750XBH6
+        U1         J8      VSS            I/O         STM32H750XBH6
+        U1         J9      VSS            I/O         STM32H750XBH6
+        U1         J10     VSS            I/O         STM32H750XBH6
+        U1         J11     VSS            I/O         STM32H750XBH6
+        U1         J16     VSS            PASSIVE     STM32H750XBH6
+        U1         J17     VSS            PASSIVE     STM32H750XBH6
+        U1         K7      VSS            I/O         STM32H750XBH6
+        U1         K8      VSS            POWER       STM32H750XBH6
+        U1         K9      VSS            POWER       STM32H750XBH6
+        U1         K10     VSS            PASSIVE     STM32H750XBH6
+        U1         K11     VSS            PASSIVE     STM32H750XBH6
+        U1         K15     VSS            PASSIVE     STM32H750XBH6
+        U1         L7      VSS            PASSIVE     STM32H750XBH6
+        U1         L8      VSS            I/O         STM32H750XBH6
+        U1         L9      VSS            I/O         STM32H750XBH6
+        U1         L10     VSS            I/O         STM32H750XBH6
+        U1         L11     VSS            I/O         STM32H750XBH6
+        U1         L15     VSS            PASSIVE     STM32H750XBH6
+        U1         M15     VSS            PASSIVE     STM32H750XBH6
+        U1         N1      VREF-          PASSIVE     STM32H750XBH6
+        U1         N16     VSS            PASSIVE     STM32H750XBH6
+        U1         P1      VSSA           PASSIVE     STM32H750XBH6
+        U1         R4      VSS            PASSIVE     STM32H750XBH6
+        U1         R8      VSS            PASSIVE     STM32H750XBH6
+        U1         T12     VSS            PASSIVE     STM32H750XBH6
+        U1         U1      VSS            PASSIVE     STM32H750XBH6
+        U1         U17     VSS            PASSIVE     STM32H750XBH6
+        U2         1       GND            POWER       USB3300-EZK-TR
+        U2         2       GND            POWER       USB3300-EZK-TR
+        U2         9       RESET          INPUT       USB3300-EZK-TR
+        U2         33      GND FLAG       POWER       USB3300-EZK-TR
+        U3         33      GND            POWER       DP83822IRHBR
+        Y*         2       Gnd            PASSIVE     X322525MOB4SI
+        Y*         2       Gnd            PASSIVE     X32258MOB4SI
+        Y*         2       Gnd            PASSIVE     X322524MSB4SI
+        Y*         4       Gnd            PASSIVE     X322525MOB4SI
+        Y*         4       Gnd            PASSIVE     X32258MOB4SI
+        Y*         4       Gnd            PASSIVE     X322524MSB4SI
+
+[00021] ETH_VDDIO
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        FB*        1       1              PASSIVE     BLM18PG121SN1D
+        U3         21      VDDIO          POWER       DP83822IRHBR
+
+[00020] ETH_TD_P
+        U3         12      TD P           PASSIVE     DP83822IRHBR
+
+[00019] ETH_TD_N
+        U3         11      TD M           PASSIVE     DP83822IRHBR
+
+[00018] ETH_RMII_TX_EN
+        U1         B9      PG11           PASSIVE     STM32H750XBH6
+        U3         3       TX EN/TX CTRL  I/O         DP83822IRHBR
+
+[00017] ETH_RMII_TX_D1
+        U1         C9      PG12           PASSIVE     STM32H750XBH6
+        U3         5       TX D1          I/O         DP83822IRHBR
+
+[00016] ETH_RMII_TX_D0
+        U1         D9      PG13           PASSIVE     STM32H750XBH6
+        U3         4       TX D0          I/O         DP83822IRHBR
+
+[00015] ETH_RMII_RX_D1
+        U1         U4      PC5            PASSIVE     STM32H750XBH6
+        U3         31      RX D1          OUTPUT      DP83822IRHBR
+
+[00014] ETH_RMII_RX_D0
+        U1         T4      PC4            PASSIVE     STM32H750XBH6
+        U3         30      RX D0          OUTPUT      DP83822IRHBR
+
+[00013] ETH_RMII_REF_CLK
+        U1         N4      PA1            PASSIVE     STM32H750XBH6
+        U3         1       RX D3/GPIO3    I/O         DP83822IRHBR
+
+[00012] ETH_RMII_MDIO
+        R?         1       1              PASSIVE     Res1
+        U1         N3      PA2            PASSIVE     STM32H750XBH6
+        U3         19      MDIO           I/O         DP83822IRHBR
+
+[00011] ETH_RMII_MDC
+        U1         M2      PC1            PASSIVE     STM32H750XBH6
+        U3         20      MDC            INPUT       DP83822IRHBR
+
+[00010] ETH_RMII_CRS_DV
+        U1         R5      PA7            PASSIVE     STM32H750XBH6
+        U3         27      CRS/CRS DV     OUTPUT      DP83822IRHBR
+
+[00009] ETH_RD_P
+        U3         10      RD P           PASSIVE     DP83822IRHBR
+
+[00008] ETH_RD_N
+        U3         9       RD M           PASSIVE     DP83822IRHBR
+
+[00007] ETH_R\E\S\E\T\
+        U3         18      R\E\S\E\T\     INPUT       DP83822IRHBR
+
+[00006] ETH_LED_1
+        R?         1       1              PASSIVE     Res1
+        U3         24      LED 1/GPIO1    I/O         DP83822IRHBR
+
+[00005] ETH_LED_0
+        R?         1       1              PASSIVE     Res1
+        U3         17      LED 0          PASSIVE     DP83822IRHBR
+
+[00004] ETH_I\N\T\/\P\W\D\N\
+        R?         1       1              PASSIVE     Res1
+        U3         8       I\N\T\/\P\W\D\NOUTPUT      DP83822IRHBR
+
+[00003] ETH_GPIO_2
+        U3         29      COL/GPIO2      I/O         DP83822IRHBR
+
+[00002] ETH_AVD
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        FB*        1       1              PASSIVE     BLM18PG121SN1D
+        U3         14      AVD            POWER       DP83822IRHBR
+
+[00001] 3V3
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        FB*        0       0              PASSIVE     BLM18PG121SN1D
+        FB*        0       0              PASSIVE     BLM18PG121SN1D
+        R?         1       1              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+        U1         A6      VDDLDO         PASSIVE     STM32H750XBH6
+        U1         C17     VDDLDO         PASSIVE     STM32H750XBH6
+        U1         E6      VDD            PASSIVE     STM32H750XBH6
+        U1         E7      PDR ON         PASSIVE     STM32H750XBH6
+        U1         E9      VDD            PASSIVE     STM32H750XBH6
+        U1         E11     VDD            PASSIVE     STM32H750XBH6
+        U1         F5      VDD            PASSIVE     STM32H750XBH6
+        U1         F17     VDD33USB       PASSIVE     STM32H750XBH6
+        U1         G5      VDD            PASSIVE     STM32H750XBH6
+        U1         G13     VDD            PASSIVE     STM32H750XBH6
+        U1         G17     VDD50USB       PASSIVE     STM32H750XBH6
+        U1         H5      VDD            PASSIVE     STM32H750XBH6
+        U1         H13     VDD            PASSIVE     STM32H750XBH6
+        U1         J13     VDD            PASSIVE     STM32H750XBH6
+        U1         K5      VDD            PASSIVE     STM32H750XBH6
+        U1         K13     VDD            PASSIVE     STM32H750XBH6
+        U1         L5      VDD            PASSIVE     STM32H750XBH6
+        U1         L13     VDD            PASSIVE     STM32H750XBH6
+        U1         M5      VDD            PASSIVE     STM32H750XBH6
+        U1         M13     VDD            PASSIVE     STM32H750XBH6
+        U1         N7      VDD            PASSIVE     STM32H750XBH6
+        U1         N8      VDD            PASSIVE     STM32H750XBH6
+        U1         N10     VDD            PASSIVE     STM32H750XBH6
+        U1         N11     VDD            PASSIVE     STM32H750XBH6
+        U1         N12     VDD            PASSIVE     STM32H750XBH6
+        U1         P17     VDD            PASSIVE     STM32H750XBH6
+        U1         U12     VDDLDO         PASSIVE     STM32H750XBH6
+        U2         6       VDD3.3         POWER       USB3300-EZK-TR
+        U2         16      VDD3.3         POWER       USB3300-EZK-TR
+        U2         25      VDD3.3         POWER       USB3300-EZK-TR
+        U2         30      VDD3.3         POWER       USB3300-EZK-TR
+        U2         31      REG EN         I/O         USB3300-EZK-TR
+
