@@ -84,23 +84,6 @@ GenerateClassCluster=0
 DocumentUniqueId=MALJRGEH
 
 [Document3]
-DocumentPath=MCU Board.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KTLCTUJW
-
-[Document4]
 DocumentPath=MCU Board_1.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -115,7 +98,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HJNKKCKG
+DocumentUniqueId=IATSWZHP
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MCU Board\MCU Board.NET
@@ -144,57 +127,53 @@ Name=Netlist Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=RacalNetlist
-OutputName1=Racal Netlist
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=RINFNetlist
-OutputName2=RINF Netlist
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=ProtelNetlist
-OutputName3=Protel
+OutputType3=EDIF
+OutputName3=EDIF for PCB
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=PCADnltNetlist
-OutputName4=PCADnlt Netlist
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=Protel2Netlist
-OutputName5=Protel2 Netlist
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=WireListNetlist
-OutputName6=WireList Netlist
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-Configuration6_Name1=ForceUpdateSettings
-Configuration6_Item1=False
-OutputType7=XSpiceNetlist
-OutputName7=Mixed Sim Netlist
+OutputType7=MultiWire
+OutputName7=MultiWire
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-Configuration7_Name1=ForceUpdateSettings
-Configuration7_Item1=False
-OutputType8=TelesisNetlist
-OutputName8=Telesis Netlist
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=SciCardsNetlist
-OutputName9=SciCards Netlist
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=TangoNetlist
-OutputName10=Tango Netlist
+OutputType10=Pcad
+OutputName10=Pcad for PCB
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
@@ -203,56 +182,60 @@ OutputName11=PCAD Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=EESofNetlist
-OutputName12=EESof Netlist
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=IntergraphNetlist
-OutputName13=Intergraph Netlist
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=EDIF
-OutputName14=EDIF for PCB
+OutputType14=ProtelNetlist
+OutputName14=Protel
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=CadnetixNetlist
-OutputName15=Cadnetix Netlist
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=CalayNetlist
-OutputName16=Calay Netlist
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=PADSNetlist
-OutputName17=PADS ASCII Netlist
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=Pcad
-OutputName18=Pcad for PCB
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=OrCadPCB2Netlist
-OutputName19=Orcad/PCB2 Netlist
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=MentorBoardStationNetlist
-OutputName20=Mentor BoardStation Netlist
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=MultiWire
-OutputName21=MultiWire
+Configuration20_Name1=ForceUpdateSettings
+Configuration20_Item1=False
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+Configuration21_Name1=ForceUpdateSettings
+Configuration21_Item1=False
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -1100,6 +1083,156 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=MCU Board_1.SCHLIB
+ComponentDesignItemID0=Cap_100nF
+ComponentSymbolReference0=Cap_100nF
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=MCU Board_1.SCHLIB
+ComponentDesignItemID1=Cap_10nF
+ComponentSymbolReference1=Cap_10nF
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=MCU Board_1.SCHLIB
+ComponentDesignItemID2=Cap_10uF
+ComponentSymbolReference2=Cap_10uF
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=MCU Board_1.SCHLIB
+ComponentDesignItemID3=Cap_18pF
+ComponentSymbolReference3=Cap_18pF
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=MCU Board_1.SCHLIB
+ComponentDesignItemID4=Cap_1uF
+ComponentSymbolReference4=Cap_1uF
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=MCU Board_1.SCHLIB
+ComponentDesignItemID5=Cap_2.2uF
+ComponentSymbolReference5=Cap_2.2uF
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=MCU Board_1.SCHLIB
+ComponentDesignItemID6=Cap_4.7uF
+ComponentSymbolReference6=Cap_4.7uF
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=MCU Board_1.SCHLIB
+ComponentDesignItemID7=Cap_8pF
+ComponentSymbolReference7=Cap_8pF
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=MCU Board_1.SCHLIB
+ComponentDesignItemID8=Crystal_25M
+ComponentSymbolReference8=Crystal_25M
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=MCU Board_1.SCHLIB
+ComponentDesignItemID9=Crystal_32.768k
+ComponentSymbolReference9=Crystal_32.768k
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=MCU Board_1.SCHLIB
+ComponentDesignItemID10=DF40C-80DP-0.4V(51)
+ComponentSymbolReference10=DF40C-80DP-0.4V(51)
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=MCU Board_1.SCHLIB
+ComponentDesignItemID11=DP83822IRHBR
+ComponentSymbolReference11=DP83822IRHBR
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=MCU Board_1.SCHLIB
+ComponentDesignItemID12=Ferrite_1
+ComponentSymbolReference12=Ferrite_1
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=MCU Board_1.SCHLIB
+ComponentDesignItemID13=IS66WVE4M16EBLL-70BLI
+ComponentSymbolReference13=IS66WVE4M16EBLL-70BLI
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=MCU Board_1.SCHLIB
+ComponentDesignItemID14=Osc_24M
+ComponentSymbolReference14=Osc_24M
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=MCU Board_1.SCHLIB
+ComponentDesignItemID15=Res_0
+ComponentSymbolReference15=Res_0
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=MCU Board_1.SCHLIB
+ComponentDesignItemID16=Res_1.5k
+ComponentSymbolReference16=Res_1.5k
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=MCU Board_1.SCHLIB
+ComponentDesignItemID17=Res_10k
+ComponentSymbolReference17=Res_10k
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=MCU Board_1.SCHLIB
+ComponentDesignItemID18=Res_12k_1%
+ComponentSymbolReference18=Res_12k_1%
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=MCU Board_1.SCHLIB
+ComponentDesignItemID19=Res_2.2k
+ComponentSymbolReference19=Res_2.2k
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=MCU Board_1.SCHLIB
+ComponentDesignItemID20=Res_33
+ComponentSymbolReference20=Res_33
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=MCU Board_1.SCHLIB
+ComponentDesignItemID21=Res_4.87k_1%
+ComponentSymbolReference21=Res_4.87k_1%
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=MCU Board_1.SCHLIB
+ComponentDesignItemID22=Res_5.2k
+ComponentSymbolReference22=Res_5.2k
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=MCU Board_1.SCHLIB
+ComponentDesignItemID23=STM32H750XBH6
+ComponentSymbolReference23=STM32H750XBH6
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=MCU Board_1.SCHLIB
+ComponentDesignItemID24=USB3300-EZK-TR
+ComponentSymbolReference24=USB3300-EZK-TR
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1113,6 +1246,414 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Access Time
+ParameterUpdate0=1
+ParameterName1=Additional Feature
+ParameterUpdate1=1
+ParameterName2=Address Bus Width
+ParameterUpdate2=1
+ParameterName3=Ambient Temperature Range High
+ParameterUpdate3=1
+ParameterName4=Ambient Temperature Range Low
+ParameterUpdate4=1
+ParameterName5=Automotive
+ParameterUpdate5=1
+ParameterName6=Body/Shell Style
+ParameterUpdate6=1
+ParameterName7=Cable Length
+ParameterUpdate7=1
+ParameterName8=Capacitor Type
+ParameterUpdate8=1
+ParameterName9=Case Code
+ParameterUpdate9=1
+ParameterName10=Case/Package
+ParameterUpdate10=1
+ParameterName11=Category
+ParameterUpdate11=1
+ParameterName12=Channels
+ParameterUpdate12=1
+ParameterName13=Clock Frequency
+ParameterUpdate13=1
+ParameterName14=Comment
+ParameterUpdate14=1
+ParameterName15=Component Kind
+ParameterUpdate15=1
+ParameterName16=ComponentLink10Description
+ParameterUpdate16=1
+ParameterName17=ComponentLink10URL
+ParameterUpdate17=1
+ParameterName18=ComponentLink11Description
+ParameterUpdate18=1
+ParameterName19=ComponentLink11URL
+ParameterUpdate19=1
+ParameterName20=ComponentLink12Description
+ParameterUpdate20=1
+ParameterName21=ComponentLink12URL
+ParameterUpdate21=1
+ParameterName22=ComponentLink1Description
+ParameterUpdate22=1
+ParameterName23=ComponentLink1URL
+ParameterUpdate23=1
+ParameterName24=ComponentLink2Description
+ParameterUpdate24=1
+ParameterName25=ComponentLink2URL
+ParameterUpdate25=1
+ParameterName26=ComponentLink3Description
+ParameterUpdate26=1
+ParameterName27=ComponentLink3URL
+ParameterUpdate27=1
+ParameterName28=ComponentLink4Description
+ParameterUpdate28=1
+ParameterName29=ComponentLink4URL
+ParameterUpdate29=1
+ParameterName30=ComponentLink5Description
+ParameterUpdate30=1
+ParameterName31=ComponentLink5URL
+ParameterUpdate31=1
+ParameterName32=ComponentLink6Description
+ParameterUpdate32=1
+ParameterName33=ComponentLink6URL
+ParameterUpdate33=1
+ParameterName34=ComponentLink7Description
+ParameterUpdate34=1
+ParameterName35=ComponentLink7URL
+ParameterUpdate35=1
+ParameterName36=ComponentLink8Description
+ParameterUpdate36=1
+ParameterName37=ComponentLink8URL
+ParameterUpdate37=1
+ParameterName38=ComponentLink9Description
+ParameterUpdate38=1
+ParameterName39=ComponentLink9URL
+ParameterUpdate39=1
+ParameterName40=Connector Type
+ParameterUpdate40=1
+ParameterName41=Construction
+ParameterUpdate41=1
+ParameterName42=Contact Finish - Mating
+ParameterUpdate42=1
+ParameterName43=Contact Finish - Termination
+ParameterUpdate43=1
+ParameterName44=Contact Gender
+ParameterUpdate44=1
+ParameterName45=Contact Material
+ParameterUpdate45=1
+ParameterName46=Contact Pattern
+ParameterUpdate46=1
+ParameterName47=Contact Resistance
+ParameterUpdate47=1
+ParameterName48=Core Architecture
+ParameterUpdate48=1
+ParameterName49=Current Rating
+ParameterUpdate49=1
+ParameterName50=Data Bus Width
+ParameterUpdate50=1
+ParameterName51=Data Rate
+ParameterUpdate51=1
+ParameterName52=DC Resistance-Max
+ParameterUpdate52=1
+ParameterName53=Density
+ParameterUpdate53=1
+ParameterName54=Depth
+ParameterUpdate54=1
+ParameterName55=Description
+ParameterUpdate55=1
+ParameterName56=Device Class L1
+ParameterUpdate56=1
+ParameterName57=Device Class L2
+ParameterUpdate57=1
+ParameterName58=Device Class L3
+ParameterUpdate58=1
+ParameterName59=Dielectric Material
+ParameterUpdate59=1
+ParameterName60=Dielectric Withstanding Voltage (AC)
+ParameterUpdate60=1
+ParameterName61=Digikey Description
+ParameterUpdate61=1
+ParameterName62=DIN Conformance
+ParameterUpdate62=1
+ParameterName63=Drive Level
+ParameterUpdate63=1
+ParameterName64=Durability
+ParameterUpdate64=1
+ParameterName65=ESR (Equivalent Series Resistance)
+ParameterUpdate65=1
+ParameterName66=Filter Feature
+ParameterUpdate66=1
+ParameterName67=Filter Type
+ParameterUpdate67=1
+ParameterName68=Flammability Rating
+ParameterUpdate68=1
+ParameterName69=Frequency
+ParameterUpdate69=1
+ParameterName70=Frequency Tolerance
+ParameterUpdate70=1
+ParameterName71=Height
+ParameterUpdate71=1
+ParameterName72=IEC Conformance
+ParameterUpdate72=1
+ParameterName73=Insulation Color
+ParameterUpdate73=1
+ParameterName74=Insulation Material
+ParameterUpdate74=1
+ParameterName75=Insulation Resistance
+ParameterUpdate75=1
+ParameterName76=Interface
+ParameterUpdate76=1
+ParameterName77=Ipc Land Pattern Name
+ParameterUpdate77=1
+ParameterName78=JESD-609 Code
+ParameterUpdate78=1
+ParameterName79=LatestRevisionDate
+ParameterUpdate79=1
+ParameterName80=LatestRevisionNote
+ParameterUpdate80=1
+ParameterName81=Lead Free
+ParameterUpdate81=1
+ParameterName82=Length
+ParameterUpdate82=1
+ParameterName83=Library Reference
+ParameterUpdate83=1
+ParameterName84=Load Capacitance
+ParameterUpdate84=1
+ParameterName85=Manufacturer
+ParameterUpdate85=1
+ParameterName86=Manufacturer Part Number
+ParameterUpdate86=1
+ParameterName87=Manufacturer Series
+ParameterUpdate87=1
+ParameterName88=Material
+ParameterUpdate88=1
+ParameterName89=Mating Contact Pitch
+ParameterUpdate89=1
+ParameterName90=Max Junction Temp
+ParameterUpdate90=1
+ParameterName91=Max Operating Temperature
+ParameterUpdate91=1
+ParameterName92=Max Supply Voltage
+ParameterUpdate92=1
+ParameterName93=Memory Size
+ParameterUpdate93=1
+ParameterName94=Memory Type
+ParameterUpdate94=1
+ParameterName95=MIL Conformance
+ParameterUpdate95=1
+ParameterName96=Min Frequency
+ParameterUpdate96=1
+ParameterName97=Min Operating Temperature
+ParameterUpdate97=1
+ParameterName98=Min Supply Voltage
+ParameterUpdate98=1
+ParameterName99=Mixed Contacts
+ParameterUpdate99=1
+ParameterName100=Mount
+ParameterUpdate100=1
+ParameterName101=Mounting Style
+ParameterUpdate101=1
+ParameterName102=Mounting Technology
+ParameterUpdate102=1
+ParameterName103=Mouser Description
+ParameterUpdate103=1
+ParameterName104=Multilayer
+ParameterUpdate104=1
+ParameterName105=Nominal Supply Current
+ParameterUpdate105=1
+ParameterName106=Number Of A/D Converters
+ParameterUpdate106=1
+ParameterName107=Number Of Adc Channels
+ParameterUpdate107=1
+ParameterName108=Number Of Connectors
+ParameterUpdate108=1
+ParameterName109=Number of Contacts
+ParameterUpdate109=1
+ParameterName110=Number Of Cores
+ParameterUpdate110=1
+ParameterName111=Number Of Ethernet Channels
+ParameterUpdate111=1
+ParameterName112=Number Of I/Os
+ParameterUpdate112=1
+ParameterName113=Number Of I2C Channels
+ParameterUpdate113=1
+ParameterName114=Number Of PCB Rows
+ParameterUpdate114=1
+ParameterName115=Number of Pins
+ParameterUpdate115=1
+ParameterName116=Number of Ports
+ParameterUpdate116=1
+ParameterName117=Number Of Pwm Channels
+ParameterUpdate117=1
+ParameterName118=Number of Rows Loaded
+ParameterUpdate118=1
+ParameterName119=Number Of Spi Channels
+ParameterUpdate119=1
+ParameterName120=Number Of Timers/Counters
+ParameterUpdate120=1
+ParameterName121=Number Of Uart Channels
+ParameterUpdate121=1
+ParameterName122=Number Of Usb Channels
+ParameterUpdate122=1
+ParameterName123=Octopart
+ParameterUpdate123=1
+ParameterName124=Option
+ParameterUpdate124=1
+ParameterName125=Output Impedance
+ParameterUpdate125=1
+ParameterName126=Package
+ParameterUpdate126=1
+ParameterName127=Package Quantity
+ParameterUpdate127=1
+ParameterName128=Package Shape
+ParameterUpdate128=1
+ParameterName129=Package Style
+ParameterUpdate129=1
+ParameterName130=PackageDescription
+ParameterUpdate130=1
+ParameterName131=PackageReference
+ParameterUpdate131=1
+ParameterName132=Packaging
+ParameterUpdate132=1
+ParameterName133=PCB Contact Pattern
+ParameterUpdate133=1
+ParameterName134=PCB Contact Row Spacing
+ParameterUpdate134=1
+ParameterName135=Pins
+ParameterUpdate135=1
+ParameterName136=Polarization Key
+ParameterUpdate136=1
+ParameterName137=Pricing
+ParameterUpdate137=1
+ParameterName138=Published
+ParameterUpdate138=1
+ParameterName139=Publisher
+ParameterUpdate139=1
+ParameterName140=Radiation Hardening
+ParameterUpdate140=1
+ParameterName141=Ram Size
+ParameterUpdate141=1
+ParameterName142=Rated Current (Signal)
+ParameterUpdate142=1
+ParameterName143=Rated DC Voltage (URdc)
+ParameterUpdate143=1
+ParameterName144=Reach SVHC Compliant
+ParameterUpdate144=1
+ParameterName145=Reference Standard
+ParameterUpdate145=1
+ParameterName146=Reliability
+ParameterUpdate146=1
+ParameterName147=RoHS
+ParameterUpdate147=1
+ParameterName148=RoHS Compliant
+ParameterUpdate148=1
+ParameterName149=Series
+ParameterUpdate149=1
+ParameterName150=Standoff Height
+ParameterUpdate150=1
+ParameterName151=Stock
+ParameterUpdate151=1
+ParameterName152=Supplier
+ParameterUpdate152=1
+ParameterName153=Supplier Part Number
+ParameterUpdate153=1
+ParameterName154=Temperature
+ParameterUpdate154=1
+ParameterName155=Temperature Characteristics Code
+ParameterUpdate155=1
+ParameterName156=Temperature Range High
+ParameterUpdate156=1
+ParameterName157=Temperature Range Low
+ParameterUpdate157=1
+ParameterName158=Terminal Finish
+ParameterUpdate158=1
+ParameterName159=Terminal Pitch
+ParameterUpdate159=1
+ParameterName160=Termination
+ParameterUpdate160=1
+ParameterName161=Tolerance
+ParameterUpdate161=1
+ParameterName162=Tolerance  (fill in as +-)
+ParameterUpdate162=1
+ParameterName163=Tolerance (fill in as +-)
+ParameterUpdate163=1
+ParameterName164=Usb Standard
+ParameterUpdate164=1
+ParameterName165=Value
+ParameterUpdate165=1
+ParameterName166=Weight
+ParameterUpdate166=1
+ParameterName167=Width
+ParameterUpdate167=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=AXIAL-0.3
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=FP-32QFN-3304-5X5B-IPC_A
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=FP-32QFN-3304-5X5B-IPC_B
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=FP-32QFN-3304-5X5B-IPC_C
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=FP-32QFN-3304-5X5B-MFG
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=FP-FC-135-MFG
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=FP-RHB0032B-IPC_A
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=FP-RHB0032B-IPC_B
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=FP-RHB0032B-IPC_C
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=FP-RHB0032B-MFG
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=FP-TFBGA2650-A07U-IPC_A
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=FP-TFBGA2650-A07U-IPC_B
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=FP-TFBGA2650-A07U-IPC_C
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=FP-TFBGA2650-A07U-MFG
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=FP-TF-BGA-48-80000X60000D-IPC_A
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=FP-TF-BGA-48-80000X60000D-IPC_B
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=FP-TF-BGA-48-80000X60000D-IPC_C
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=RAD-0.3
+ModelUpdate17=1
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType18=SI
+ModelName18=Cap
+ModelUpdate18=1
+ModelType19=SI
+ModelName19=Res
+ModelUpdate19=1
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType20=SIM
+ModelName20=CAP
+ModelUpdate20=1
+ModelType21=SIM
+ModelName21=RESISTOR
+ModelUpdate21=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1138,347 +1679,362 @@ Net14=NetName=ETH_TL_RD_P|NetColor=$0000CC00
 Net15=NetName=ETH_TL_TD_N|NetColor=$0000CC00
 Net16=NetName=ETH_TL_TD_P|NetColor=$0000CC00
 Net17=NetName=ETH_VDDIO|NetColor=clRed
-Net18=NetName=FMC_DR_A0|NetColor=$009966FF
-Net19=NetName=FMC_DR_A1|NetColor=$009966FF
-Net20=NetName=FMC_DR_A10|NetColor=$009966FF
-Net21=NetName=FMC_DR_A11|NetColor=$009966FF
-Net22=NetName=FMC_DR_A12|NetColor=$009966FF
-Net23=NetName=FMC_DR_A13|NetColor=$009966FF
-Net24=NetName=FMC_DR_A14|NetColor=$009966FF
-Net25=NetName=FMC_DR_A15|NetColor=$009966FF
-Net26=NetName=FMC_DR_A16|NetColor=$009966FF
-Net27=NetName=FMC_DR_A17|NetColor=$009966FF
-Net28=NetName=FMC_DR_A18|NetColor=$009966FF
-Net29=NetName=FMC_DR_A19|NetColor=$009966FF
-Net30=NetName=FMC_DR_A2|NetColor=$009966FF
-Net31=NetName=FMC_DR_A20|NetColor=$009966FF
-Net32=NetName=FMC_DR_A21|NetColor=$009966FF
-Net33=NetName=FMC_DR_A3|NetColor=$009966FF
-Net34=NetName=FMC_DR_A4|NetColor=$009966FF
-Net35=NetName=FMC_DR_A5|NetColor=$009966FF
-Net36=NetName=FMC_DR_A6|NetColor=$009966FF
-Net37=NetName=FMC_DR_A7|NetColor=$009966FF
-Net38=NetName=FMC_DR_A8|NetColor=$009966FF
-Net39=NetName=FMC_DR_A9|NetColor=$009966FF
-Net40=NetName=FMC_DR_B\L\0\|NetColor=$009966FF
-Net41=NetName=FMC_DR_B\L\1\|NetColor=$009966FF
-Net42=NetName=FMC_DR_C\E\|NetColor=$009966FF
-Net43=NetName=FMC_DR_D0|NetColor=$009966FF
-Net44=NetName=FMC_DR_D1|NetColor=$009966FF
-Net45=NetName=FMC_DR_D10|NetColor=$009966FF
-Net46=NetName=FMC_DR_D11|NetColor=$009966FF
-Net47=NetName=FMC_DR_D12|NetColor=$009966FF
-Net48=NetName=FMC_DR_D13|NetColor=$009966FF
-Net49=NetName=FMC_DR_D14|NetColor=$009966FF
-Net50=NetName=FMC_DR_D15|NetColor=$009966FF
-Net51=NetName=FMC_DR_D2|NetColor=$009966FF
-Net52=NetName=FMC_DR_D3|NetColor=$009966FF
-Net53=NetName=FMC_DR_D4|NetColor=$009966FF
-Net54=NetName=FMC_DR_D5|NetColor=$009966FF
-Net55=NetName=FMC_DR_D6|NetColor=$009966FF
-Net56=NetName=FMC_DR_D7|NetColor=$009966FF
-Net57=NetName=FMC_DR_D8|NetColor=$009966FF
-Net58=NetName=FMC_DR_D9|NetColor=$009966FF
-Net59=NetName=FMC_DR_O\E\|NetColor=$009966FF
-Net60=NetName=FMC_DR_W\E\|NetColor=$009966FF
-Net61=NetName=FMC_TL_A0|NetColor=$009966FF
-Net62=NetName=FMC_TL_A1|NetColor=$009966FF
-Net63=NetName=FMC_TL_A10|NetColor=$009966FF
-Net64=NetName=FMC_TL_A11|NetColor=$009966FF
-Net65=NetName=FMC_TL_A12|NetColor=$009966FF
-Net66=NetName=FMC_TL_A13|NetColor=$009966FF
-Net67=NetName=FMC_TL_A14|NetColor=$009966FF
-Net68=NetName=FMC_TL_A15|NetColor=$009966FF
-Net69=NetName=FMC_TL_A16|NetColor=$009966FF
-Net70=NetName=FMC_TL_A17|NetColor=$009966FF
-Net71=NetName=FMC_TL_A18|NetColor=$009966FF
-Net72=NetName=FMC_TL_A19|NetColor=$009966FF
-Net73=NetName=FMC_TL_A2|NetColor=$009966FF
-Net74=NetName=FMC_TL_A20|NetColor=$009966FF
-Net75=NetName=FMC_TL_A21|NetColor=$009966FF
-Net76=NetName=FMC_TL_A3|NetColor=$009966FF
-Net77=NetName=FMC_TL_A4|NetColor=$009966FF
-Net78=NetName=FMC_TL_A5|NetColor=$009966FF
-Net79=NetName=FMC_TL_A6|NetColor=$009966FF
-Net80=NetName=FMC_TL_A7|NetColor=$009966FF
-Net81=NetName=FMC_TL_A8|NetColor=$009966FF
-Net82=NetName=FMC_TL_A9|NetColor=$009966FF
-Net83=NetName=FMC_TL_B\L\0\|NetColor=$009966FF
-Net84=NetName=FMC_TL_B\L\1\|NetColor=$009966FF
-Net85=NetName=FMC_TL_C\E\|NetColor=$009966FF
-Net86=NetName=FMC_TL_D0|NetColor=$009966FF
-Net87=NetName=FMC_TL_D1|NetColor=$009966FF
-Net88=NetName=FMC_TL_D10|NetColor=$009966FF
-Net89=NetName=FMC_TL_D11|NetColor=$009966FF
-Net90=NetName=FMC_TL_D12|NetColor=$009966FF
-Net91=NetName=FMC_TL_D13|NetColor=$009966FF
-Net92=NetName=FMC_TL_D14|NetColor=$009966FF
-Net93=NetName=FMC_TL_D15|NetColor=$009966FF
-Net94=NetName=FMC_TL_D2|NetColor=$009966FF
-Net95=NetName=FMC_TL_D3|NetColor=$009966FF
-Net96=NetName=FMC_TL_D4|NetColor=$009966FF
-Net97=NetName=FMC_TL_D5|NetColor=$009966FF
-Net98=NetName=FMC_TL_D6|NetColor=$009966FF
-Net99=NetName=FMC_TL_D7|NetColor=$009966FF
-Net100=NetName=FMC_TL_D8|NetColor=$009966FF
-Net101=NetName=FMC_TL_D9|NetColor=$009966FF
-Net102=NetName=FMC_TL_O\E\|NetColor=$009966FF
-Net103=NetName=FMC_TL_W\E\|NetColor=$009966FF
-Net104=NetName=GND|NetColor=clBlue
-Net105=NetName=GPIO_DR_1|NetColor=$0066CCFF
-Net106=NetName=GPIO_DR_2|NetColor=$0066CCFF
-Net107=NetName=GPIO_DR_3|NetColor=$0066CCFF
-Net108=NetName=GPIO_DR_4|NetColor=$0066CCFF
-Net109=NetName=GPIO_DR_5|NetColor=$0066CCFF
-Net110=NetName=GPIO_TL_1|NetColor=$0066CCFF
-Net111=NetName=GPIO_TL_2|NetColor=$0066CCFF
-Net112=NetName=GPIO_TL_3|NetColor=$0066CCFF
-Net113=NetName=GPIO_TL_4|NetColor=$0066CCFF
-Net114=NetName=GPIO_TL_5|NetColor=$0066CCFF
-Net115=NetName=I2C2_DR_SCL|NetColor=clYellow
-Net116=NetName=I2C2_DR_SDA|NetColor=clYellow
-Net117=NetName=I2C2_TL_SCL|NetColor=clYellow
-Net118=NetName=I2C2_TL_SDA|NetColor=clYellow
-Net119=NetName=I2C3_DR_SCL|NetColor=clYellow
-Net120=NetName=I2C3_DR_SDA|NetColor=clYellow
-Net121=NetName=I2C3_TL_SCL|NetColor=clYellow
-Net122=NetName=I2C3_TL_SDA|NetColor=clYellow
-Net123=NetName=LTDC_DR_B0|NetColor=clAqua
-Net124=NetName=LTDC_DR_B1|NetColor=clAqua
-Net125=NetName=LTDC_DR_B2|NetColor=clAqua
-Net126=NetName=LTDC_DR_B3|NetColor=clAqua
-Net127=NetName=LTDC_DR_B4|NetColor=clAqua
-Net128=NetName=LTDC_DR_B5|NetColor=clAqua
-Net129=NetName=LTDC_DR_B6|NetColor=clAqua
-Net130=NetName=LTDC_DR_B7|NetColor=clAqua
-Net131=NetName=LTDC_DR_BACKLIGHT|NetColor=clAqua
-Net132=NetName=LTDC_DR_CLK|NetColor=clAqua
-Net133=NetName=LTDC_DR_DE|NetColor=clAqua
-Net134=NetName=LTDC_DR_EN|NetColor=clAqua
-Net135=NetName=LTDC_DR_G0|NetColor=clAqua
-Net136=NetName=LTDC_DR_G1|NetColor=clAqua
-Net137=NetName=LTDC_DR_G2|NetColor=clAqua
-Net138=NetName=LTDC_DR_G3|NetColor=clAqua
-Net139=NetName=LTDC_DR_G4|NetColor=clAqua
-Net140=NetName=LTDC_DR_G5|NetColor=clAqua
-Net141=NetName=LTDC_DR_G6|NetColor=clAqua
-Net142=NetName=LTDC_DR_G7|NetColor=clAqua
-Net143=NetName=LTDC_DR_HSYNC|NetColor=clAqua
-Net144=NetName=LTDC_DR_R0|NetColor=clAqua
-Net145=NetName=LTDC_DR_R1|NetColor=clAqua
-Net146=NetName=LTDC_DR_R2|NetColor=clAqua
-Net147=NetName=LTDC_DR_R3|NetColor=clAqua
-Net148=NetName=LTDC_DR_R4|NetColor=clAqua
-Net149=NetName=LTDC_DR_R5|NetColor=clAqua
-Net150=NetName=LTDC_DR_R6|NetColor=clAqua
-Net151=NetName=LTDC_DR_R7|NetColor=clAqua
-Net152=NetName=LTDC_DR_VSYNC|NetColor=clAqua
-Net153=NetName=LTDC_TL_B0|NetColor=clAqua
-Net154=NetName=LTDC_TL_B1|NetColor=clAqua
-Net155=NetName=LTDC_TL_B2|NetColor=clAqua
-Net156=NetName=LTDC_TL_B3|NetColor=clAqua
-Net157=NetName=LTDC_TL_B4|NetColor=clAqua
-Net158=NetName=LTDC_TL_B5|NetColor=clAqua
-Net159=NetName=LTDC_TL_B6|NetColor=clAqua
-Net160=NetName=LTDC_TL_B7|NetColor=clAqua
-Net161=NetName=LTDC_TL_BACKLIGHT|NetColor=clAqua
-Net162=NetName=LTDC_TL_CLK|NetColor=clAqua
-Net163=NetName=LTDC_TL_DE|NetColor=clAqua
-Net164=NetName=LTDC_TL_EN|NetColor=clAqua
-Net165=NetName=LTDC_TL_G0|NetColor=clAqua
-Net166=NetName=LTDC_TL_G1|NetColor=clAqua
-Net167=NetName=LTDC_TL_G2|NetColor=clAqua
-Net168=NetName=LTDC_TL_G3|NetColor=clAqua
-Net169=NetName=LTDC_TL_G4|NetColor=clAqua
-Net170=NetName=LTDC_TL_G5|NetColor=clAqua
-Net171=NetName=LTDC_TL_G6|NetColor=clAqua
-Net172=NetName=LTDC_TL_G7|NetColor=clAqua
-Net173=NetName=LTDC_TL_HSYNC|NetColor=clAqua
-Net174=NetName=LTDC_TL_R0|NetColor=clAqua
-Net175=NetName=LTDC_TL_R1|NetColor=clAqua
-Net176=NetName=LTDC_TL_R2|NetColor=clAqua
-Net177=NetName=LTDC_TL_R3|NetColor=clAqua
-Net178=NetName=LTDC_TL_R4|NetColor=clAqua
-Net179=NetName=LTDC_TL_R5|NetColor=clAqua
-Net180=NetName=LTDC_TL_R6|NetColor=clAqua
-Net181=NetName=LTDC_TL_R7|NetColor=clAqua
-Net182=NetName=LTDC_TL_VSYNC|NetColor=clAqua
-Net183=NetName=MCU_BOOT|NetColor=$0077204E
-Net184=NetName=MCU_HSE_IN|NetColor=$00606060
-Net185=NetName=MCU_HSE_OUT|NetColor=$00606060
-Net186=NetName=MCU_LSE_IN|NetColor=$00606060
-Net187=NetName=MCU_LSE_OUT|NetColor=$00606060
-Net188=NetName=MCU_R\S\T\|NetColor=$0077204E
-Net189=NetName=MCU_SG_BOOT|NetColor=$00003366
-Net190=NetName=MCU_SG_R\S\T\|NetColor=$00003366
-Net191=NetName=MCU_VBAT|NetColor=$0077204E
-Net192=NetName=MCU_VDDA_FILTERED|NetColor=clRed
-Net193=NetName=MCU_VREF_FILTERED|NetColor=clRed
-Net194=NetName=NetC?_1|NetColor=$00606060
-Net195=NetName=NetR1108_2|NetColor=$00FF6E6E
-Net196=NetName=NetR1109_2|NetColor=$00FF6E6E
-Net197=NetName=PSRAM_C\S\|NetColor=$00FF39BC
-Net198=NetName=PSRAM_VDD|NetColor=clRed
-Net199=NetName=PSRAM_VDDQ|NetColor=clRed
-Net200=NetName=QSPI_BK1_NCS|NetColor=$00D2D79E
-Net201=NetName=QSPI_BK2_NCS|NetColor=$00D2D79E
-Net202=NetName=QSPI_DR_BK1_C\S\|NetColor=$00FF66CC
-Net203=NetName=QSPI_DR_BK1_IO0|NetColor=$00FF66CC
-Net204=NetName=QSPI_DR_BK1_IO1|NetColor=$00FF66CC
-Net205=NetName=QSPI_DR_BK1_IO2|NetColor=$00FF66CC
-Net206=NetName=QSPI_DR_BK1_IO3|NetColor=$00FF66CC
-Net207=NetName=QSPI_DR_BK2_C\S\|NetColor=$00FF66CC
-Net208=NetName=QSPI_DR_BK2_IO0|NetColor=$00FF66CC
-Net209=NetName=QSPI_DR_BK2_IO1|NetColor=$00FF66CC
-Net210=NetName=QSPI_DR_BK2_IO2|NetColor=$00FF66CC
-Net211=NetName=QSPI_DR_BK2_IO3|NetColor=$00FF66CC
-Net212=NetName=QSPI_DR_CLK|NetColor=$00FF66CC
-Net213=NetName=QSPI_TL_BK1_C\S\|NetColor=$00FF66CC
-Net214=NetName=QSPI_TL_BK1_IO0|NetColor=$00FF66CC
-Net215=NetName=QSPI_TL_BK1_IO1|NetColor=$00FF66CC
-Net216=NetName=QSPI_TL_BK1_IO2|NetColor=$00FF66CC
-Net217=NetName=QSPI_TL_BK1_IO3|NetColor=$00FF66CC
-Net218=NetName=QSPI_TL_BK2_C\S\|NetColor=$00FF66CC
-Net219=NetName=QSPI_TL_BK2_IO0|NetColor=$00FF66CC
-Net220=NetName=QSPI_TL_BK2_IO1|NetColor=$00FF66CC
-Net221=NetName=QSPI_TL_BK2_IO2|NetColor=$00FF66CC
-Net222=NetName=QSPI_TL_BK2_IO3|NetColor=$00FF66CC
-Net223=NetName=QSPI_TL_CLK|NetColor=$00FF66CC
-Net224=NetName=QSPI_XC_BK1_IO2|NetColor=$00D2D79E
-Net225=NetName=RMII_DR_CRS_DV|NetColor=$009300D6
-Net226=NetName=RMII_DR_REF_CLK|NetColor=$009300D6
-Net227=NetName=RMII_DR_RX_D0|NetColor=$009300D6
-Net228=NetName=RMII_DR_RX_D1|NetColor=$009300D6
-Net229=NetName=RMII_DR_TX_D0|NetColor=$00FFFF6E
-Net230=NetName=RMII_DR_TX_D1|NetColor=$00FFFF6E
-Net231=NetName=RMII_DR_TX_EN|NetColor=$00FFFF6E
-Net232=NetName=RMII_SG_MDC|NetColor=$009300D6
-Net233=NetName=RMII_SG_MDIO|NetColor=$009300D6
-Net234=NetName=RMII_TL_CRS_DV|NetColor=$009300D6
-Net235=NetName=RMII_TL_REF_CLK|NetColor=$009300D6
-Net236=NetName=RMII_TL_RX_D0|NetColor=$009300D6
-Net237=NetName=RMII_TL_RX_D1|NetColor=$009300D6
-Net238=NetName=RMII_TL_TX_D0|NetColor=$009300D6
-Net239=NetName=RMII_TL_TX_D1|NetColor=$009300D6
-Net240=NetName=RMII_TL_TX_EN|NetColor=$009300D6
-Net241=NetName=SDMMC2_DR_CK|NetColor=$009966FF
-Net242=NetName=SDMMC2_DR_CMD|NetColor=$009966FF
-Net243=NetName=SDMMC2_DR_D0|NetColor=$009966FF
-Net244=NetName=SDMMC2_DR_D1|NetColor=$009966FF
-Net245=NetName=SDMMC2_DR_D2|NetColor=$009966FF
-Net246=NetName=SDMMC2_DR_D3|NetColor=$009966FF
-Net247=NetName=SDMMC2_TL_CK|NetColor=$009966FF
-Net248=NetName=SDMMC2_TL_CMD|NetColor=$009966FF
-Net249=NetName=SDMMC2_TL_D0|NetColor=$009966FF
-Net250=NetName=SDMMC2_TL_D1|NetColor=$009966FF
-Net251=NetName=SDMMC2_TL_D2|NetColor=$009966FF
-Net252=NetName=SDMMC2_TL_D3|NetColor=$009966FF
-Net253=NetName=SPI5_C\S\|NetColor=$00007756
-Net254=NetName=SPI5_DR_C\S\|NetColor=$000066FF
-Net255=NetName=SPI5_DR_MOSI|NetColor=$000066FF
-Net256=NetName=SPI5_DR_SCK|NetColor=$000066FF
-Net257=NetName=SPI5_RC_MISO|NetColor=$000066FF
-Net258=NetName=SPI5_TL_C\S\|NetColor=$000066FF
-Net259=NetName=SPI5_TL_MISO|NetColor=$000066FF
-Net260=NetName=SPI5_TL_MOSI|NetColor=$000066FF
-Net261=NetName=SPI5_TL_SCK|NetColor=$000066FF
-Net262=NetName=SW_SG_CLK|NetColor=$00003366
-Net263=NetName=SW_SG_DIO|NetColor=$00003366
-Net264=NetName=U101_VCAP|NetColor=clRed
-Net265=NetName=U301_RBIAS|NetColor=$00606060
-Net266=NetName=U301_XO|NetColor=$00606060
-Net267=NetName=U501_RBIAS|NetColor=$00606060
-Net268=NetName=U501_VDD1.8_CAP|NetColor=clRed
-Net269=NetName=U501_VDDA1.8_CAP|NetColor=clRed
-Net270=NetName=UART4_DR_TX|NetColor=$0033FFCC
-Net271=NetName=UART4_RC_RX|NetColor=$0033FFCC
-Net272=NetName=UART4_TL_RX|NetColor=$0033FFCC
-Net273=NetName=UART4_TL_TX|NetColor=$0033FFCC
-Net274=NetName=UART5_DR_TX|NetColor=$0033FFCC
-Net275=NetName=UART5_RC_RX|NetColor=$0033FFCC
-Net276=NetName=UART5_TL_RX|NetColor=$0033FFCC
-Net277=NetName=UART5_TL_TX|NetColor=$0033FFCC
-Net278=NetName=USB_D_N|NetColor=$006E6EFF
-Net279=NetName=USB_D_P|NetColor=$006E6EFF
-Net280=NetName=USB_DM|NetColor=$006E6EFF
-Net281=NetName=USB_DP|NetColor=$006E6EFF
-Net282=NetName=USB_FS_D_M|NetColor=$0000BE00
-Net283=NetName=USB_FS_DR_D_N|NetColor=clMaroon
-Net284=NetName=USB_FS_DR_D_P|NetColor=clMaroon
-Net285=NetName=USB_FS_DR_ID|NetColor=clMaroon
-Net286=NetName=USB_FS_DR_SOF|NetColor=clMaroon
-Net287=NetName=USB_FS_DR_VBUS_EN|NetColor=clMaroon
-Net288=NetName=USB_FS_RC_VBUS_FAULT|NetColor=clMaroon
-Net289=NetName=USB_FS_RC_VBUS_SENSE|NetColor=clMaroon
-Net290=NetName=USB_FS_SG_ID|NetColor=$0000BE00
-Net291=NetName=USB_FS_SG_VBUS_EN|NetColor=$0000BE00
-Net292=NetName=USB_FS_SG_VBUS_FAULT|NetColor=$0000BE00
-Net293=NetName=USB_FS_SG_VBUS_SENSE|NetColor=clMaroon
-Net294=NetName=USB_FS_TL_D_N|NetColor=clMaroon
-Net295=NetName=USB_FS_TL_D_P|NetColor=clMaroon
-Net296=NetName=USB_FS_TL_ID|NetColor=clMaroon
-Net297=NetName=USB_FS_TL_SOF|NetColor=clMaroon
-Net298=NetName=USB_FS_TL_VBUS_EN|NetColor=clMaroon
-Net299=NetName=USB_FS_TL_VBUS_FAULT|NetColor=clMaroon
-Net300=NetName=USB_FS_VBUS|NetColor=$0000BE00
-Net301=NetName=USB_HS_DR_SOF|NetColor=$0099FF00
-Net302=NetName=USB_HS_PS_VBUS_EN|NetColor=$006E6EFF
-Net303=NetName=USB_HS_PS_VBUS_FAULT|NetColor=$006E6EFF
-Net304=NetName=USB_HS_RC_VBUS_SENSE|NetColor=$006E6EFF
-Net305=NetName=USB_HS_SG_ID|NetColor=$0099FF00
-Net306=NetName=USB_HS_SG_VBUS_EN|NetColor=$0099FF00
-Net307=NetName=USB_HS_SG_VBUS_FAULT|NetColor=$0099FF00
-Net308=NetName=USB_HS_SG_VBUS_SENSE|NetColor=$0099FF00
-Net309=NetName=USB_HS_TL_D_N|NetColor=$0099FF00
-Net310=NetName=USB_HS_TL_D_P|NetColor=$0099FF00
-Net311=NetName=USB_HS_TL_SOF|NetColor=$0099FF00
-Net312=NetName=USB_HS_ULPI_CLK|NetColor=$00FF6E6E
-Net313=NetName=USB_HS_ULPI_DIR|NetColor=$00FF6E6E
-Net314=NetName=USB_HS_ULPI_DR_CLK|NetColor=$00993300
-Net315=NetName=USB_HS_ULPI_DR_DIR|NetColor=$00993300
-Net316=NetName=USB_HS_ULPI_DR_NXT|NetColor=$00993300
-Net317=NetName=USB_HS_ULPI_DR_STP|NetColor=$00993300
-Net318=NetName=USB_HS_ULPI_DR1_D0|NetColor=$00993300
-Net319=NetName=USB_HS_ULPI_DR1_D1|NetColor=$00993300
-Net320=NetName=USB_HS_ULPI_DR1_D2|NetColor=$00993300
-Net321=NetName=USB_HS_ULPI_DR1_D3|NetColor=$00993300
-Net322=NetName=USB_HS_ULPI_DR1_D4|NetColor=$00993300
-Net323=NetName=USB_HS_ULPI_DR1_D5|NetColor=$00993300
-Net324=NetName=USB_HS_ULPI_DR1_D6|NetColor=$00993300
-Net325=NetName=USB_HS_ULPI_DR1_D7|NetColor=$00993300
-Net326=NetName=USB_HS_ULPI_DR2_D0|NetColor=$00993300
-Net327=NetName=USB_HS_ULPI_DR2_D1|NetColor=$00993300
-Net328=NetName=USB_HS_ULPI_DR2_D2|NetColor=$00993300
-Net329=NetName=USB_HS_ULPI_DR2_D3|NetColor=$00993300
-Net330=NetName=USB_HS_ULPI_DR2_D4|NetColor=$00993300
-Net331=NetName=USB_HS_ULPI_DR2_D5|NetColor=$00993300
-Net332=NetName=USB_HS_ULPI_DR2_D6|NetColor=$00993300
-Net333=NetName=USB_HS_ULPI_DR2_D7|NetColor=$00993300
-Net334=NetName=USB_HS_ULPI_NXT|NetColor=$00FF6E6E
-Net335=NetName=USB_HS_ULPI_STP|NetColor=$00FF6E6E
-Net336=NetName=USB_HS_ULPI_TL_CLK|NetColor=$00993300
-Net337=NetName=USB_HS_ULPI_TL_D0|NetColor=$00993300
-Net338=NetName=USB_HS_ULPI_TL_D1|NetColor=$00993300
-Net339=NetName=USB_HS_ULPI_TL_D2|NetColor=$00993300
-Net340=NetName=USB_HS_ULPI_TL_D3|NetColor=$00993300
-Net341=NetName=USB_HS_ULPI_TL_D4|NetColor=$00993300
-Net342=NetName=USB_HS_ULPI_TL_D5|NetColor=$00993300
-Net343=NetName=USB_HS_ULPI_TL_D6|NetColor=$00993300
-Net344=NetName=USB_HS_ULPI_TL_D7|NetColor=$00993300
-Net345=NetName=USB_HS_ULPI_TL_DIR|NetColor=$00993300
-Net346=NetName=USB_HS_ULPI_TL_NXT|NetColor=$00993300
-Net347=NetName=USB_HS_ULPI_TL_STP|NetColor=$00993300
-Net348=NetName=USB_HS_VBUS|NetColor=$006E6EFF
-Net349=NetName=USB_ID|NetColor=$006E6EFF
-Net350=NetName=USB_OSC|NetColor=$00606060
-Net351=NetName=USB_PS_VBUS_EN|NetColor=$006E6EFF
-Net352=NetName=USB_PS_VBUS_FAULT|NetColor=$006E6EFF
-Net353=NetName=USB_RBIAS|NetColor=$00606060
-Net354=NetName=USB_VBUS|NetColor=$006E6EFF
-Net355=NetName=VBAT|NetColor=clRed
-Net356=NetName=Y102_3|NetColor=$00606060
-Net357=NetName=Y301_1|NetColor=$00606060
-Net358=NetName=Y301_3|NetColor=$00606060
+Net18=NetName=ETH_XI|NetColor=$00606060
+Net19=NetName=ETH_XO|NetColor=$00606060
+Net20=NetName=ETH_XTAL|NetColor=$00606060
+Net21=NetName=FMC_DR_A0|NetColor=$009966FF
+Net22=NetName=FMC_DR_A1|NetColor=$009966FF
+Net23=NetName=FMC_DR_A10|NetColor=$009966FF
+Net24=NetName=FMC_DR_A11|NetColor=$009966FF
+Net25=NetName=FMC_DR_A12|NetColor=$009966FF
+Net26=NetName=FMC_DR_A13|NetColor=$009966FF
+Net27=NetName=FMC_DR_A14|NetColor=$009966FF
+Net28=NetName=FMC_DR_A15|NetColor=$009966FF
+Net29=NetName=FMC_DR_A16|NetColor=$009966FF
+Net30=NetName=FMC_DR_A17|NetColor=$009966FF
+Net31=NetName=FMC_DR_A18|NetColor=$009966FF
+Net32=NetName=FMC_DR_A19|NetColor=$009966FF
+Net33=NetName=FMC_DR_A2|NetColor=$009966FF
+Net34=NetName=FMC_DR_A20|NetColor=$009966FF
+Net35=NetName=FMC_DR_A21|NetColor=$009966FF
+Net36=NetName=FMC_DR_A3|NetColor=$009966FF
+Net37=NetName=FMC_DR_A4|NetColor=$009966FF
+Net38=NetName=FMC_DR_A5|NetColor=$009966FF
+Net39=NetName=FMC_DR_A6|NetColor=$009966FF
+Net40=NetName=FMC_DR_A7|NetColor=$009966FF
+Net41=NetName=FMC_DR_A8|NetColor=$009966FF
+Net42=NetName=FMC_DR_A9|NetColor=$009966FF
+Net43=NetName=FMC_DR_B\L\0\|NetColor=$009966FF
+Net44=NetName=FMC_DR_B\L\1\|NetColor=$009966FF
+Net45=NetName=FMC_DR_C\E\|NetColor=$009966FF
+Net46=NetName=FMC_DR_D0|NetColor=$009966FF
+Net47=NetName=FMC_DR_D1|NetColor=$009966FF
+Net48=NetName=FMC_DR_D10|NetColor=$009966FF
+Net49=NetName=FMC_DR_D11|NetColor=$009966FF
+Net50=NetName=FMC_DR_D12|NetColor=$009966FF
+Net51=NetName=FMC_DR_D13|NetColor=$009966FF
+Net52=NetName=FMC_DR_D14|NetColor=$009966FF
+Net53=NetName=FMC_DR_D15|NetColor=$009966FF
+Net54=NetName=FMC_DR_D2|NetColor=$009966FF
+Net55=NetName=FMC_DR_D3|NetColor=$009966FF
+Net56=NetName=FMC_DR_D4|NetColor=$009966FF
+Net57=NetName=FMC_DR_D5|NetColor=$009966FF
+Net58=NetName=FMC_DR_D6|NetColor=$009966FF
+Net59=NetName=FMC_DR_D7|NetColor=$009966FF
+Net60=NetName=FMC_DR_D8|NetColor=$009966FF
+Net61=NetName=FMC_DR_D9|NetColor=$009966FF
+Net62=NetName=FMC_DR_O\E\|NetColor=$009966FF
+Net63=NetName=FMC_DR_W\E\|NetColor=$009966FF
+Net64=NetName=FMC_TL_A0|NetColor=$009966FF
+Net65=NetName=FMC_TL_A1|NetColor=$009966FF
+Net66=NetName=FMC_TL_A10|NetColor=$009966FF
+Net67=NetName=FMC_TL_A11|NetColor=$009966FF
+Net68=NetName=FMC_TL_A12|NetColor=$009966FF
+Net69=NetName=FMC_TL_A13|NetColor=$009966FF
+Net70=NetName=FMC_TL_A14|NetColor=$009966FF
+Net71=NetName=FMC_TL_A15|NetColor=$009966FF
+Net72=NetName=FMC_TL_A16|NetColor=$009966FF
+Net73=NetName=FMC_TL_A17|NetColor=$009966FF
+Net74=NetName=FMC_TL_A18|NetColor=$009966FF
+Net75=NetName=FMC_TL_A19|NetColor=$009966FF
+Net76=NetName=FMC_TL_A2|NetColor=$009966FF
+Net77=NetName=FMC_TL_A20|NetColor=$009966FF
+Net78=NetName=FMC_TL_A21|NetColor=$009966FF
+Net79=NetName=FMC_TL_A3|NetColor=$009966FF
+Net80=NetName=FMC_TL_A4|NetColor=$009966FF
+Net81=NetName=FMC_TL_A5|NetColor=$009966FF
+Net82=NetName=FMC_TL_A6|NetColor=$009966FF
+Net83=NetName=FMC_TL_A7|NetColor=$009966FF
+Net84=NetName=FMC_TL_A8|NetColor=$009966FF
+Net85=NetName=FMC_TL_A9|NetColor=$009966FF
+Net86=NetName=FMC_TL_B\L\0\|NetColor=$009966FF
+Net87=NetName=FMC_TL_B\L\1\|NetColor=$009966FF
+Net88=NetName=FMC_TL_C\E\|NetColor=$009966FF
+Net89=NetName=FMC_TL_D0|NetColor=$009966FF
+Net90=NetName=FMC_TL_D1|NetColor=$009966FF
+Net91=NetName=FMC_TL_D10|NetColor=$009966FF
+Net92=NetName=FMC_TL_D11|NetColor=$009966FF
+Net93=NetName=FMC_TL_D12|NetColor=$009966FF
+Net94=NetName=FMC_TL_D13|NetColor=$009966FF
+Net95=NetName=FMC_TL_D14|NetColor=$009966FF
+Net96=NetName=FMC_TL_D15|NetColor=$009966FF
+Net97=NetName=FMC_TL_D2|NetColor=$009966FF
+Net98=NetName=FMC_TL_D3|NetColor=$009966FF
+Net99=NetName=FMC_TL_D4|NetColor=$009966FF
+Net100=NetName=FMC_TL_D5|NetColor=$009966FF
+Net101=NetName=FMC_TL_D6|NetColor=$009966FF
+Net102=NetName=FMC_TL_D7|NetColor=$009966FF
+Net103=NetName=FMC_TL_D8|NetColor=$009966FF
+Net104=NetName=FMC_TL_D9|NetColor=$009966FF
+Net105=NetName=FMC_TL_O\E\|NetColor=$009966FF
+Net106=NetName=FMC_TL_W\E\|NetColor=$009966FF
+Net107=NetName=GND|NetColor=clBlue
+Net108=NetName=GPIO_DR_1|NetColor=$0066CCFF
+Net109=NetName=GPIO_DR_2|NetColor=$0066CCFF
+Net110=NetName=GPIO_DR_3|NetColor=$0066CCFF
+Net111=NetName=GPIO_DR_4|NetColor=$0066CCFF
+Net112=NetName=GPIO_DR_5|NetColor=$0066CCFF
+Net113=NetName=GPIO_TL_1|NetColor=$0066CCFF
+Net114=NetName=GPIO_TL_2|NetColor=$0066CCFF
+Net115=NetName=GPIO_TL_3|NetColor=$0066CCFF
+Net116=NetName=GPIO_TL_4|NetColor=$0066CCFF
+Net117=NetName=GPIO_TL_5|NetColor=$0066CCFF
+Net118=NetName=I2C2_DR_SCL|NetColor=clYellow
+Net119=NetName=I2C2_DR_SDA|NetColor=clYellow
+Net120=NetName=I2C2_TL_SCL|NetColor=clYellow
+Net121=NetName=I2C2_TL_SDA|NetColor=clYellow
+Net122=NetName=I2C3_DR_SCL|NetColor=clYellow
+Net123=NetName=I2C3_DR_SDA|NetColor=clYellow
+Net124=NetName=I2C3_TL_SCL|NetColor=clYellow
+Net125=NetName=I2C3_TL_SDA|NetColor=clYellow
+Net126=NetName=LTDC_DR_B0|NetColor=clAqua
+Net127=NetName=LTDC_DR_B1|NetColor=clAqua
+Net128=NetName=LTDC_DR_B2|NetColor=clAqua
+Net129=NetName=LTDC_DR_B3|NetColor=clAqua
+Net130=NetName=LTDC_DR_B4|NetColor=clAqua
+Net131=NetName=LTDC_DR_B5|NetColor=clAqua
+Net132=NetName=LTDC_DR_B6|NetColor=clAqua
+Net133=NetName=LTDC_DR_B7|NetColor=clAqua
+Net134=NetName=LTDC_DR_BACKLIGHT|NetColor=clAqua
+Net135=NetName=LTDC_DR_CLK|NetColor=clAqua
+Net136=NetName=LTDC_DR_DE|NetColor=clAqua
+Net137=NetName=LTDC_DR_EN|NetColor=clAqua
+Net138=NetName=LTDC_DR_G0|NetColor=clAqua
+Net139=NetName=LTDC_DR_G1|NetColor=clAqua
+Net140=NetName=LTDC_DR_G2|NetColor=clAqua
+Net141=NetName=LTDC_DR_G3|NetColor=clAqua
+Net142=NetName=LTDC_DR_G4|NetColor=clAqua
+Net143=NetName=LTDC_DR_G5|NetColor=clAqua
+Net144=NetName=LTDC_DR_G6|NetColor=clAqua
+Net145=NetName=LTDC_DR_G7|NetColor=clAqua
+Net146=NetName=LTDC_DR_HSYNC|NetColor=clAqua
+Net147=NetName=LTDC_DR_R0|NetColor=clAqua
+Net148=NetName=LTDC_DR_R1|NetColor=clAqua
+Net149=NetName=LTDC_DR_R2|NetColor=clAqua
+Net150=NetName=LTDC_DR_R3|NetColor=clAqua
+Net151=NetName=LTDC_DR_R4|NetColor=clAqua
+Net152=NetName=LTDC_DR_R5|NetColor=clAqua
+Net153=NetName=LTDC_DR_R6|NetColor=clAqua
+Net154=NetName=LTDC_DR_R7|NetColor=clAqua
+Net155=NetName=LTDC_DR_VSYNC|NetColor=clAqua
+Net156=NetName=LTDC_TL_B0|NetColor=clAqua
+Net157=NetName=LTDC_TL_B1|NetColor=clAqua
+Net158=NetName=LTDC_TL_B2|NetColor=clAqua
+Net159=NetName=LTDC_TL_B3|NetColor=clAqua
+Net160=NetName=LTDC_TL_B4|NetColor=clAqua
+Net161=NetName=LTDC_TL_B5|NetColor=clAqua
+Net162=NetName=LTDC_TL_B6|NetColor=clAqua
+Net163=NetName=LTDC_TL_B7|NetColor=clAqua
+Net164=NetName=LTDC_TL_BACKLIGHT|NetColor=clAqua
+Net165=NetName=LTDC_TL_CLK|NetColor=clAqua
+Net166=NetName=LTDC_TL_DE|NetColor=clAqua
+Net167=NetName=LTDC_TL_EN|NetColor=clAqua
+Net168=NetName=LTDC_TL_G0|NetColor=clAqua
+Net169=NetName=LTDC_TL_G1|NetColor=clAqua
+Net170=NetName=LTDC_TL_G2|NetColor=clAqua
+Net171=NetName=LTDC_TL_G3|NetColor=clAqua
+Net172=NetName=LTDC_TL_G4|NetColor=clAqua
+Net173=NetName=LTDC_TL_G5|NetColor=clAqua
+Net174=NetName=LTDC_TL_G6|NetColor=clAqua
+Net175=NetName=LTDC_TL_G7|NetColor=clAqua
+Net176=NetName=LTDC_TL_HSYNC|NetColor=clAqua
+Net177=NetName=LTDC_TL_R0|NetColor=clAqua
+Net178=NetName=LTDC_TL_R1|NetColor=clAqua
+Net179=NetName=LTDC_TL_R2|NetColor=clAqua
+Net180=NetName=LTDC_TL_R3|NetColor=clAqua
+Net181=NetName=LTDC_TL_R4|NetColor=clAqua
+Net182=NetName=LTDC_TL_R5|NetColor=clAqua
+Net183=NetName=LTDC_TL_R6|NetColor=clAqua
+Net184=NetName=LTDC_TL_R7|NetColor=clAqua
+Net185=NetName=LTDC_TL_VSYNC|NetColor=clAqua
+Net186=NetName=MCU_BOOT|NetColor=$0077204E
+Net187=NetName=MCU_HSE_IN|NetColor=$00606060
+Net188=NetName=MCU_HSE_OUT|NetColor=$00606060
+Net189=NetName=MCU_HSE_XTAL|NetColor=$00606060
+Net190=NetName=MCU_LSE_IN|NetColor=$00606060
+Net191=NetName=MCU_LSE_OUT|NetColor=$00606060
+Net192=NetName=MCU_R\S\T\|NetColor=$0077204E
+Net193=NetName=MCU_SG_BOOT|NetColor=$00003366
+Net194=NetName=MCU_SG_R\S\T\|NetColor=$00003366
+Net195=NetName=MCU_VBAT|NetColor=$0077204E
+Net196=NetName=MCU_VDDA_FILTERED|NetColor=clRed
+Net197=NetName=MCU_VREF_FILTERED|NetColor=clRed
+Net198=NetName=NetC?_1|NetColor=$00606060
+Net199=NetName=NetR1108_2|NetColor=$00FF6E6E
+Net200=NetName=NetR1109_2|NetColor=$00FF6E6E
+Net201=NetName=PSRAM_C\S\|NetColor=$00FF39BC
+Net202=NetName=PSRAM_VDD|NetColor=clRed
+Net203=NetName=PSRAM_VDDQ|NetColor=clRed
+Net204=NetName=QSPI_BK1_NCS|NetColor=$00D2D79E
+Net205=NetName=QSPI_BK2_NCS|NetColor=$00D2D79E
+Net206=NetName=QSPI_DR_BK1_C\S\|NetColor=$00FF66CC
+Net207=NetName=QSPI_DR_BK1_IO0|NetColor=$00FF66CC
+Net208=NetName=QSPI_DR_BK1_IO1|NetColor=$00FF66CC
+Net209=NetName=QSPI_DR_BK1_IO2|NetColor=$00FF66CC
+Net210=NetName=QSPI_DR_BK1_IO3|NetColor=$00FF66CC
+Net211=NetName=QSPI_DR_BK2_C\S\|NetColor=$00FF66CC
+Net212=NetName=QSPI_DR_BK2_IO0|NetColor=$00FF66CC
+Net213=NetName=QSPI_DR_BK2_IO1|NetColor=$00FF66CC
+Net214=NetName=QSPI_DR_BK2_IO2|NetColor=$00FF66CC
+Net215=NetName=QSPI_DR_BK2_IO3|NetColor=$00FF66CC
+Net216=NetName=QSPI_DR_CLK|NetColor=$00FF66CC
+Net217=NetName=QSPI_TL_BK1_C\S\|NetColor=$00FF66CC
+Net218=NetName=QSPI_TL_BK1_IO0|NetColor=$00FF66CC
+Net219=NetName=QSPI_TL_BK1_IO1|NetColor=$00FF66CC
+Net220=NetName=QSPI_TL_BK1_IO2|NetColor=$00FF66CC
+Net221=NetName=QSPI_TL_BK1_IO3|NetColor=$00FF66CC
+Net222=NetName=QSPI_TL_BK2_C\S\|NetColor=$00FF66CC
+Net223=NetName=QSPI_TL_BK2_IO0|NetColor=$00FF66CC
+Net224=NetName=QSPI_TL_BK2_IO1|NetColor=$00FF66CC
+Net225=NetName=QSPI_TL_BK2_IO2|NetColor=$00FF66CC
+Net226=NetName=QSPI_TL_BK2_IO3|NetColor=$00FF66CC
+Net227=NetName=QSPI_TL_CLK|NetColor=$00FF66CC
+Net228=NetName=QSPI_XC_BK1_IO2|NetColor=$00D2D79E
+Net229=NetName=RMII_DR_CRS_DV|NetColor=$009300D6
+Net230=NetName=RMII_DR_REF_CLK|NetColor=$009300D6
+Net231=NetName=RMII_DR_RX_D0|NetColor=$009300D6
+Net232=NetName=RMII_DR_RX_D1|NetColor=$009300D6
+Net233=NetName=RMII_DR_TX_D0|NetColor=$00FFFF6E
+Net234=NetName=RMII_DR_TX_D1|NetColor=$00FFFF6E
+Net235=NetName=RMII_DR_TX_EN|NetColor=$00FFFF6E
+Net236=NetName=RMII_SG_MDC|NetColor=$009300D6
+Net237=NetName=RMII_SG_MDIO|NetColor=$009300D6
+Net238=NetName=RMII_TL_CRS_DV|NetColor=$009300D6
+Net239=NetName=RMII_TL_REF_CLK|NetColor=$009300D6
+Net240=NetName=RMII_TL_RX_D0|NetColor=$009300D6
+Net241=NetName=RMII_TL_RX_D1|NetColor=$009300D6
+Net242=NetName=RMII_TL_TX_D0|NetColor=$009300D6
+Net243=NetName=RMII_TL_TX_D1|NetColor=$009300D6
+Net244=NetName=RMII_TL_TX_EN|NetColor=$009300D6
+Net245=NetName=SDMMC2_DR_CK|NetColor=$009966FF
+Net246=NetName=SDMMC2_DR_CMD|NetColor=$009966FF
+Net247=NetName=SDMMC2_DR_D0|NetColor=$009966FF
+Net248=NetName=SDMMC2_DR_D1|NetColor=$009966FF
+Net249=NetName=SDMMC2_DR_D2|NetColor=$009966FF
+Net250=NetName=SDMMC2_DR_D3|NetColor=$009966FF
+Net251=NetName=SDMMC2_TL_CK|NetColor=$009966FF
+Net252=NetName=SDMMC2_TL_CMD|NetColor=$009966FF
+Net253=NetName=SDMMC2_TL_D0|NetColor=$009966FF
+Net254=NetName=SDMMC2_TL_D1|NetColor=$009966FF
+Net255=NetName=SDMMC2_TL_D2|NetColor=$009966FF
+Net256=NetName=SDMMC2_TL_D3|NetColor=$009966FF
+Net257=NetName=SPI5_C\S\|NetColor=$00007756
+Net258=NetName=SPI5_DR_C\S\|NetColor=$000066FF
+Net259=NetName=SPI5_DR_MOSI|NetColor=$000066FF
+Net260=NetName=SPI5_DR_SCK|NetColor=$000066FF
+Net261=NetName=SPI5_RC_MISO|NetColor=$000066FF
+Net262=NetName=SPI5_TL_C\S\|NetColor=$000066FF
+Net263=NetName=SPI5_TL_MISO|NetColor=$000066FF
+Net264=NetName=SPI5_TL_MOSI|NetColor=$000066FF
+Net265=NetName=SPI5_TL_SCK|NetColor=$000066FF
+Net266=NetName=SW_SG_CLK|NetColor=$00003366
+Net267=NetName=SW_SG_DIO|NetColor=$00003366
+Net268=NetName=U101_VCAP|NetColor=clRed
+Net269=NetName=U301_RBIAS|NetColor=$00606060
+Net270=NetName=U301_XO|NetColor=$00606060
+Net271=NetName=U501_RBIAS|NetColor=$00606060
+Net272=NetName=U501_VDD1.8_CAP|NetColor=clRed
+Net273=NetName=U501_VDDA1.8_CAP|NetColor=clRed
+Net274=NetName=UART4_DR_TX|NetColor=$0033FFCC
+Net275=NetName=UART4_RC_RX|NetColor=$0033FFCC
+Net276=NetName=UART4_TL_RX|NetColor=$0033FFCC
+Net277=NetName=UART4_TL_TX|NetColor=$0033FFCC
+Net278=NetName=UART5_DR_TX|NetColor=$0033FFCC
+Net279=NetName=UART5_RC_RX|NetColor=$0033FFCC
+Net280=NetName=UART5_TL_RX|NetColor=$0033FFCC
+Net281=NetName=UART5_TL_TX|NetColor=$0033FFCC
+Net282=NetName=USB_D_N|NetColor=$006E6EFF
+Net283=NetName=USB_D_P|NetColor=$006E6EFF
+Net284=NetName=USB_DM|NetColor=$006E6EFF
+Net285=NetName=USB_DP|NetColor=$006E6EFF
+Net286=NetName=USB_FS_D_M|NetColor=$0000BE00
+Net287=NetName=USB_FS_DR_D_N|NetColor=clMaroon
+Net288=NetName=USB_FS_DR_D_P|NetColor=clMaroon
+Net289=NetName=USB_FS_DR_ID|NetColor=clMaroon
+Net290=NetName=USB_FS_DR_SOF|NetColor=clMaroon
+Net291=NetName=USB_FS_DR_VBUS_EN|NetColor=clMaroon
+Net292=NetName=USB_FS_RC_VBUS_FAULT|NetColor=clMaroon
+Net293=NetName=USB_FS_RC_VBUS_SENSE|NetColor=clMaroon
+Net294=NetName=USB_FS_SG_ID|NetColor=$0000BE00
+Net295=NetName=USB_FS_SG_VBUS_EN|NetColor=$0000BE00
+Net296=NetName=USB_FS_SG_VBUS_FAULT|NetColor=$0000BE00
+Net297=NetName=USB_FS_SG_VBUS_SENSE|NetColor=clMaroon
+Net298=NetName=USB_FS_TL_D_N|NetColor=clMaroon
+Net299=NetName=USB_FS_TL_D_P|NetColor=clMaroon
+Net300=NetName=USB_FS_TL_ID|NetColor=clMaroon
+Net301=NetName=USB_FS_TL_SOF|NetColor=clMaroon
+Net302=NetName=USB_FS_TL_VBUS_EN|NetColor=clMaroon
+Net303=NetName=USB_FS_TL_VBUS_FAULT|NetColor=clMaroon
+Net304=NetName=USB_FS_VBUS|NetColor=$0000BE00
+Net305=NetName=USB_HS_DR_SOF|NetColor=$0099FF00
+Net306=NetName=USB_HS_PS_VBUS_EN|NetColor=$006E6EFF
+Net307=NetName=USB_HS_PS_VBUS_FAULT|NetColor=$006E6EFF
+Net308=NetName=USB_HS_RC_VBUS_SENSE|NetColor=$006E6EFF
+Net309=NetName=USB_HS_SG_ID|NetColor=$0099FF00
+Net310=NetName=USB_HS_SG_VBUS_EN|NetColor=$0099FF00
+Net311=NetName=USB_HS_SG_VBUS_FAULT|NetColor=$0099FF00
+Net312=NetName=USB_HS_SG_VBUS_SENSE|NetColor=$0099FF00
+Net313=NetName=USB_HS_TL_D_N|NetColor=$0099FF00
+Net314=NetName=USB_HS_TL_D_P|NetColor=$0099FF00
+Net315=NetName=USB_HS_TL_SOF|NetColor=$0099FF00
+Net316=NetName=USB_HS_ULPI_CLK|NetColor=$00FF6E6E
+Net317=NetName=USB_HS_ULPI_DIR|NetColor=$00FF6E6E
+Net318=NetName=USB_HS_ULPI_DR_CLK|NetColor=$00993300
+Net319=NetName=USB_HS_ULPI_DR_D0|NetColor=$00993300
+Net320=NetName=USB_HS_ULPI_DR_D1|NetColor=$00993300
+Net321=NetName=USB_HS_ULPI_DR_D2|NetColor=$00993300
+Net322=NetName=USB_HS_ULPI_DR_D3|NetColor=$00993300
+Net323=NetName=USB_HS_ULPI_DR_D4|NetColor=$00993300
+Net324=NetName=USB_HS_ULPI_DR_D5|NetColor=$00993300
+Net325=NetName=USB_HS_ULPI_DR_D6|NetColor=$00993300
+Net326=NetName=USB_HS_ULPI_DR_D7|NetColor=$00993300
+Net327=NetName=USB_HS_ULPI_DR_DIR|NetColor=$00993300
+Net328=NetName=USB_HS_ULPI_DR_NXT|NetColor=$00993300
+Net329=NetName=USB_HS_ULPI_DR_STP|NetColor=$00993300
+Net330=NetName=USB_HS_ULPI_DR1_D0|NetColor=$00993300
+Net331=NetName=USB_HS_ULPI_DR1_D1|NetColor=$00993300
+Net332=NetName=USB_HS_ULPI_DR1_D2|NetColor=$00993300
+Net333=NetName=USB_HS_ULPI_DR1_D3|NetColor=$00993300
+Net334=NetName=USB_HS_ULPI_DR1_D4|NetColor=$00993300
+Net335=NetName=USB_HS_ULPI_DR1_D5|NetColor=$00993300
+Net336=NetName=USB_HS_ULPI_DR1_D6|NetColor=$00993300
+Net337=NetName=USB_HS_ULPI_DR1_D7|NetColor=$00993300
+Net338=NetName=USB_HS_ULPI_DR2_D0|NetColor=$00993300
+Net339=NetName=USB_HS_ULPI_DR2_D1|NetColor=$00993300
+Net340=NetName=USB_HS_ULPI_DR2_D2|NetColor=$00993300
+Net341=NetName=USB_HS_ULPI_DR2_D3|NetColor=$00993300
+Net342=NetName=USB_HS_ULPI_DR2_D4|NetColor=$00993300
+Net343=NetName=USB_HS_ULPI_DR2_D5|NetColor=$00993300
+Net344=NetName=USB_HS_ULPI_DR2_D6|NetColor=$00993300
+Net345=NetName=USB_HS_ULPI_DR2_D7|NetColor=$00993300
+Net346=NetName=USB_HS_ULPI_NXT|NetColor=$00FF6E6E
+Net347=NetName=USB_HS_ULPI_STP|NetColor=$00FF6E6E
+Net348=NetName=USB_HS_ULPI_TL_CLK|NetColor=$00993300
+Net349=NetName=USB_HS_ULPI_TL_D0|NetColor=$00993300
+Net350=NetName=USB_HS_ULPI_TL_D1|NetColor=$00993300
+Net351=NetName=USB_HS_ULPI_TL_D2|NetColor=$00993300
+Net352=NetName=USB_HS_ULPI_TL_D3|NetColor=$00993300
+Net353=NetName=USB_HS_ULPI_TL_D4|NetColor=$00993300
+Net354=NetName=USB_HS_ULPI_TL_D5|NetColor=$00993300
+Net355=NetName=USB_HS_ULPI_TL_D6|NetColor=$00993300
+Net356=NetName=USB_HS_ULPI_TL_D7|NetColor=$00993300
+Net357=NetName=USB_HS_ULPI_TL_DIR|NetColor=$00993300
+Net358=NetName=USB_HS_ULPI_TL_NXT|NetColor=$00993300
+Net359=NetName=USB_HS_ULPI_TL_STP|NetColor=$00993300
+Net360=NetName=USB_HS_VBUS|NetColor=$006E6EFF
+Net361=NetName=USB_ID|NetColor=$006E6EFF
+Net362=NetName=USB_OSC|NetColor=$00606060
+Net363=NetName=USB_PS_VBUS_EN|NetColor=$006E6EFF
+Net364=NetName=USB_PS_VBUS_FAULT|NetColor=$006E6EFF
+Net365=NetName=USB_RBIAS|NetColor=$00606060
+Net366=NetName=USB_VBUS|NetColor=$006E6EFF
+Net367=NetName=USB_VDD1.8_CAP|NetColor=clRed
+Net368=NetName=USB_VDD3.3|NetColor=clRed
+Net369=NetName=USB_VDDA1.8_CAP|NetColor=clRed
+Net370=NetName=VBAT|NetColor=clRed
+Net371=NetName=Y102_3|NetColor=$00606060
+Net372=NetName=Y301_1|NetColor=$00606060
+Net373=NetName=Y301_3|NetColor=$00606060
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

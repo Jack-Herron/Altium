@@ -60,12 +60,13 @@ Cap                             C04009         RAD-0.3
 Cap                             C04010         RAD-0.3
 Cap                             C04011         RAD-0.3
 Cap                             C04012         RAD-0.3
-BLM18PG121SN1D                  FB01001        
-BLM18PG121SN1D                  FB01002        
-BLM18PG121SN1D                  FB02001        
-BLM18PG121SN1D                  FB02002        
-BLM18PG121SN1D                  FB03001        
-BLM18PG121SN1D                  FB03002        
+BLM18PG600SN1D                  FB01001        
+BLM18PG600SN1D                  FB01002        
+BLM18PG600SN1D                  FB02001        
+BLM18PG600SN1D                  FB02002        
+BLM18PG600SN1D                  FB03001        
+BLM18PG600SN1D                  FB03002        
+BLM18PG600SN1D                  FB04001        
 DF40C-80DP-0.4V(51)             P05001         
 DF40C-80DP-0.4V(51)             P05002         
 Res1                            R01001         AXIAL-0.3
@@ -209,494 +210,430 @@ Res1                            R03003         AXIAL-0.3
 Res1                            R03004         AXIAL-0.3
 Res1                            R03005         AXIAL-0.3
 Res1                            R03006         AXIAL-0.3
-Res1                            R03007         AXIAL-0.3
-Res1                            R03008         AXIAL-0.3
-Res1                            R03009         AXIAL-0.3
-Res1                            R03010         AXIAL-0.3
 Res1                            R04001         AXIAL-0.3
 Res1                            R04002         AXIAL-0.3
-Res1                            R04003         AXIAL-0.3
-Res1                            R04004         AXIAL-0.3
-Res1                            R04005         AXIAL-0.3
-Res1                            R04006         AXIAL-0.3
-Res1                            R04007         AXIAL-0.3
-Res1                            R04008         AXIAL-0.3
-Res1                            R04009         AXIAL-0.3
-Res1                            R04010         AXIAL-0.3
-Res1                            R04011         AXIAL-0.3
-Res1                            R04012         AXIAL-0.3
-Res1                            R04013         AXIAL-0.3
 STM32H750XBH6                   U01001         FP-TFBGA2650-A07U-IPC_C
 IS66WVE4M16EBLL-70BLI           U02001         FP-TF-BGA-48-80000X60000D-IPC
 DP83822IRHBR                    U03001         FP-RHB0032B-MFG
 USB3300-EZK-TR                  U04001         FP-32QFN-3304-5X5B-IPC_C
-STM32H750XBH6                   U?             FP-TFBGA2650-A07U-IPC_C
 X32258MOB4SI                    Y01001         
 X1A0001410001                   Y01002         FP-FC-135-MFG
+X322525MOB4SI                   Y03001         
 OT2JI-111-24M                   Y04001         
-X322525MOB4SI                   Y?             
 
 <<< Wire List >>>
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00368] Y301_3
+[00354] Y301_3
         C03009     2       2              PASSIVE     Cap
         U03001     23      XI             INPUT       DP83822IRHBR
-        Y?         3                      PASSIVE     X322525MOB4SI
+        Y03001     3                      PASSIVE     X322525MOB4SI
 
-[00367] Y301_1
+[00353] Y301_1
         C03010     1       1              PASSIVE     Cap
         R03004     2       2              PASSIVE     Res1
-        Y?         1                      PASSIVE     X322525MOB4SI
+        Y03001     1                      PASSIVE     X322525MOB4SI
 
-[00366] Y102_3
+[00352] Y102_3
         C01004     2       2              PASSIVE     Cap
         R01086     1       1              PASSIVE     Res1
         Y01001     3                      PASSIVE     X32258MOB4SI
 
-[00365] VBAT
+[00351] VBAT
         P05001     2       2              PASSIVE     DF40C-80DP-0.4V(51)
         P05001     4       4              PASSIVE     DF40C-80DP-0.4V(51)
         U01001     B1      VBAT           PASSIVE     STM32H750XBH6
 
-[00364] USB_RBIAS
-        R04013     2       2              PASSIVE     Res1
-        U04001     32      RBIAS          POWER       USB3300-EZK-TR
-
-[00363] USB_OSC
-        C04010     1       1              PASSIVE     Cap
-        U04001     28      XI             INPUT       USB3300-EZK-TR
-        Y04001     3       Out            PASSIVE     OT2JI-111-24M
-
-[00362] USB_HS_ULPI_TL_STP
-        R01112     1       1              PASSIVE     Res1
-        U04001     13      STP            INPUT       USB3300-EZK-TR
-
-[00361] USB_HS_ULPI_TL_NXT
-        R04003     1       1              PASSIVE     Res1
-        U?         M4      PC3            PASSIVE     STM32H750XBH6
-
-[00360] USB_HS_ULPI_TL_DIR
-        R04012     1       1              PASSIVE     Res1
-        U01001     F4      PI11           PASSIVE     STM32H750XBH6
-
-[00359] USB_HS_ULPI_TL_D7
-        R01102     2       2              PASSIVE     Res1
-        R04011     1       1              PASSIVE     Res1
-
-[00358] USB_HS_ULPI_TL_D6
-        R01109     2       2              PASSIVE     Res1
-        R04010     1       1              PASSIVE     Res1
-
-[00357] USB_HS_ULPI_TL_D5
-        R01108     2       2              PASSIVE     Res1
-        R04009     1       1              PASSIVE     Res1
-
-[00356] USB_HS_ULPI_TL_D4
-        R01107     2       2              PASSIVE     Res1
-        R04008     1       1              PASSIVE     Res1
-
-[00355] USB_HS_ULPI_TL_D3
-        R01106     2       2              PASSIVE     Res1
-        R04007     1       1              PASSIVE     Res1
-
-[00354] USB_HS_ULPI_TL_D2
-        R01098     2       2              PASSIVE     Res1
-        R04006     1       1              PASSIVE     Res1
-
-[00353] USB_HS_ULPI_TL_D1
-        R01097     2       2              PASSIVE     Res1
-        R04005     1       1              PASSIVE     Res1
-
-[00352] USB_HS_ULPI_TL_D0
-        R01088     2       2              PASSIVE     Res1
-        R04004     1       1              PASSIVE     Res1
-
-[00351] USB_HS_ULPI_TL_CLK
-        R04002     1       1              PASSIVE     Res1
-        U?         T3      PA5            PASSIVE     STM32H750XBH6
-
-[00350] USB_HS_ULPI_DR_STP
-        R01112     2       2              PASSIVE     Res1
-        U?         L2      PC0            PASSIVE     STM32H750XBH6
-
-[00349] USB_HS_ULPI_DR_NXT
-        R04003     2       2              PASSIVE     Res1
-        U04001     11      NXT            OUTPUT      USB3300-EZK-TR
-
-[00348] USB_HS_ULPI_DR_DIR
-        R04012     2       2              PASSIVE     Res1
-        U04001     12      DIR            OUTPUT      USB3300-EZK-TR
-
-[00347] USB_HS_ULPI_DR_CLK
-        R04002     2       2              PASSIVE     Res1
-        U04001     14      CLKOUT         OUTPUT      USB3300-EZK-TR
-
-[00346] USB_HS_ULPI_DR2_D7
-        R04011     2       2              PASSIVE     Res1
-        U04001     17      DATA7          I/O         USB3300-EZK-TR
-
-[00345] USB_HS_ULPI_DR2_D6
-        R04010     2       2              PASSIVE     Res1
-        U04001     18      DATA6          I/O         USB3300-EZK-TR
-
-[00344] USB_HS_ULPI_DR2_D5
-        R04009     2       2              PASSIVE     Res1
-        U04001     19      DATA5          I/O         USB3300-EZK-TR
-
-[00343] USB_HS_ULPI_DR2_D4
-        R04008     2       2              PASSIVE     Res1
-        U04001     20      DATA4          I/O         USB3300-EZK-TR
-
-[00342] USB_HS_ULPI_DR2_D3
-        R04007     2       2              PASSIVE     Res1
-        U04001     21      DATA3          I/O         USB3300-EZK-TR
-
-[00341] USB_HS_ULPI_DR2_D2
-        R04006     2       2              PASSIVE     Res1
-        U04001     22      DATA2          I/O         USB3300-EZK-TR
-
-[00340] USB_HS_ULPI_DR2_D1
-        R04005     2       2              PASSIVE     Res1
-        U04001     23      DATA1          I/O         USB3300-EZK-TR
-
-[00339] USB_HS_ULPI_DR2_D0
-        R04004     2       2              PASSIVE     Res1
-        U04001     24      DATA0          I/O         USB3300-EZK-TR
-
-[00338] USB_HS_ULPI_DR1_D7
-        R01102     1       1              PASSIVE     Res1
-        U?         A5      PB5            PASSIVE     STM32H750XBH6
-
-[00337] USB_HS_ULPI_DR1_D6
-        R01109     1       1              PASSIVE     Res1
-        U?         U14     PB13           PASSIVE     STM32H750XBH6
-
-[00336] USB_HS_ULPI_DR1_D5
-        R01108     1       1              PASSIVE     Res1
-        U?         T14     PB12           PASSIVE     STM32H750XBH6
-
-[00335] USB_HS_ULPI_DR1_D4
-        R01107     1       1              PASSIVE     Res1
-        U?         P12     PB11           PASSIVE     STM32H750XBH6
-
-[00334] USB_HS_ULPI_DR1_D3
-        R01106     1       1              PASSIVE     Res1
-        U?         P11     PB10           PASSIVE     STM32H750XBH6
-
-[00333] USB_HS_ULPI_DR1_D2
-        R01098     1       1              PASSIVE     Res1
-        U?         T5      PB1            PASSIVE     STM32H750XBH6
-
-[00332] USB_HS_ULPI_DR1_D1
-        R01097     1       1              PASSIVE     Res1
-        U?         U5      PB0            PASSIVE     STM32H750XBH6
-
-[00331] USB_HS_ULPI_DR1_D0
-        R01088     1       1              PASSIVE     Res1
-        U?         U2      PA3            PASSIVE     STM32H750XBH6
-
-[00330] USB_HS_TL_SOF
-        P05002     29      29             PASSIVE     DF40C-80DP-0.4V(51)
-        R01089     2       2              PASSIVE     Res1
-
-[00329] USB_HS_TL_D_P
-        P05002     23      23             PASSIVE     DF40C-80DP-0.4V(51)
-        U04001     7       DP             I/O         USB3300-EZK-TR
-
-[00328] USB_HS_TL_D_N
-        P05002     21      21             PASSIVE     DF40C-80DP-0.4V(51)
-        U04001     8       DM             I/O         USB3300-EZK-TR
-
-[00327] USB_HS_SG_VBUS_SENSE
-        P05002     17      17             PASSIVE     DF40C-80DP-0.4V(51)
-        R04001     1       1              PASSIVE     Res1
-
-[00326] USB_HS_SG_VBUS_FAULT
-        P05002     9       9              PASSIVE     DF40C-80DP-0.4V(51)
-        U04001     10      EXTVBUS        INPUT       USB3300-EZK-TR
-
-[00325] USB_HS_SG_VBUS_EN
-        P05002     11      11             PASSIVE     DF40C-80DP-0.4V(51)
-        U04001     3       CPEN           OUTPUT      USB3300-EZK-TR
-
-[00324] USB_HS_SG_ID
-        P05002     27      27             PASSIVE     DF40C-80DP-0.4V(51)
-        U04001     5       ID             INPUT       USB3300-EZK-TR
-
-[00323] USB_HS_RC_VBUS_SENSE
-        R04001     2       2              PASSIVE     Res1
-        U04001     4       VBUS           I/O         USB3300-EZK-TR
-
-[00322] USB_HS_DR_SOF
-        R01089     1       1              PASSIVE     Res1
-        U?         U3      PA4            PASSIVE     STM32H750XBH6
-
-[00321] USB_FS_TL_VBUS_FAULT
-        P05002     33      33             PASSIVE     DF40C-80DP-0.4V(51)
-        R01096     2       2              PASSIVE     Res1
-
-[00320] USB_FS_TL_VBUS_EN
-        P05002     35      35             PASSIVE     DF40C-80DP-0.4V(51)
-        R01115     1       1              PASSIVE     Res1
-
-[00319] USB_FS_TL_SOF
-        P05002     53      53             PASSIVE     DF40C-80DP-0.4V(51)
-        R01090     2       2              PASSIVE     Res1
-
-[00318] USB_FS_TL_ID
-        P05002     51      51             PASSIVE     DF40C-80DP-0.4V(51)
-        R01093     2       2              PASSIVE     Res1
-
-[00317] USB_FS_TL_D_P
-        P05002     47      47             PASSIVE     DF40C-80DP-0.4V(51)
-        R01095     2       2              PASSIVE     Res1
-
-[00316] USB_FS_TL_D_N
-        P05002     45      45             PASSIVE     DF40C-80DP-0.4V(51)
-        R01094     2       2              PASSIVE     Res1
-
-[00315] USB_FS_SG_VBUS_SENSE
-        P05002     41      41             PASSIVE     DF40C-80DP-0.4V(51)
-        R01091     1       1              PASSIVE     Res1
-
-[00314] USB_FS_RC_VBUS_SENSE
-        R01091     2       2              PASSIVE     Res1
-        R01092     1       1              PASSIVE     Res1
-        U?         D15     PA9            PASSIVE     STM32H750XBH6
-
-[00313] USB_FS_RC_VBUS_FAULT
-        R01096     1       1              PASSIVE     Res1
-        U?         A14     PA15           I/O         STM32H750XBH6
-
-[00312] USB_FS_DR_VBUS_EN
-        R01115     2       2              PASSIVE     Res1
-        U?         E13     PC8            PASSIVE     STM32H750XBH6
-
-[00311] USB_FS_DR_SOF
-        R01090     1       1              PASSIVE     Res1
-        U?         E15     PA8            PASSIVE     STM32H750XBH6
-
-[00310] USB_FS_DR_ID
-        R01093     1       1              PASSIVE     Res1
-        U?         D14     PA10           PASSIVE     STM32H750XBH6
-
-[00309] USB_FS_DR_D_P
-        R01095     1       1              PASSIVE     Res1
-        U?         E16     PA12           PASSIVE     STM32H750XBH6
-
-[00308] USB_FS_DR_D_N
-        R01094     1       1              PASSIVE     Res1
-        U?         E17     PA11           PASSIVE     STM32H750XBH6
-
-[00307] UART5_TL_TX
-        P05001     28      28             PASSIVE     DF40C-80DP-0.4V(51)
-        R01119     1       1              PASSIVE     Res1
-
-[00306] UART5_TL_RX
-        P05001     30      30             PASSIVE     DF40C-80DP-0.4V(51)
-        R01122     1       1              PASSIVE     Res1
-
-[00305] UART5_RC_RX
-        R01122     2       2              PASSIVE     Res1
-        U?         D12     PD2            PASSIVE     STM32H750XBH6
-
-[00304] UART5_DR_TX
-        R01119     2       2              PASSIVE     Res1
-        U?         C12     PC12           PASSIVE     STM32H750XBH6
-
-[00303] UART4_TL_TX
-        P05002     72      72             PASSIVE     DF40C-80DP-0.4V(51)
-        R01083     1       1              PASSIVE     Res1
-
-[00302] UART4_TL_RX
-        P05002     70      70             PASSIVE     DF40C-80DP-0.4V(51)
-        R01104     2       2              PASSIVE     Res1
-
-[00301] UART4_RC_RX
-        R01104     1       1              PASSIVE     Res1
-        U?         D5      PB8            PASSIVE     STM32H750XBH6
-
-[00300] UART4_DR_TX
-        R01083     2       2              PASSIVE     Res1
-        U01001     D16     PH13           PASSIVE     STM32H750XBH6
-
-[00299] U501_VDDA1.8_CAP
+[00350] USB_VDDA1.8_CAP
         C04005     1       1              PASSIVE     Cap
         C04006     1       1              PASSIVE     Cap
         U04001     29      VDDA1.8        POWER       USB3300-EZK-TR
 
-[00298] U501_VDD1.8_CAP
+[00349] USB_VDD3.3
+        C04001     1       1              PASSIVE     Cap
+        C04002     1       1              PASSIVE     Cap
+        C04003     1       1              PASSIVE     Cap
+        C04004     1       1              PASSIVE     Cap
+        FB04001    2       2              PASSIVE     BLM18PG600SN1D
+        U04001     6       VDD3.3         POWER       USB3300-EZK-TR
+        U04001     16      VDD3.3         POWER       USB3300-EZK-TR
+        U04001     25      VDD3.3         POWER       USB3300-EZK-TR
+        U04001     30      VDD3.3         POWER       USB3300-EZK-TR
+        U04001     31      REG EN         I/O         USB3300-EZK-TR
+
+[00348] USB_VDD1.8_CAP
         C04007     1       1              PASSIVE     Cap
         C04008     1       1              PASSIVE     Cap
         C04009     1       1              PASSIVE     Cap
         U04001     15      VDD1.8         POWER       USB3300-EZK-TR
         U04001     26      VDD1.8         POWER       USB3300-EZK-TR
 
-[00297] U301_XO
+[00347] USB_RBIAS
+        R04002     2       2              PASSIVE     Res1
+        U04001     32      RBIAS          POWER       USB3300-EZK-TR
+
+[00346] USB_OSC
+        C04010     1       1              PASSIVE     Cap
+        U04001     28      XI             INPUT       USB3300-EZK-TR
+        Y04001     3       Out            PASSIVE     OT2JI-111-24M
+
+[00345] USB_HS_ULPI_TL_STP
+        R01112     1       1              PASSIVE     Res1
+        U04001     13      STP            INPUT       USB3300-EZK-TR
+
+[00344] USB_HS_ULPI_TL_NXT
+        U01001     M4      PC3            PASSIVE     STM32H750XBH6
+        U04001     11      NXT            OUTPUT      USB3300-EZK-TR
+
+[00343] USB_HS_ULPI_TL_DIR
+        U01001     F4      PI11           PASSIVE     STM32H750XBH6
+        U04001     12      DIR            OUTPUT      USB3300-EZK-TR
+
+[00342] USB_HS_ULPI_TL_D7
+        R01102     2       2              PASSIVE     Res1
+        U04001     17      DATA7          I/O         USB3300-EZK-TR
+
+[00341] USB_HS_ULPI_TL_D6
+        R01109     2       2              PASSIVE     Res1
+        U04001     18      DATA6          I/O         USB3300-EZK-TR
+
+[00340] USB_HS_ULPI_TL_D5
+        R01108     2       2              PASSIVE     Res1
+        U04001     19      DATA5          I/O         USB3300-EZK-TR
+
+[00339] USB_HS_ULPI_TL_D4
+        R01107     2       2              PASSIVE     Res1
+        U04001     20      DATA4          I/O         USB3300-EZK-TR
+
+[00338] USB_HS_ULPI_TL_D3
+        R01106     2       2              PASSIVE     Res1
+        U04001     21      DATA3          I/O         USB3300-EZK-TR
+
+[00337] USB_HS_ULPI_TL_D2
+        R01098     2       2              PASSIVE     Res1
+        U04001     22      DATA2          I/O         USB3300-EZK-TR
+
+[00336] USB_HS_ULPI_TL_D1
+        R01097     2       2              PASSIVE     Res1
+        U04001     23      DATA1          I/O         USB3300-EZK-TR
+
+[00335] USB_HS_ULPI_TL_D0
+        R01088     2       2              PASSIVE     Res1
+        U04001     24      DATA0          I/O         USB3300-EZK-TR
+
+[00334] USB_HS_ULPI_TL_CLK
+        U01001     T3      PA5            PASSIVE     STM32H750XBH6
+        U04001     14      CLKOUT         OUTPUT      USB3300-EZK-TR
+
+[00333] USB_HS_ULPI_DR_STP
+        R01112     2       2              PASSIVE     Res1
+        U01001     L2      PC0            PASSIVE     STM32H750XBH6
+
+[00332] USB_HS_ULPI_DR_D7
+        R01102     1       1              PASSIVE     Res1
+        U01001     A5      PB5            PASSIVE     STM32H750XBH6
+
+[00331] USB_HS_ULPI_DR_D6
+        R01109     1       1              PASSIVE     Res1
+        U01001     U14     PB13           PASSIVE     STM32H750XBH6
+
+[00330] USB_HS_ULPI_DR_D5
+        R01108     1       1              PASSIVE     Res1
+        U01001     T14     PB12           PASSIVE     STM32H750XBH6
+
+[00329] USB_HS_ULPI_DR_D4
+        R01107     1       1              PASSIVE     Res1
+        U01001     P12     PB11           PASSIVE     STM32H750XBH6
+
+[00328] USB_HS_ULPI_DR_D3
+        R01106     1       1              PASSIVE     Res1
+        U01001     P11     PB10           PASSIVE     STM32H750XBH6
+
+[00327] USB_HS_ULPI_DR_D2
+        R01098     1       1              PASSIVE     Res1
+        U01001     T5      PB1            PASSIVE     STM32H750XBH6
+
+[00326] USB_HS_ULPI_DR_D1
+        R01097     1       1              PASSIVE     Res1
+        U01001     U5      PB0            PASSIVE     STM32H750XBH6
+
+[00325] USB_HS_ULPI_DR_D0
+        R01088     1       1              PASSIVE     Res1
+        U01001     U2      PA3            PASSIVE     STM32H750XBH6
+
+[00324] USB_HS_TL_SOF
+        P05002     29      29             PASSIVE     DF40C-80DP-0.4V(51)
+        R01089     2       2              PASSIVE     Res1
+
+[00323] USB_HS_TL_D_P
+        P05002     23      23             PASSIVE     DF40C-80DP-0.4V(51)
+        U04001     7       DP             I/O         USB3300-EZK-TR
+
+[00322] USB_HS_TL_D_N
+        P05002     21      21             PASSIVE     DF40C-80DP-0.4V(51)
+        U04001     8       DM             I/O         USB3300-EZK-TR
+
+[00321] USB_HS_SG_VBUS_SENSE
+        P05002     17      17             PASSIVE     DF40C-80DP-0.4V(51)
+        R04001     1       1              PASSIVE     Res1
+
+[00320] USB_HS_SG_VBUS_FAULT
+        P05002     9       9              PASSIVE     DF40C-80DP-0.4V(51)
+        U04001     10      EXTVBUS        INPUT       USB3300-EZK-TR
+
+[00319] USB_HS_SG_VBUS_EN
+        P05002     11      11             PASSIVE     DF40C-80DP-0.4V(51)
+        U04001     3       CPEN           OUTPUT      USB3300-EZK-TR
+
+[00318] USB_HS_SG_ID
+        P05002     27      27             PASSIVE     DF40C-80DP-0.4V(51)
+        U04001     5       ID             INPUT       USB3300-EZK-TR
+
+[00317] USB_HS_RC_VBUS_SENSE
+        R04001     2       2              PASSIVE     Res1
+        U04001     4       VBUS           I/O         USB3300-EZK-TR
+
+[00316] USB_HS_DR_SOF
+        R01089     1       1              PASSIVE     Res1
+        U01001     U3      PA4            PASSIVE     STM32H750XBH6
+
+[00315] USB_FS_TL_VBUS_FAULT
+        P05002     33      33             PASSIVE     DF40C-80DP-0.4V(51)
+        R01096     2       2              PASSIVE     Res1
+
+[00314] USB_FS_TL_VBUS_EN
+        P05002     35      35             PASSIVE     DF40C-80DP-0.4V(51)
+        R01115     1       1              PASSIVE     Res1
+
+[00313] USB_FS_TL_SOF
+        P05002     53      53             PASSIVE     DF40C-80DP-0.4V(51)
+        R01090     2       2              PASSIVE     Res1
+
+[00312] USB_FS_TL_ID
+        P05002     51      51             PASSIVE     DF40C-80DP-0.4V(51)
+        R01093     2       2              PASSIVE     Res1
+
+[00311] USB_FS_TL_D_P
+        P05002     47      47             PASSIVE     DF40C-80DP-0.4V(51)
+        R01095     2       2              PASSIVE     Res1
+
+[00310] USB_FS_TL_D_N
+        P05002     45      45             PASSIVE     DF40C-80DP-0.4V(51)
+        R01094     2       2              PASSIVE     Res1
+
+[00309] USB_FS_SG_VBUS_SENSE
+        P05002     41      41             PASSIVE     DF40C-80DP-0.4V(51)
+        R01091     1       1              PASSIVE     Res1
+
+[00308] USB_FS_RC_VBUS_SENSE
+        R01091     2       2              PASSIVE     Res1
+        R01092     1       1              PASSIVE     Res1
+        U01001     D15     PA9            PASSIVE     STM32H750XBH6
+
+[00307] USB_FS_RC_VBUS_FAULT
+        R01096     1       1              PASSIVE     Res1
+        U01001     A14     PA15           I/O         STM32H750XBH6
+
+[00306] USB_FS_DR_VBUS_EN
+        R01115     2       2              PASSIVE     Res1
+        U01001     E13     PC8            PASSIVE     STM32H750XBH6
+
+[00305] USB_FS_DR_SOF
+        R01090     1       1              PASSIVE     Res1
+        U01001     E15     PA8            PASSIVE     STM32H750XBH6
+
+[00304] USB_FS_DR_ID
+        R01093     1       1              PASSIVE     Res1
+        U01001     D14     PA10           PASSIVE     STM32H750XBH6
+
+[00303] USB_FS_DR_D_P
+        R01095     1       1              PASSIVE     Res1
+        U01001     E16     PA12           PASSIVE     STM32H750XBH6
+
+[00302] USB_FS_DR_D_N
+        R01094     1       1              PASSIVE     Res1
+        U01001     E17     PA11           PASSIVE     STM32H750XBH6
+
+[00301] UART5_TL_TX
+        P05001     28      28             PASSIVE     DF40C-80DP-0.4V(51)
+        R01119     1       1              PASSIVE     Res1
+
+[00300] UART5_TL_RX
+        P05001     30      30             PASSIVE     DF40C-80DP-0.4V(51)
+        R01122     1       1              PASSIVE     Res1
+
+[00299] UART5_RC_RX
+        R01122     2       2              PASSIVE     Res1
+        U01001     D12     PD2            PASSIVE     STM32H750XBH6
+
+[00298] UART5_DR_TX
+        R01119     2       2              PASSIVE     Res1
+        U01001     C12     PC12           PASSIVE     STM32H750XBH6
+
+[00297] UART4_TL_TX
+        P05002     72      72             PASSIVE     DF40C-80DP-0.4V(51)
+        R01083     1       1              PASSIVE     Res1
+
+[00296] UART4_TL_RX
+        P05002     70      70             PASSIVE     DF40C-80DP-0.4V(51)
+        R01104     2       2              PASSIVE     Res1
+
+[00295] UART4_RC_RX
+        R01104     1       1              PASSIVE     Res1
+        U01001     D5      PB8            PASSIVE     STM32H750XBH6
+
+[00294] UART4_DR_TX
+        R01083     2       2              PASSIVE     Res1
+        U01001     D16     PH13           PASSIVE     STM32H750XBH6
+
+[00293] U301_XO
         R03004     1       1              PASSIVE     Res1
         U03001     22      XO             OUTPUT      DP83822IRHBR
 
-[00296] U101_VCAP
+[00292] U101_VCAP
         C01002     1       1              PASSIVE     Cap
         C01003     1       1              PASSIVE     Cap
         U01001     A7      VCAP           PASSIVE     STM32H750XBH6
         U01001     D17     VCAP           PASSIVE     STM32H750XBH6
         U01001     U11     VCAP           PASSIVE     STM32H750XBH6
 
-[00295] SW_SG_DIO
+[00291] SW_SG_DIO
         P05001     10      10             PASSIVE     DF40C-80DP-0.4V(51)
-        U?         C15     PA13           I/O         STM32H750XBH6
+        U01001     C15     PA13           I/O         STM32H750XBH6
 
-[00294] SW_SG_CLK
+[00290] SW_SG_CLK
         P05001     12      12             PASSIVE     DF40C-80DP-0.4V(51)
-        U?         B14     PA14           I/O         STM32H750XBH6
+        U01001     B14     PA14           I/O         STM32H750XBH6
 
-[00293] SPI5_TL_SCK
+[00289] SPI5_TL_SCK
         P05002     22      22             PASSIVE     DF40C-80DP-0.4V(51)
         R01023     1       1              PASSIVE     Res1
 
-[00292] SPI5_TL_MOSI
+[00288] SPI5_TL_MOSI
         P05002     18      18             PASSIVE     DF40C-80DP-0.4V(51)
         R01017     1       1              PASSIVE     Res1
 
-[00291] SPI5_TL_MISO
+[00287] SPI5_TL_MISO
         P05002     16      16             PASSIVE     DF40C-80DP-0.4V(51)
         R01018     1       1              PASSIVE     Res1
 
-[00290] SPI5_TL_C\S\
+[00286] SPI5_TL_C\S\
         P05002     24      24             PASSIVE     DF40C-80DP-0.4V(51)
         R01024     1       1              PASSIVE     Res1
 
-[00289] SPI5_RC_MISO
+[00285] SPI5_RC_MISO
         R01018     2       2              PASSIVE     Res1
         U01001     K14     PJ11           PASSIVE     STM32H750XBH6
 
-[00288] SPI5_DR_SCK
+[00284] SPI5_DR_SCK
         R01023     2       2              PASSIVE     Res1
         U01001     J14     PK0            PASSIVE     STM32H750XBH6
 
-[00287] SPI5_DR_MOSI
+[00283] SPI5_DR_MOSI
         R01017     2       2              PASSIVE     Res1
         U01001     L14     PJ10           PASSIVE     STM32H750XBH6
 
-[00286] SPI5_DR_C\S\
+[00282] SPI5_DR_C\S\
         R01024     2       2              PASSIVE     Res1
         U01001     J15     PK1            PASSIVE     STM32H750XBH6
 
-[00285] SDMMC2_TL_D3
+[00281] SDMMC2_TL_D3
         P05001     46      46             PASSIVE     DF40C-80DP-0.4V(51)
         R01101     2       2              PASSIVE     Res1
 
-[00284] SDMMC2_TL_D2
+[00280] SDMMC2_TL_D2
         P05001     48      48             PASSIVE     DF40C-80DP-0.4V(51)
         R01100     2       2              PASSIVE     Res1
 
-[00283] SDMMC2_TL_D1
+[00279] SDMMC2_TL_D1
         P05001     34      34             PASSIVE     DF40C-80DP-0.4V(51)
         R01111     2       2              PASSIVE     Res1
 
-[00282] SDMMC2_TL_D0
+[00278] SDMMC2_TL_D0
         P05001     36      36             PASSIVE     DF40C-80DP-0.4V(51)
         R01110     2       2              PASSIVE     Res1
 
-[00281] SDMMC2_TL_CMD
+[00277] SDMMC2_TL_CMD
         P05001     42      42             PASSIVE     DF40C-80DP-0.4V(51)
         R01087     2       2              PASSIVE     Res1
 
-[00280] SDMMC2_TL_CK
+[00276] SDMMC2_TL_CK
         P05001     40      40             PASSIVE     DF40C-80DP-0.4V(51)
         R01126     1       1              PASSIVE     Res1
 
-[00279] SDMMC2_DR_D3
+[00275] SDMMC2_DR_D3
         R01101     1       1              PASSIVE     Res1
-        U?         B7      PB4            I/O         STM32H750XBH6
+        U01001     B7      PB4            I/O         STM32H750XBH6
 
-[00278] SDMMC2_DR_D2
+[00274] SDMMC2_DR_D2
         R01100     1       1              PASSIVE     Res1
-        U?         C6      PB3            I/O         STM32H750XBH6
+        U01001     C6      PB3            I/O         STM32H750XBH6
 
-[00277] SDMMC2_DR_D1
+[00273] SDMMC2_DR_D1
         R01111     1       1              PASSIVE     Res1
-        U?         T15     PB15           PASSIVE     STM32H750XBH6
+        U01001     T15     PB15           PASSIVE     STM32H750XBH6
 
-[00276] SDMMC2_DR_D0
+[00272] SDMMC2_DR_D0
         R01110     1       1              PASSIVE     Res1
-        U?         U15     PB14           PASSIVE     STM32H750XBH6
+        U01001     U15     PB14           PASSIVE     STM32H750XBH6
 
-[00275] SDMMC2_DR_CMD
+[00271] SDMMC2_DR_CMD
         R01087     1       1              PASSIVE     Res1
-        U?         N5      PA0            PASSIVE     STM32H750XBH6
+        U01001     N5      PA0            PASSIVE     STM32H750XBH6
 
-[00274] SDMMC2_DR_CK
+[00270] SDMMC2_DR_CK
         R01126     2       2              PASSIVE     Res1
-        U?         B11     PD6            PASSIVE     STM32H750XBH6
+        U01001     B11     PD6            PASSIVE     STM32H750XBH6
 
-[00273] RMII_TL_TX_EN
+[00269] RMII_TL_TX_EN
         R01065     1       1              PASSIVE     Res1
         U03001     3       TX EN/TX CTRL  I/O         DP83822IRHBR
 
-[00272] RMII_TL_TX_D1
+[00268] RMII_TL_TX_D1
         R01066     1       1              PASSIVE     Res1
         U03001     5       TX D1          I/O         DP83822IRHBR
 
-[00271] RMII_TL_TX_D0
+[00267] RMII_TL_TX_D0
         R01067     1       1              PASSIVE     Res1
         U03001     4       TX D0          I/O         DP83822IRHBR
 
-[00270] RMII_TL_RX_D1
-        R03006     1       1              PASSIVE     Res1
-        U?         U4      PC5            PASSIVE     STM32H750XBH6
+[00266] RMII_TL_RX_D1
+        U01001     U4      PC5            PASSIVE     STM32H750XBH6
+        U03001     31      RX D1          OUTPUT      DP83822IRHBR
 
-[00269] RMII_TL_RX_D0
+[00265] RMII_TL_RX_D0
+        U01001     T4      PC4            PASSIVE     STM32H750XBH6
+        U03001     30      RX D0          OUTPUT      DP83822IRHBR
+
+[00264] RMII_TL_REF_CLK
+        U01001     N4      PA1            PASSIVE     STM32H750XBH6
+        U03001     1       RX D3/GPIO3    I/O         DP83822IRHBR
+
+[00263] RMII_TL_CRS_DV
+        U01001     R5      PA7            PASSIVE     STM32H750XBH6
+        U03001     27      CRS/CRS DV     OUTPUT      DP83822IRHBR
+
+[00262] RMII_SG_MDIO
         R03005     1       1              PASSIVE     Res1
-        U?         T4      PC4            PASSIVE     STM32H750XBH6
-
-[00268] RMII_TL_REF_CLK
-        R03007     1       1              PASSIVE     Res1
-        U?         N4      PA1            PASSIVE     STM32H750XBH6
-
-[00267] RMII_TL_CRS_DV
-        R03008     1       1              PASSIVE     Res1
-        U?         R5      PA7            PASSIVE     STM32H750XBH6
-
-[00266] RMII_SG_MDIO
-        R03009     1       1              PASSIVE     Res1
+        U01001     N3      PA2            PASSIVE     STM32H750XBH6
         U03001     19      MDIO           I/O         DP83822IRHBR
-        U?         N3      PA2            PASSIVE     STM32H750XBH6
 
-[00265] RMII_SG_MDC
+[00261] RMII_SG_MDC
+        U01001     M2      PC1            PASSIVE     STM32H750XBH6
         U03001     20      MDC            INPUT       DP83822IRHBR
-        U?         M2      PC1            PASSIVE     STM32H750XBH6
 
-[00264] RMII_DR_TX_EN
+[00260] RMII_DR_TX_EN
         R01065     2       2              PASSIVE     Res1
         U01001     B9      PG11           PASSIVE     STM32H750XBH6
 
-[00263] RMII_DR_TX_D1
+[00259] RMII_DR_TX_D1
         R01066     2       2              PASSIVE     Res1
         U01001     C9      PG12           PASSIVE     STM32H750XBH6
 
-[00262] RMII_DR_TX_D0
+[00258] RMII_DR_TX_D0
         R01067     2       2              PASSIVE     Res1
         U01001     D9      PG13           PASSIVE     STM32H750XBH6
-
-[00261] RMII_DR_RX_D1
-        R03006     2       2              PASSIVE     Res1
-        U03001     31      RX D1          OUTPUT      DP83822IRHBR
-
-[00260] RMII_DR_RX_D0
-        R03005     2       2              PASSIVE     Res1
-        U03001     30      RX D0          OUTPUT      DP83822IRHBR
-
-[00259] RMII_DR_REF_CLK
-        R03007     2       2              PASSIVE     Res1
-        U03001     1       RX D3/GPIO3    I/O         DP83822IRHBR
-
-[00258] RMII_DR_CRS_DV
-        R03008     2       2              PASSIVE     Res1
-        U03001     27      CRS/CRS DV     OUTPUT      DP83822IRHBR
 
 [00257] QSPI_TL_CLK
         P05002     66      66             PASSIVE     DF40C-80DP-0.4V(51)
@@ -764,7 +701,7 @@ X322525MOB4SI                   Y?
 
 [00241] QSPI_DR_BK2_C\S\
         R01118     2       2              PASSIVE     Res1
-        U?         B13     PC11           PASSIVE     STM32H750XBH6
+        U01001     B13     PC11           PASSIVE     STM32H750XBH6
 
 [00240] QSPI_DR_BK1_IO3
         R01048     1       1              PASSIVE     Res1
@@ -780,34 +717,34 @@ X322525MOB4SI                   Y?
 
 [00237] QSPI_DR_BK1_IO0
         R01116     2       2              PASSIVE     Res1
-        U?         E14     PC9            PASSIVE     STM32H750XBH6
+        U01001     E14     PC9            PASSIVE     STM32H750XBH6
 
 [00236] QSPI_DR_BK1_C\S\
         R01103     1       1              PASSIVE     Res1
-        U?         B5      PB6            PASSIVE     STM32H750XBH6
+        U01001     B5      PB6            PASSIVE     STM32H750XBH6
 
 [00235] PSRAM_VDDQ
         C02001     1       1              PASSIVE     Cap
         C02002     1       1              PASSIVE     Cap
-        FB02001    1       1              PASSIVE     BLM18PG121SN1D
+        FB02001    2       2              PASSIVE     BLM18PG600SN1D
         U02001     E1      VDDQ           POWER       IS66WVE4M16EBLL-70BLI
 
 [00234] PSRAM_VDD
         C02003     1       1              PASSIVE     Cap
         C02004     1       1              PASSIVE     Cap
-        FB02002    1       1              PASSIVE     BLM18PG121SN1D
+        FB02002    2       2              PASSIVE     BLM18PG600SN1D
         U02001     D6      VDD            POWER       IS66WVE4M16EBLL-70BLI
 
 [00185] MCU_VREF_FILTERED
         C01032     1       1              PASSIVE     Cap
         C01033     1       1              PASSIVE     Cap
-        FB01002    1       1              PASSIVE     BLM18PG121SN1D
+        FB01002    2       2              PASSIVE     BLM18PG600SN1D
         U01001     M1      VREF+          PASSIVE     STM32H750XBH6
 
 [00184] MCU_VDDA_FILTERED
         C01030     1       1              PASSIVE     Cap
         C01031     1       1              PASSIVE     Cap
-        FB01001    1       1              PASSIVE     BLM18PG121SN1D
+        FB01001    2       2              PASSIVE     BLM18PG600SN1D
         U01001     L1      VDDA           PASSIVE     STM32H750XBH6
 
 [00183] MCU_SG_R\S\T\
@@ -822,12 +759,12 @@ X322525MOB4SI                   Y?
 
 [00181] MCU_LSE_OUT
         C01006     1       1              PASSIVE     Cap
-        U?         C1      PC15-OSC32 OUT PASSIVE     STM32H750XBH6
+        U01001     C1      PC15-OSC32 OUT PASSIVE     STM32H750XBH6
         Y01002     1       1              PASSIVE     X1A0001410001
 
 [00180] MCU_LSE_IN
         C01007     1       1              PASSIVE     Cap
-        U?         C2      PC14-OSC32 IN  PASSIVE     STM32H750XBH6
+        U01001     C2      PC14-OSC32 IN  PASSIVE     STM32H750XBH6
         Y01002     2       2              PASSIVE     X1A0001410001
 
 [00179] MCU_HSE_OUT
@@ -985,7 +922,7 @@ X322525MOB4SI                   Y?
 
 [00141] LTDC_DR_R2
         R01117     2       2              PASSIVE     Res1
-        U?         A13     PC10           PASSIVE     STM32H750XBH6
+        U01001     A13     PC10           PASSIVE     STM32H750XBH6
 
 [00140] LTDC_DR_R1
         R01013     2       2              PASSIVE     Res1
@@ -1001,7 +938,7 @@ X322525MOB4SI                   Y?
 
 [00137] LTDC_DR_G7
         R01123     2       2              PASSIVE     Res1
-        U?         B12     PD3            PASSIVE     STM32H750XBH6
+        U01001     B12     PD3            PASSIVE     STM32H750XBH6
 
 [00136] LTDC_DR_G6
         R01004     1       1              PASSIVE     Res1
@@ -1045,7 +982,7 @@ X322525MOB4SI                   Y?
 
 [00126] LTDC_DR_BACKLIGHT
         R01105     1       1              PASSIVE     Res1
-        U?         D4      PB9            PASSIVE     STM32H750XBH6
+        U01001     D4      PB9            PASSIVE     STM32H750XBH6
 
 [00125] LTDC_DR_B7
         R01009     1       1              PASSIVE     Res1
@@ -1135,7 +1072,7 @@ X322525MOB4SI                   Y?
 
 [00105] GPIO_DR_5
         R01099     1       1              PASSIVE     Res1
-        U?         R6      PB2            PASSIVE     STM32H750XBH6
+        U01001     R6      PB2            PASSIVE     STM32H750XBH6
 
 [00104] GPIO_DR_4
         R01005     1       1              PASSIVE     Res1
@@ -1147,11 +1084,11 @@ X322525MOB4SI                   Y?
 
 [00102] GPIO_DR_2
         R01114     2       2              PASSIVE     Res1
-        U?         F13     PC7            PASSIVE     STM32H750XBH6
+        U01001     F13     PC7            PASSIVE     STM32H750XBH6
 
 [00101] GPIO_DR_1
         R01113     2       2              PASSIVE     Res1
-        U?         F14     PC6            PASSIVE     STM32H750XBH6
+        U01001     F14     PC6            PASSIVE     STM32H750XBH6
 
 [00100] GND
         C01001     2       2              PASSIVE     Cap
@@ -1271,8 +1208,8 @@ X322525MOB4SI                   Y?
         P05002     76      76             PASSIVE     DF40C-80DP-0.4V(51)
         R01001     1       1              PASSIVE     Res1
         R01092     2       2              PASSIVE     Res1
-        R03010     2       2              PASSIVE     Res1
-        R04013     1       1              PASSIVE     Res1
+        R03006     2       2              PASSIVE     Res1
+        R04002     1       1              PASSIVE     Res1
         U01001     A1      VSS            POWER       STM32H750XBH6
         U01001     A17     VSS            POWER       STM32H750XBH6
         U01001     B2      VSS            POWER       STM32H750XBH6
@@ -1329,9 +1266,9 @@ X322525MOB4SI                   Y?
         U04001     33      GND FLAG       POWER       USB3300-EZK-TR
         Y01001     2       Gnd            PASSIVE     X32258MOB4SI
         Y01001     4       Gnd            PASSIVE     X32258MOB4SI
+        Y03001     2       Gnd            PASSIVE     X322525MOB4SI
+        Y03001     4       Gnd            PASSIVE     X322525MOB4SI
         Y04001     2       GND            PASSIVE     OT2JI-111-24M
-        Y?         2       Gnd            PASSIVE     X322525MOB4SI
-        Y?         4       Gnd            PASSIVE     X322525MOB4SI
 
 [00099] FMC_TL_W\E\
         R01125     1       1              PASSIVE     Res1
@@ -1507,23 +1444,23 @@ X322525MOB4SI                   Y?
 
 [00056] FMC_DR_W\E\
         R01125     2       2              PASSIVE     Res1
-        U?         A11     PD5            PASSIVE     STM32H750XBH6
+        U01001     A11     PD5            PASSIVE     STM32H750XBH6
 
 [00055] FMC_DR_O\E\
         R01124     2       2              PASSIVE     Res1
-        U?         A12     PD4            PASSIVE     STM32H750XBH6
+        U01001     A12     PD4            PASSIVE     STM32H750XBH6
 
 [00054] FMC_DR_D15
         R01130     2       2              PASSIVE     Res1
-        U?         T16     PD10           PASSIVE     STM32H750XBH6
+        U01001     T16     PD10           PASSIVE     STM32H750XBH6
 
 [00053] FMC_DR_D14
         R01129     2       2              PASSIVE     Res1
-        U?         T17     PD9            PASSIVE     STM32H750XBH6
+        U01001     T17     PD9            PASSIVE     STM32H750XBH6
 
 [00052] FMC_DR_D13
         R01128     2       2              PASSIVE     Res1
-        U?         U16     PD8            PASSIVE     STM32H750XBH6
+        U01001     U16     PD8            PASSIVE     STM32H750XBH6
 
 [00051] FMC_DR_D12
         R01041     1       1              PASSIVE     Res1
@@ -1563,23 +1500,23 @@ X322525MOB4SI                   Y?
 
 [00042] FMC_DR_D3
         R01121     2       2              PASSIVE     Res1
-        U?         E12     PD1            PASSIVE     STM32H750XBH6
+        U01001     E12     PD1            PASSIVE     STM32H750XBH6
 
 [00041] FMC_DR_D2
         R01120     2       2              PASSIVE     Res1
-        U?         D13     PD0            PASSIVE     STM32H750XBH6
+        U01001     D13     PD0            PASSIVE     STM32H750XBH6
 
 [00040] FMC_DR_D1
         R01135     2       2              PASSIVE     Res1
-        U?         P15     PD15           PASSIVE     STM32H750XBH6
+        U01001     P15     PD15           PASSIVE     STM32H750XBH6
 
 [00039] FMC_DR_D0
         R01134     2       2              PASSIVE     Res1
-        U?         P16     PD14           PASSIVE     STM32H750XBH6
+        U01001     P16     PD14           PASSIVE     STM32H750XBH6
 
 [00038] FMC_DR_C\E\
         R01127     2       2              PASSIVE     Res1
-        U?         C11     PD7            PASSIVE     STM32H750XBH6
+        U01001     C11     PD7            PASSIVE     STM32H750XBH6
 
 [00037] FMC_DR_B\L\1\
         R01028     1       1              PASSIVE     Res1
@@ -1603,15 +1540,15 @@ X322525MOB4SI                   Y?
 
 [00032] FMC_DR_A18
         R01133     2       2              PASSIVE     Res1
-        U?         R17     PD13           PASSIVE     STM32H750XBH6
+        U01001     R17     PD13           PASSIVE     STM32H750XBH6
 
 [00031] FMC_DR_A17
         R01132     2       2              PASSIVE     Res1
-        U?         R16     PD12           PASSIVE     STM32H750XBH6
+        U01001     R16     PD12           PASSIVE     STM32H750XBH6
 
 [00030] FMC_DR_A16
         R01131     2       2              PASSIVE     Res1
-        U?         R15     PD11           PASSIVE     STM32H750XBH6
+        U01001     R15     PD11           PASSIVE     STM32H750XBH6
 
 [00029] FMC_DR_A15
         R01060     2       2              PASSIVE     Res1
@@ -1682,7 +1619,7 @@ X322525MOB4SI                   Y?
         C03002     1       1              PASSIVE     Cap
         C03003     1       1              PASSIVE     Cap
         C03004     1       1              PASSIVE     Cap
-        FB03001    1       1              PASSIVE     BLM18PG121SN1D
+        FB03001    2       2              PASSIVE     BLM18PG600SN1D
         U03001     21      VDDIO          POWER       DP83822IRHBR
 
 [00012] ETH_TL_TD_P
@@ -1725,7 +1662,7 @@ X322525MOB4SI                   Y?
         U03001     29      COL/GPIO2      I/O         DP83822IRHBR
 
 [00003] ETH_RBIAS
-        R03010     1       1              PASSIVE     Res1
+        R03006     1       1              PASSIVE     Res1
         U03001     16      RBIAS          INPUT       DP83822IRHBR
 
 [00002] ETH_AVD
@@ -1733,7 +1670,7 @@ X322525MOB4SI                   Y?
         C03006     1       1              PASSIVE     Cap
         C03007     1       1              PASSIVE     Cap
         C03008     1       1              PASSIVE     Cap
-        FB03002    1       1              PASSIVE     BLM18PG121SN1D
+        FB03002    2       2              PASSIVE     BLM18PG600SN1D
         U03001     14      AVD            POWER       DP83822IRHBR
 
 [00001] 3V3
@@ -1760,18 +1697,15 @@ X322525MOB4SI                   Y?
         C01027     1       1              PASSIVE     Cap
         C01028     1       1              PASSIVE     Cap
         C01029     1       1              PASSIVE     Cap
-        C04001     1       1              PASSIVE     Cap
-        C04002     1       1              PASSIVE     Cap
-        C04003     1       1              PASSIVE     Cap
-        C04004     1       1              PASSIVE     Cap
         C04011     1       1              PASSIVE     Cap
         C04012     1       1              PASSIVE     Cap
-        FB01001    0       0              PASSIVE     BLM18PG121SN1D
-        FB01002    0       0              PASSIVE     BLM18PG121SN1D
-        FB02001    0       0              PASSIVE     BLM18PG121SN1D
-        FB02002    0       0              PASSIVE     BLM18PG121SN1D
-        FB03001    0       0              PASSIVE     BLM18PG121SN1D
-        FB03002    0       0              PASSIVE     BLM18PG121SN1D
+        FB01001    1       1              PASSIVE     BLM18PG600SN1D
+        FB01002    1       1              PASSIVE     BLM18PG600SN1D
+        FB02001    1       1              PASSIVE     BLM18PG600SN1D
+        FB02002    1       1              PASSIVE     BLM18PG600SN1D
+        FB03001    1       1              PASSIVE     BLM18PG600SN1D
+        FB03002    1       1              PASSIVE     BLM18PG600SN1D
+        FB04001    1       1              PASSIVE     BLM18PG600SN1D
         P05001     1       1              PASSIVE     DF40C-80DP-0.4V(51)
         P05001     3       3              PASSIVE     DF40C-80DP-0.4V(51)
         P05001     77      77             PASSIVE     DF40C-80DP-0.4V(51)
@@ -1794,7 +1728,7 @@ X322525MOB4SI                   Y?
         R03001     2       2              PASSIVE     Res1
         R03002     2       2              PASSIVE     Res1
         R03003     2       2              PASSIVE     Res1
-        R03009     2       2              PASSIVE     Res1
+        R03005     2       2              PASSIVE     Res1
         U01001     A6      VDDLDO         PASSIVE     STM32H750XBH6
         U01001     C17     VDDLDO         PASSIVE     STM32H750XBH6
         U01001     E6      VDD            PASSIVE     STM32H750XBH6
@@ -1823,11 +1757,6 @@ X322525MOB4SI                   Y?
         U01001     P17     VDD            PASSIVE     STM32H750XBH6
         U01001     U12     VDDLDO         PASSIVE     STM32H750XBH6
         U02001     A6      Z\Z\           INPUT       IS66WVE4M16EBLL-70BLI
-        U04001     6       VDD3.3         POWER       USB3300-EZK-TR
-        U04001     16      VDD3.3         POWER       USB3300-EZK-TR
-        U04001     25      VDD3.3         POWER       USB3300-EZK-TR
-        U04001     30      VDD3.3         POWER       USB3300-EZK-TR
-        U04001     31      REG EN         I/O         USB3300-EZK-TR
         Y04001     1       Enable         PASSIVE     OT2JI-111-24M
         Y04001     4       VDD            PASSIVE     OT2JI-111-24M
 
