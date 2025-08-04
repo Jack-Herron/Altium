@@ -118,14 +118,18 @@ GenerateClassCluster=0
 DocumentUniqueId=TDYUOOVE
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MCU Board\MCU Board.NET
+DocumentPath=Project Outputs for MCU Board\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for MCU Board\MCU Board.nsx
+DocumentPath=Project Outputs for MCU Board\MCU Board.NET
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Project Outputs for MCU Board\MCU Board.nsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for MCU Board\Sheet2.NET
 DItemRevisionGUID=
 
@@ -1544,6 +1548,41 @@ ParameterName137=Width
 ParameterUpdate137=1
 ParameterName138=Working Voltage
 ParameterUpdate138=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=Capacitor_0402
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=Capacitor_0603
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=Crystal_3.2_1.5
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=Crystal_3.2_2.5
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=DP83822IRHBR
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=Ferrite_Bead_0603
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=HRS_DF40C-80DP-0.4V(51)
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=IS66WVE4M16EBLL-70BLI
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=Resistor_0402
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=STM32H750XBH6
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=USB3300-EZK-TR
+ModelUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
