@@ -67,57 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SIUIWHML
 
 [Document2]
-DocumentPath=Sense_Control_Board.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NDVCQNMR
-
-[Document3]
-DocumentPath=Lighting_Board.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FFRMKJYN
-
-[Document4]
-DocumentPath=PSU_Board.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=REHORZEN
-
-[Document5]
 DocumentPath=Schematic_Library.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,8 +83,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XGEKQHAY
 
-[Document6]
-DocumentPath=HMI_MCU.SchDoc
+[Document3]
+DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,8 +100,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHCIUOWH
 
-[Document7]
-DocumentPath=HMI_SDRAM.SchDoc
+[Document4]
+DocumentPath=SDRAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -168,8 +117,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AUGGGNHF
 
-[Document8]
-DocumentPath=HMI_QSPI.SchDoc
+[Document5]
+DocumentPath=QSPI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -185,8 +134,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HZPFPQTP
 
-[Document9]
-DocumentPath=HMI_LCD.SchDoc
+[Document6]
+DocumentPath=LCD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
