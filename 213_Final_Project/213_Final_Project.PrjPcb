@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SIUIWHML
 
 [Document2]
-DocumentPath=Water_Control_Board.SchDoc
+DocumentPath=Sense_Control_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NDVCQNMR
 
 [Document3]
-DocumentPath=Lighting_Controller.SchDoc
+DocumentPath=Lighting_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FFRMKJYN
 
 [Document4]
-DocumentPath=Power_Supply.SchDoc
+DocumentPath=PSU_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XGEKQHAY
 
 [Document6]
-DocumentPath=HMI_Board_MCU.SchDoc
+DocumentPath=HMI_MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
