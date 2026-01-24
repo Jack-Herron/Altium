@@ -69,17 +69,23 @@ Cap                             C?             RAD-0.3
 Cap                             C?             RAD-0.3
 Cap                             C?             RAD-0.3
 Cap                             C?             RAD-0.3
-527452097                       CN?            
-527450897                       CN?            
-12401826E412A                   CN?            
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
 D Schottky                      D?             SMB
 ESD2CANXL24DBZRQ1               D?             
 BLM18KG300TN1D                  FB?            FP-BLM18-0_15-t0_6-d1_2-MFG
+527452097                       J?             
+527450897                       J?             
+Battery header                  J?             HDR1X3
 0482580002                      J?             
 527450897_CAN                   J?             
+12401826E412A                   J?             
 Inductor                        L?             0402-A
 Inductor                        L?             
-Battery header                  P?             HDR1X3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
 Res1                            R?             AXIAL-0.3
 Res1                            R?             AXIAL-0.3
 Res1                            R?             AXIAL-0.3
@@ -116,11 +122,11 @@ NX3215SA-32.768K_1              X?
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00245] W\E\
+[00292] W\E\
         U?         16      W\E\           PASSIVE     IS42S16800F-7TLI
-        U?         32      PC0            I/O         STM32F469IIT6
 
-[00244] VDD_33
+[00291] VDD_33
+        C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
@@ -129,7 +135,7 @@ NX3215SA-32.768K_1              X?
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
 
-[00243] USBH_VBUS
+[00290] USBH_VBUS
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
@@ -137,96 +143,89 @@ NX3215SA-32.768K_1              X?
         U?         1       VOUT           PASSIVE     TPS2041CDBVR
         U?         5       VBUS           PASSIVE     USBLC6-2P6
 
-[00242] USBH_D_P
+[00289] USBH_D_P
         J?         2       D+             PASSIVE     0482580002
         U?         6       IO1            PASSIVE     USBLC6-2P6
 
-[00241] USBH_D_N
+[00288] USBH_D_N
         J?         3       D-             PASSIVE     0482580002
         U?         4       IO2            PASSIVE     USBLC6-2P6
 
-[00240] USBD_VBUS
-        CN?        A4      VBUS           PASSIVE     12401826E412A
-        CN?        A9      VBUS           PASSIVE     12401826E412A
-        CN?        B4      VBUS           PASSIVE     12401826E412A
-        CN?        B9      VBUS           PASSIVE     12401826E412A
+[00287] USBD_VBUS
+        J?         A4      VBUS           PASSIVE     12401826E412A
+        J?         A9      VBUS           PASSIVE     12401826E412A
+        J?         B4      VBUS           PASSIVE     12401826E412A
+        J?         B9      VBUS           PASSIVE     12401826E412A
 
-[00239] USBD_D_P
-        CN?        A6      D+             PASSIVE     12401826E412A
-        CN?        B6      D+             PASSIVE     12401826E412A
+[00286] USBD_D_P
+        J?         A6      D+             PASSIVE     12401826E412A
+        J?         B6      D+             PASSIVE     12401826E412A
         U?         6       IO1            PASSIVE     USBLC6-2P6
 
-[00238] USBD_D_N
-        CN?        A7      D-             PASSIVE     12401826E412A
-        CN?        B7      D-             PASSIVE     12401826E412A
+[00285] USBD_D_N
+        J?         A7      D-             PASSIVE     12401826E412A
+        J?         B7      D-             PASSIVE     12401826E412A
         U?         4       IO2            PASSIVE     USBLC6-2P6
 
-[00237] UART_USB_TX
+[00284] USB2_VBUS
+        U?         5       VBUS           PASSIVE     USBLC6-2P6
+
+[00283] UART_USB_TX
         U?         2       TX             PASSIVE     PL2303GL
-        U?         125     PA10           I/O         STM32F469IIT6
 
-[00236] UART_USB_RX
+[00282] UART_USB_RX
         U?         4       RX             PASSIVE     PL2303GL
-        U?         124     PA9            I/O         STM32F469IIT6
 
-[00235] UART_USB_D_P
+[00281] UART_USB_D_P
         U?         1       IO1            PASSIVE     USBLC6-2P6
         U?         5       DP             PASSIVE     PL2303GL
 
-[00234] UART_USB_D_N
+[00280] UART_USB_D_N
         U?         3       IO2            PASSIVE     USBLC6-2P6
         U?         6       DM             PASSIVE     PL2303GL
 
-[00233] TS_SDA
-        CN?        5       SDA            PASSIVE     527450897
-        U?         165     PB7            I/O         STM32F469IIT6
+[00279] TS_SDA
+        J?         5       SDA            PASSIVE     527450897
+        R?         2       2              PASSIVE     Res1
 
-[00232] TS_SCL
-        CN?        4       SCL            PASSIVE     527450897
-        U?         164     PB6            I/O         STM32F469IIT6
+[00278] TS_SCL
+        J?         4       SCL            PASSIVE     527450897
+        R?         2       2              PASSIVE     Res1
 
-[00231] TS_RESET
-        CN?        7       RESET          PASSIVE     527450897
+[00277] TS_RESET
+        J?         7       RESET          PASSIVE     527450897
 
-[00230] TS_INT
-        CN?        6       INT            PASSIVE     527450897
+[00276] TS_INT
+        J?         6       INT            PASSIVE     527450897
 
-[00229] SWDIO
-        U?         128     PA13           I/O         STM32F469IIT6
+[00275] SWDIO
 
-[00228] SWCLK
-        U?         137     PA14           I/O         STM32F469IIT6
+[00274] SWCLK
 
-[00227] R\A\S\
+[00273] R\A\S\
         U?         18      R\A\S\         PASSIVE     IS42S16800F-7TLI
-        U?         59      PF11           I/O         STM32F469IIT6
 
-[00226] QSPI_D3
+[00272] QSPI_D3
         U?         24      PF6            I/O         STM32F469IIT6
 
-[00225] QSPI_D2
+[00271] QSPI_D2
         U?         25      PF7            I/O         STM32F469IIT6
 
-[00224] QSPI_D1
+[00270] QSPI_D1
         U?         27      PF9            I/O         STM32F469IIT6
 
-[00223] QSPI_D0
+[00269] QSPI_D0
         U?         26      PF8            I/O         STM32F469IIT6
 
-[00222] QSPI_CLK
+[00268] QSPI_CLK
         U?         7       SCK            PASSIVE     IS25LP128-JBLE-TR
-        U?         28      PF10           I/O         STM32F469IIT6
 
-[00221] NRST
+[00267] NRST
         U?         31      NRST           I/O         STM32F469IIT6
 
-[00142] NetU?_3
-        U?         3       IO2            PASSIVE     USBLC6-2P6
-        U?         126     PA11           I/O         STM32F469IIT6
-
-[00139] NetU?_1
-        U?         1       IO1            PASSIVE     USBLC6-2P6
-        U?         127     PA12           I/O         STM32F469IIT6
+[00136] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         166     BOOT0          INPUT       STM32F469IIT6
 
 [00137] NetR?_2
         R?         2       2              PASSIVE     Res1
@@ -239,12 +238,12 @@ NX3215SA-32.768K_1              X?
 [00131] NetR?_1
         R?         1       1              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
-        U?         5       FB             PASSIVE     LMR36520FADDAR
+        U?         4       PR1            PASSIVE     TPS2117DRLR
 
 [00132] NetR?_1
         R?         1       1              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
-        U?         4       PR1            PASSIVE     TPS2117DRLR
+        U?         5       FB             PASSIVE     LMR36520FADDAR
 
 [00133] NetR?_1
         R?         1       1              PASSIVE     Res1
@@ -256,49 +255,45 @@ NX3215SA-32.768K_1              X?
 
 [00135] NetR?_1
         R?         1       1              PASSIVE     Res1
-        U?         166     BOOT0          INPUT       STM32F469IIT6
-
-[00136] NetR?_1
-        R?         1       1              PASSIVE     Res1
         U?         171     PDR_ON         INPUT       STM32F469IIT6
 
-[00130] NetP?_2
-        P?         2       2              PASSIVE     Battery header
+[00130] NetJ?_SHELL2
+        J?         SHELL2  SHEILD         PASSIVE     12401826E412A
+        R?         2       2              PASSIVE     Res1
+
+[00129] NetJ?_SHELL1
+        J?         SHELL1  SHEILD         PASSIVE     12401826E412A
+        R?         2       2              PASSIVE     Res1
+
+[00125] NetJ?_B5
+        J?         B5      CC2            PASSIVE     12401826E412A
+        R?         2       2              PASSIVE     Res1
+
+[00119] NetJ?_A5
+        J?         A5      CC1            PASSIVE     12401826E412A
+        R?         2       2              PASSIVE     Res1
+
+[00111] NetJ?_2
+        J?         2       LEDK           PASSIVE     527452097
+        R?         2       2              PASSIVE     Res1
+        U?         6       FB             PASSIVE     TPS61165DBVR
+
+[00112] NetJ?_2
+        J?         2       SCL            PASSIVE     527450897_CAN
+        R?         2       2              PASSIVE     Res1
+
+[00113] NetJ?_2
+        J?         2       2              PASSIVE     Battery header
         U?         6       VBAT           POWER       STM32F469IIT6
 
-[00129] NetJ?_2
-        J?         2       SCL            PASSIVE     527450897_CAN
-        U?         45      PH4            I/O         STM32F469IIT6
-
-[00128] NetJ?_1
+[00109] NetJ?_1
         J?         1       SDA            PASSIVE     527450897_CAN
-        U?         46      PH5            I/O         STM32F469IIT6
+        R?         2       2              PASSIVE     Res1
 
-[00127] NetD?_1
+[00108] NetD?_1
         D?         1       A              PASSIVE     D Schottky
         L?         2       2              PASSIVE     Inductor
         U?         3       SW             PASSIVE     TPS61165DBVR
-
-[00126] NetCN?_SHELL2
-        CN?        SHELL2  SHEILD         PASSIVE     12401826E412A
-        R?         2       2              PASSIVE     Res1
-
-[00125] NetCN?_SHELL1
-        CN?        SHELL1  SHEILD         PASSIVE     12401826E412A
-        R?         2       2              PASSIVE     Res1
-
-[00121] NetCN?_B5
-        CN?        B5      CC2            PASSIVE     12401826E412A
-        R?         2       2              PASSIVE     Res1
-
-[00115] NetCN?_A5
-        CN?        A5      CC1            PASSIVE     12401826E412A
-        R?         2       2              PASSIVE     Res1
-
-[00109] NetCN?_2
-        CN?        2       LEDK           PASSIVE     527452097
-        R?         2       2              PASSIVE     Res1
-        U?         6       FB             PASSIVE     TPS61165DBVR
 
 [00098] NetC?_2
         C?         2       2              PASSIVE     Cap
@@ -309,8 +304,8 @@ NX3215SA-32.768K_1              X?
 
 [00099] NetC?_2
         C?         2       2              PASSIVE     Cap
-        CN?        4       LEDA           PASSIVE     527452097
         D?         2       K              PASSIVE     D Schottky
+        J?         4       LEDA           PASSIVE     527452097
 
 [00100] NetC?_2
         C?         2       2              PASSIVE     Cap
@@ -366,17 +361,15 @@ NX3215SA-32.768K_1              X?
 
 [00094] NBL1
         U?         39      DQMH           PASSIVE     IS42S16800F-7TLI
-        U?         170     PE1            I/O         STM32F469IIT6
 
 [00093] NBL0
         U?         15      DQML           PASSIVE     IS42S16800F-7TLI
-        U?         169     PE0            I/O         STM32F469IIT6
 
 [00092] LCD_TE
-        CN?        8       TE             PASSIVE     527452097
+        J?         8       TE             PASSIVE     527452097
 
 [00091] LCD_RESET
-        CN?        9       RESET          PASSIVE     527452097
+        J?         9       RESET          PASSIVE     527452097
 
 [00090] LCD_BL_CTRL
         U?         2       CTRL           PASSIVE     TPS61165DBVR
@@ -440,6 +433,10 @@ NX3215SA-32.768K_1              X?
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
@@ -456,32 +453,30 @@ NX3215SA-32.768K_1              X?
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
-        C?         2       2              PASSIVE     Cap
-        C?         2       2              PASSIVE     Cap
-        CN?        1       GND            PASSIVE     527450897
-        CN?        8       GND            PASSIVE     527450897
-        CN?        10      GND            PASSIVE     527452097
-        CN?        13      GND            PASSIVE     527452097
-        CN?        16      GND            PASSIVE     527452097
-        CN?        19      GND            PASSIVE     527452097
-        CN?        20      GND            PASSIVE     527452097
-        CN?        A1      GND            PASSIVE     12401826E412A
-        CN?        A12     GND            PASSIVE     12401826E412A
-        CN?        B1      GND            PASSIVE     12401826E412A
-        CN?        B12     GND            PASSIVE     12401826E412A
         D?         3       GND            PASSIVE     ESD2CANXL24DBZRQ1
+        J?         1       GND            PASSIVE     527450897
+        J?         3       3              PASSIVE     Battery header
         J?         3       GND            PASSIVE     527450897_CAN
         J?         4       GND            PASSIVE     0482580002
         J?         6       GND            PASSIVE     527450897_CAN
+        J?         8       GND            PASSIVE     527450897
+        J?         10      GND            PASSIVE     527452097
+        J?         13      GND            PASSIVE     527452097
+        J?         16      GND            PASSIVE     527452097
+        J?         19      GND            PASSIVE     527452097
+        J?         20      GND            PASSIVE     527452097
+        J?         A1      GND            PASSIVE     12401826E412A
+        J?         A12     GND            PASSIVE     12401826E412A
+        J?         B1      GND            PASSIVE     12401826E412A
+        J?         B12     GND            PASSIVE     12401826E412A
         J?         SHIELD  SHIELD         PASSIVE     0482580002
-        P?         3       3              PASSIVE     Battery header
         R?         1       1              PASSIVE     Res1
         R?         1       1              PASSIVE     Res1
         R?         1       1              PASSIVE     Res1
         R?         1       1              PASSIVE     Res1
         R?         1       1              PASSIVE     Res1
         R?         1       1              PASSIVE     Res1
-        R?         2       2              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
         U?         1       PGND           PASSIVE     LMR36520FADDAR
@@ -517,76 +512,52 @@ NX3215SA-32.768K_1              X?
         U?         PAD     PAD            PASSIVE     LMR36520FADDAR
 
 [00087] FMC_D15
-        U?         91      PD10           I/O         STM32F469IIT6
 
 [00086] FMC_D14
-        U?         90      PD9            I/O         STM32F469IIT6
 
 [00085] FMC_D13
-        U?         89      PD8            I/O         STM32F469IIT6
 
 [00084] FMC_D12
-        U?         78      PE15           I/O         STM32F469IIT6
 
 [00083] FMC_D11
-        U?         77      PE14           I/O         STM32F469IIT6
 
 [00082] FMC_D10
-        U?         76      PE13           I/O         STM32F469IIT6
 
 [00081] FMC_D9
-        U?         75      PE12           I/O         STM32F469IIT6
 
 [00080] FMC_D8
-        U?         74      PE11           I/O         STM32F469IIT6
 
 [00079] FMC_D7
-        U?         73      PE10           I/O         STM32F469IIT6
 
 [00078] FMC_D6
-        U?         70      PE9            I/O         STM32F469IIT6
 
 [00077] FMC_D5
-        U?         69      PE8            I/O         STM32F469IIT6
 
 [00076] FMC_D4
-        U?         68      PE7            I/O         STM32F469IIT6
 
 [00075] FMC_D3
-        U?         143     PD1            I/O         STM32F469IIT6
 
 [00074] FMC_D2
-        U?         142     PD0            I/O         STM32F469IIT6
 
 [00073] FMC_D1
-        U?         98      PD15           I/O         STM32F469IIT6
 
 [00072] FMC_D0
-        U?         97      PD14           I/O         STM32F469IIT6
 
 [00071] FMC_BA1
-        U?         113     PG5            I/O         STM32F469IIT6
 
 [00070] FMC_BA0
-        U?         112     PG4            I/O         STM32F469IIT6
 
 [00069] FMC_A11
-        U?         67      PG1            I/O         STM32F469IIT6
 
 [00068] FMC_A10
-        U?         66      PG0            I/O         STM32F469IIT6
 
 [00067] FMC_A9
-        U?         65      PF15           I/O         STM32F469IIT6
 
 [00066] FMC_A8
-        U?         64      PF14           I/O         STM32F469IIT6
 
 [00065] FMC_A7
-        U?         63      PF13           I/O         STM32F469IIT6
 
 [00064] FMC_A6
-        U?         60      PF12           I/O         STM32F469IIT6
 
 [00063] FMC_A5
         U?         21      PF5            I/O         STM32F469IIT6
@@ -607,27 +578,27 @@ NX3215SA-32.768K_1              X?
         U?         16      PF0            I/O         STM32F469IIT6
 
 [00057] DSI_D1_P
-        CN?        11      MIPI_D1P       PASSIVE     527452097
+        J?         11      MIPI_D1P       PASSIVE     527452097
         U?         107     DSIHOST_D1P    I/O         STM32F469IIT6
 
 [00056] DSI_D1_N
-        CN?        12      MIPI_D1N       PASSIVE     527452097
+        J?         12      MIPI_D1N       PASSIVE     527452097
         U?         108     DSIHOST_D1N    I/O         STM32F469IIT6
 
 [00055] DSI_D0_P
-        CN?        17      MIPI_D0P       PASSIVE     527452097
+        J?         17      MIPI_D0P       PASSIVE     527452097
         U?         101     DSIHOST_D0P    I/O         STM32F469IIT6
 
 [00054] DSI_D0_N
-        CN?        18      MIPI_D0N       PASSIVE     527452097
+        J?         18      MIPI_D0N       PASSIVE     527452097
         U?         102     DSIHOST_D0N    I/O         STM32F469IIT6
 
 [00053] DSI_CK_P
-        CN?        14      MIPI_CLP       PASSIVE     527452097
+        J?         14      MIPI_CLP       PASSIVE     527452097
         U?         104     DSIHOST_CKP    I/O         STM32F469IIT6
 
 [00052] DSI_CK_N
-        CN?        15      MIPI_CLN       PASSIVE     527452097
+        J?         15      MIPI_CLN       PASSIVE     527452097
         U?         105     DSIHOST_CKN    I/O         STM32F469IIT6
 
 [00050] DQ15
@@ -692,19 +663,15 @@ NX3215SA-32.768K_1              X?
 
 [00029] CLK
         U?         38      CLK            PASSIVE     IS42S16800F-7TLI
-        U?         116     PG8            I/O         STM32F469IIT6
 
 [00028] CKE
-        U?         35      PC3            I/O         STM32F469IIT6
         U?         37      CKE            PASSIVE     IS42S16800F-7TLI
 
 [00027] CAN_TX
         U?         1       TXD            PASSIVE     TCAN332
-        U?         86      PB13           I/O         STM32F469IIT6
 
 [00026] CAN_RX
         U?         4       RXD            PASSIVE     TCAN332
-        U?         85      PB12           I/O         STM32F469IIT6
 
 [00025] CAN_P
         D?         1       IO1            PASSIVE     ESD2CANXL24DBZRQ1
@@ -718,15 +685,12 @@ NX3215SA-32.768K_1              X?
 
 [00022] C\S\
         U?         1       C\E\           PASSIVE     IS25LP128-JBLE-TR
-        U?         79      PB10           I/O         STM32F469IIT6
 
 [00023] C\S\
         U?         19      C\S\           PASSIVE     IS42S16800F-7TLI
-        U?         34      PC2            I/O         STM32F469IIT6
 
 [00021] C\A\S\
         U?         17      C\A\S\         PASSIVE     IS42S16800F-7TLI
-        U?         160     PG15           I/O         STM32F469IIT6
 
 [00019] BA1
         U?         21      BA1            PASSIVE     IS42S16800F-7TLI
@@ -773,12 +737,9 @@ NX3215SA-32.768K_1              X?
 [00004] 5V_Secondary
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
-        U?         5       VBUS           PASSIVE     USBLC6-2P6
         U?         6       VIN2           PASSIVE     TPS2117DRLR
 
 [00003] 5V_Primary
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
@@ -792,6 +753,9 @@ NX3215SA-32.768K_1              X?
 [00002] 5V
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
@@ -830,10 +794,14 @@ NX3215SA-32.768K_1              X?
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
-        CN?        3       VDD            PASSIVE     527450897
-        CN?        6       VCI            PASSIVE     527452097
-        CN?        7       VCC_IO         PASSIVE     527452097
-        P?         1       1              PASSIVE     Battery header
+        J?         1       1              PASSIVE     Battery header
+        J?         3       VDD            PASSIVE     527450897
+        J?         6       VCI            PASSIVE     527452097
+        J?         7       VCC_IO         PASSIVE     527452097
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
         U?         1       VDD            PASSIVE     IS42S16800F-7TLI
         U?         3       VCC            PASSIVE     TCAN332
