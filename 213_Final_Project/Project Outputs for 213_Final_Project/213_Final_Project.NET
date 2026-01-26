@@ -135,22 +135,22 @@ X50328MSB2GI                    X202
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00205] VDD_12_DSI
+[00204] VDD_12_DSI
         C208       2       2              PASSIVE     Cap
         C209       2       2              PASSIVE     Cap
         C210       2       2              PASSIVE     Cap
         U201       100     VCAPDSI        POWER       STM32F469IIT6
         U201       106     VDD12DSI       POWER       STM32F469IIT6
 
-[00204] VBAT
+[00203] VBAT
         J201       2       2              PASSIVE     Battery header
         U201       6       VBAT           POWER       STM32F469IIT6
 
-[00203] USBH_VBUS_EN
+[00202] USBH_VBUS_EN
         U201       43      PH2            I/O         STM32F469IIT6
         U904       4       EN             PASSIVE     TPS2041CDBVR
 
-[00202] USBH_VBUS
+[00201] USBH_VBUS
         C920       2       2              PASSIVE     Cap
         C921       1       1              PASSIVE     Cap
         C922       1       1              PASSIVE     Cap
@@ -158,28 +158,26 @@ X50328MSB2GI                    X202
         J803       1       VBUS           PASSIVE     0482580002
         U904       1       VOUT           PASSIVE     TPS2041CDBVR
 
-[00201] USBH_V\B\U\S\_\F\A\U\L\T\
+[00200] USBH_V\B\U\S\_\F\A\U\L\T\
         U201       44      PH3            I/O         STM32F469IIT6
         U904       3       F\A\U\L\T\     OPEN COLLECTORTPS2041CDBVR
 
-[00200] USBH_D_P
+[00199] USBH_D_P
         D803       6       IO1            PASSIVE     USBLC6-2P6
         J803       2       D+             PASSIVE     0482580002
 
-[00199] USBH_D_N
+[00198] USBH_D_N
         D803       4       IO2            PASSIVE     USBLC6-2P6
         J803       3       D-             PASSIVE     0482580002
 
 [00197] USBD_VBUS
+        C910       1       1              PASSIVE     Cap
+        C911       1       1              PASSIVE     Cap
         D801       5       VBUS           PASSIVE     USBLC6-2P6
         J801       A4      VBUS           PASSIVE     12401826E412A
         J801       A9      VBUS           PASSIVE     12401826E412A
         J801       B4      VBUS           PASSIVE     12401826E412A
         J801       B9      VBUS           PASSIVE     12401826E412A
-
-[00198] USBD_VBUS
-        C910       1       1              PASSIVE     Cap
-        C911       1       1              PASSIVE     Cap
         R207       2       2              PASSIVE     Res1
         U902       6       VIN2           PASSIVE     TPS2117DRLR
 
