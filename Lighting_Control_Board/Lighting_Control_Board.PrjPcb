@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EIOSDQRG
 
 [Document3]
-DocumentPath=Power.SchDoc
+DocumentPath=LED_VBUS_Boost.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
