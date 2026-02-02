@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EIOSDQRG
 
 [Document3]
-DocumentPath=LED_VBUS_Boost.SchDoc
+DocumentPath=Boost.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CVUITZJM
 
 [Document5]
-DocumentPath=Outputs.SchDoc
+DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
