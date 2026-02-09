@@ -194,246 +194,231 @@ X50328MSB2GI                    X202           5x3.2x1.2mm Crystal
         J801       A7      D-             PASSIVE     12401826E412A
         J801       B7      D-             PASSIVE     12401826E412A
 
-[00203] USBD_3.3V_VBUS_SENSE
+[00203] USBD_CN_SH2
+        J801       SH2     SHEILD         PASSIVE     12401826E412A
+        J801       SH4     SHEILD         PASSIVE     12401826E412A
+        R801       2       2              PASSIVE     0 Res
+
+[00202] USBD_CN_SH1
+        J801       SH1     SHEILD         PASSIVE     12401826E412A
+        J801       SH3     SHEILD         PASSIVE     12401826E412A
+        R802       2       2              PASSIVE     0 Res
+
+[00201] USBD_CN_CC2
+        J801       B5      CC2            PASSIVE     12401826E412A
+        R804       2       2              PASSIVE     5.1k Res
+
+[00200] USBD_CN_CC1
+        J801       A5      CC1            PASSIVE     12401826E412A
+        R803       2       2              PASSIVE     5.1k Res
+
+[00199] USBD_3.3V_VBUS_SENSE
         R207       1       1              PASSIVE     12k Res
         R208       2       2              PASSIVE     18k Res
         U201       42      PA2            I/O         STM32F469IIT6
 
-[00202] USB_HS_D_P
+[00198] USB_HS_D_P
         D803       1       IO1            PASSIVE     USBLC6-2SC6
         U201       88      PB15           I/O         STM32F469IIT6
 
-[00201] USB_HS_D_N
+[00197] USB_HS_D_N
         D803       3       IO2            PASSIVE     USBLC6-2SC6
         U201       87      PB14           I/O         STM32F469IIT6
 
-[00200] UART_USB_D_P
+[00196] UART_USB_D_P
         D801       1       IO1            PASSIVE     USBLC6-2SC6
         U601       5       DP             PASSIVE     PL2303GL
 
-[00199] UART_USB_D_N
+[00195] UART_USB_D_N
         D801       3       IO2            PASSIVE     USBLC6-2SC6
         U601       6       DM             PASSIVE     PL2303GL
 
-[00198] UART4_TX
+[00194] UART4_TX
         U201       40      PA0-WKUP       OUTPUT      STM32F469IIT6
         U601       4       RX             INPUT       PL2303GL
 
-[00197] UART4_RX
+[00193] UART4_RX
         U201       41      PA1            INPUT       STM32F469IIT6
         U601       2       TX             OUTPUT      PL2303GL
 
-[00196] U902_VOUT
+[00192] TS_R\E\S\E\T\
+        J502       7       RESET          PASSIVE     527450897_LCD
+        U201       125     PA10           I/O         STM32F469IIT6
+
+[00191] TS_I\N\T\
+        J502       6       INT            PASSIVE     527450897_LCD
+        R503       1       1              PASSIVE     10k Res
+        U201       124     PA9            I/O         STM32F469IIT6
+
+[00190] SWO
+        J202       6       6              PASSIVE     SWD Header
+        U201       161     PB3            I/O         STM32F469IIT6
+
+[00189] SWDIO
+        J202       2       2              PASSIVE     SWD Header
+        U201       128     PA13           I/O         STM32F469IIT6
+
+[00188] SWCLK
+        J202       4       4              PASSIVE     SWD Header
+        U201       137     PA14           I/O         STM32F469IIT6
+
+[00187] PWR_SRC_SENSE
+        R214       1       1              PASSIVE     10k Res
+        U201       119     PC6            I/O         STM32F469IIT6
+        U902       8       ST             PASSIVE     TPS2117DRLR
+
+[00186] PSWITCH_VOUT
         C913       2       2              PASSIVE     Cap
         C914       2       2              PASSIVE     Cap
         FB901      1       1              PASSIVE     BLM18KG300TN1D
         U902       2       VOUT           PASSIVE     TPS2117DRLR
         U902       7       VOUT           PASSIVE     TPS2117DRLR
 
-[00195] TS_R\E\S\E\T\
-        J502       7       RESET          PASSIVE     527450897_LCD
-        U201       125     PA10           I/O         STM32F469IIT6
+[00185] PSWITCH_PR1
+        R903       1       1              PASSIVE     30k Res
+        R904       2       2              PASSIVE     10k Res
+        U902       4       PR1            PASSIVE     TPS2117DRLR
 
-[00194] TS_I\N\T\
-        J502       6       INT            PASSIVE     527450897_LCD
-        R503       1       1              PASSIVE     10k Res
-        U201       124     PA9            I/O         STM32F469IIT6
+[00184] PS_VCC
+        C905       2       2              PASSIVE     Cap
+        U901       6       VCC            PASSIVE     LMR36520FADDAR
 
-[00193] SWO
-        J202       6       6              PASSIVE     SWD Header
-        U201       161     PB3            I/O         STM32F469IIT6
+[00183] PS_SW
+        C906       2       2              PASSIVE     Cap
+        L901       1       1              PASSIVE     10uH Inductor
+        U901       8       SW             PASSIVE     LMR36520FADDAR
 
-[00192] SWDIO
-        J202       2       2              PASSIVE     SWD Header
-        U201       128     PA13           I/O         STM32F469IIT6
+[00182] PS_L_L
+        L901       2       2              PASSIVE     10uH Inductor
+        L902       1       1              PASSIVE     10uH Inductor
 
-[00191] SWCLK
-        J202       4       4              PASSIVE     SWD Header
-        U201       137     PA14           I/O         STM32F469IIT6
+[00181] PS_FB
+        R901       1       1              PASSIVE     10k Res
+        R902       2       2              PASSIVE     2.49k Res
+        U901       5       FB             PASSIVE     LMR36520FADDAR
 
-[00190] PWR_SRC_SENSE
-        R214       1       1              PASSIVE     10k Res
-        U201       119     PC6            I/O         STM32F469IIT6
-        U902       8       ST             PASSIVE     TPS2117DRLR
+[00180] PS_BOOT
+        C906       1       1              PASSIVE     Cap
+        U901       7       BOOT           PASSIVE     LMR36520FADDAR
 
-[00189] NRST
+[00179] NRST
         C205       2       2              PASSIVE     Cap
         J202       3       3              PASSIVE     SWD Header
         R206       1       1              PASSIVE     10k Res
         S201       1                      PASSIVE     TS-1088-AR02016
         U201       31      NRST           I/O         STM32F469IIT6
 
-[00124] NetR903_1
-        R903       1       1              PASSIVE     30k Res
-        R904       2       2              PASSIVE     10k Res
-        U902       4       PR1            PASSIVE     TPS2117DRLR
-
-[00123] NetR901_1
-        R901       1       1              PASSIVE     10k Res
-        R902       2       2              PASSIVE     2.49k Res
-        U901       5       FB             PASSIVE     LMR36520FADDAR
-
-[00122] NetR209_2
-        R209       2       2              PASSIVE     10k Res
-        U201       48      BYPASS_REG     INPUT       STM32F469IIT6
-
-[00121] NetR205_2
-        R205       2       2              PASSIVE     0 Res
-        U201       10      PC15-OSC32_OUT I/O         STM32F469IIT6
-
-[00120] NetR204_1
-        R204       1       1              PASSIVE     0 Res
-        U201       29      PH0-OSC_IN     I/O         STM32F469IIT6
-
-[00119] NetR203_2
-        R203       2       2              PASSIVE     0 Res
-        U201       9       PC14-OSC32_IN  I/O         STM32F469IIT6
-
-[00118] NetR202_1
-        R202       1       1              PASSIVE     10k Res
-        U201       166     BOOT0          INPUT       STM32F469IIT6
-
-[00117] NetR201_1
-        R201       1       1              PASSIVE     10k Res
-        U201       171     PDR_ON         INPUT       STM32F469IIT6
-
-[00116] NetL901_2
-        L901       2       2              PASSIVE     10uH Inductor
-        L902       1       1              PASSIVE     10uH Inductor
-
-[00113] NetJ801_SH2
-        J801       SH2     SHEILD         PASSIVE     12401826E412A
-        J801       SH4     SHEILD         PASSIVE     12401826E412A
-        R801       2       2              PASSIVE     0 Res
-
-[00112] NetJ801_SH1
-        J801       SH1     SHEILD         PASSIVE     12401826E412A
-        J801       SH3     SHEILD         PASSIVE     12401826E412A
-        R802       2       2              PASSIVE     0 Res
-
-[00108] NetJ801_B5
-        J801       B5      CC2            PASSIVE     12401826E412A
-        R804       2       2              PASSIVE     5.1k Res
-
-[00102] NetJ801_A5
-        J801       A5      CC1            PASSIVE     12401826E412A
-        R803       2       2              PASSIVE     5.1k Res
-
-[00092] NetJ501_2
-        J501       2       LEDK           PASSIVE     527452097
-        R501       2       2              PASSIVE     1.1 Res
-        U501       6       FB             PASSIVE     TPS61165DBVR
-
-[00088] NetD501_1
-        D501       1       A              PASSIVE     SS210
-        L501       2       2              PASSIVE     10uH Inductor
-        U501       3       SW             PASSIVE     TPS61165DBVR
-
-[00087] NetD203_1
-        D203       1       A              PASSIVE     NCD0805R1
-        R217       1       1              PASSIVE     1k Res
-
-[00086] NetD202_1
-        D202       1       A              PASSIVE     NCD0805R1
-        R16        1       1              PASSIVE     1k Res
-
-[00085] NetD201_1
-        D201       1       A              PASSIVE     NCD0805R1
-        R215       1       1              PASSIVE     1k Res
-
-[00084] NetC906_2
-        C906       2       2              PASSIVE     Cap
-        L901       1       1              PASSIVE     10uH Inductor
-        U901       8       SW             PASSIVE     LMR36520FADDAR
-
-[00083] NetC906_1
-        C906       1       1              PASSIVE     Cap
-        U901       7       BOOT           PASSIVE     LMR36520FADDAR
-
-[00082] NetC905_2
-        C905       2       2              PASSIVE     Cap
-        U901       6       VCC            PASSIVE     LMR36520FADDAR
-
-[00081] NetC508_2
-        C508       2       2              PASSIVE     Cap
-        D501       2       K              PASSIVE     SS210
-        J501       4       LEDA           PASSIVE     527452097
-
-[00080] NetC506_2
-        C506       2       2              PASSIVE     Cap
-        C507       2       2              PASSIVE     Cap
-        U501       5       COMP           PASSIVE     TPS61165DBVR
-
-[00079] NetC207_2
-        C207       2       2              PASSIVE     Cap
-        U201       81      VCAP1          POWER       STM32F469IIT6
-
-[00078] NetC206_2
+[00092] MCU_VCAP2
         C206       2       2              PASSIVE     Cap
         U201       129     VCAP2          POWER       STM32F469IIT6
 
-[00077] NetC204_2
-        C204       2       2              PASSIVE     Cap
-        R204       2       2              PASSIVE     0 Res
-        X202       2       2              PASSIVE     X50328MSB2GI
+[00091] MCU_VCAP1
+        C207       2       2              PASSIVE     Cap
+        U201       81      VCAP1          POWER       STM32F469IIT6
 
-[00076] NetC203_2
-        C203       2       2              PASSIVE     Cap
-        U201       30      PH1-OSC_OUT    I/O         STM32F469IIT6
-        X202       1       1              PASSIVE     X50328MSB2GI
+[00090] MCU_PDR_ON
+        R201       1       1              PASSIVE     10k Res
+        U201       171     PDR_ON         INPUT       STM32F469IIT6
 
-[00075] NetC202_2
-        C202       2       2              PASSIVE     Cap
-        R205       1       1              PASSIVE     0 Res
-        X201       1       1              PASSIVE     NX3215SA-32.768K_1
+[00089] MCU_LSE_OUT
+        R205       2       2              PASSIVE     0 Res
+        U201       10      PC15-OSC32_OUT I/O         STM32F469IIT6
 
-[00074] NetC201_2
+[00088] MCU_LSE_IN
+        R203       2       2              PASSIVE     0 Res
+        U201       9       PC14-OSC32_IN  I/O         STM32F469IIT6
+
+[00087] MCU_LSE_2
         C201       2       2              PASSIVE     Cap
         R203       1       1              PASSIVE     0 Res
         X201       2       2              PASSIVE     NX3215SA-32.768K_1
 
-[00073] LED_3
+[00086] MCU_LSE_1
+        C202       2       2              PASSIVE     Cap
+        R205       1       1              PASSIVE     0 Res
+        X201       1       1              PASSIVE     NX3215SA-32.768K_1
+
+[00085] MCU_HSE_OUT
+        C203       2       2              PASSIVE     Cap
+        U201       30      PH1-OSC_OUT    I/O         STM32F469IIT6
+        X202       1       1              PASSIVE     X50328MSB2GI
+
+[00084] MCU_HSE_IN
+        R204       1       1              PASSIVE     0 Res
+        U201       29      PH0-OSC_IN     I/O         STM32F469IIT6
+
+[00083] MCU_HSE_2
+        C204       2       2              PASSIVE     Cap
+        R204       2       2              PASSIVE     0 Res
+        X202       2       2              PASSIVE     X50328MSB2GI
+
+[00082] MCU_BYPASS_REG
+        R209       2       2              PASSIVE     10k Res
+        U201       48      BYPASS_REG     INPUT       STM32F469IIT6
+
+[00081] MCU_BOOT0
+        R202       1       1              PASSIVE     10k Res
+        U201       166     BOOT0          INPUT       STM32F469IIT6
+
+[00080] LED_3_A
+        D203       1       A              PASSIVE     NCD0805R1
+        R217       1       1              PASSIVE     1k Res
+
+[00079] LED_3
         R217       2       2              PASSIVE     1k Res
         U201       134     PI3            I/O         STM32F469IIT6
 
-[00072] LED_2
+[00078] LED_2_A
+        D202       1       A              PASSIVE     NCD0805R1
+        R16        1       1              PASSIVE     1k Res
+
+[00077] LED_2
         R16        2       2              PASSIVE     1k Res
         U201       133     PI1            I/O         STM32F469IIT6
 
-[00071] LED_1
+[00076] LED_1_A
+        D201       1       A              PASSIVE     NCD0805R1
+        R215       1       1              PASSIVE     1k Res
+
+[00075] LED_1
         R215       2       2              PASSIVE     1k Res
         U201       132     PI0            I/O         STM32F469IIT6
 
-[00070] LCD_RESET
+[00074] LCD_RESET
         J501       9       RESET          PASSIVE     527452097
         R502       2       2              PASSIVE     10k Res
         U201       93      PD12           I/O         STM32F469IIT6
 
-[00069] LCD_BL_CTL
+[00073] LCD_CN_BL_A
+        C508       2       2              PASSIVE     Cap
+        D501       2       K              PASSIVE     SS210
+        J501       4       LEDA           PASSIVE     527452097
+
+[00072] LCD_BL_CTL
         U201       94      PD13           I/O         STM32F469IIT6
         U501       2       CTRL           PASSIVE     TPS61165DBVR
 
-[00068] I2C3_SDA
+[00071] I2C3_SDA
         J502       5       SDA            PASSIVE     527450897_LCD
         R213       1       1              PASSIVE     5.1k Res
         U201       122     PC9            I/O         STM32F469IIT6
 
-[00067] I2C3_SCL
+[00070] I2C3_SCL
         J502       4       SCL            PASSIVE     527450897_LCD
         R212       1       1              PASSIVE     5.1k Res
         U201       123     PA8            I/O         STM32F469IIT6
 
-[00066] I2C2_SDA
+[00069] I2C2_SDA
         J802       1       SDA            PASSIVE     527450897_CAN
         R211       1       1              PASSIVE     5.1k Res
         U201       46      PH5            I/O         STM32F469IIT6
 
-[00065] I2C2_SCL
+[00068] I2C2_SCL
         J802       2       SCL            PASSIVE     527450897_CAN
         R210       1       1              PASSIVE     5.1k Res
         U201       45      PH4            I/O         STM32F469IIT6
 
-[00064] HVIN
+[00067] HVIN
         C901       2       2              PASSIVE     Cap
         C902       2       2              PASSIVE     Cap
         C903       2       2              PASSIVE     Cap
@@ -443,7 +428,7 @@ X50328MSB2GI                    X202           5x3.2x1.2mm Crystal
         U901       2       VIN            PASSIVE     LMR36520FADDAR
         U901       3       EN             PASSIVE     LMR36520FADDAR
 
-[00063] GND
+[00066] GND
         C201       1       1              PASSIVE     Cap
         C202       1       1              PASSIVE     Cap
         C203       1       1              PASSIVE     Cap
@@ -584,227 +569,242 @@ X50328MSB2GI                    X202           5x3.2x1.2mm Crystal
         U903       2       GND            POWER       TLV75733PDBVR
         U904       2       GND            PASSIVE     TPS2041CDBVR
 
-[00062] FMC_W\E\
+[00065] FMC_W\E\
         U201       53      PA7            I/O         STM32F469IIT6
         U301       16      W\E\           PASSIVE     IS42S16800F-7TLI
 
-[00061] FMC_R\A\S\
+[00064] FMC_R\A\S\
         U201       59      PF11           I/O         STM32F469IIT6
         U301       18      R\A\S\         PASSIVE     IS42S16800F-7TLI
 
-[00060] FMC_NBL1
+[00063] FMC_NBL1
         U201       170     PE1            I/O         STM32F469IIT6
         U301       39      DQMH           PASSIVE     IS42S16800F-7TLI
 
-[00059] FMC_NBL0
+[00062] FMC_NBL0
         U201       169     PE0            I/O         STM32F469IIT6
         U301       15      DQML           PASSIVE     IS42S16800F-7TLI
 
-[00057] FMC_D15
+[00060] FMC_D15
         U201       91      PD10           I/O         STM32F469IIT6
         U301       53      DQ15           PASSIVE     IS42S16800F-7TLI
 
-[00056] FMC_D14
+[00059] FMC_D14
         U201       90      PD9            I/O         STM32F469IIT6
         U301       51      DQ14           PASSIVE     IS42S16800F-7TLI
 
-[00055] FMC_D13
+[00058] FMC_D13
         U201       89      PD8            I/O         STM32F469IIT6
         U301       50      DQ13           PASSIVE     IS42S16800F-7TLI
 
-[00054] FMC_D12
+[00057] FMC_D12
         U201       78      PE15           I/O         STM32F469IIT6
         U301       48      DQ12           PASSIVE     IS42S16800F-7TLI
 
-[00053] FMC_D11
+[00056] FMC_D11
         U201       77      PE14           I/O         STM32F469IIT6
         U301       47      DQ11           PASSIVE     IS42S16800F-7TLI
 
-[00052] FMC_D10
+[00055] FMC_D10
         U201       76      PE13           I/O         STM32F469IIT6
         U301       45      DQ10           PASSIVE     IS42S16800F-7TLI
 
-[00051] FMC_D9
+[00054] FMC_D9
         U201       75      PE12           I/O         STM32F469IIT6
         U301       44      DQ9            PASSIVE     IS42S16800F-7TLI
 
-[00050] FMC_D8
+[00053] FMC_D8
         U201       74      PE11           I/O         STM32F469IIT6
         U301       42      DQ8            PASSIVE     IS42S16800F-7TLI
 
-[00049] FMC_D7
+[00052] FMC_D7
         U201       73      PE10           I/O         STM32F469IIT6
         U301       13      DQ7            PASSIVE     IS42S16800F-7TLI
 
-[00048] FMC_D6
+[00051] FMC_D6
         U201       70      PE9            I/O         STM32F469IIT6
         U301       11      DQ6            PASSIVE     IS42S16800F-7TLI
 
-[00047] FMC_D5
+[00050] FMC_D5
         U201       69      PE8            I/O         STM32F469IIT6
         U301       10      DQ5            PASSIVE     IS42S16800F-7TLI
 
-[00046] FMC_D4
+[00049] FMC_D4
         U201       68      PE7            I/O         STM32F469IIT6
         U301       8       DQ4            PASSIVE     IS42S16800F-7TLI
 
-[00045] FMC_D3
+[00048] FMC_D3
         U201       143     PD1            I/O         STM32F469IIT6
         U301       7       DQ3            PASSIVE     IS42S16800F-7TLI
 
-[00044] FMC_D2
+[00047] FMC_D2
         U201       142     PD0            I/O         STM32F469IIT6
         U301       5       DQ2            PASSIVE     IS42S16800F-7TLI
 
-[00043] FMC_D1
+[00046] FMC_D1
         U201       98      PD15           I/O         STM32F469IIT6
         U301       4       DQ1            PASSIVE     IS42S16800F-7TLI
 
-[00042] FMC_D0
+[00045] FMC_D0
         U201       97      PD14           I/O         STM32F469IIT6
         U301       2       DQ0            PASSIVE     IS42S16800F-7TLI
 
-[00041] FMC_CLK
+[00044] FMC_CLK
         U201       116     PG8            I/O         STM32F469IIT6
         U301       38      CLK            PASSIVE     IS42S16800F-7TLI
 
-[00040] FMC_CKE
+[00043] FMC_CKE
         U201       55      PC5            I/O         STM32F469IIT6
         U301       37      CKE            PASSIVE     IS42S16800F-7TLI
 
-[00039] FMC_C\S\
+[00042] FMC_C\S\
         U201       54      PC4            I/O         STM32F469IIT6
         U301       19      C\S\           PASSIVE     IS42S16800F-7TLI
 
-[00038] FMC_C\A\S\
+[00041] FMC_C\A\S\
         U201       160     PG15           I/O         STM32F469IIT6
         U301       17      C\A\S\         PASSIVE     IS42S16800F-7TLI
 
-[00036] FMC_BA1
+[00039] FMC_BA1
         U201       113     PG5            I/O         STM32F469IIT6
         U301       21      BA1            PASSIVE     IS42S16800F-7TLI
 
-[00035] FMC_BA0
+[00038] FMC_BA0
         U201       112     PG4            I/O         STM32F469IIT6
         U301       20      BA0            PASSIVE     IS42S16800F-7TLI
 
-[00033] FMC_A11
+[00036] FMC_A11
         U201       67      PG1            I/O         STM32F469IIT6
         U301       35      A11            PASSIVE     IS42S16800F-7TLI
 
-[00032] FMC_A10
+[00035] FMC_A10
         U201       66      PG0            I/O         STM32F469IIT6
         U301       22      A10            PASSIVE     IS42S16800F-7TLI
 
-[00031] FMC_A9
+[00034] FMC_A9
         U201       65      PF15           I/O         STM32F469IIT6
         U301       34      A9             PASSIVE     IS42S16800F-7TLI
 
-[00030] FMC_A8
+[00033] FMC_A8
         U201       64      PF14           I/O         STM32F469IIT6
         U301       33      A8             PASSIVE     IS42S16800F-7TLI
 
-[00029] FMC_A7
+[00032] FMC_A7
         U201       63      PF13           I/O         STM32F469IIT6
         U301       32      A7             PASSIVE     IS42S16800F-7TLI
 
-[00028] FMC_A6
+[00031] FMC_A6
         U201       60      PF12           I/O         STM32F469IIT6
         U301       31      A6             PASSIVE     IS42S16800F-7TLI
 
-[00027] FMC_A5
+[00030] FMC_A5
         U201       21      PF5            I/O         STM32F469IIT6
         U301       30      A5             PASSIVE     IS42S16800F-7TLI
 
-[00026] FMC_A4
+[00029] FMC_A4
         U201       20      PF4            I/O         STM32F469IIT6
         U301       29      A4             PASSIVE     IS42S16800F-7TLI
 
-[00025] FMC_A3
+[00028] FMC_A3
         U201       19      PF3            I/O         STM32F469IIT6
         U301       26      A3             PASSIVE     IS42S16800F-7TLI
 
-[00024] FMC_A2
+[00027] FMC_A2
         U201       18      PF2            I/O         STM32F469IIT6
         U301       25      A2             PASSIVE     IS42S16800F-7TLI
 
-[00023] FMC_A1
+[00026] FMC_A1
         U201       17      PF1            I/O         STM32F469IIT6
         U301       24      A1             PASSIVE     IS42S16800F-7TLI
 
-[00022] FMC_A0
+[00025] FMC_A0
         U201       16      PF0            I/O         STM32F469IIT6
         U301       23      A0             PASSIVE     IS42S16800F-7TLI
 
-[00021] FLASH_SCK
+[00024] FLASH_SCK
         U201       28      PF10           I/O         STM32F469IIT6
         U401       7       SCK            PASSIVE     IS25LP128-JBLE-TR
 
-[00019] FLASH_D3
+[00022] FLASH_D3
         U201       24      PF6            I/O         STM32F469IIT6
         U401       6       D3             PASSIVE     IS25LP128-JBLE-TR
 
-[00018] FLASH_D2
+[00021] FLASH_D2
         U201       25      PF7            I/O         STM32F469IIT6
         U401       3       D2             PASSIVE     IS25LP128-JBLE-TR
 
-[00017] FLASH_D1
+[00020] FLASH_D1
         U201       27      PF9            I/O         STM32F469IIT6
         U401       2       D1             PASSIVE     IS25LP128-JBLE-TR
 
-[00016] FLASH_D0
+[00019] FLASH_D0
         U201       26      PF8            I/O         STM32F469IIT6
         U401       8       D0             PASSIVE     IS25LP128-JBLE-TR
 
-[00015] FLASH_C\S\
+[00018] FLASH_C\S\
         U201       164     PB6            I/O         STM32F469IIT6
         U401       1       C\E\           PASSIVE     IS25LP128-JBLE-TR
 
-[00014] DSI_TE
+[00017] DSI_TE
         J501       8       TE             PASSIVE     527452097
         U201       80      PB11           I/O         STM32F469IIT6
 
-[00013] DSI_D1_P
+[00016] DSI_D1_P
         J501       11      MIPI_D1P       PASSIVE     527452097
         U201       107     DSIHOST_D1P    I/O         STM32F469IIT6
 
-[00012] DSI_D1_N
+[00015] DSI_D1_N
         J501       12      MIPI_D1N       PASSIVE     527452097
         U201       108     DSIHOST_D1N    I/O         STM32F469IIT6
 
-[00011] DSI_D0_P
+[00014] DSI_D0_P
         J501       17      MIPI_D0P       PASSIVE     527452097
         U201       101     DSIHOST_D0P    I/O         STM32F469IIT6
 
-[00010] DSI_D0_N
+[00013] DSI_D0_N
         J501       18      MIPI_D0N       PASSIVE     527452097
         U201       102     DSIHOST_D0N    I/O         STM32F469IIT6
 
-[00009] DSI_CK_P
+[00012] DSI_CK_P
         J501       14      MIPI_CLP       PASSIVE     527452097
         U201       104     DSIHOST_CKP    I/O         STM32F469IIT6
 
-[00008] DSI_CK_N
+[00011] DSI_CK_N
         J501       15      MIPI_CLN       PASSIVE     527452097
         U201       105     DSIHOST_CKN    I/O         STM32F469IIT6
 
-[00007] CAN_CN_P
+[00010] CAN_CN_P
         D802       1       IO1            PASSIVE     ESD2CANXL24DBZRQ1
         J802       4       CANL           PASSIVE     527450897_CAN
         U701       7       CANH           PASSIVE     TCAN332
 
-[00006] CAN_CN_N
+[00009] CAN_CN_N
         D802       2       IO2            PASSIVE     ESD2CANXL24DBZRQ1
         J802       5       CANH           PASSIVE     527450897_CAN
         U701       6       CANL           PASSIVE     TCAN332
 
-[00005] CAN2_TX
+[00008] CAN2_TX
         U201       86      PB13           I/O         STM32F469IIT6
         U701       1       TXD            PASSIVE     TCAN332
 
-[00004] CAN2_RX
+[00007] CAN2_RX
         U201       85      PB12           I/O         STM32F469IIT6
         U701       4       RXD            PASSIVE     TCAN332
+
+[00006] BL_DRIVER_SW
+        D501       1       A              PASSIVE     SS210
+        L501       2       2              PASSIVE     10uH Inductor
+        U501       3       SW             PASSIVE     TPS61165DBVR
+
+[00005] BL_DRIVER_FB
+        J501       2       LEDK           PASSIVE     527452097
+        R501       2       2              PASSIVE     1.1 Res
+        U501       6       FB             PASSIVE     TPS61165DBVR
+
+[00004] BL_DRIVER_COMP
+        C506       2       2              PASSIVE     Cap
+        C507       2       2              PASSIVE     Cap
+        U501       5       COMP           PASSIVE     TPS61165DBVR
 
 [00003] 5V_Primary
         C907       2       2              PASSIVE     Cap
