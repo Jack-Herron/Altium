@@ -134,6 +134,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DMGVMVBV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Sensor_Board\Sensor_Board.NET
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -149,53 +153,55 @@ Name=Netlist Outputs
 Description=
 TargetPrinter=Canon G7000 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CadnetixNetlist
-OutputName1=Cadnetix Netlist
+OutputType1=RacalNetlist
+OutputName1=Racal Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CalayNetlist
-OutputName2=Calay Netlist
+OutputType2=RINFNetlist
+OutputName2=RINF Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=EDIF
-OutputName3=EDIF for PCB
+OutputType3=ProtelNetlist
+OutputName3=Protel
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=EESofNetlist
-OutputName4=EESof Netlist
+OutputType4=PCADnltNetlist
+OutputName4=PCADnlt Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=IntergraphNetlist
-OutputName5=Intergraph Netlist
+OutputType5=Protel2Netlist
+OutputName5=Protel2 Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=MentorBoardStationNetlist
-OutputName6=Mentor BoardStation Netlist
+OutputType6=WireListNetlist
+OutputName6=WireList Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=MultiWire
-OutputName7=MultiWire
+Configuration6_Name1=ForceUpdateSettings
+Configuration6_Item1=False
+OutputType7=XSpiceNetlist
+OutputName7=Mixed Sim Netlist
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=OrCadPCB2Netlist
-OutputName8=Orcad/PCB2 Netlist
+OutputType8=TelesisNetlist
+OutputName8=Telesis Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=PADSNetlist
-OutputName9=PADS ASCII Netlist
+OutputType9=SciCardsNetlist
+OutputName9=SciCards Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Pcad
-OutputName10=Pcad for PCB
+OutputType10=TangoNetlist
+OutputName10=Tango Netlist
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
@@ -204,53 +210,53 @@ OutputName11=PCAD Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
+OutputType12=EESofNetlist
+OutputName12=EESof Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
+OutputType13=IntergraphNetlist
+OutputName13=Intergraph Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
+OutputType14=EDIF
+OutputName14=EDIF for PCB
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
+OutputType15=CadnetixNetlist
+OutputName15=Cadnetix Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
+OutputType16=CalayNetlist
+OutputName16=Calay Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
+OutputType17=PADSNetlist
+OutputName17=PADS ASCII Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
+OutputType18=Pcad
+OutputName18=Pcad for PCB
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
+OutputType19=OrCadPCB2Netlist
+OutputName19=Orcad/PCB2 Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
+OutputType20=MentorBoardStationNetlist
+OutputName20=Mentor BoardStation Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
+OutputType21=MultiWire
+OutputName21=MultiWire
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
@@ -1126,6 +1132,84 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=12V|NetColor=clRed
+Net2=NetName=3.3V|NetColor=clRed
+Net3=NetName=5V|NetColor=clRed
+Net4=NetName=ADC1_CH0|NetColor=clYellow
+Net5=NetName=ADC1_CH1|NetColor=clYellow
+Net6=NetName=ADC1_CH2|NetColor=clYellow
+Net7=NetName=ADC1_IN0|NetColor=clYellow
+Net8=NetName=ADC1_IN1|NetColor=clYellow
+Net9=NetName=ADC1_IN2|NetColor=clYellow
+Net10=NetName=CAN_N|NetColor=$009966FF
+Net11=NetName=CAN_P|NetColor=$009966FF
+Net12=NetName=CAN_RX|NetColor=$009966FF
+Net13=NetName=CAN_TX|NetColor=$009966FF
+Net14=NetName=Fan_1_PWM|NetColor=clAqua
+Net15=NetName=Fan_1_Tach|NetColor=clAqua
+Net16=NetName=GND|NetColor=clBlue
+Net17=NetName=HVIN|NetColor=clRed
+Net18=NetName=I2C_SCL|NetColor=$0099FF00
+Net19=NetName=I2C_SDA|NetColor=$0099FF00
+Net20=NetName=I2C1_SCL|NetColor=$0099FF00
+Net21=NetName=I2C1_SDA|NetColor=$0099FF00
+Net22=NetName=LED_1|NetColor=$00505050
+Net23=NetName=LED_1_A|NetColor=$00505050
+Net24=NetName=LED_2|NetColor=$00505050
+Net25=NetName=LED_2_A|NetColor=$00505050
+Net26=NetName=LED_3|NetColor=$00505050
+Net27=NetName=LED_3_A|NetColor=$00505050
+Net28=NetName=MCU_BOOT_0|NetColor=$00505050
+Net29=NetName=MCU_HSE_IN|NetColor=$00505050
+Net30=NetName=MCU_HSE_OUT|NetColor=$00505050
+Net31=NetName=MCU_HSE_P1|NetColor=$00505050
+Net32=NetName=MCU_VDDA|NetColor=clRed
+Net33=NetName=NetD408_2|NetColor=$0000CC00
+Net34=NetName=NetR203_1|NetColor=clYellow
+Net35=NetName=NetR204_1|NetColor=clYellow
+Net36=NetName=NetR205_1|NetColor=clYellow
+Net37=NetName=NRST|NetColor=$00505050
+Net38=NetName=PS_BOOT|NetColor=$00505050
+Net39=NetName=PS_FB|NetColor=$00505050
+Net40=NetName=PS_SW|NetColor=clRed
+Net41=NetName=PS2_BOOT|NetColor=$00505050
+Net42=NetName=PS2_FB|NetColor=$00505050
+Net43=NetName=PS2_SW|NetColor=clRed
+Net44=NetName=PUMP_CTL|NetColor=$0000CC00
+Net45=NetName=PUMP_G|NetColor=$00505050
+Net46=NetName=PUMP_L|NetColor=$0000CC00
+Net47=NetName=S1_AOUT|NetColor=clYellow
+Net48=NetName=S1_AOUT_P|NetColor=clYellow
+Net49=NetName=S1_GPIO|NetColor=$000066FF
+Net50=NetName=S1_GPIO_P|NetColor=$000066FF
+Net51=NetName=S1_I2C_SCL|NetColor=$0099FF00
+Net52=NetName=S1_I2C_SDA|NetColor=$0099FF00
+Net53=NetName=S2_AOUT|NetColor=clYellow
+Net54=NetName=S2_AOUT_P|NetColor=clYellow
+Net55=NetName=S2_GPIO|NetColor=$000066FF
+Net56=NetName=S2_GPIO_P|NetColor=$000066FF
+Net57=NetName=S2_I2C_SCL|NetColor=$0099FF00
+Net58=NetName=S2_I2C_SDA|NetColor=$0099FF00
+Net59=NetName=S3_AOUT|NetColor=clYellow
+Net60=NetName=S3_AOUT_P|NetColor=clYellow
+Net61=NetName=S3_GPIO|NetColor=$000066FF
+Net62=NetName=S3_GPIO_P|NetColor=$000066FF
+Net63=NetName=S3_I2C_SCL|NetColor=$0099FF00
+Net64=NetName=S3_I2C_SDA|NetColor=$0099FF00
+Net65=NetName=SENSOR_SW_EN|NetColor=$00660066
+Net66=NetName=SENSOR_SW_F\A\U\L\T\|NetColor=$00660066
+Net67=NetName=SENSOR_VBUS|NetColor=clRed
+Net68=NetName=SWCLK|NetColor=$00505050
+Net69=NetName=SWDIO|NetColor=$00505050
+Net70=NetName=SWO|NetColor=$00505050
+Net71=NetName=TIM2_CH3|NetColor=$0000CC00
+Net72=NetName=TIM4_CH3|NetColor=clAqua
+Net73=NetName=UART_RX|NetColor=$009300D6
+Net74=NetName=UART_TX|NetColor=$009300D6
+Net75=NetName=USART1_RX|NetColor=$009300D6
+Net76=NetName=USART1_TX|NetColor=$009300D6
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0

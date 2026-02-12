@@ -1,0 +1,539 @@
+Wire List
+
+<<< Component List >>>
+Cap                             C201           0402 Capacitor
+Cap                             C202           0402 Capacitor
+Cap                             C203           0603 Capacitor
+Cap                             C204           0402 Capacitor
+Cap                             C205           0402 Capacitor
+Cap                             C206           0402 Capacitor
+Cap                             C207           0402 Capacitor
+Cap                             C208           0402 Capacitor
+Cap                             C209           0603 Capacitor
+Cap                             C210           0402 Capacitor
+Cap                             C212           0402 Capacitor
+Cap                             C213           0402 Capacitor
+Cap                             C214           0402 Capacitor
+Cap                             C301           1210 Capacitor
+Cap                             C302           1210 Capacitor
+Cap                             C303           1210 Capacitor
+Cap                             C304           1210 Capacitor
+Cap                             C305           0603 Capacitor
+Cap                             C306           0402 Capacitor
+Cap                             C307           0805 Capacitor
+Cap                             C308           0805 Capacitor
+Cap                             C309           0805 Capacitor
+Cap                             C310           0805 Capacitor
+Cap                             C311           1210 Capacitor
+Cap                             C312           1210 Capacitor
+Cap                             C313           1210 Capacitor
+Cap                             C314           1210 Capacitor
+Cap                             C315           0603 Capacitor
+Cap                             C316           0402 Capacitor
+Cap                             C317           0805 Capacitor
+Cap                             C318           0805 Capacitor
+Cap                             C319           0805 Capacitor
+Cap                             C320           0805 Capacitor
+Cap                             C321           0402 Capacitor
+Cap                             C322           0805 Capacitor
+Cap                             C323           0805 Capacitor
+Cap                             C324           0402 Capacitor
+Cap                             C325           0402 Capacitor
+Cap                             C326           0805 Capacitor
+Cap                             C327           0805 Capacitor
+Cap                             C401           0805 Capacitor
+Cap                             C402           8x10 Capacitor (UUX2A220MNL6G
+Cap                             C403           8x10 Capacitor (UUX2A220MNL6G
+Cap                             C404           8x10 Capacitor (UUX2A220MNL6G
+Cap                             C405           8x10 Capacitor (UUX2A220MNL6G
+Cap                             C501           0402 Capacitor
+Cap                             C502           0603 Capacitor
+NCD0805R1                       D201           0805 LED
+NCD0805R1                       D202           0805 LED
+NCD0805R1                       D203           0805 LED
+USBLC6-2SC6                     D401           SOT23-6
+USBLC6-2SC6                     D402           SOT23-6
+USBLC6-2SC6                     D403           SOT23-6
+USBLC6-2SC6                     D404           SOT23-6
+USBLC6-2SC6                     D405           SOT23-6
+USBLC6-2SC6                     D406           SOT23-6
+ESD2CANXL24DBZRQ1               D407           SOT23-3
+STPS3150U                       D408           SMB Diode (STPS3150U)
+BLM18KG300TN1D                  FB?            0603 Ferrite Bead
+SWD Header                      J201           6 pin SWD connector
+Sensor 1 Connector              J401           6 pin SWD connector
+Sensor 2 Connector              J402           6 pin SWD connector
+Sensor 3 Connector              J403           6 pin SWD connector
+Header 6                        J404           95293-401A06LF
+0022053041                      J405           22053041
+0393570006                      J406           0393570006
+0393570006                      J407           0393570002
+Inductor                        L301           11x10mm Inductor
+Inductor                        L302           11x10mm Inductor
+IRLR3410TRPBF                   Q?             DPAK_TO_252AA (IRLR3410TRPBF)
+0 Res                           R201           0805 Resistor
+10k Res                         R202           0402 Resistor
+1k Res                          R203           0402 Resistor
+1k Res                          R204           0402 Resistor
+1k Res                          R205           0402 Resistor
+10k Res                         R206           0402 Resistor
+10k Res                         R207           0402 Resistor
+1k Res                          R208           0402 Resistor
+1k Res                          R209           0402 Resistor
+1k Res                          R210           0402 Resistor
+5.1k Res                        R211           0402 Resistor
+5.1k Res                        R212           0402 Resistor
+10k Res                         R301           0402 Resistor
+2.49k Res                       R302           0402 Resistor
+Res1                            R303           0603 Resistor
+Res1                            R304           0402 Resistor
+Res1                            R305           0402 Resistor
+Res1                            R306           0402 Resistor
+10k Res                         R307           0402 Resistor
+10k Res                         R308           0402 Resistor
+TS-1088-AR02016                 S201           TS-1088-AR02016 PUSHBUTTON
+STM32F103C8T6                   U201           LQFP48 (STM32F103C8T6)
+LMR36520FADDAR                  U301           SOIC8 with thermal pad
+LMR36520FADDAR                  U302           SOIC8 with thermal pad
+TLV75733PDBVR                   U303           SOT23-5
+TPS2041CDBVR                    U304           SOT23-5
+TCAN332                         U501           SOT23-8
+X50328MSB2GI                    X201           5x3.2x1.2mm Crystal
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00090] UART_TX
+        J404       3       3              PASSIVE     Header 6
+        U201       30      PA9            I/O         STM32F103C8T6
+
+[00089] UART_RX
+        J404       4       4              PASSIVE     Header 6
+        U201       31      PA10           I/O         STM32F103C8T6
+
+[00088] SWO
+        J201       6       6              PASSIVE     SWD Header
+        U201       39      PB3            I/O         STM32F103C8T6
+
+[00087] SWDIO
+        J201       2       2              PASSIVE     SWD Header
+        U201       34      PA13           I/O         STM32F103C8T6
+
+[00086] SWCLK
+        J201       4       4              PASSIVE     SWD Header
+        U201       37      PA14           I/O         STM32F103C8T6
+
+[00085] SENSOR_VBUS
+        C325       2       2              PASSIVE     Cap
+        C326       2       2              PASSIVE     Cap
+        C327       2       2              PASSIVE     Cap
+        J401       1       1              PASSIVE     Sensor 1 Connector
+        J402       1       1              PASSIVE     Sensor 2 Connector
+        J403       1       1              PASSIVE     Sensor 3 Connector
+        U304       1       VOUT           PASSIVE     TPS2041CDBVR
+
+[00084] SENSOR_SW_F\A\U\L\T\
+        R307       1       1              PASSIVE     10k Res
+        U201       27      PB14           I/O         STM32F103C8T6
+        U304       3       F\A\U\L\T\     OPEN COLLECTORTPS2041CDBVR
+
+[00083] SENSOR_SW_EN
+        R308       2       2              PASSIVE     10k Res
+        U201       28      PB15           I/O         STM32F103C8T6
+        U304       4       EN             PASSIVE     TPS2041CDBVR
+
+[00082] S3_I2C_SDA
+        D405       6       IO1            PASSIVE     USBLC6-2SC6
+        J403       2       2              PASSIVE     Sensor 3 Connector
+
+[00081] S3_I2C_SCL
+        D405       4       IO2            PASSIVE     USBLC6-2SC6
+        J403       3       3              PASSIVE     Sensor 3 Connector
+
+[00080] S3_GPIO_P
+        D406       4       IO2            PASSIVE     USBLC6-2SC6
+        J403       5       5              PASSIVE     Sensor 3 Connector
+
+[00079] S3_GPIO
+        D406       3       IO2            PASSIVE     USBLC6-2SC6
+        U201       20      PB2            I/O         STM32F103C8T6
+
+[00078] S3_AOUT_P
+        D406       6       IO1            PASSIVE     USBLC6-2SC6
+        J403       4       4              PASSIVE     Sensor 3 Connector
+
+[00077] S3_AOUT
+        D406       1       IO1            PASSIVE     USBLC6-2SC6
+        R205       1       1              PASSIVE     1k Res
+
+[00076] S2_I2C_SDA
+        D403       6       IO1            PASSIVE     USBLC6-2SC6
+        J402       2       2              PASSIVE     Sensor 2 Connector
+
+[00075] S2_I2C_SCL
+        D403       4       IO2            PASSIVE     USBLC6-2SC6
+        J402       3       3              PASSIVE     Sensor 2 Connector
+
+[00074] S2_GPIO_P
+        D404       4       IO2            PASSIVE     USBLC6-2SC6
+        J402       5       5              PASSIVE     Sensor 2 Connector
+
+[00073] S2_GPIO
+        D404       3       IO2            PASSIVE     USBLC6-2SC6
+        U201       19      PB1            I/O         STM32F103C8T6
+
+[00072] S2_AOUT_P
+        D404       6       IO1            PASSIVE     USBLC6-2SC6
+        J402       4       4              PASSIVE     Sensor 2 Connector
+
+[00071] S2_AOUT
+        D404       1       IO1            PASSIVE     USBLC6-2SC6
+        R204       1       1              PASSIVE     1k Res
+
+[00070] S1_I2C_SDA
+        D401       6       IO1            PASSIVE     USBLC6-2SC6
+        J401       2       2              PASSIVE     Sensor 1 Connector
+
+[00069] S1_I2C_SCL
+        D401       4       IO2            PASSIVE     USBLC6-2SC6
+        J401       3       3              PASSIVE     Sensor 1 Connector
+
+[00068] S1_GPIO_P
+        D402       4       IO2            PASSIVE     USBLC6-2SC6
+        J401       5       5              PASSIVE     Sensor 1 Connector
+
+[00067] S1_GPIO
+        D402       3       IO2            PASSIVE     USBLC6-2SC6
+        U201       18      PB0            I/O         STM32F103C8T6
+
+[00066] S1_AOUT_P
+        D402       6       IO1            PASSIVE     USBLC6-2SC6
+        J401       4       4              PASSIVE     Sensor 1 Connector
+
+[00065] S1_AOUT
+        D402       1       IO1            PASSIVE     USBLC6-2SC6
+        R203       1       1              PASSIVE     1k Res
+
+[00064] PUMP_L
+        D408       2       A              PASSIVE     STPS3150U
+        J407       2       2              PASSIVE     0393570006
+        Q?         2       D              PASSIVE     IRLR3410TRPBF
+
+[00063] PUMP_G
+        Q?         1       G              PASSIVE     IRLR3410TRPBF
+        R303       2       2              PASSIVE     Res1
+        R304       2       2              PASSIVE     Res1
+
+[00062] PUMP_CTL
+        R303       1       1              PASSIVE     Res1
+        U201       21      PB10           I/O         STM32F103C8T6
+
+[00061] PS_VCC
+        C305       2       2              PASSIVE     Cap
+        U301       6       VCC            PASSIVE     LMR36520FADDAR
+
+[00060] PS_SW
+        C306       1       1              PASSIVE     Cap
+        L301       1       1              PASSIVE     Inductor
+        U301       8       SW             PASSIVE     LMR36520FADDAR
+
+[00059] PS_FB
+        R301       1       1              PASSIVE     10k Res
+        R302       2       2              PASSIVE     2.49k Res
+        U301       5       FB             PASSIVE     LMR36520FADDAR
+
+[00058] PS_BOOT
+        C306       2       2              PASSIVE     Cap
+        U301       7       BOOT           PASSIVE     LMR36520FADDAR
+
+[00057] PS2_VCC
+        C315       2       2              PASSIVE     Cap
+        U302       6       VCC            PASSIVE     LMR36520FADDAR
+
+[00056] PS2_SW
+        C316       1       1              PASSIVE     Cap
+        L302       1       1              PASSIVE     Inductor
+        U302       8       SW             PASSIVE     LMR36520FADDAR
+
+[00055] PS2_FB
+        R305       1       1              PASSIVE     Res1
+        R306       2       2              PASSIVE     Res1
+        U302       5       FB             PASSIVE     LMR36520FADDAR
+
+[00054] PS2_BOOT
+        C316       2       2              PASSIVE     Cap
+        U302       7       BOOT           PASSIVE     LMR36520FADDAR
+
+[00053] NRST
+        C208       2       2              PASSIVE     Cap
+        J201       3       3              PASSIVE     SWD Header
+        R206       1       1              PASSIVE     10k Res
+        S201       1                      PASSIVE     TS-1088-AR02016
+        U201       7       NRST           I/O         STM32F103C8T6
+
+[00027] MCU_VDDA
+        C209       2       2              PASSIVE     Cap
+        C210       2       2              PASSIVE     Cap
+        FB?        2       2              PASSIVE     BLM18KG300TN1D
+        U201       9       VDDA           POWER       STM32F103C8T6
+
+[00026] MCU_HSE_P1
+        C201       2       2              PASSIVE     Cap
+        R201       1       1              PASSIVE     0 Res
+        X201       1       1              PASSIVE     X50328MSB2GI
+
+[00025] MCU_HSE_OUT
+        C202       2       2              PASSIVE     Cap
+        U201       6       PD1-OSC_OUT    I/O         STM32F103C8T6
+        X201       2       2              PASSIVE     X50328MSB2GI
+
+[00024] MCU_HSE_IN
+        R201       2       2              PASSIVE     0 Res
+        U201       5       PD0-OSC_IN     I/O         STM32F103C8T6
+
+[00023] MCU_BOOT_0
+        R202       1       1              PASSIVE     10k Res
+        U201       44      BOOT0          INPUT       STM32F103C8T6
+
+[00022] LED_3_A
+        D201       1       A              PASSIVE     NCD0805R1
+        R208       2       2              PASSIVE     1k Res
+
+[00021] LED_3
+        R208       1       1              PASSIVE     1k Res
+        U201       38      PA15           I/O         STM32F103C8T6
+
+[00020] LED_2_A
+        D202       1       A              PASSIVE     NCD0805R1
+        R209       2       2              PASSIVE     1k Res
+
+[00019] LED_2
+        R209       1       1              PASSIVE     1k Res
+        U201       40      PB4            I/O         STM32F103C8T6
+
+[00018] LED_1_A
+        D203       1       A              PASSIVE     NCD0805R1
+        R210       2       2              PASSIVE     1k Res
+
+[00017] LED_1
+        R210       1       1              PASSIVE     1k Res
+        U201       41      PB5            I/O         STM32F103C8T6
+
+[00016] I2C1_SDA
+        D401       1       IO1            PASSIVE     USBLC6-2SC6
+        D403       1       IO1            PASSIVE     USBLC6-2SC6
+        D405       1       IO1            PASSIVE     USBLC6-2SC6
+        R212       1       1              PASSIVE     5.1k Res
+        U201       43      PB7            I/O         STM32F103C8T6
+
+[00015] I2C1_SCL
+        D401       3       IO2            PASSIVE     USBLC6-2SC6
+        D403       3       IO2            PASSIVE     USBLC6-2SC6
+        D405       3       IO2            PASSIVE     USBLC6-2SC6
+        R211       1       1              PASSIVE     5.1k Res
+        U201       42      PB6            I/O         STM32F103C8T6
+
+[00014] HVIN
+        C301       2       2              PASSIVE     Cap
+        C302       2       2              PASSIVE     Cap
+        C303       2       2              PASSIVE     Cap
+        C304       2       2              PASSIVE     Cap
+        C311       2       2              PASSIVE     Cap
+        C312       2       2              PASSIVE     Cap
+        C313       2       2              PASSIVE     Cap
+        C314       2       2              PASSIVE     Cap
+        C402       1       1              PASSIVE     Cap
+        C403       1       1              PASSIVE     Cap
+        C404       1       1              PASSIVE     Cap
+        C405       1       1              PASSIVE     Cap
+        J406       5       5              PASSIVE     0393570006
+        U301       2       VIN            PASSIVE     LMR36520FADDAR
+        U301       3       EN             PASSIVE     LMR36520FADDAR
+        U302       2       VIN            PASSIVE     LMR36520FADDAR
+        U302       3       EN             PASSIVE     LMR36520FADDAR
+
+[00013] GND
+        C201       1       1              PASSIVE     Cap
+        C202       1       1              PASSIVE     Cap
+        C203       1       1              PASSIVE     Cap
+        C204       1       1              PASSIVE     Cap
+        C205       1       1              PASSIVE     Cap
+        C206       1       1              PASSIVE     Cap
+        C207       1       1              PASSIVE     Cap
+        C208       1       1              PASSIVE     Cap
+        C209       1       1              PASSIVE     Cap
+        C210       1       1              PASSIVE     Cap
+        C212       1       1              PASSIVE     Cap
+        C213       1       1              PASSIVE     Cap
+        C214       1       1              PASSIVE     Cap
+        C301       1       1              PASSIVE     Cap
+        C302       1       1              PASSIVE     Cap
+        C303       1       1              PASSIVE     Cap
+        C304       1       1              PASSIVE     Cap
+        C305       1       1              PASSIVE     Cap
+        C307       1       1              PASSIVE     Cap
+        C308       1       1              PASSIVE     Cap
+        C309       1       1              PASSIVE     Cap
+        C310       1       1              PASSIVE     Cap
+        C311       1       1              PASSIVE     Cap
+        C312       1       1              PASSIVE     Cap
+        C313       1       1              PASSIVE     Cap
+        C314       1       1              PASSIVE     Cap
+        C315       1       1              PASSIVE     Cap
+        C317       1       1              PASSIVE     Cap
+        C318       1       1              PASSIVE     Cap
+        C319       1       1              PASSIVE     Cap
+        C320       1       1              PASSIVE     Cap
+        C321       1       1              PASSIVE     Cap
+        C322       1       1              PASSIVE     Cap
+        C323       1       1              PASSIVE     Cap
+        C324       1       1              PASSIVE     Cap
+        C325       1       1              PASSIVE     Cap
+        C326       1       1              PASSIVE     Cap
+        C327       1       1              PASSIVE     Cap
+        C401       1       1              PASSIVE     Cap
+        C402       2       2              PASSIVE     Cap
+        C403       2       2              PASSIVE     Cap
+        C404       2       2              PASSIVE     Cap
+        C405       2       2              PASSIVE     Cap
+        C501       1       1              PASSIVE     Cap
+        C502       1       1              PASSIVE     Cap
+        D201       2       K              PASSIVE     NCD0805R1
+        D202       2       K              PASSIVE     NCD0805R1
+        D203       2       K              PASSIVE     NCD0805R1
+        D401       2       GND            PASSIVE     USBLC6-2SC6
+        D402       2       GND            PASSIVE     USBLC6-2SC6
+        D403       2       GND            PASSIVE     USBLC6-2SC6
+        D404       2       GND            PASSIVE     USBLC6-2SC6
+        D405       2       GND            PASSIVE     USBLC6-2SC6
+        D406       2       GND            PASSIVE     USBLC6-2SC6
+        D407       3       GND            PASSIVE     ESD2CANXL24DBZRQ1
+        J201       5       5              PASSIVE     SWD Header
+        J401       6       6              PASSIVE     Sensor 1 Connector
+        J402       6       6              PASSIVE     Sensor 2 Connector
+        J403       6       6              PASSIVE     Sensor 3 Connector
+        J404       5       5              PASSIVE     Header 6
+        J404       6       6              PASSIVE     Header 6
+        J405       4       4              PASSIVE     0022053041
+        J406       6       6              PASSIVE     0393570006
+        Q?         3       S              PASSIVE     IRLR3410TRPBF
+        R202       2       2              PASSIVE     10k Res
+        R302       1       1              PASSIVE     2.49k Res
+        R304       1       1              PASSIVE     Res1
+        R306       1       1              PASSIVE     Res1
+        R308       1       1              PASSIVE     10k Res
+        S201       2                      PASSIVE     TS-1088-AR02016
+        U201       8       VSSA           POWER       STM32F103C8T6
+        U201       23      VSS_1          POWER       STM32F103C8T6
+        U201       35      VSS_2          POWER       STM32F103C8T6
+        U201       47      VSS_3          POWER       STM32F103C8T6
+        U301       1       PGND           PASSIVE     LMR36520FADDAR
+        U301       9       PAD            PASSIVE     LMR36520FADDAR
+        U302       1       PGND           PASSIVE     LMR36520FADDAR
+        U302       9       PAD            PASSIVE     LMR36520FADDAR
+        U303       2       GND            POWER       TLV75733PDBVR
+        U304       2       GND            PASSIVE     TPS2041CDBVR
+        U501       2       GND            PASSIVE     TCAN332
+
+[00012] Fan_1_Tach
+        J405       2       2              PASSIVE     0022053041
+        R207       1       1              PASSIVE     10k Res
+        U201       2       PC13-TAMPER-RTCI/O         STM32F103C8T6
+
+[00011] Fan_1_PWM
+        J405       1       1              PASSIVE     0022053041
+        U201       45      PB8            I/O         STM32F103C8T6
+
+[00010] CAN_TX
+        U201       33      PA12           I/O         STM32F103C8T6
+        U501       1       TXD            PASSIVE     TCAN332
+
+[00009] CAN_RX
+        U201       32      PA11           I/O         STM32F103C8T6
+        U501       4       RXD            PASSIVE     TCAN332
+
+[00008] CAN_P
+        D407       2       IO2            PASSIVE     ESD2CANXL24DBZRQ1
+        J406       1       1              PASSIVE     0393570006
+        J406       3       3              PASSIVE     0393570006
+        U501       7       CANH           PASSIVE     TCAN332
+
+[00007] CAN_N
+        D407       1       IO1            PASSIVE     ESD2CANXL24DBZRQ1
+        J406       2       2              PASSIVE     0393570006
+        J406       4       4              PASSIVE     0393570006
+        U501       6       CANL           PASSIVE     TCAN332
+
+[00006] ADC1_IN2
+        C214       2       2              PASSIVE     Cap
+        R205       2       2              PASSIVE     1k Res
+        U201       12      PA2            I/O         STM32F103C8T6
+
+[00005] ADC1_IN1
+        C213       2       2              PASSIVE     Cap
+        R204       2       2              PASSIVE     1k Res
+        U201       11      PA1            I/O         STM32F103C8T6
+
+[00004] ADC1_IN0
+        C212       2       2              PASSIVE     Cap
+        R203       2       2              PASSIVE     1k Res
+        U201       10      PA0-WKUP       I/O         STM32F103C8T6
+
+[00003] 12V
+        C317       2       2              PASSIVE     Cap
+        C318       2       2              PASSIVE     Cap
+        C319       2       2              PASSIVE     Cap
+        C320       2       2              PASSIVE     Cap
+        D408       1       K              PASSIVE     STPS3150U
+        J407       1       1              PASSIVE     0393570006
+        L302       2       2              PASSIVE     Inductor
+        R305       2       2              PASSIVE     Res1
+
+[00002] 5V
+        C307       2       2              PASSIVE     Cap
+        C308       2       2              PASSIVE     Cap
+        C309       2       2              PASSIVE     Cap
+        C310       2       2              PASSIVE     Cap
+        C401       2       2              PASSIVE     Cap
+        J404       1       1              PASSIVE     Header 6
+        J405       3       3              PASSIVE     0022053041
+        L301       2       2              PASSIVE     Inductor
+        R301       2       2              PASSIVE     10k Res
+        U303       1       IN             INPUT       TLV75733PDBVR
+        U303       3       EN             INPUT       TLV75733PDBVR
+
+[00001] 3.3V
+        C203       2       2              PASSIVE     Cap
+        C204       2       2              PASSIVE     Cap
+        C205       2       2              PASSIVE     Cap
+        C206       2       2              PASSIVE     Cap
+        C207       2       2              PASSIVE     Cap
+        C321       2       2              PASSIVE     Cap
+        C322       2       2              PASSIVE     Cap
+        C323       2       2              PASSIVE     Cap
+        C324       2       2              PASSIVE     Cap
+        C501       2       2              PASSIVE     Cap
+        C502       2       2              PASSIVE     Cap
+        D401       5       VBUS           PASSIVE     USBLC6-2SC6
+        D402       5       VBUS           PASSIVE     USBLC6-2SC6
+        D403       5       VBUS           PASSIVE     USBLC6-2SC6
+        D404       5       VBUS           PASSIVE     USBLC6-2SC6
+        D405       5       VBUS           PASSIVE     USBLC6-2SC6
+        D406       5       VBUS           PASSIVE     USBLC6-2SC6
+        FB?        1       1              PASSIVE     BLM18KG300TN1D
+        J201       1       1              PASSIVE     SWD Header
+        J404       2       2              PASSIVE     Header 6
+        R206       2       2              PASSIVE     10k Res
+        R207       2       2              PASSIVE     10k Res
+        R211       2       2              PASSIVE     5.1k Res
+        R212       2       2              PASSIVE     5.1k Res
+        R307       2       2              PASSIVE     10k Res
+        U201       1       VBAT           POWER       STM32F103C8T6
+        U201       24      VDD_1          POWER       STM32F103C8T6
+        U201       36      VDD_2          POWER       STM32F103C8T6
+        U201       48      VDD_3          POWER       STM32F103C8T6
+        U303       5       OUT            OUTPUT      TLV75733PDBVR
+        U304       5       VIN            PASSIVE     TPS2041CDBVR
+        U501       3       VCC            PASSIVE     TCAN332
+
