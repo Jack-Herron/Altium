@@ -52,11 +52,11 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=HMI_Board.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=101
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -69,11 +69,11 @@ DocumentUniqueId=SIUIWHML
 [Document2]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=201
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -86,11 +86,11 @@ DocumentUniqueId=OHCIUOWH
 [Document3]
 DocumentPath=SDRAM.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=301
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -103,11 +103,11 @@ DocumentUniqueId=AUGGGNHF
 [Document4]
 DocumentPath=QSPI.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=401
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -120,11 +120,11 @@ DocumentUniqueId=HZPFPQTP
 [Document5]
 DocumentPath=LCD.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -137,11 +137,11 @@ DocumentUniqueId=QPKSCRIL
 [Document6]
 DocumentPath=UART_To_USB.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=601
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -154,11 +154,11 @@ DocumentUniqueId=KRMXDZAQ
 [Document7]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=701
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -171,11 +171,11 @@ DocumentUniqueId=UZAJIFKL
 [Document8]
 DocumentPath=Off Board Connectors.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=801
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -188,11 +188,11 @@ DocumentUniqueId=QHTRPKOM
 [Document9]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
+AnnotateStartValue=901
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=H
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -314,6 +314,14 @@ DItemRevisionGUID=
 
 [GeneratedDocument20]
 DocumentPath=Project Outputs for 213_Final_Project\HMI_Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 213_Final_Project\Pick Place for HMI_Board.csv
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 213_Final_Project\Pick Place for HMI_Board.txt
 DItemRevisionGUID=
 
 [Configuration1]
@@ -550,27 +558,31 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=HP64CE49 (HP ENVY Photo 7800 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Pick Place
-OutputName2=Generates pick and place files
+OutputType2=Wire Bonding Table
+OutputName2=Wire Bonding Table Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Wire Bonding Table
-OutputName4=Wire Bonding Table Report
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Pick Place
+OutputName4=Generates pick and place files
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
+Configuration4_Name1=ForceUpdateSettings
+Configuration4_Item1=False
+Configuration4_Name2=OutputConfigurationParameter1
+Configuration4_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:ComponentLink6Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#18=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#19=Name:ComponentLink15Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#20=Name:ComponentLink7Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#21=Name:ComponentLink13Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#22=Name:ComponentLink14Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#23=Name:ComponentLink8URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#24=Name:ComponentLink20Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#25=Name:ComponentLink17Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#26=Name:ComponentLink22URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#27=Name:ComponentLink11Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#28=Name:ComponentLink5URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#29=Name:ComponentLink7URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#30=Name:ComponentLink4URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#31=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62,Type:0|Column#32=Name:ComponentLink18Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#33=Name:ComponentLink19URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#34=Name:ComponentLink21Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#35=Name:ComponentLink8Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#36=Name:ComponentLink13URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#37=Name:ComponentLink21URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#38=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#39=Name:ComponentLink22Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#40=Name:ComponentLink9Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#41=Name:ComponentLink12Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#42=Name:ComponentLink11URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#43=Name:ComponentLink14URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#44=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#45=Name:ComponentLink18URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#46=Name:ComponentLink10URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#47=Name:ComponentLink12URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#48=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#49=Name:ComponentLink16URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#50=Name:ComponentLink4Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#51=Name:ComponentLink5Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#52=Name:ComponentLink6URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#53=Name:Supplier Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63,Type:0|Column#54=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#55=Name:ComponentLink9URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#56=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#57=Name:ComponentLink10Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#58=Name:ComponentLink17URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#59=Name:ComponentLink20URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#60=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64,Type:0|Column#61=Name:ComponentLink19Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#62=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#63=Name:ComponentLink15URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#64=Name:ComponentLink16Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#65=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|DocumentPath=C:\Users\Jack Herron\git\Altium\213_Final_Project\HMI_Board.PcbDoc
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -698,7 +710,9 @@ Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration1_Item6=Comment=120|Designator=120|Footprint=120|Supplier Part Number=100
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Comment=120|Designator=120|Footprint=120|Supplier Part Number=100
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
