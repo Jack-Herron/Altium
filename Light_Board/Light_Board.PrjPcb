@@ -56,7 +56,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -398,48 +398,43 @@ OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=BOM_ReportManufacturing
-OutputName3=Manufacturing Data
+OutputType3=ComponentCrossReference
+OutputName3=Component Cross Reference Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=ComponentCrossReference
-OutputName4=Component Cross Reference Report
+OutputType4=Export Comments
+OutputName4=Export Comments
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Export Comments
-OutputName5=Export Comments
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Project History
+OutputName5=Project History
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Project History
-OutputName6=Project History
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=ReportHierarchy
-OutputName7=Report Project Hierarchy
+OutputType7=Script
+OutputName7=Script Output
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Script
-OutputName8=Script Output
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=SimpleBOM
-OutputName9=Simple BOM
+OutputType9=SinglePinNetReporter
+OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=SinglePinNetReporter
-OutputName10=Report Single Pin Nets
-OutputDocumentPath10=
-OutputVariantName10=[No Variations]
-OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -726,16 +721,6 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
-Type152=1
-Type153=1
-Type154=1
-Type155=1
-Type156=1
-Type157=1
-Type158=1
-Type159=1
-Type160=1
-Type161=1
 
 [Difference Levels]
 Type1=1
@@ -820,12 +805,6 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -989,10 +968,6 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
-Type162=1
-Type163=1
-Type164=1
-Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1014,7 +989,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 ReplaceSubparts=0
 MatchParameter1=Comment
@@ -1058,6 +1033,157 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3.3V|NetColor=clRed
+Net2=NetName=GND|NetColor=clBlue
+Net3=NetName=LED1A|NetColor=clYellow
+Net4=NetName=LED1K|NetColor=clYellow
+Net5=NetName=LED2A|NetColor=clRed
+Net6=NetName=LED2K|NetColor=clRed
+Net7=NetName=LED3A|NetColor=clLime
+Net8=NetName=LED3K|NetColor=clLime
+Net9=NetName=LED4A|NetColor=clMaroon
+Net10=NetName=LED4K|NetColor=clMaroon
+Net11=NetName=LED5A|NetColor=clFuchsia
+Net12=NetName=LED5K|NetColor=clFuchsia
+Net13=NetName=LED6A|NetColor=clRed
+Net14=NetName=LED6K|NetColor=clRed
+Net15=NetName=LED7A|NetColor=clYellow
+Net16=NetName=LED7K|NetColor=clYellow
+Net17=NetName=NetD1_K|NetColor=clYellow
+Net18=NetName=NetD10_K|NetColor=clYellow
+Net19=NetName=NetD100_K|NetColor=clRed
+Net20=NetName=NetD101_K|NetColor=clRed
+Net21=NetName=NetD102_K|NetColor=clRed
+Net22=NetName=NetD103_K|NetColor=clRed
+Net23=NetName=NetD104_K|NetColor=clRed
+Net24=NetName=NetD105_K|NetColor=clRed
+Net25=NetName=NetD106_K|NetColor=clRed
+Net26=NetName=NetD107_K|NetColor=clRed
+Net27=NetName=NetD108_K|NetColor=clRed
+Net28=NetName=NetD109_K|NetColor=clRed
+Net29=NetName=NetD11_K|NetColor=clYellow
+Net30=NetName=NetD110_K|NetColor=clRed
+Net31=NetName=NetD111_K|NetColor=clRed
+Net32=NetName=NetD112_K|NetColor=clRed
+Net33=NetName=NetD113_K|NetColor=clRed
+Net34=NetName=NetD114_K|NetColor=clRed
+Net35=NetName=NetD115_K|NetColor=clRed
+Net36=NetName=NetD116_K|NetColor=clRed
+Net37=NetName=NetD117_K|NetColor=clRed
+Net38=NetName=NetD118_K|NetColor=clRed
+Net39=NetName=NetD119_K|NetColor=clRed
+Net40=NetName=NetD12_K|NetColor=clYellow
+Net41=NetName=NetD120_K|NetColor=clRed
+Net42=NetName=NetD121_K|NetColor=clRed
+Net43=NetName=NetD123_K|NetColor=clYellow
+Net44=NetName=NetD124_K|NetColor=clYellow
+Net45=NetName=NetD125_K|NetColor=clYellow
+Net46=NetName=NetD126_K|NetColor=clYellow
+Net47=NetName=NetD127_K|NetColor=clYellow
+Net48=NetName=NetD128_K|NetColor=clYellow
+Net49=NetName=NetD129_K|NetColor=clYellow
+Net50=NetName=NetD13_K|NetColor=clYellow
+Net51=NetName=NetD130_K|NetColor=clYellow
+Net52=NetName=NetD131_K|NetColor=clYellow
+Net53=NetName=NetD132_K|NetColor=clYellow
+Net54=NetName=NetD133_K|NetColor=clYellow
+Net55=NetName=NetD134_K|NetColor=clYellow
+Net56=NetName=NetD135_K|NetColor=clYellow
+Net57=NetName=NetD136_K|NetColor=clYellow
+Net58=NetName=NetD137_K|NetColor=clYellow
+Net59=NetName=NetD14_K|NetColor=clYellow
+Net60=NetName=NetD15_K|NetColor=clYellow
+Net61=NetName=NetD17_K|NetColor=clRed
+Net62=NetName=NetD18_K|NetColor=clRed
+Net63=NetName=NetD19_K|NetColor=clRed
+Net64=NetName=NetD2_K|NetColor=clYellow
+Net65=NetName=NetD20_K|NetColor=clRed
+Net66=NetName=NetD21_K|NetColor=clRed
+Net67=NetName=NetD22_K|NetColor=clRed
+Net68=NetName=NetD23_K|NetColor=clRed
+Net69=NetName=NetD24_K|NetColor=clRed
+Net70=NetName=NetD25_K|NetColor=clRed
+Net71=NetName=NetD26_K|NetColor=clRed
+Net72=NetName=NetD27_K|NetColor=clRed
+Net73=NetName=NetD28_K|NetColor=clRed
+Net74=NetName=NetD29_K|NetColor=clRed
+Net75=NetName=NetD3_K|NetColor=clYellow
+Net76=NetName=NetD30_K|NetColor=clRed
+Net77=NetName=NetD31_K|NetColor=clRed
+Net78=NetName=NetD32_K|NetColor=clRed
+Net79=NetName=NetD33_K|NetColor=clRed
+Net80=NetName=NetD34_K|NetColor=clRed
+Net81=NetName=NetD35_K|NetColor=clRed
+Net82=NetName=NetD36_K|NetColor=clRed
+Net83=NetName=NetD37_K|NetColor=clRed
+Net84=NetName=NetD38_K|NetColor=clRed
+Net85=NetName=NetD39_K|NetColor=clRed
+Net86=NetName=NetD4_K|NetColor=clYellow
+Net87=NetName=NetD41_K|NetColor=clLime
+Net88=NetName=NetD42_K|NetColor=clLime
+Net89=NetName=NetD43_K|NetColor=clLime
+Net90=NetName=NetD44_K|NetColor=clLime
+Net91=NetName=NetD45_K|NetColor=clLime
+Net92=NetName=NetD46_K|NetColor=clLime
+Net93=NetName=NetD47_K|NetColor=clLime
+Net94=NetName=NetD48_K|NetColor=clLime
+Net95=NetName=NetD49_K|NetColor=clLime
+Net96=NetName=NetD5_K|NetColor=clYellow
+Net97=NetName=NetD50_K|NetColor=clLime
+Net98=NetName=NetD51_K|NetColor=clLime
+Net99=NetName=NetD52_K|NetColor=clLime
+Net100=NetName=NetD53_K|NetColor=clLime
+Net101=NetName=NetD54_K|NetColor=clLime
+Net102=NetName=NetD55_K|NetColor=clLime
+Net103=NetName=NetD56_K|NetColor=clLime
+Net104=NetName=NetD58_K|NetColor=clMaroon
+Net105=NetName=NetD59_K|NetColor=clMaroon
+Net106=NetName=NetD6_K|NetColor=clYellow
+Net107=NetName=NetD60_K|NetColor=clMaroon
+Net108=NetName=NetD61_K|NetColor=clMaroon
+Net109=NetName=NetD62_K|NetColor=clMaroon
+Net110=NetName=NetD63_K|NetColor=clMaroon
+Net111=NetName=NetD64_K|NetColor=clMaroon
+Net112=NetName=NetD65_K|NetColor=clMaroon
+Net113=NetName=NetD66_K|NetColor=clMaroon
+Net114=NetName=NetD67_K|NetColor=clMaroon
+Net115=NetName=NetD68_K|NetColor=clMaroon
+Net116=NetName=NetD69_K|NetColor=clMaroon
+Net117=NetName=NetD7_K|NetColor=clYellow
+Net118=NetName=NetD70_K|NetColor=clMaroon
+Net119=NetName=NetD71_K|NetColor=clMaroon
+Net120=NetName=NetD72_K|NetColor=clMaroon
+Net121=NetName=NetD73_K|NetColor=clMaroon
+Net122=NetName=NetD74_K|NetColor=clMaroon
+Net123=NetName=NetD75_K|NetColor=clMaroon
+Net124=NetName=NetD76_K|NetColor=clMaroon
+Net125=NetName=NetD77_K|NetColor=clMaroon
+Net126=NetName=NetD78_K|NetColor=clMaroon
+Net127=NetName=NetD79_K|NetColor=clMaroon
+Net128=NetName=NetD8_K|NetColor=clYellow
+Net129=NetName=NetD80_K|NetColor=clMaroon
+Net130=NetName=NetD82_K|NetColor=clFuchsia
+Net131=NetName=NetD83_K|NetColor=clFuchsia
+Net132=NetName=NetD84_K|NetColor=clFuchsia
+Net133=NetName=NetD85_K|NetColor=clFuchsia
+Net134=NetName=NetD86_K|NetColor=clFuchsia
+Net135=NetName=NetD87_K|NetColor=clFuchsia
+Net136=NetName=NetD88_K|NetColor=clFuchsia
+Net137=NetName=NetD89_K|NetColor=clFuchsia
+Net138=NetName=NetD9_K|NetColor=clYellow
+Net139=NetName=NetD90_K|NetColor=clFuchsia
+Net140=NetName=NetD91_K|NetColor=clFuchsia
+Net141=NetName=NetD92_K|NetColor=clFuchsia
+Net142=NetName=NetD93_K|NetColor=clFuchsia
+Net143=NetName=NetD94_K|NetColor=clFuchsia
+Net144=NetName=NetD95_K|NetColor=clFuchsia
+Net145=NetName=NetD96_K|NetColor=clFuchsia
+Net146=NetName=NetD97_K|NetColor=clFuchsia
+Net147=NetName=NetD99_K|NetColor=clRed
+Net148=NetName=SCL|NetColor=$00FFFF66
+Net149=NetName=SDA|NetColor=$00FFFF66
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
