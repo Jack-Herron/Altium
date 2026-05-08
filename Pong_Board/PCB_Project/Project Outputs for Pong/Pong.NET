@@ -3,8 +3,14 @@ Wire List
 <<< Component List >>>
 Cap                             C?             RAD-0.3
 Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
 Diode                           D?             SMC
 S3B-PH-K-S                      J?             
+Inductor                        L?             0402-A
 Inductor                        L?             0402-A
 MOSFET-N                        Q?             E3
 MOSFET-N                        Q?             E3
@@ -17,7 +23,11 @@ Res1                            R?             AXIAL-0.3
 Res1                            R?             AXIAL-0.3
 Res1                            R?             AXIAL-0.3
 Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
 SW-PB                           S?             SPST-2
+AZ1117CH-3.3TRG1                U?             
+AP3019AKTR-G1                   U?             
 TPS613222ADBVR                  U?             
 BQ24092DGQR                     U?             
 STM32H7A3RGT6                   U?             
@@ -26,54 +36,79 @@ STM32H7A3RGT6                   U?
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00084] VBAT_CONTROLLED
+[00088] VBAT_CONTROLLED
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        L?         1       1              PASSIVE     Inductor
         L?         1       1              PASSIVE     Inductor
         Q?         1       D              PASSIVE     MOSFET-P
+        U?         6       VIN            PASSIVE     AP3019AKTR-G1
 
-[00083] VBAT
+[00087] VBAT
         J?         1       1              PASSIVE     S3B-PH-K-S
         Q?         3       S              PASSIVE     MOSFET-P
         R?         1       1              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
         U?         10      OUT            PASSIVE     BQ24092DGQR
 
-[00082] SW_SENSE
+[00086] SW_SENSE
         Q?         1       D              PASSIVE     MOSFET-N
         R?         2       2              PASSIVE     Res1
 
-[00024] NetU?_8
+[00028] NetU?_8
         U?         8       C\H\G\         PASSIVE     BQ24092DGQR
 
-[00011] NetR?_2
+[00013] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         4       CTRL           PASSIVE     AP3019AKTR-G1
+
+[00014] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         3       FB             PASSIVE     AP3019AKTR-G1
+
+[00015] NetR?_2
         R?         2       2              PASSIVE     Res1
         U?         2       ISET           PASSIVE     BQ24092DGQR
 
-[00012] NetR?_2
+[00016] NetR?_2
         R?         2       2              PASSIVE     Res1
         U?         4       PRETERM        PASSIVE     BQ24092DGQR
 
-[00010] NetL?_2
+[00011] NetL?_2
         L?         2       2              PASSIVE     Inductor
         U?         1       SW             PASSIVE     TPS613222ADBVR
 
-[00009] NetJ?_2
+[00012] NetL?_2
+        L?         2       2              PASSIVE     Inductor
+        U?         1       SW             PASSIVE     AP3019AKTR-G1
+
+[00010] NetJ?_2
         J?         2       2              PASSIVE     S3B-PH-K-S
         U?         9       TS             PASSIVE     BQ24092DGQR
 
-[00008] NetD?_2
+[00009] NetD?_2
         D?         2       K              PASSIVE     Diode
         Q?         2       G              PASSIVE     MOSFET-N
         R?         2       2              PASSIVE     Res1
         S?         1       1              PASSIVE     SW-PB
 
-[00007] NetD?_1
+[00008] NetD?_1
         D?         1       A              PASSIVE     Diode
         Q?         1       D              PASSIVE     MOSFET-N
         Q?         1       D              PASSIVE     MOSFET-N
         Q?         2       G              PASSIVE     MOSFET-P
         R?         1       1              PASSIVE     Res1
 
+[00007] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        U?         5       VOUT           PASSIVE     AP3019AKTR-G1
+
 [00006] GND
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
         C?         1       1              PASSIVE     Cap
         J?         3       3              PASSIVE     S3B-PH-K-S
@@ -82,11 +117,16 @@ STM32H7A3RGT6                   U?
         Q?         3       S              PASSIVE     MOSFET-N
         R?         1       1              PASSIVE     Res1
         R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
         R?         2       2              PASSIVE     Res1
         S?         2       2              PASSIVE     SW-PB
+        U?         1       GND            PASSIVE     AZ1117CH-3.3TRG1
         U?         2       GND            PASSIVE     TPS613222ADBVR
+        U?         2       GND            PASSIVE     AP3019AKTR-G1
         U?         3       VSS            PASSIVE     BQ24092DGQR
+        U?         4       GND            PASSIVE     AZ1117CH-3.3TRG1
 
 [00005] BAT_ISET
         U?         7       ISET2          PASSIVE     BQ24092DGQR
@@ -103,8 +143,12 @@ STM32H7A3RGT6                   U?
 [00002] 5V
         C?         2       2              PASSIVE     Cap
         C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        U?         3       VIN            PASSIVE     AZ1117CH-3.3TRG1
         U?         4       VOUT           PASSIVE     TPS613222ADBVR
 
 [00001] 3.3V
+        C?         2       2              PASSIVE     Cap
         R?         1       1              PASSIVE     Res1
+        U?         2       VOUT           PASSIVE     AZ1117CH-3.3TRG1
 
