@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VQFMYXWS
 
 [Document3]
-DocumentPath=Controls.SchDoc
+DocumentPath=CTRLSchDoc.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ZWWOZENF
 
 [Document4]
-DocumentPath=Battery.SchDoc
+DocumentPath=PWR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
