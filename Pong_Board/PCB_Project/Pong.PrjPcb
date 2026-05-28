@@ -151,6 +151,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=LCD.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MVMFOYNX
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Pong\Pong.NET
 DItemRevisionGUID=
@@ -293,7 +310,7 @@ OutputDefault1=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=Canon G7000 series
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -365,7 +382,9 @@ OutputName12=Schematic Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\Jack Herron\git\Altium\Pong_Board\PCB_Project\Battery.SchDoc
 OutputType13=SimView Print
 OutputName13=SimView Prints
 OutputDocumentPath13=
@@ -1149,6 +1168,54 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3.3V|NetColor=clRed
+Net2=NetName=5V_USB|NetColor=clRed
+Net3=NetName=ADC1_CH14|NetColor=$0000CC00
+Net4=NetName=ADC1_CH3|NetColor=$0000CC00
+Net5=NetName=ADC1_CH7|NetColor=$0000CC00
+Net6=NetName=BOOT|NetColor=$00505050
+Net7=NetName=GND|NetColor=clBlue
+Net8=NetName=JTDI|NetColor=$00505050
+Net9=NetName=JTDO|NetColor=$00505050
+Net10=NetName=JTRST|NetColor=$00505050
+Net11=NetName=LCD_B0|NetColor=$009966FF
+Net12=NetName=LCD_B1|NetColor=$009966FF
+Net13=NetName=LCD_B2|NetColor=$009966FF
+Net14=NetName=LCD_B3|NetColor=$009966FF
+Net15=NetName=LCD_B4|NetColor=$009966FF
+Net16=NetName=LCD_B5|NetColor=$009966FF
+Net17=NetName=LCD_DE|NetColor=$009966FF
+Net18=NetName=LCD_G0|NetColor=$009966FF
+Net19=NetName=LCD_G1|NetColor=$009966FF
+Net20=NetName=LCD_G2|NetColor=$009966FF
+Net21=NetName=LCD_G3|NetColor=$009966FF
+Net22=NetName=LCD_G4|NetColor=$009966FF
+Net23=NetName=LCD_G5|NetColor=$009966FF
+Net24=NetName=LCD_HSYNC|NetColor=$009966FF
+Net25=NetName=LCD_PCLK|NetColor=$009966FF
+Net26=NetName=LCD_R0|NetColor=$009966FF
+Net27=NetName=LCD_R1|NetColor=$009966FF
+Net28=NetName=LCD_R2|NetColor=$009966FF
+Net29=NetName=LCD_R3|NetColor=$009966FF
+Net30=NetName=LCD_R4|NetColor=$009966FF
+Net31=NetName=LCD_R5|NetColor=$009966FF
+Net32=NetName=LCD_VSYNC|NetColor=$009966FF
+Net33=NetName=OSC_IN|NetColor=$00505050
+Net34=NetName=OSC_OUT|NetColor=$00505050
+Net35=NetName=REG_EN|NetColor=$00FF66CC
+Net36=NetName=S\R\S\T\|NetColor=$00505050
+Net37=NetName=SPI2_CLK|NetColor=$0099FF00
+Net38=NetName=SPI2_MOSI|NetColor=$0099FF00
+Net39=NetName=SWCLK|NetColor=$00505050
+Net40=NetName=SWDIO|NetColor=$00505050
+Net41=NetName=TIM4_CH1|NetColor=$000066FF
+Net42=NetName=USBD_D_N|NetColor=clYellow
+Net43=NetName=USBD_D_P|NetColor=clYellow
+Net44=NetName=VBAT|NetColor=clRed
+Net45=NetName=VBAT_CONTROLLED|NetColor=clRed
+Net46=NetName=VCAP|NetColor=$00505050
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
