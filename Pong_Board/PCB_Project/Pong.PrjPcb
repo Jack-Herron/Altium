@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VQFMYXWS
 
 [Document3]
-DocumentPath=CTRLSchDoc.SchDoc
+DocumentPath=CTRL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -172,6 +172,10 @@ DocumentUniqueId=MVMFOYNX
 DocumentPath=Project Outputs for Pong\Pong.NET
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Pong\PWR.NET
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -187,53 +191,55 @@ Name=Netlist Outputs
 Description=
 TargetPrinter=Canon G7000 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CadnetixNetlist
-OutputName1=Cadnetix Netlist
+OutputType1=RacalNetlist
+OutputName1=Racal Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CalayNetlist
-OutputName2=Calay Netlist
+OutputType2=RINFNetlist
+OutputName2=RINF Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=EDIF
-OutputName3=EDIF for PCB
+OutputType3=ProtelNetlist
+OutputName3=Protel
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=EESofNetlist
-OutputName4=EESof Netlist
+OutputType4=PCADnltNetlist
+OutputName4=PCADnlt Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=IntergraphNetlist
-OutputName5=Intergraph Netlist
+OutputType5=Protel2Netlist
+OutputName5=Protel2 Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=MentorBoardStationNetlist
-OutputName6=Mentor BoardStation Netlist
+OutputType6=WireListNetlist
+OutputName6=WireList Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=MultiWire
-OutputName7=MultiWire
+Configuration6_Name1=ForceUpdateSettings
+Configuration6_Item1=False
+OutputType7=XSpiceNetlist
+OutputName7=Mixed Sim Netlist
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=OrCadPCB2Netlist
-OutputName8=Orcad/PCB2 Netlist
+OutputType8=TelesisNetlist
+OutputName8=Telesis Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=PADSNetlist
-OutputName9=PADS ASCII Netlist
+OutputType9=SciCardsNetlist
+OutputName9=SciCards Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Pcad
-OutputName10=Pcad for PCB
+OutputType10=TangoNetlist
+OutputName10=Tango Netlist
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
@@ -242,55 +248,53 @@ OutputName11=PCAD Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
+OutputType12=EESofNetlist
+OutputName12=EESof Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
+OutputType13=IntergraphNetlist
+OutputName13=Intergraph Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
+OutputType14=EDIF
+OutputName14=EDIF for PCB
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
+OutputType15=CadnetixNetlist
+OutputName15=Cadnetix Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
+OutputType16=CalayNetlist
+OutputName16=Calay Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
+OutputType17=PADSNetlist
+OutputName17=PADS ASCII Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
+OutputType18=Pcad
+OutputName18=Pcad for PCB
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
+OutputType19=OrCadPCB2Netlist
+OutputName19=Orcad/PCB2 Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
+OutputType20=MentorBoardStationNetlist
+OutputName20=Mentor BoardStation Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-Configuration20_Name1=ForceUpdateSettings
-Configuration20_Item1=False
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
+OutputType21=MultiWire
+OutputName21=MultiWire
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
@@ -1172,50 +1176,99 @@ PartTypes=0
 [NetInfos]
 Net1=NetName=3.3V|NetColor=clRed
 Net2=NetName=5V_USB|NetColor=clRed
-Net3=NetName=ADC1_CH14|NetColor=$0000CC00
-Net4=NetName=ADC1_CH3|NetColor=$0000CC00
-Net5=NetName=ADC1_CH7|NetColor=$0000CC00
-Net6=NetName=BOOT|NetColor=$00505050
-Net7=NetName=GND|NetColor=clBlue
-Net8=NetName=JTDI|NetColor=$00505050
-Net9=NetName=JTDO|NetColor=$00505050
-Net10=NetName=JTRST|NetColor=$00505050
-Net11=NetName=LCD_B0|NetColor=$009966FF
-Net12=NetName=LCD_B1|NetColor=$009966FF
-Net13=NetName=LCD_B2|NetColor=$009966FF
-Net14=NetName=LCD_B3|NetColor=$009966FF
-Net15=NetName=LCD_B4|NetColor=$009966FF
-Net16=NetName=LCD_B5|NetColor=$009966FF
-Net17=NetName=LCD_DE|NetColor=$009966FF
-Net18=NetName=LCD_G0|NetColor=$009966FF
-Net19=NetName=LCD_G1|NetColor=$009966FF
-Net20=NetName=LCD_G2|NetColor=$009966FF
-Net21=NetName=LCD_G3|NetColor=$009966FF
-Net22=NetName=LCD_G4|NetColor=$009966FF
-Net23=NetName=LCD_G5|NetColor=$009966FF
-Net24=NetName=LCD_HSYNC|NetColor=$009966FF
-Net25=NetName=LCD_PCLK|NetColor=$009966FF
-Net26=NetName=LCD_R0|NetColor=$009966FF
-Net27=NetName=LCD_R1|NetColor=$009966FF
-Net28=NetName=LCD_R2|NetColor=$009966FF
-Net29=NetName=LCD_R3|NetColor=$009966FF
-Net30=NetName=LCD_R4|NetColor=$009966FF
-Net31=NetName=LCD_R5|NetColor=$009966FF
-Net32=NetName=LCD_VSYNC|NetColor=$009966FF
-Net33=NetName=OSC_IN|NetColor=$00505050
-Net34=NetName=OSC_OUT|NetColor=$00505050
-Net35=NetName=REG_EN|NetColor=$00FF66CC
-Net36=NetName=S\R\S\T\|NetColor=$00505050
-Net37=NetName=SPI2_CLK|NetColor=$0099FF00
-Net38=NetName=SPI2_MOSI|NetColor=$0099FF00
-Net39=NetName=SWCLK|NetColor=$00505050
-Net40=NetName=SWDIO|NetColor=$00505050
-Net41=NetName=TIM4_CH1|NetColor=$000066FF
-Net42=NetName=USBD_D_N|NetColor=clYellow
-Net43=NetName=USBD_D_P|NetColor=clYellow
-Net44=NetName=VBAT|NetColor=clRed
-Net45=NetName=VBAT_CONTROLLED|NetColor=clRed
-Net46=NetName=VCAP|NetColor=$00505050
+Net3=NetName=ADC1_CH12|NetColor=clMaroon
+Net4=NetName=ADC1_CH14|NetColor=clYellow
+Net5=NetName=ADC1_CH15|NetColor=clYellow
+Net6=NetName=ADC1_CH16|NetColor=$00FF66CC
+Net7=NetName=ADC1_CH17|NetColor=$00FF66CC
+Net8=NetName=ADC1_CH3|NetColor=clBlack
+Net9=NetName=ADC1_CH7|NetColor=clBlack
+Net10=NetName=AMBER_LED|NetColor=$000066FF
+Net11=NetName=AMBER_LED_A|NetColor=$000066FF
+Net12=NetName=BAT_C\H\R\G\|NetColor=clMaroon
+Net13=NetName=BAT_ISET|NetColor=clMaroon
+Net14=NetName=BAT_TS|NetColor=$00505050
+Net15=NetName=BAT_VSENSE|NetColor=clMaroon
+Net16=NetName=BOOT|NetColor=$00505050
+Net17=NetName=GND|NetColor=clBlue
+Net18=NetName=JTDI|NetColor=$00505050
+Net19=NetName=JTDO|NetColor=$00505050
+Net20=NetName=JTRST|NetColor=$00505050
+Net21=NetName=LCD_B0|NetColor=$009966FF
+Net22=NetName=LCD_B1|NetColor=$009966FF
+Net23=NetName=LCD_B2|NetColor=$009966FF
+Net24=NetName=LCD_B3|NetColor=$009966FF
+Net25=NetName=LCD_B4|NetColor=$009966FF
+Net26=NetName=LCD_B5|NetColor=$009966FF
+Net27=NetName=LCD_BL|NetColor=$009966FF
+Net28=NetName=LCD_BL_A|NetColor=$0033FFCC
+Net29=NetName=LCD_BL_K|NetColor=$0033FFCC
+Net30=NetName=LCD_C\S\|NetColor=$009966FF
+Net31=NetName=LCD_DE|NetColor=$009966FF
+Net32=NetName=LCD_G0|NetColor=$009966FF
+Net33=NetName=LCD_G1|NetColor=$009966FF
+Net34=NetName=LCD_G2|NetColor=$009966FF
+Net35=NetName=LCD_G3|NetColor=$009966FF
+Net36=NetName=LCD_G4|NetColor=$009966FF
+Net37=NetName=LCD_G5|NetColor=$009966FF
+Net38=NetName=LCD_HSYNC|NetColor=$009966FF
+Net39=NetName=LCD_PCLK|NetColor=$009966FF
+Net40=NetName=LCD_R0|NetColor=$009966FF
+Net41=NetName=LCD_R1|NetColor=$009966FF
+Net42=NetName=LCD_R2|NetColor=$009966FF
+Net43=NetName=LCD_R3|NetColor=$009966FF
+Net44=NetName=LCD_R4|NetColor=$009966FF
+Net45=NetName=LCD_R5|NetColor=$009966FF
+Net46=NetName=LCD_RESET|NetColor=$009966FF
+Net47=NetName=LCD_VSYNC|NetColor=$009966FF
+Net48=NetName=N00000|NetColor=clBlack
+Net49=NetName=NetC?_2|NetColor=$0033FFCC
+Net50=NetName=NetD?_1|NetColor=$0000CC00
+Net51=NetName=NetJ?_31|NetColor=$009966FF
+Net52=NetName=NetJ?_32|NetColor=$009966FF
+Net53=NetName=NetJ?_37|NetColor=$0033FFCC
+Net54=NetName=NetJ?_38|NetColor=$0033FFCC
+Net55=NetName=NetJ?_A5|NetColor=clYellow
+Net56=NetName=NetR?_1|NetColor=clYellow
+Net57=NetName=NetR?_2|NetColor=$0033FFCC
+Net58=NetName=NetU?_7|NetColor=clMaroon
+Net59=NetName=NetU?_8|NetColor=clMaroon
+Net60=NetName=OSC_IN|NetColor=$00505050
+Net61=NetName=OSC_OUT|NetColor=$00505050
+Net62=NetName=POT_A|NetColor=$00FF66CC
+Net63=NetName=POT_B|NetColor=$00FF66CC
+Net64=NetName=PWR_BTN|NetColor=$0000CC00
+Net65=NetName=PWR_BTN_RDIV_TOP|NetColor=$0000CC00
+Net66=NetName=PWR_BTN_VBAT|NetColor=$0000CC00
+Net67=NetName=PWR_EN|NetColor=clMaroon
+Net68=NetName=Q?_D|NetColor=$00505050
+Net69=NetName=Q1_D|NetColor=$00505050
+Net70=NetName=Q2_D|NetColor=$00505050
+Net71=NetName=RED_LED|NetColor=$000066FF
+Net72=NetName=RED_LED_A|NetColor=$000066FF
+Net73=NetName=REG_EN|NetColor=$00FF66CC
+Net74=NetName=S\R\S\T\|NetColor=$00505050
+Net75=NetName=SPI2_CLK|NetColor=$0099FF00
+Net76=NetName=SPI2_MOSI|NetColor=$0099FF00
+Net77=NetName=SWCLK|NetColor=$00505050
+Net78=NetName=SWDIO|NetColor=$00505050
+Net79=NetName=TIM3_CH2|NetColor=$000066FF
+Net80=NetName=TIM4_CH1|NetColor=$000066FF
+Net81=NetName=TIM4_CH2|NetColor=$000066FF
+Net82=NetName=U?_ISET|NetColor=$00505050
+Net83=NetName=U?_PRETERM|NetColor=$00505050
+Net84=NetName=U?_SW|NetColor=clRed
+Net85=NetName=USB_CC1|NetColor=clYellow
+Net86=NetName=USB_CC2|NetColor=clYellow
+Net87=NetName=USB_D_N|NetColor=clYellow
+Net88=NetName=USB_D_P|NetColor=clYellow
+Net89=NetName=USB_DETECT|NetColor=clYellow
+Net90=NetName=USBD_D_N|NetColor=clYellow
+Net91=NetName=USBD_D_P|NetColor=clYellow
+Net92=NetName=USER_BTN|NetColor=$0000CC00
+Net93=NetName=VBAT|NetColor=clRed
+Net94=NetName=VBAT_CONTROLLED|NetColor=clRed
+Net95=NetName=VCAP|NetColor=$00505050
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
