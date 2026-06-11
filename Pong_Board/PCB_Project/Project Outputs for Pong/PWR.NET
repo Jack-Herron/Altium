@@ -1,0 +1,144 @@
+Wire List
+
+<<< Component List >>>
+1S LIPO Battery                 BAT?           
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Cap                             C?             RAD-0.3
+Diode                           D?             SMC
+Diode                           D?             SMC
+Diode                           D?             SMC
+S3B-PH-K-S                      J?             
+Inductor                        L?             0402-A
+AO3400A                         Q1             
+AO3401A                         Q2             
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+Res1                            R?             AXIAL-0.3
+EVQ-PUL02K                      S?             
+TPS7A2033PDBVR                  U?             
+AP3019AKTR-G1                   U?             
+BQ24092DGQR                     U?             
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] 3.3V
+        C?         2       2              PASSIVE     Cap
+        Q1         1       G              PASSIVE     AO3400A
+        U?         5       OUT            PASSIVE     TPS7A2033PDBVR
+
+[00002] 5V_USB
+        D?         1       A              PASSIVE     Diode
+        U?         1       IN             PASSIVE     BQ24092DGQR
+
+[00003] BAT_TS
+        J?         2       2              PASSIVE     S3B-PH-K-S
+        U?         9       TS             PASSIVE     BQ24092DGQR
+
+[00004] BAT_VSENSE
+        R?         2       2              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+
+[00005] GND
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        C?         1       1              PASSIVE     Cap
+        J?         3       3              PASSIVE     S3B-PH-K-S
+        Q1         2       S              PASSIVE     AO3400A
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         1       1              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+        U?         2       GND            PASSIVE     TPS7A2033PDBVR
+        U?         2       GND            PASSIVE     AP3019AKTR-G1
+        U?         3       VSS            PASSIVE     BQ24092DGQR
+
+[00013] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        R?         1       1              PASSIVE     Res1
+        R?         2       2              PASSIVE     Res1
+
+[00014] NetC?_2
+        C?         2       2              PASSIVE     Cap
+        U?         5       VOUT           PASSIVE     AP3019AKTR-G1
+
+[00015] NetD?_1
+        D?         1       A              PASSIVE     Diode
+        R?         2       2              PASSIVE     Res1
+        S?         2       2              PASSIVE     EVQ-PUL02K
+        S?         4       4              PASSIVE     EVQ-PUL02K
+
+[00016] NetD?_1
+        D?         1       A              PASSIVE     Diode
+
+[00017] NetL?_2
+        L?         2       2              PASSIVE     Inductor
+        U?         1       SW             PASSIVE     AP3019AKTR-G1
+
+[00018] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         4       CTRL           PASSIVE     AP3019AKTR-G1
+
+[00019] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         3       FB             PASSIVE     AP3019AKTR-G1
+
+[00020] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         2       ISET           PASSIVE     BQ24092DGQR
+
+[00021] NetR?_2
+        R?         2       2              PASSIVE     Res1
+        U?         4       PRETERM        PASSIVE     BQ24092DGQR
+
+[00025] NetU?_7
+        U?         7       ISET2          PASSIVE     BQ24092DGQR
+
+[00026] NetU?_8
+        U?         8       C\H\G\         PASSIVE     BQ24092DGQR
+
+[00027] Q1_D
+        Q1         3       D              PASSIVE     AO3400A
+        Q2         1       G              PASSIVE     AO3401A
+        R?         2       2              PASSIVE     Res1
+
+[00028] Q2_D
+        Q2         3       D              PASSIVE     AO3401A
+        R?         1       1              PASSIVE     Res1
+
+[00029] REG_EN
+        D?         2       K              PASSIVE     Diode
+        D?         2       K              PASSIVE     Diode
+        D?         2       K              PASSIVE     Diode
+        R?         1       1              PASSIVE     Res1
+        U?         3       EN             PASSIVE     TPS7A2033PDBVR
+
+[00030] VBAT
+        C?         2       2              PASSIVE     Cap
+        C?         2       2              PASSIVE     Cap
+        J?         1       1              PASSIVE     S3B-PH-K-S
+        L?         1       1              PASSIVE     Inductor
+        Q2         2       S              PASSIVE     AO3401A
+        R?         1       1              PASSIVE     Res1
+        S?         1       1              PASSIVE     EVQ-PUL02K
+        S?         3       3              PASSIVE     EVQ-PUL02K
+        U?         1       IN             PASSIVE     TPS7A2033PDBVR
+        U?         6       VIN            PASSIVE     AP3019AKTR-G1
+        U?         10      OUT            PASSIVE     BQ24092DGQR
+
