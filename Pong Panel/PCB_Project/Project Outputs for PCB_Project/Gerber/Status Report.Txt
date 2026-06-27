@@ -1,0 +1,17 @@
+Source PCB Design Panel.PcbDoc contains embedded board array. It is recomended to generate individual BOM for each embedded board PCB design.
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCB_Project.PrjPcb]
+   Generated File[Panel-RoundHoles-Plated.TXT]
+   Generated File[Panel-RoundHoles-NonPlated.TXT]
+   Generated File[Panel-SlotHoles-Plated.TXT]
+   Generated File[Panel-RectHoles-Plated.TXT]
+   Generated File[Panel.LDP]
+   Generated File[Panel.DRR]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 5:02:19 PM On 2026-06-26

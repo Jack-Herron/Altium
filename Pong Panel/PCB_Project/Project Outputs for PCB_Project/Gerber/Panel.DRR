@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Panel.PcbDoc   2026-06-26  5:02:18 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1 to L4
+ASCII Plated RoundHoles File : Panel-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Panel-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Panel-SlotHoles-Plated.TXT
+ASCII Plated RectHoles File : Panel-RectHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             386       PTH        58.07inch (1475.06mm)
+T2      24mil (0.62mm)                                            Slot              8         PTH        8.68inch (220.37mm)
+T3      39mil (1mm)                                               Rectangle         32        PTH        60.42inch (1534.65mm)
+T4      47mil (1.2mm)                                             Slot              2         PTH        5.26inch (133.60mm)
+T5      20mil (0.5mm)                                             Round             56        NPTH       31.58inch (802.03mm)
+T6      30mil (0.75mm)                                            Round             12        NPTH       9.43inch (239.43mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              496
+
+Total Processing Time (hh:mm:ss) : 00:00:01
