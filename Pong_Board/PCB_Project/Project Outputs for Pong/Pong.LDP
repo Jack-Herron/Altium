@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\Jack Herron\git\Altium\Pong_Board\PCB_Project\Pong.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pong-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pong-slotholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=pong-rectholes.txt|DrillLayers=gtl,g1,g2,gbl

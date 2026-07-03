@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Pong.PcbDoc   2026-07-03  12:45:03 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1 to L4
+ASCII RoundHoles File : Pong-RoundHoles.TXT
+ASCII SlotHoles File : Pong-SlotHoles.TXT
+ASCII RectHoles File : Pong-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             193       PTH        723.49mm (28.48inch)
+T2      0.62mm (24mil)                                            Slot              4         PTH        42.06mm (1.66inch)
+T3      1mm (39mil)                                               Rectangle         16        PTH        1010.09mm (39.77inch)
+T4      1.2mm (47mil)                                             Slot              1         PTH        0.00mm (0.00inch)
+T5      0.75mm (30mil)                                            Round             6         NPTH       75.26mm (2.96inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              220
+
+Total Processing Time (hh:mm:ss) : 00:00:00
