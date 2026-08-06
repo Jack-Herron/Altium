@@ -1,154 +1,533 @@
 Wire List
 
 <<< Component List >>>
-Cap                             C?             RAD-0.3
-Cap                             C?             RAD-0.3
-Cap                             C?             RAD-0.3
-Cap                             C?             RAD-0.3
-Cap                             C?             RAD-0.3
-Cap                             C?             RAD-0.3
-Cap                             C?             RAD-0.3
-Diode                           D?             SMC
-S3B-PH-K-S                      J?             
-Inductor                        L?             0402-A
-Inductor                        L?             0402-A
-MOSFET-N                        Q?             E3
-MOSFET-N                        Q?             E3
-MOSFET-N                        Q?             E3
-MOSFET-P                        Q?             E3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-Res1                            R?             AXIAL-0.3
-SW-PB                           S?             SPST-2
-AZ1117CH-3.3TRG1                U?             
-AP3019AKTR-G1                   U?             
-TPS613222ADBVR                  U?             
-BQ24092DGQR                     U?             
-STM32H7A3RGT6                   U?             
+Capacitor 220nF Generic         C1             CAPACITOR-0603
+Capacitor 220nF Generic         C2             CAPACITOR-0603
+Capacitor 220nF Generic         C3             CAPACITOR-0603
+Capacitor 220nF Generic         C4             CAPACITOR-0603
+Capacitor 220nF Generic         C5             CAPACITOR-0603
+Capacitor 220nF Generic         C6             CAPACITOR-0603
+Capacitor 220nF Generic         C7             CAPACITOR-0603
+Capacitor 10pF Generic          C8             CAPACITOR-0603
+Capacitor 10pF Generic          C9             CAPACITOR-0603
+Capacitor 2.2uF Generic         C10            CAPACITOR-0603
+Capacitor 2.2uF Generic         C11            CAPACITOR-0603
+Capacitor 220nF Generic         C12            CAPACITOR-0603
+Capacitor 220nF Generic         C13            CAPACITOR-0603
+Capacitor 220nF Generic         C14            CAPACITOR-0603
+Capacitor 220nF Generic         C15            CAPACITOR-0603
+Capacitor 220nF Generic         C16            CAPACITOR-0603
+Capacitor 220nF Generic         C17            CAPACITOR-0603
+Capacitor 2.2uF Generic         C18            CAPACITOR-0603
+Capacitor 2.2uF Generic         C19            CAPACITOR-0603
+Capacitor 220nF Generic         C20            CAPACITOR-0603
+Capacitor 2.2uF Generic         C21            CAPACITOR-0603
+Capacitor 2.2uF Generic         C22            CAPACITOR-0603
+Capacitor 220nF Generic         C23            CAPACITOR-0603
+USBLC6-4SC6                     D1             SOT23-6
+LTST-C193KFKT-5A                D2             LED-0603
+LTST-C193KRKT-5A                D3             LED-0603
+BAT54HT1G                       D4             DIODE-SOD-323
+BAT54HT1G                       D5             DIODE-SOD-323
+BAT54HT1G                       D6             DIODE-SOD-323
+BAT54HT1G                       D7             DIODE-SOD-323
+FH65-10S-0.5SH                  J1             FPC_CONNECTOR-FH65-10S-0.5SH
+USB4500-03-0-A                  J2             USBC_CONNECTOR-USB4500-03-0-A
+541324062                       J3             FPC_CONNECTOR-541324062
+3 Wire Solder Pad               J4             WIRE_TO_BOARD-3P
+Inductor 22uH Generic           L1             INDUCTOR-1212
+AO3400A                         Q1             SOT23-3
+AO3401A                         Q2             SOT23-3
+AO3401A                         Q3             SOT23-3
+AO3401A                         Q4             SOT23-3
+Resistor 12k Generic            R1             RESISTOR-0603
+Resistor 12k Generic            R2             RESISTOR-0603
+Resistor 12k Generic            R3             RESISTOR-0603
+Resistor 5.1k Generic           R4             RESISTOR-0603
+Resistor 5.1k Generic           R5             RESISTOR-0603
+Resistor 12k Generic            R6             RESISTOR-0603
+Resistor 12k Generic            R7             RESISTOR-0603
+Resistor 560 Generic            R8             RESISTOR-0603
+Resistor 560 Generic            R9             RESISTOR-0603
+Resistor 12k Generic            R10            RESISTOR-0603
+Resistor 5 Generic              R11            RESISTOR-0603
+Resistor 12k Generic            R12            RESISTOR-0603
+Resistor 560 Generic            R13            RESISTOR-0603
+Resistor 2k Generic             R14            RESISTOR-0603
+Resistor 12k Generic            R15            RESISTOR-0603
+Resistor 12k Generic            R16            RESISTOR-0603
+Resistor 12k Generic            R17            RESISTOR-0603
+Resistor 2k Generic             R18            RESISTOR-0603
+Resistor 5.1k Generic           R19            RESISTOR-0603
+Resistor 2.2M Generic           R20            RESISTOR-0603
+Resistor 2.2M Generic           R21            RESISTOR-0603
+Resistor 12k Generic            R22            RESISTOR-0603
+B3U-1000P                       S1             TACTILE_SWITCH-B3U-1000P
+B3U-1000P                       S2             TACTILE_SWITCH-B3U-1000P
+EVQ-PUL02K                      S3             TACTILE_SWITCH-EVQ-PUL02K
+EVQ-PUL02K                      S4             TACTILE_SWITCH-EVQ-PUL02K
+SPVE110100                      S5             LIMIT_SWITCH-SPVE110100
+AS01506MS-SC15-WP-2-R           SPK1           SPEAKER-AS01506MS-SC15-WP-2-R
+STM32H7A3RGT6                   U1             LQFP-64-10x10
+PAM8302AADCR                    U2             SOIC-8-3.9
+AP3019AKTR-G1                   U3             SOT23-6
+TPS7A2033PDBVR                  U4             SOT23-5
+BQ24092DGQR                     U5             HVSSOP-10-EP
+SVR12                           VR1            POTENTIOMETER-SVR12
+SVR12                           VR2            POTENTIOMETER-SVR12
+ABM3-8.000MHZ-D2Y-T             X1             CRYASTAL-ABM3-8.000MHZ-D2Y-T
 
 <<< Wire List >>>
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00088] VBAT_CONTROLLED
-        C?         2       2              PASSIVE     Cap
-        C?         2       2              PASSIVE     Cap
-        L?         1       1              PASSIVE     Inductor
-        L?         1       1              PASSIVE     Inductor
-        Q?         1       D              PASSIVE     MOSFET-P
-        U?         6       VIN            PASSIVE     AP3019AKTR-G1
+[00093] VCAP
+        C10        2       2              PASSIVE     Capacitor 2.2uF Generic
+        C11        2       2              PASSIVE     Capacitor 2.2uF Generic
+        U1         30      VCAP           PASSIVE     STM32H7A3RGT6
+        U1         46      VCAP           PASSIVE     STM32H7A3RGT6
 
-[00087] VBAT
-        J?         1       1              PASSIVE     S3B-PH-K-S
-        Q?         3       S              PASSIVE     MOSFET-P
-        R?         1       1              PASSIVE     Res1
-        R?         2       2              PASSIVE     Res1
-        U?         10      OUT            PASSIVE     BQ24092DGQR
+[00092] VBAT
+        J4         1       1              PASSIVE     3 Wire Solder Pad
+        Q4         2       S              PASSIVE     AO3401A
+        R21        2       2              PASSIVE     Resistor 2.2M Generic
 
-[00086] SW_SENSE
-        Q?         1       D              PASSIVE     MOSFET-N
-        R?         2       2              PASSIVE     Res1
+[00091] USER_BTN
+        C15        2       2              PASSIVE     Capacitor 220nF Generic
+        R3         2       2              PASSIVE     Resistor 12k Generic
+        S3         1       1              PASSIVE     EVQ-PUL02K
+        S3         3       3              PASSIVE     EVQ-PUL02K
+        U1         28      PB2            PASSIVE     STM32H7A3RGT6
 
-[00028] NetU?_8
-        U?         8       C\H\G\         PASSIVE     BQ24092DGQR
+[00090] USB_DETECT
+        R6         2       2              PASSIVE     Resistor 12k Generic
+        R7         1       1              PASSIVE     Resistor 12k Generic
+        U1         41      PA9/USBD_VBUS  PASSIVE     STM32H7A3RGT6
 
-[00013] NetR?_2
-        R?         2       2              PASSIVE     Res1
-        U?         4       CTRL           PASSIVE     AP3019AKTR-G1
+[00089] USB_D_P
+        D1         3       3              PASSIVE     USBLC6-4SC6
+        J2         A6      DP1            PASSIVE     USB4500-03-0-A
+        J2         B6      DP2            PASSIVE     USB4500-03-0-A
+        U1         44      PA12/USBD_DP   PASSIVE     STM32H7A3RGT6
 
-[00014] NetR?_2
-        R?         2       2              PASSIVE     Res1
-        U?         3       FB             PASSIVE     AP3019AKTR-G1
+[00088] USB_D_N
+        D1         4       4              PASSIVE     USBLC6-4SC6
+        J2         A7      DN1            PASSIVE     USB4500-03-0-A
+        J2         B7      DN2            PASSIVE     USB4500-03-0-A
+        U1         43      PA11/USBD_DM   PASSIVE     STM32H7A3RGT6
 
-[00015] NetR?_2
-        R?         2       2              PASSIVE     Res1
-        U?         2       ISET           PASSIVE     BQ24092DGQR
+[00087] USB_CC2
+        D1         1       1              PASSIVE     USBLC6-4SC6
+        J2         B5      CC2            PASSIVE     USB4500-03-0-A
+        R4         2       2              PASSIVE     Resistor 5.1k Generic
+        U1         17      PA3/ADC1_CH15  PASSIVE     STM32H7A3RGT6
 
-[00016] NetR?_2
-        R?         2       2              PASSIVE     Res1
-        U?         4       PRETERM        PASSIVE     BQ24092DGQR
+[00086] USB_CC1
+        D1         6       6              PASSIVE     USBLC6-4SC6
+        J2         A5      CC1            PASSIVE     USB4500-03-0-A
+        R5         2       2              PASSIVE     Resistor 5.1k Generic
+        U1         16      PA2/ADC1_CH14  PASSIVE     STM32H7A3RGT6
 
-[00011] NetL?_2
-        L?         2       2              PASSIVE     Inductor
-        U?         1       SW             PASSIVE     TPS613222ADBVR
+[00085] U4_PRETERM
+        R14        2       2              PASSIVE     Resistor 2k Generic
+        U5         4       PRETERM        PASSIVE     BQ24092DGQR
 
-[00012] NetL?_2
-        L?         2       2              PASSIVE     Inductor
-        U?         1       SW             PASSIVE     AP3019AKTR-G1
+[00084] U4_ISET
+        R13        2       2              PASSIVE     Resistor 560 Generic
+        U5         2       ISET           PASSIVE     BQ24092DGQR
 
-[00010] NetJ?_2
-        J?         2       2              PASSIVE     S3B-PH-K-S
-        U?         9       TS             PASSIVE     BQ24092DGQR
+[00083] U3_SW
+        L1         2       2              PASSIVE     Inductor 22uH Generic
+        U3         1       SW             PASSIVE     AP3019AKTR-G1
 
-[00009] NetD?_2
-        D?         2       K              PASSIVE     Diode
-        Q?         2       G              PASSIVE     MOSFET-N
-        R?         2       2              PASSIVE     Res1
-        S?         1       1              PASSIVE     SW-PB
+[00082] SYS_VBAT
+        C18        2       2              PASSIVE     Capacitor 2.2uF Generic
+        C19        2       2              PASSIVE     Capacitor 2.2uF Generic
+        C21        2       2              PASSIVE     Capacitor 2.2uF Generic
+        L1         1       1              PASSIVE     Inductor 22uH Generic
+        Q2         2       S              PASSIVE     AO3401A
+        Q4         3       D              PASSIVE     AO3401A
+        R15        2       2              PASSIVE     Resistor 12k Generic
+        S4         2       2              PASSIVE     EVQ-PUL02K
+        S4         4       4              PASSIVE     EVQ-PUL02K
+        U2         6       VDD            PASSIVE     PAM8302AADCR
+        U3         6       VIN            PASSIVE     AP3019AKTR-G1
+        U4         1       IN             PASSIVE     TPS7A2033PDBVR
+        U5         10      OUT            PASSIVE     BQ24092DGQR
 
-[00008] NetD?_1
-        D?         1       A              PASSIVE     Diode
-        Q?         1       D              PASSIVE     MOSFET-N
-        Q?         1       D              PASSIVE     MOSFET-N
-        Q?         2       G              PASSIVE     MOSFET-P
-        R?         1       1              PASSIVE     Res1
+[00081] SYS_5V
+        D6         A       A              PASSIVE     BAT54HT1G
+        Q3         3       D              PASSIVE     AO3401A
+        R6         1       1              PASSIVE     Resistor 12k Generic
+        U5         1       IN             PASSIVE     BQ24092DGQR
 
-[00007] NetC?_2
-        C?         2       2              PASSIVE     Cap
-        U?         5       VOUT           PASSIVE     AP3019AKTR-G1
+[00080] SWDIO
+        J1         4       4              PASSIVE     FH65-10S-0.5SH
+        U1         45      PA13/SWDIO     PASSIVE     STM32H7A3RGT6
 
-[00006] GND
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
-        C?         1       1              PASSIVE     Cap
-        J?         3       3              PASSIVE     S3B-PH-K-S
-        Q?         3       S              PASSIVE     MOSFET-N
-        Q?         3       S              PASSIVE     MOSFET-N
-        Q?         3       S              PASSIVE     MOSFET-N
-        R?         1       1              PASSIVE     Res1
-        R?         1       1              PASSIVE     Res1
-        R?         1       1              PASSIVE     Res1
-        R?         1       1              PASSIVE     Res1
-        R?         2       2              PASSIVE     Res1
-        R?         2       2              PASSIVE     Res1
-        S?         2       2              PASSIVE     SW-PB
-        U?         1       GND            PASSIVE     AZ1117CH-3.3TRG1
-        U?         2       GND            PASSIVE     TPS613222ADBVR
-        U?         2       GND            PASSIVE     AP3019AKTR-G1
-        U?         3       VSS            PASSIVE     BQ24092DGQR
-        U?         4       GND            PASSIVE     AZ1117CH-3.3TRG1
+[00079] SWCLK
+        J1         2       2              PASSIVE     FH65-10S-0.5SH
+        U1         49      PA14/SWCLK     PASSIVE     STM32H7A3RGT6
 
-[00005] BAT_ISET
-        U?         7       ISET2          PASSIVE     BQ24092DGQR
+[00078] SPK_P
+        SPK1       2       2              PASSIVE     AS01506MS-SC15-WP-2-R
+        U2         5       VO+            PASSIVE     PAM8302AADCR
 
-[00004] 5V_USB
-        Q?         2       G              PASSIVE     MOSFET-N
-        R?         1       1              PASSIVE     Res1
-        U?         1       IN             PASSIVE     BQ24092DGQR
+[00077] SPK_N
+        SPK1       1       1              PASSIVE     AS01506MS-SC15-WP-2-R
+        U2         8       VO-            PASSIVE     PAM8302AADCR
 
-[00003] 5V_EN
-        Q?         2       G              PASSIVE     MOSFET-N
-        R?         1       1              PASSIVE     Res1
+[00076] SPI2_MOSI
+        J3         7       MOSI           PASSIVE     541324062
+        U1         11      PC3/SPI2_MOSI  PASSIVE     STM32H7A3RGT6
 
-[00002] 5V
-        C?         2       2              PASSIVE     Cap
-        C?         2       2              PASSIVE     Cap
-        C?         2       2              PASSIVE     Cap
-        U?         3       VIN            PASSIVE     AZ1117CH-3.3TRG1
-        U?         4       VOUT           PASSIVE     TPS613222ADBVR
+[00075] SPI2_CLK
+        J3         8       SCLK           PASSIVE     541324062
+        U1         34      PB13/SPI2_CLK  PASSIVE     STM32H7A3RGT6
+
+[00074] SPEAKER
+        C16        2       2              PASSIVE     Capacitor 220nF Generic
+        U1         20      PA4/DAC1_CH1   PASSIVE     STM32H7A3RGT6
+
+[00073] S\R\S\T\
+        C1         1       1              PASSIVE     Capacitor 220nF Generic
+        J1         10      10             PASSIVE     FH65-10S-0.5SH
+        R2         1       1              PASSIVE     Resistor 12k Generic
+        S2         2       2              PASSIVE     B3U-1000P
+        U1         7       NRST           PASSIVE     STM32H7A3RGT6
+
+[00072] REG_EN
+        D4         K       K              PASSIVE     BAT54HT1G
+        D5         K       K              PASSIVE     BAT54HT1G
+        D6         K       K              PASSIVE     BAT54HT1G
+        R22        2       2              PASSIVE     Resistor 12k Generic
+        U4         3       EN             PASSIVE     TPS7A2033PDBVR
+
+[00071] RED_LED_A
+        D3         A       A              PASSIVE     LTST-C193KRKT-5A
+        R9         1       1              PASSIVE     Resistor 560 Generic
+
+[00070] RED_LED
+        R9         2       2              PASSIVE     Resistor 560 Generic
+        U1         58      PB6/TIM4_CH1   PASSIVE     STM32H7A3RGT6
+
+[00069] Q4_G
+        D7         A       A              PASSIVE     BAT54HT1G
+        Q4         1       G              PASSIVE     AO3401A
+        R21        1       1              PASSIVE     Resistor 2.2M Generic
+
+[00068] Q2_D
+        Q2         3       D              PASSIVE     AO3401A
+        R17        2       2              PASSIVE     Resistor 12k Generic
+
+[00067] Q1_D
+        Q1         3       D              PASSIVE     AO3400A
+        Q2         1       G              PASSIVE     AO3401A
+        R15        1       1              PASSIVE     Resistor 12k Generic
+
+[00066] PWR_EN
+        D5         A       A              PASSIVE     BAT54HT1G
+        U1         2       PC13           PASSIVE     STM32H7A3RGT6
+
+[00065] PWR_BTN_VBAT
+        D4         A       A              PASSIVE     BAT54HT1G
+        R18        2       2              PASSIVE     Resistor 2k Generic
+        S4         1       1              PASSIVE     EVQ-PUL02K
+        S4         3       3              PASSIVE     EVQ-PUL02K
+
+[00064] PWR_BTN
+        C23        2       2              PASSIVE     Capacitor 220nF Generic
+        R18        1       1              PASSIVE     Resistor 2k Generic
+        R19        2       2              PASSIVE     Resistor 5.1k Generic
+        U1         53      PC12           PASSIVE     STM32H7A3RGT6
+
+[00063] POT_B
+        C13        2       2              PASSIVE     Capacitor 220nF Generic
+        U1         15      PA1/ADC1_CH17  PASSIVE     STM32H7A3RGT6
+        VR2        3       3              PASSIVE     SVR12
+
+[00062] POT_A
+        C14        2       2              PASSIVE     Capacitor 220nF Generic
+        U1         14      PA0/ADC1_CH16  PASSIVE     STM32H7A3RGT6
+        VR1        3       3              PASSIVE     SVR12
+
+[00061] OSC_OUT
+        C9         2       2              PASSIVE     Capacitor 10pF Generic
+        U1         6       PH1/OSC_OUT    PASSIVE     STM32H7A3RGT6
+        X1         2       2              PASSIVE     ABM3-8.000MHZ-D2Y-T
+
+[00060] OSC_IN
+        C8         2       2              PASSIVE     Capacitor 10pF Generic
+        U1         5       PH0/OSC_IN     PASSIVE     STM32H7A3RGT6
+        X1         1       1              PASSIVE     ABM3-8.000MHZ-D2Y-T
+
+[00059] ORANGE_LED_A
+        D2         A       A              PASSIVE     LTST-C193KFKT-5A
+        R8         1       1              PASSIVE     Resistor 560 Generic
+
+[00058] ORANGE_LED
+        R8         2       2              PASSIVE     Resistor 560 Generic
+        U1         59      PB7/TIM4_CH2   PASSIVE     STM32H7A3RGT6
+
+[00043] LCD_VSYNC
+        J3         32      VSYNC          PASSIVE     541324062
+        U1         23      PA7/LTDC_VSYNC PASSIVE     STM32H7A3RGT6
+
+[00042] LCD_RESET
+        J3         10      RESET          PASSIVE     541324062
+        U1         33      PB12           PASSIVE     STM32H7A3RGT6
+
+[00040] LCD_R5
+        J3         11      R5             PASSIVE     541324062
+        U1         24      PC4/LTDC_R7    PASSIVE     STM32H7A3RGT6
+
+[00039] LCD_R4
+        J3         12      R4             PASSIVE     541324062
+        U1         27      PB1/LTDC_R6    PASSIVE     STM32H7A3RGT6
+
+[00038] LCD_R3
+        J3         13      R3             PASSIVE     541324062
+        U1         8       PC0/LTDC_R5    PASSIVE     STM32H7A3RGT6
+
+[00037] LCD_R2
+        J3         14      R2             PASSIVE     541324062
+        U1         21      PA5/LTDC_R4    PASSIVE     STM32H7A3RGT6
+
+[00036] LCD_R1
+        J3         15      R1             PASSIVE     541324062
+        U1         26      PB0/LTDC_R3    PASSIVE     STM32H7A3RGT6
+
+[00035] LCD_R0
+        J3         16      R0             PASSIVE     541324062
+        U1         51      PC10/LTDC_R2   PASSIVE     STM32H7A3RGT6
+
+[00034] LCD_PCLK
+        J3         30      PCLK           PASSIVE     541324062
+        U1         35      PB14/LTDC_CLK  PASSIVE     STM32H7A3RGT6
+
+[00033] LCD_HSYNC
+        J3         31      HSYNC          PASSIVE     541324062
+        U1         37      PC6/LTDC_HSYNC PASSIVE     STM32H7A3RGT6
+
+[00031] LCD_G5
+        J3         17      G5             PASSIVE     541324062
+        U1         36      PB15/LTDC_G7   PASSIVE     STM32H7A3RGT6
+
+[00030] LCD_G4
+        J3         18      G4             PASSIVE     541324062
+        U1         38      PC7/LTDC_G6    PASSIVE     STM32H7A3RGT6
+
+[00029] LCD_G3
+        J3         19      G3             PASSIVE     541324062
+        U1         9       PC1/LTDC_G5    PASSIVE     STM32H7A3RGT6
+
+[00028] LCD_G2
+        J3         20      G2             PASSIVE     541324062
+        U1         29      PB10/LTDC_G4   PASSIVE     STM32H7A3RGT6
+
+[00027] LCD_G1
+        J3         21      G1             PASSIVE     541324062
+        U1         39      PC9/LTDC_G3    PASSIVE     STM32H7A3RGT6
+
+[00026] LCD_G0
+        J3         22      G0             PASSIVE     541324062
+        U1         22      PA6/LTDC_G2    PASSIVE     STM32H7A3RGT6
+
+[00025] LCD_DE
+        J3         29      DE             PASSIVE     541324062
+        U1         25      PC5/LTDC_DE    PASSIVE     STM32H7A3RGT6
+
+[00024] LCD_C\S\
+        J3         9       C\S\           PASSIVE     541324062
+        U1         42      PA10           PASSIVE     STM32H7A3RGT6
+
+[00023] LCD_BL_PWM
+        R10        2       2              PASSIVE     Resistor 12k Generic
+        U1         56      PB4/TIM3_CH1   PASSIVE     STM32H7A3RGT6
+        U3         4       CTRL           PASSIVE     AP3019AKTR-G1
+
+[00022] LCD_BL_K
+        J3         4       LEDK           PASSIVE     541324062
+        R11        2       2              PASSIVE     Resistor 5 Generic
+        U3         3       FB             PASSIVE     AP3019AKTR-G1
+
+[00021] LCD_BL_A
+        C20        2       2              PASSIVE     Capacitor 220nF Generic
+        J3         3       LEDA           PASSIVE     541324062
+        U3         5       VOUT           PASSIVE     AP3019AKTR-G1
+
+[00019] LCD_B5
+        J3         23      B5             PASSIVE     541324062
+        U1         62      PB9/LTDC_B7    PASSIVE     STM32H7A3RGT6
+
+[00018] LCD_B4
+        J3         24      B4             PASSIVE     541324062
+        U1         61      PB8/LTDC_B6    PASSIVE     STM32H7A3RGT6
+
+[00017] LCD_B3
+        J3         25      B3             PASSIVE     541324062
+        U1         57      PB5/LTDC_B5    PASSIVE     STM32H7A3RGT6
+
+[00016] LCD_B2
+        J3         26      B2             PASSIVE     541324062
+        U1         52      PC11/LTDC_B4   PASSIVE     STM32H7A3RGT6
+
+[00015] LCD_B1
+        J3         27      B1             PASSIVE     541324062
+        U1         40      PA8/LTDC_B3    PASSIVE     STM32H7A3RGT6
+
+[00014] LCD_B0
+        J3         28      B0             PASSIVE     541324062
+        U1         54      PD2/LTDC_B2    PASSIVE     STM32H7A3RGT6
+
+[00013] JTDO
+        J1         6       6              PASSIVE     FH65-10S-0.5SH
+        U1         55      PB3/JTDO       PASSIVE     STM32H7A3RGT6
+
+[00012] JTDI
+        J1         8       8              PASSIVE     FH65-10S-0.5SH
+        U1         50      PA15/JTDI      PASSIVE     STM32H7A3RGT6
+
+[00011] INTERLOCK_EN
+        D7         K       K              PASSIVE     BAT54HT1G
+        Q3         1       G              PASSIVE     AO3401A
+        R20        2       2              PASSIVE     Resistor 2.2M Generic
+        S5         3       3              PASSIVE     SPVE110100
+
+[00010] GND
+        C1         2       2              PASSIVE     Capacitor 220nF Generic
+        C2         1       1              PASSIVE     Capacitor 220nF Generic
+        C3         1       1              PASSIVE     Capacitor 220nF Generic
+        C4         1       1              PASSIVE     Capacitor 220nF Generic
+        C5         1       1              PASSIVE     Capacitor 220nF Generic
+        C6         1       1              PASSIVE     Capacitor 220nF Generic
+        C7         1       1              PASSIVE     Capacitor 220nF Generic
+        C8         1       1              PASSIVE     Capacitor 10pF Generic
+        C9         1       1              PASSIVE     Capacitor 10pF Generic
+        C10        1       1              PASSIVE     Capacitor 2.2uF Generic
+        C11        1       1              PASSIVE     Capacitor 2.2uF Generic
+        C12        1       1              PASSIVE     Capacitor 220nF Generic
+        C13        1       1              PASSIVE     Capacitor 220nF Generic
+        C14        1       1              PASSIVE     Capacitor 220nF Generic
+        C15        1       1              PASSIVE     Capacitor 220nF Generic
+        C17        2       2              PASSIVE     Capacitor 220nF Generic
+        C18        1       1              PASSIVE     Capacitor 2.2uF Generic
+        C19        1       1              PASSIVE     Capacitor 2.2uF Generic
+        C20        1       1              PASSIVE     Capacitor 220nF Generic
+        C21        1       1              PASSIVE     Capacitor 2.2uF Generic
+        C22        1       1              PASSIVE     Capacitor 2.2uF Generic
+        C23        1       1              PASSIVE     Capacitor 220nF Generic
+        D1         2       2              PASSIVE     USBLC6-4SC6
+        D2         K       K              PASSIVE     LTST-C193KFKT-5A
+        D3         K       K              PASSIVE     LTST-C193KRKT-5A
+        J1         3       3              PASSIVE     FH65-10S-0.5SH
+        J1         5       5              PASSIVE     FH65-10S-0.5SH
+        J2         A1/B12  GND            PASSIVE     USB4500-03-0-A
+        J2         B1/A12  GND            PASSIVE     USB4500-03-0-A
+        J2         SHELL1  SHELL1         PASSIVE     USB4500-03-0-A
+        J2         SHELL2  SHELL2         PASSIVE     USB4500-03-0-A
+        J2         SHELL3  SHELL3         PASSIVE     USB4500-03-0-A
+        J2         SHELL4  SHELL4         PASSIVE     USB4500-03-0-A
+        J3         1       GND            PASSIVE     541324062
+        J3         2       GND            PASSIVE     541324062
+        J3         34      GND            PASSIVE     541324062
+        J3         35      GND            PASSIVE     541324062
+        J4         3       3              PASSIVE     3 Wire Solder Pad
+        Q1         2       S              PASSIVE     AO3400A
+        R1         1       1              PASSIVE     Resistor 12k Generic
+        R3         1       1              PASSIVE     Resistor 12k Generic
+        R4         1       1              PASSIVE     Resistor 5.1k Generic
+        R5         1       1              PASSIVE     Resistor 5.1k Generic
+        R7         2       2              PASSIVE     Resistor 12k Generic
+        R10        1       1              PASSIVE     Resistor 12k Generic
+        R11        1       1              PASSIVE     Resistor 5 Generic
+        R13        1       1              PASSIVE     Resistor 560 Generic
+        R14        1       1              PASSIVE     Resistor 2k Generic
+        R16        1       1              PASSIVE     Resistor 12k Generic
+        R19        1       1              PASSIVE     Resistor 5.1k Generic
+        R22        1       1              PASSIVE     Resistor 12k Generic
+        S2         1       1              PASSIVE     B3U-1000P
+        S5         1       1              PASSIVE     SPVE110100
+        S5         2       2              PASSIVE     SPVE110100
+        U1         12      VSSA           PASSIVE     STM32H7A3RGT6
+        U1         18      VSS            PASSIVE     STM32H7A3RGT6
+        U1         31      VSS            PASSIVE     STM32H7A3RGT6
+        U1         47      VSS            PASSIVE     STM32H7A3RGT6
+        U1         63      VSS            PASSIVE     STM32H7A3RGT6
+        U2         7       GND            PASSIVE     PAM8302AADCR
+        U3         2       GND            PASSIVE     AP3019AKTR-G1
+        U4         2       GND            PASSIVE     TPS7A2033PDBVR
+        U5         3       VSS            PASSIVE     BQ24092DGQR
+        U5         EP      EP             PASSIVE     BQ24092DGQR
+        VR1        1       1              PASSIVE     SVR12
+        VR1        SHELL   SHELL          PASSIVE     SVR12
+        VR2        1       1              PASSIVE     SVR12
+        VR2        SHELL   SHELL          PASSIVE     SVR12
+
+[00009] BOOT
+        R1         2       2              PASSIVE     Resistor 12k Generic
+        S1         2       2              PASSIVE     B3U-1000P
+        U1         60      BOOT           PASSIVE     STM32H7A3RGT6
+
+[00008] BAT_VSENSE
+        C12        2       2              PASSIVE     Capacitor 220nF Generic
+        R16        2       2              PASSIVE     Resistor 12k Generic
+        R17        1       1              PASSIVE     Resistor 12k Generic
+        U1         10      PC2/ADC1_CH12  PASSIVE     STM32H7A3RGT6
+
+[00007] BAT_TS
+        J4         2       2              PASSIVE     3 Wire Solder Pad
+        U5         9       TS             PASSIVE     BQ24092DGQR
+
+[00006] BAT_ISET
+        U1         4       PC15           PASSIVE     STM32H7A3RGT6
+        U5         7       ISET2          PASSIVE     BQ24092DGQR
+
+[00005] BAT_C\H\R\G\
+        R12        1       1              PASSIVE     Resistor 12k Generic
+        U1         3       PC14           PASSIVE     STM32H7A3RGT6
+        U5         8       C\H\G\         PASSIVE     BQ24092DGQR
+
+[00004] AMP_IN-
+        C17        1       1              PASSIVE     Capacitor 220nF Generic
+        U2         4       IN-            PASSIVE     PAM8302AADCR
+
+[00003] AMP_IN+
+        C16        1       1              PASSIVE     Capacitor 220nF Generic
+        U2         3       IN+            PASSIVE     PAM8302AADCR
+
+[00002] 5V_USB
+        D1         5       5              PASSIVE     USBLC6-4SC6
+        J2         A4/B9   VBUS           PASSIVE     USB4500-03-0-A
+        J2         B4/A9   VBUS           PASSIVE     USB4500-03-0-A
+        Q3         2       S              PASSIVE     AO3401A
+        R20        1       1              PASSIVE     Resistor 2.2M Generic
 
 [00001] 3.3V
-        C?         2       2              PASSIVE     Cap
-        R?         1       1              PASSIVE     Res1
-        U?         2       VOUT           PASSIVE     AZ1117CH-3.3TRG1
+        C2         2       2              PASSIVE     Capacitor 220nF Generic
+        C3         2       2              PASSIVE     Capacitor 220nF Generic
+        C4         2       2              PASSIVE     Capacitor 220nF Generic
+        C5         2       2              PASSIVE     Capacitor 220nF Generic
+        C6         2       2              PASSIVE     Capacitor 220nF Generic
+        C7         2       2              PASSIVE     Capacitor 220nF Generic
+        C22        2       2              PASSIVE     Capacitor 2.2uF Generic
+        J1         1       1              PASSIVE     FH65-10S-0.5SH
+        J3         6       IOVCC          PASSIVE     541324062
+        J3         33      VCC            PASSIVE     541324062
+        Q1         1       G              PASSIVE     AO3400A
+        R2         2       2              PASSIVE     Resistor 12k Generic
+        R12        2       2              PASSIVE     Resistor 12k Generic
+        S1         1       1              PASSIVE     B3U-1000P
+        S3         2       2              PASSIVE     EVQ-PUL02K
+        S3         4       4              PASSIVE     EVQ-PUL02K
+        U1         1       VBAT           PASSIVE     STM32H7A3RGT6
+        U1         13      VDDA           PASSIVE     STM32H7A3RGT6
+        U1         19      VDD            PASSIVE     STM32H7A3RGT6
+        U1         32      VDD            PASSIVE     STM32H7A3RGT6
+        U1         48      VDD            PASSIVE     STM32H7A3RGT6
+        U1         64      VDD            PASSIVE     STM32H7A3RGT6
+        U2         1       EN             PASSIVE     PAM8302AADCR
+        U4         5       OUT            PASSIVE     TPS7A2033PDBVR
+        VR1        2       2              PASSIVE     SVR12
+        VR2        2       2              PASSIVE     SVR12
 
