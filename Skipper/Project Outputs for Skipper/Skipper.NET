@@ -111,9 +111,8 @@ WJ15EDGRC-3.81-05P-14-00A       J21
 WJ15EDGRC-3.81-05P-14-00A       J22            
 ASPI-0630LR-150M-T15            L1             
 AO3400A                         Q1             SOT23-3
-AO3400A                         Q2             SOT23-3
-MMBT3904                        Q3             
-AO3400A                         Q4             SOT23-3
+MMBT3904                        Q2             
+AO3400A                         Q3             SOT23-3
 0402WGF1502TCE                  R1             
 0402WGF2003TCE                  R2             
 0402WGF2003TCE                  R3             
@@ -145,39 +144,38 @@ RC0402FR-076K04L                R13
 0402WGF5101TCE                  R29            
 0402WGF1502TCE                  R30            
 0402WGF1502TCE                  R31            
-0402WGF1502TCE                  R32            
-0402WGF2003TCE                  R33            
-0402WGF1502TCE                  R34            
-0603WAF100KT5E                  R35            
+0402WGF3302TCE                  R32            
+0402WGF1502TCE                  R33            
+0603WAF100KT5E                  R34            
+0402WGF5101TCE                  R35            
 0402WGF5101TCE                  R36            
 0402WGF5101TCE                  R37            
-0402WGF5101TCE                  R38            
-0402WGF1502TCE                  R39            
+0402WGF1502TCE                  R38            
+0402WGF1501TCE                  R39            
 0402WGF1501TCE                  R40            
 0402WGF1501TCE                  R41            
-0402WGF1501TCE                  R42            
-0402WGF2003TCE                  R43            
-0402WGF1502TCE                  R44            
-0402WGF1004TCE                  R45            
-0402WGF1502TCE                  R46            
-0402WGF2003TCE                  R47            
+0402WGF2003TCE                  R42            
+0402WGF1502TCE                  R43            
+0402WGF1004TCE                  R44            
+0402WGF1502TCE                  R45            
+0402WGF2003TCE                  R46            
+0402WGF1502TCE                  R47            
 0402WGF1502TCE                  R48            
 0402WGF1502TCE                  R49            
-0402WGF1502TCE                  R50            
-0402WGF2003TCE                  R51            
-0402WGF1501TCE                  R52            
+0402WGF2003TCE                  R50            
+0402WGF1501TCE                  R51            
+0402WGF2003TCE                  R52            
 0402WGF2003TCE                  R53            
-0402WGF2003TCE                  R54            
-0402WGF1004TCE                  R55            
-RC0402FR-076K04L                R56            
-0402WGF2003TCE                  R57            
-0402WGF1501TCE                  R58            
-0402WGF3302TCE                  R59            
-RC0402FR-076K04L                R60            
+0402WGF1004TCE                  R54            
+RC0402FR-076K04L                R55            
+0402WGF2003TCE                  R56            
+0402WGF1501TCE                  R57            
+0402WGF3302TCE                  R58            
+RC0402FR-076K04L                R59            
+0402WGF1502TCE                  R60            
 0402WGF1502TCE                  R61            
-0402WGF1502TCE                  R62            
+0402WGF5101TCE                  R62            
 0402WGF5101TCE                  R63            
-0402WGF5101TCE                  R64            
 SMXS-06K-TP                     SW1            
 TS-1088-AR02016                 SW2            
 TS-1088-AR02016                 SW3            
@@ -268,7 +266,7 @@ RH-5016                         TP84
 RH-5016                         TP85           
 STM32H523ZETx                   U1             
 TUSB320                         U2             
-AP22653A                        U3             
+AP22652                         U3             
 TCAN1044VDRBRQ1                 U4             
 STM32F103CBT6                   U5             
 TPS26600PWPR                    U6             
@@ -285,25 +283,20 @@ NX3225GD-8MHZ-STD-CRA-3         X3
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00205] VBAT_PIN_3
+[00204] VBAT_PIN_3
         C7         2       2              PASSIVE     CL05B104KB54PNC
         D2         K       K              PASSIVE     1N4148WS
         D3         K       K              PASSIVE     1N4148WS
         U1         6       VBAT           PASSIVE     STM32H523ZETx
 
-[00204] VBAT
+[00203] VBAT
         D2         A       A              PASSIVE     1N4148WS
         J1         1       1              PASSIVE     Connector_2.54mm-1x2-unpopulated
 
-[00203] V_TGT_DIV2_9
-        R48        1       1              PASSIVE     0402WGF1502TCE
-        R49        2       2              PASSIVE     0402WGF1502TCE
+[00202] V_TGT_DIV2_9
+        R47        1       1              PASSIVE     0402WGF1502TCE
+        R48        2       2              PASSIVE     0402WGF1502TCE
         U5         10      PA0            PASSIVE     STM32F103CBT6
-
-[00202] USB_VBUS_EN_6
-        Q1         3       D              PASSIVE     AO3400A
-        R32        1       1              PASSIVE     0402WGF1502TCE
-        U3         3       EN             PASSIVE     AP22653A
 
 [00201] USB_UFP_VBUS
         C35        2       2              PASSIVE     CL05A105KA5NQNC
@@ -311,12 +304,12 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         D8         K       K              PASSIVE     SMF5.0A
         J19        A4/B9   VBUS           PASSIVE     TYPE-C-31-M-12
         J19        B4/A9   VBUS           PASSIVE     TYPE-C-31-M-12
-        Q2         1       G              PASSIVE     AO3400A
+        Q1         1       G              PASSIVE     AO3400A
         R9         2       2              PASSIVE     0402WGF5101TCE
-        R35        2       2              PASSIVE     0603WAF100KT5E
-        R45        2       2              PASSIVE     0402WGF1004TCE
-        R50        2       2              PASSIVE     0402WGF1502TCE
-        R61        2       2              PASSIVE     0402WGF1502TCE
+        R34        2       2              PASSIVE     0603WAF100KT5E
+        R44        2       2              PASSIVE     0402WGF1004TCE
+        R49        2       2              PASSIVE     0402WGF1502TCE
+        R60        2       2              PASSIVE     0402WGF1502TCE
         U9         3       VIN1           PASSIVE     TPS2116
         U9         5       MODE           PASSIVE     TPS2116
 
@@ -325,7 +318,15 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         R12        2       2              PASSIVE     RC0402FR-076K04L
         U1         50      PF12           PASSIVE     STM32H523ZETx
 
-[00199] USB_DRP_VBUS
+[00199] USB_UFP_CC2_7
+        J19        B5      CC2            PASSIVE     TYPE-C-31-M-12
+        R36        2       2              PASSIVE     0402WGF5101TCE
+
+[00198] USB_UFP_CC1_7
+        J19        A5      CC1            PASSIVE     TYPE-C-31-M-12
+        R37        2       2              PASSIVE     0402WGF5101TCE
+
+[00197] USB_DRP_VBUS
         C29        2       2              PASSIVE     CL05A105KA5NQNC
         D4         A       A              PASSIVE     KT-0603R
         D5         K       K              PASSIVE     SMF5.0A
@@ -333,709 +334,624 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         J18        B4/A9   VBUS           PASSIVE     TYPE-C-31-M-12
         R27        2       2              PASSIVE     0402WGF1004TCE
         R28        2       2              PASSIVE     0603WAF100KT5E
-        U3         6       OUT            PASSIVE     AP22653A
+        U3         6       OUT            PASSIVE     AP22652
         U9         6       VIN2           PASSIVE     TPS2116
 
-[00198] USB_DRP_ID_6
-        Q1         1       G              PASSIVE     AO3400A
+[00196] USB_DRP_ID_6
         R30        1       1              PASSIVE     0402WGF1502TCE
-        R33        2       2              PASSIVE     0402WGF2003TCE
+        R32        2       2              PASSIVE     0402WGF3302TCE
         U2         9       ID             PASSIVE     TUSB320
+        U3         3       E\N\           PASSIVE     AP22652
 
-[00197] USB_DRP_I\N\T\
+[00195] USB_DRP_I\N\T\
         R26        1       1              PASSIVE     0402WGF1502TCE
         U1         55      PF15           PASSIVE     STM32H523ZETx
         U2         6       I\N\T\/OUT3    PASSIVE     TUSB320
 
-[00196] USB_DRP_F\A\U\L\T\
+[00194] USB_DRP_F\A\U\L\T\
         R31        1       1              PASSIVE     0402WGF1502TCE
         U1         54      PF14           PASSIVE     STM32H523ZETx
-        U3         4       F\A\U\L\T      PASSIVE     AP22653A
+        U3         4       F\A\U\L\T\     PASSIVE     AP22652
 
-[00195] USB_D_P
+[00193] USB_DRP_CC2_6
+        D6         3       3              PASSIVE     TPD4E1U06DBVR-TP
+        J18        B5      CC2            PASSIVE     TYPE-C-31-M-12
+        U2         2       CC2            PASSIVE     TUSB320
+
+[00192] USB_DRP_CC1_6
+        D6         1       1              PASSIVE     TPD4E1U06DBVR-TP
+        J18        A5      CC1            PASSIVE     TYPE-C-31-M-12
+        U2         1       CC1            PASSIVE     TUSB320
+
+[00191] USB_D_P
         D6         6       6              PASSIVE     TPD4E1U06DBVR-TP
         J18        A6      DP1            PASSIVE     TYPE-C-31-M-12
         J18        B6      DP2            PASSIVE     TYPE-C-31-M-12
         TP83       1       1              PASSIVE     RH-5016
         U1         104     PA12           PASSIVE     STM32H523ZETx
 
-[00194] USB_D_N
+[00190] USB_D_N
         D6         4       4              PASSIVE     TPD4E1U06DBVR-TP
         J18        A7      DN1            PASSIVE     TYPE-C-31-M-12
         J18        B7      DN2            PASSIVE     TYPE-C-31-M-12
         TP82       1       1              PASSIVE     RH-5016
         U1         103     PA11           PASSIVE     STM32H523ZETx
 
-[00193] UART2_TX
+[00189] UART2_TX
         J15        4       4              PASSIVE     Connector - 5pin - 1mm
         J16        24      24             PASSIVE     PM254-2-15-Z-8.5
         TP81       1       1              PASSIVE     RH-5016
         U1         119     PD5            PASSIVE     STM32H523ZETx
 
-[00192] UART2_RX
+[00188] UART2_RX
         J15        5       5              PASSIVE     Connector - 5pin - 1mm
         J16        22      22             PASSIVE     PM254-2-15-Z-8.5
         TP77       1       1              PASSIVE     RH-5016
         U1         122     PD6            PASSIVE     STM32H523ZETx
 
-[00191] UART1_TX
+[00187] UART1_TX
         J14        4       4              PASSIVE     Connector - 5pin - 1mm
         J16        23      23             PASSIVE     PM254-2-15-Z-8.5
         TP80       1       1              PASSIVE     RH-5016
         U1         101     PA9            PASSIVE     STM32H523ZETx
 
-[00190] UART1_RX
+[00186] UART1_RX
         J14        5       5              PASSIVE     Connector - 5pin - 1mm
         J16        21      21             PASSIVE     PM254-2-15-Z-8.5
         TP76       1       1              PASSIVE     RH-5016
         U1         102     PA10           PASSIVE     STM32H523ZETx
 
-[00189] SWO
+[00185] U1_VCAP_3
+        C3         2       2              PASSIVE     CL10A225KO8NNNC
+        C4         2       2              PASSIVE     CL10A225KO8NNNC
+        U1         70      VCAP           PASSIVE     STM32H523ZETx
+        U1         142     VCAP           PASSIVE     STM32H523ZETx
+
+[00184] U1_LSE_OUT_3
+        C6         2       2              PASSIVE     CL05C100JB5NNNC
+        U1         9       PC15_LS_XTAL_OUPASSIVE     STM32H523ZETx
+        X2         2       2              PASSIVE     FC-135 32.7680KA-AG3
+
+[00183] U1_LSE_IN_3
+        C5         2       2              PASSIVE     CL05C100JB5NNNC
+        U1         8       PC14_LS_XTAL_INPASSIVE     STM32H523ZETx
+        X2         1       1              PASSIVE     FC-135 32.7680KA-AG3
+
+[00182] U1_HSE_OUT_3
+        C2         2       2              PASSIVE     CL05C100JB5NNNC
+        U1         24      PH1_HS_XTAL_OUTPASSIVE     STM32H523ZETx
+        X1         2       2              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
+
+[00181] U1_HSE_IN_3
+        C1         2       2              PASSIVE     CL05C100JB5NNNC
+        U1         23      PH0_HS_XTAL_IN PASSIVE     STM32H523ZETx
+        X1         1       1              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
+
+[00180] SWO
         U1         133     PB3_SWO        PASSIVE     STM32H523ZETx
         U5         31      PA10           PASSIVE     STM32F103CBT6
 
-[00188] SWDIO
-        R42        1       1              PASSIVE     0402WGF1501TCE
+[00179] SWDIO
+        R41        1       1              PASSIVE     0402WGF1501TCE
         U1         105     PA13_SWDIO     PASSIVE     STM32H523ZETx
         U5         27      PB14           PASSIVE     STM32F103CBT6
 
-[00187] SWCLK
+[00178] SWCLK
         U1         109     PA14_SWCLK     PASSIVE     STM32H523ZETx
         U5         15      PA5            PASSIVE     STM32F103CBT6
         U5         26      PB13           PASSIVE     STM32F103CBT6
 
-[00186] SPI2_SCLK
+[00177] SPI2_SCLK
         J8         5       5              PASSIVE     Connector - 6pin - 1mm
         J16        4       4              PASSIVE     PM254-2-15-Z-8.5
         TP54       1       1              PASSIVE     RH-5016
         U1         74      PB13           PASSIVE     STM32H523ZETx
 
-[00185] SPI2_MOSI
+[00176] SPI2_MOSI
         J8         3       3              PASSIVE     Connector - 6pin - 1mm
         J16        8       8              PASSIVE     PM254-2-15-Z-8.5
         TP64       1       1              PASSIVE     RH-5016
         U1         76      PB15           PASSIVE     STM32H523ZETx
 
-[00184] SPI2_MISO
+[00175] SPI2_MISO
         J8         4       4              PASSIVE     Connector - 6pin - 1mm
         J16        6       6              PASSIVE     PM254-2-15-Z-8.5
         TP59       1       1              PASSIVE     RH-5016
         U1         75      PB14           PASSIVE     STM32H523ZETx
 
-[00183] SPI2_C\S\
+[00174] SPI2_C\S\
         J8         6       6              PASSIVE     Connector - 6pin - 1mm
         J16        2       2              PASSIVE     PM254-2-15-Z-8.5
         R8         1       1              PASSIVE     0402WGF1502TCE
         TP49       1       1              PASSIVE     RH-5016
         U1         73      PB12           PASSIVE     STM32H523ZETx
 
-[00182] SPI1_SCLK
+[00173] SPI1_SCLK
         J7         5       5              PASSIVE     Connector - 6pin - 1mm
         J16        3       3              PASSIVE     PM254-2-15-Z-8.5
         TP53       1       1              PASSIVE     RH-5016
         U1         126     PG11           PASSIVE     STM32H523ZETx
 
-[00181] SPI1_MOSI
+[00172] SPI1_MOSI
         J7         3       3              PASSIVE     Connector - 6pin - 1mm
         J16        7       7              PASSIVE     PM254-2-15-Z-8.5
         TP63       1       1              PASSIVE     RH-5016
         U1         123     PD7            PASSIVE     STM32H523ZETx
 
-[00180] SPI1_MISO
+[00171] SPI1_MISO
         J7         4       4              PASSIVE     Connector - 6pin - 1mm
         J16        5       5              PASSIVE     PM254-2-15-Z-8.5
         TP58       1       1              PASSIVE     RH-5016
         U1         124     PG9            PASSIVE     STM32H523ZETx
 
-[00179] SPI1_C\S\
+[00170] SPI1_C\S\
         J7         6       6              PASSIVE     Connector - 6pin - 1mm
         J16        1       1              PASSIVE     PM254-2-15-Z-8.5
         R1         1       1              PASSIVE     0402WGF1502TCE
         TP48       1       1              PASSIVE     RH-5016
         U1         125     PG10           PASSIVE     STM32H523ZETx
 
-[00178] SHIELD_11
+[00169] SHIELD_11
         J21        3       3              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         J22        3       3              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
 
-[00177] SDMMC_DETECT
+[00168] SDMMC_DETECT
         J17        9       SWB            PASSIVE     DM3AT-SF-PEJM5
         R25        1       1              PASSIVE     0402WGF2003TCE
         U1         49      PF11           PASSIVE     STM32H523ZETx
 
-[00176] SDMMC_D3
+[00167] SDMMC_D3
         J17        2       DAT3           PASSIVE     DM3AT-SF-PEJM5
         R23        1       1              PASSIVE     0402WGF1502TCE
         U1         112     PC11           PASSIVE     STM32H523ZETx
 
-[00175] SDMMC_D2
+[00166] SDMMC_D2
         J17        1       DAT2           PASSIVE     DM3AT-SF-PEJM5
         R22        1       1              PASSIVE     0402WGF1502TCE
         U1         111     PC10           PASSIVE     STM32H523ZETx
 
-[00174] SDMMC_D1
+[00165] SDMMC_D1
         J17        8       DAT1           PASSIVE     DM3AT-SF-PEJM5
         R21        1       1              PASSIVE     0402WGF1502TCE
         U1         99      PC9            PASSIVE     STM32H523ZETx
 
-[00173] SDMMC_D0
+[00164] SDMMC_D0
         J17        7       DAT0           PASSIVE     DM3AT-SF-PEJM5
         R20        1       1              PASSIVE     0402WGF1502TCE
         U1         98      PC8            PASSIVE     STM32H523ZETx
 
-[00172] SDMMC_CMD
+[00163] SDMMC_CMD
         J17        3       CMD            PASSIVE     DM3AT-SF-PEJM5
         R24        1       1              PASSIVE     0402WGF1502TCE
         U1         116     PD2            PASSIVE     STM32H523ZETx
 
-[00171] SDMMC_CLK
+[00162] SDMMC_CLK
         J17        5       CLK            PASSIVE     DM3AT-SF-PEJM5
         U1         113     PC12           PASSIVE     STM32H523ZETx
 
-[00170] RENUM_9
-        Q3         1       B              PASSIVE     MMBT3904
-        R50        1       1              PASSIVE     0402WGF1502TCE
-        R51        2       2              PASSIVE     0402WGF2003TCE
+[00161] RTN_10
+        C63        1       1              PASSIVE     CL05B104KB54PNC
+        C64        1       1              PASSIVE     CL05B104KB54PNC
+        R58        1       1              PASSIVE     0402WGF3302TCE
+        R59        1       1              PASSIVE     RC0402FR-076K04L
+        U6         8       RTN            PASSIVE     TPS26600PWPR
+        U6         17      EP             PASSIVE     TPS26600PWPR
+
+[00160] RENUM_9
+        Q2         1       B              PASSIVE     MMBT3904
+        R49        1       1              PASSIVE     0402WGF1502TCE
+        R50        2       2              PASSIVE     0402WGF2003TCE
         U5         38      PA15           PASSIVE     STM32F103CBT6
 
-[00169] PG15
+[00159] PMUX2_PR1_10
+        R61        1       1              PASSIVE     0402WGF1502TCE
+        R63        2       2              PASSIVE     0402WGF5101TCE
+        U10        4       PR1            PASSIVE     TPS2116
+
+[00158] PMUX1_PR1_10
+        R60        1       1              PASSIVE     0402WGF1502TCE
+        R62        2       2              PASSIVE     0402WGF5101TCE
+        U9         4       PR1            PASSIVE     TPS2116
+
+[00157] PG15
         J5         6       6              PASSIVE     PM254-1-10-Z-8.5
         TP25       1       1              PASSIVE     Test Point 2mm
         U1         132     PG15           PASSIVE     STM32H523ZETx
 
-[00168] PG14
+[00156] PG14
         J5         7       7              PASSIVE     PM254-1-10-Z-8.5
         TP30       1       1              PASSIVE     Test Point 2mm
         U1         129     PG14           PASSIVE     STM32H523ZETx
 
-[00167] PG13
+[00155] PG13
         J5         8       8              PASSIVE     PM254-1-10-Z-8.5
         TP35       1       1              PASSIVE     Test Point 2mm
         U1         128     PG13           PASSIVE     STM32H523ZETx
 
-[00166] PG12
+[00154] PG12
         J5         9       9              PASSIVE     PM254-1-10-Z-8.5
         TP40       1       1              PASSIVE     Test Point 2mm
         U1         127     PG12           PASSIVE     STM32H523ZETx
 
-[00165] PG8
+[00153] PG8
         J6         7       7              PASSIVE     PM254-1-10-Z-8.5
         TP31       1       1              PASSIVE     Test Point 2mm
         U1         93      PG8            PASSIVE     STM32H523ZETx
 
-[00164] PG7
+[00152] PG7
         J6         8       8              PASSIVE     PM254-1-10-Z-8.5
         TP36       1       1              PASSIVE     Test Point 2mm
         U1         92      PG7            PASSIVE     STM32H523ZETx
 
-[00163] PG6
+[00151] PG6
         J6         9       9              PASSIVE     PM254-1-10-Z-8.5
         TP41       1       1              PASSIVE     Test Point 2mm
         U1         91      PG6            PASSIVE     STM32H523ZETx
 
-[00162] PF10
+[00150] PF10
         J3         3       3              PASSIVE     PM254-1-10-Z-8.5
         TP8        1       1              PASSIVE     Test Point 2mm
         U1         22      PF10           PASSIVE     STM32H523ZETx
 
-[00161] PF9
+[00149] PF9
         J3         4       4              PASSIVE     PM254-1-10-Z-8.5
         TP13       1       1              PASSIVE     Test Point 2mm
         U1         21      PF9            PASSIVE     STM32H523ZETx
 
-[00160] PF8
+[00148] PF8
         J3         5       5              PASSIVE     PM254-1-10-Z-8.5
         TP18       1       1              PASSIVE     Test Point 2mm
         U1         20      PF8            PASSIVE     STM32H523ZETx
 
-[00159] PF7
+[00147] PF7
         J3         6       6              PASSIVE     PM254-1-10-Z-8.5
         TP23       1       1              PASSIVE     Test Point 2mm
         U1         19      PF7            PASSIVE     STM32H523ZETx
 
-[00158] PF6
+[00146] PF6
         J3         7       7              PASSIVE     PM254-1-10-Z-8.5
         TP28       1       1              PASSIVE     Test Point 2mm
         U1         18      PF6            PASSIVE     STM32H523ZETx
 
-[00157] PF5
+[00145] PF5
         J3         8       8              PASSIVE     PM254-1-10-Z-8.5
         TP33       1       1              PASSIVE     Test Point 2mm
         U1         15      PF5            PASSIVE     STM32H523ZETx
 
-[00156] PF4
+[00144] PF4
         J3         9       9              PASSIVE     PM254-1-10-Z-8.5
         TP38       1       1              PASSIVE     Test Point 2mm
         U1         14      PF4            PASSIVE     STM32H523ZETx
 
-[00155] PF3
+[00143] PF3
         J4         3       3              PASSIVE     PM254-1-10-Z-8.5
         TP9        1       1              PASSIVE     Test Point 2mm
         U1         13      PF3            PASSIVE     STM32H523ZETx
 
-[00154] PF2
+[00142] PF2
         J4         4       4              PASSIVE     PM254-1-10-Z-8.5
         TP14       1       1              PASSIVE     Test Point 2mm
         U1         12      PF2            PASSIVE     STM32H523ZETx
 
-[00153] PE15
+[00141] PE15
         J9         9       9              PASSIVE     PM254-1-10-Z-8.5
         TP71       1       1              PASSIVE     Test Point 2mm
         U1         68      PE15           PASSIVE     STM32H523ZETx
 
-[00152] PE14
+[00140] PE14
         J10        2       2              PASSIVE     PM254-1-10-Z-8.5
         TP43       1       1              PASSIVE     Test Point 2mm
         U1         67      PE14           PASSIVE     STM32H523ZETx
 
-[00151] PE13
+[00139] PE13
         J10        3       3              PASSIVE     PM254-1-10-Z-8.5
         TP46       1       1              PASSIVE     Test Point 2mm
         U1         66      PE13           PASSIVE     STM32H523ZETx
 
-[00150] PE12
+[00138] PE12
         J10        4       4              PASSIVE     PM254-1-10-Z-8.5
         TP51       1       1              PASSIVE     Test Point 2mm
         U1         65      PE12           PASSIVE     STM32H523ZETx
 
-[00149] PE11
+[00137] PE11
         J10        5       5              PASSIVE     PM254-1-10-Z-8.5
         TP56       1       1              PASSIVE     Test Point 2mm
         U1         64      PE11           PASSIVE     STM32H523ZETx
 
-[00148] PE10
+[00136] PE10
         J10        6       6              PASSIVE     PM254-1-10-Z-8.5
         TP61       1       1              PASSIVE     Test Point 2mm
         U1         63      PE10           PASSIVE     STM32H523ZETx
 
-[00147] PE9
+[00135] PE9
         J10        7       7              PASSIVE     PM254-1-10-Z-8.5
         TP66       1       1              PASSIVE     Test Point 2mm
         U1         60      PE9            PASSIVE     STM32H523ZETx
 
-[00146] PE8
+[00134] PE8
         J10        8       8              PASSIVE     PM254-1-10-Z-8.5
         TP69       1       1              PASSIVE     Test Point 2mm
         U1         59      PE8            PASSIVE     STM32H523ZETx
 
-[00145] PE7
+[00133] PE7
         J10        9       9              PASSIVE     PM254-1-10-Z-8.5
         TP72       1       1              PASSIVE     Test Point 2mm
         U1         58      PE7            PASSIVE     STM32H523ZETx
 
-[00144] PE6
+[00132] PE6
         J4         5       5              PASSIVE     PM254-1-10-Z-8.5
         TP19       1       1              PASSIVE     Test Point 2mm
         U1         5       PE6            PASSIVE     STM32H523ZETx
 
-[00143] PE5
+[00131] PE5
         J4         6       6              PASSIVE     PM254-1-10-Z-8.5
         TP24       1       1              PASSIVE     Test Point 2mm
         U1         4       PE5            PASSIVE     STM32H523ZETx
 
-[00142] PE4
+[00130] PE4
         J4         7       7              PASSIVE     PM254-1-10-Z-8.5
         TP29       1       1              PASSIVE     Test Point 2mm
         U1         3       PE4            PASSIVE     STM32H523ZETx
 
-[00141] PE3
+[00129] PE3
         J4         8       8              PASSIVE     PM254-1-10-Z-8.5
         TP34       1       1              PASSIVE     Test Point 2mm
         U1         2       PE3            PASSIVE     STM32H523ZETx
 
-[00140] PE2
+[00128] PE2
         J4         9       9              PASSIVE     PM254-1-10-Z-8.5
         TP39       1       1              PASSIVE     Test Point 2mm
         U1         1       PE2            PASSIVE     STM32H523ZETx
 
-[00139] PE0
+[00127] PE0
         J4         2       2              PASSIVE     PM254-1-10-Z-8.5
         TP4        1       1              PASSIVE     Test Point 2mm
         U1         141     PE0            PASSIVE     STM32H523ZETx
 
-[00138] PD15
+[00126] PD15
         J9         2       2              PASSIVE     PM254-1-10-Z-8.5
         TP42       1       1              PASSIVE     Test Point 2mm
         U1         86      PD15           PASSIVE     STM32H523ZETx
 
-[00137] PD14
+[00125] PD14
         J9         3       3              PASSIVE     PM254-1-10-Z-8.5
         TP45       1       1              PASSIVE     Test Point 2mm
         U1         85      PD14           PASSIVE     STM32H523ZETx
 
-[00136] PD13
+[00124] PD13
         J9         4       4              PASSIVE     PM254-1-10-Z-8.5
         TP50       1       1              PASSIVE     Test Point 2mm
         U1         82      PD13           PASSIVE     STM32H523ZETx
 
-[00135] PD12
+[00123] PD12
         J9         5       5              PASSIVE     PM254-1-10-Z-8.5
         TP55       1       1              PASSIVE     Test Point 2mm
         U1         81      PD12           PASSIVE     STM32H523ZETx
 
-[00134] PD11
+[00122] PD11
         J9         6       6              PASSIVE     PM254-1-10-Z-8.5
         TP60       1       1              PASSIVE     Test Point 2mm
         U1         80      PD11           PASSIVE     STM32H523ZETx
 
-[00133] PD10
+[00121] PD10
         J9         7       7              PASSIVE     PM254-1-10-Z-8.5
         TP65       1       1              PASSIVE     Test Point 2mm
         U1         79      PD10           PASSIVE     STM32H523ZETx
 
-[00132] PD4
+[00120] PD4
         J6         2       2              PASSIVE     PM254-1-10-Z-8.5
         TP6        1       1              PASSIVE     Test Point 2mm
         U1         118     PD4            PASSIVE     STM32H523ZETx
 
-[00131] PD3
+[00119] PD3
         J6         3       3              PASSIVE     PM254-1-10-Z-8.5
         TP11       1       1              PASSIVE     Test Point 2mm
         U1         117     PD3            PASSIVE     STM32H523ZETx
 
-[00130] PC7
+[00118] PC7
         J6         5       5              PASSIVE     PM254-1-10-Z-8.5
         TP21       1       1              PASSIVE     Test Point 2mm
         U1         97      PC7            PASSIVE     STM32H523ZETx
 
-[00129] PC6
+[00117] PC6
         J6         6       6              PASSIVE     PM254-1-10-Z-8.5
         TP26       1       1              PASSIVE     Test Point 2mm
         U1         96      PC6            PASSIVE     STM32H523ZETx
 
-[00128] PC5
+[00116] PC5
         J11        5       5              PASSIVE     PM254-1-10-Z-8.5
         TP57       1       1              PASSIVE     Test Point 2mm
         U1         45      PC5            PASSIVE     STM32H523ZETx
 
-[00127] PC4
+[00115] PC4
         J11        6       6              PASSIVE     PM254-1-10-Z-8.5
         TP62       1       1              PASSIVE     Test Point 2mm
         U1         44      PC4            PASSIVE     STM32H523ZETx
 
-[00126] PC3
+[00114] PC3
         J2         7       7              PASSIVE     PM254-1-10-Z-8.5
         TP27       1       1              PASSIVE     RH-5016
         U1         29      PC3            PASSIVE     STM32H523ZETx
 
-[00125] PC2
+[00113] PC2
         J2         8       8              PASSIVE     PM254-1-10-Z-8.5
         TP32       1       1              PASSIVE     RH-5016
         U1         28      PC2            PASSIVE     STM32H523ZETx
 
-[00124] PC1
+[00112] PC1
         J2         9       9              PASSIVE     PM254-1-10-Z-8.5
         TP37       1       1              PASSIVE     RH-5016
         U1         27      PC1            PASSIVE     STM32H523ZETx
 
-[00123] PC0
+[00111] PC0
         J11        2       2              PASSIVE     PM254-1-10-Z-8.5
         TP44       1       1              PASSIVE     Test Point 2mm
         U1         26      PC0            PASSIVE     STM32H523ZETx
 
-[00122] PB10
+[00110] PB10
         J9         8       8              PASSIVE     PM254-1-10-Z-8.5
         TP68       1       1              PASSIVE     Test Point 2mm
         U1         69      PB10           PASSIVE     STM32H523ZETx
 
-[00121] PB7
+[00109] PB7
         J5         2       2              PASSIVE     PM254-1-10-Z-8.5
         TP5        1       1              PASSIVE     Test Point 2mm
         U1         137     PB7            PASSIVE     STM32H523ZETx
 
-[00120] PB6
+[00108] PB6
         J5         3       3              PASSIVE     PM254-1-10-Z-8.5
         TP10       1       1              PASSIVE     Test Point 2mm
         U1         136     PB6            PASSIVE     STM32H523ZETx
 
-[00119] PB5
+[00107] PB5
         J5         4       4              PASSIVE     PM254-1-10-Z-8.5
         TP15       1       1              PASSIVE     Test Point 2mm
         U1         135     PB5            PASSIVE     STM32H523ZETx
 
-[00118] PB4
+[00106] PB4
         J5         5       5              PASSIVE     PM254-1-10-Z-8.5
         TP20       1       1              PASSIVE     Test Point 2mm
         U1         134     PB4            PASSIVE     STM32H523ZETx
 
-[00117] PB2/LED
+[00105] PB2/LED
         J3         2       2              PASSIVE     PM254-1-10-Z-8.5
         R11        2       2              PASSIVE     0402WGF1501TCE
         TP3        1       1              PASSIVE     Test Point 2mm
         U1         48      PB2            PASSIVE     STM32H523ZETx
 
-[00116] PB1
+[00104] PB1
         J11        3       3              PASSIVE     PM254-1-10-Z-8.5
         TP47       1       1              PASSIVE     Test Point 2mm
         U1         47      PB1            PASSIVE     STM32H523ZETx
 
-[00115] PB0
+[00103] PB0
         J11        4       4              PASSIVE     PM254-1-10-Z-8.5
         TP52       1       1              PASSIVE     Test Point 2mm
         U1         46      PB0            PASSIVE     STM32H523ZETx
 
-[00114] PA15
+[00102] PA15
         J6         4       4              PASSIVE     PM254-1-10-Z-8.5
         TP16       1       1              PASSIVE     Test Point 2mm
         U1         110     PA15           PASSIVE     STM32H523ZETx
 
-[00113] PA7
+[00101] PA7
         J11        7       7              PASSIVE     PM254-1-10-Z-8.5
         TP67       1       1              PASSIVE     Test Point 2mm
         U1         43      PA7            PASSIVE     STM32H523ZETx
 
-[00112] PA6
+[00100] PA6
         J11        8       8              PASSIVE     PM254-1-10-Z-8.5
         TP70       1       1              PASSIVE     Test Point 2mm
         U1         42      PA6            PASSIVE     STM32H523ZETx
 
-[00111] PA5
+[00099] PA5
         J11        9       9              PASSIVE     PM254-1-10-Z-8.5
         TP73       1       1              PASSIVE     Test Point 2mm
         U1         41      PA5            PASSIVE     STM32H523ZETx
 
-[00110] PA4
+[00098] PA4
         J2         2       2              PASSIVE     PM254-1-10-Z-8.5
         TP2        1       1              PASSIVE     RH-5016
         U1         40      PA4            PASSIVE     STM32H523ZETx
 
-[00109] PA3
+[00097] PA3
         J2         3       3              PASSIVE     PM254-1-10-Z-8.5
         TP7        1       1              PASSIVE     RH-5016
         U1         37      PA3            PASSIVE     STM32H523ZETx
 
-[00108] PA2
+[00096] PA2
         J2         4       4              PASSIVE     PM254-1-10-Z-8.5
         TP12       1       1              PASSIVE     RH-5016
         U1         36      PA2            PASSIVE     STM32H523ZETx
 
-[00107] PA1
+[00095] PA1
         J2         5       5              PASSIVE     PM254-1-10-Z-8.5
         TP17       1       1              PASSIVE     RH-5016
         U1         35      PA1            PASSIVE     STM32H523ZETx
 
-[00106] PA0
+[00094] PA0
         J2         6       6              PASSIVE     PM254-1-10-Z-8.5
         TP22       1       1              PASSIVE     RH-5016
         U1         34      PA0            PASSIVE     STM32H523ZETx
 
-[00105] NRST
+[00093] NRST
         C25        2       2              PASSIVE     CL05B104KB54PNC
         R18        1       1              PASSIVE     0402WGF2003TCE
         SW3        1       1              PASSIVE     TS-1088-AR02016
         U1         25      NRST           PASSIVE     STM32H523ZETx
         U5         18      PB0            PASSIVE     STM32F103CBT6
 
-[00079] NetR62_1
-        R62        1       1              PASSIVE     0402WGF1502TCE
-        R64        2       2              PASSIVE     0402WGF5101TCE
-        U10        4       PR1            PASSIVE     TPS2116
-
-[00078] NetR61_1
-        R61        1       1              PASSIVE     0402WGF1502TCE
-        R63        2       2              PASSIVE     0402WGF5101TCE
-        U9         4       PR1            PASSIVE     TPS2116
-
-[00077] NetR60_2
-        R60        2       2              PASSIVE     RC0402FR-076K04L
-        U6         11      ILIM           PASSIVE     TPS26600PWPR
-
-[00076] NetR57_1
-        R57        1       1              PASSIVE     0402WGF2003TCE
-        R59        2       2              PASSIVE     0402WGF3302TCE
-        U6         5       OVP            PASSIVE     TPS26600PWPR
-
-[00075] NetR56_1
-        R56        1       1              PASSIVE     RC0402FR-076K04L
-        R58        2       2              PASSIVE     0402WGF1501TCE
-        U7         5       FB             PASSIVE     LMR36520ADDAR
-
-[00074] NetR55_1
-        R55        1       1              PASSIVE     0402WGF1004TCE
-        R57        2       2              PASSIVE     0402WGF2003TCE
-        U6         3       UVLO           PASSIVE     TPS26600PWPR
-
-[00073] NetR54_1
-        R54        1       1              PASSIVE     0402WGF2003TCE
-        U7         3       EN             PASSIVE     LMR36520ADDAR
-
-[00072] NetR53_2
-        R53        2       2              PASSIVE     0402WGF2003TCE
-        R54        2       2              PASSIVE     0402WGF2003TCE
-        U6         14      PGOOD/F\L\T\   PASSIVE     TPS26600PWPR
-
-[00071] NetR44_2
-        R44        2       2              PASSIVE     0402WGF1502TCE
+[00067] NetR43_2
+        R43        2       2              PASSIVE     0402WGF1502TCE
         U5         2       PC13           PASSIVE     STM32F103CBT6
 
-[00070] NetR42_2
-        R42        2       2              PASSIVE     0402WGF1501TCE
-        U5         25      PB12           PASSIVE     STM32F103CBT6
+[00066] NetR33_2
+        R33        2       2              PASSIVE     0402WGF1502TCE
+        U3         5       ILIM           PASSIVE     AP22652
 
-[00069] NetR39_2
-        R39        2       2              PASSIVE     0402WGF1502TCE
-        U5         44      BOOT           PASSIVE     STM32F103CBT6
-
-[00068] NetR34_2
-        R34        2       2              PASSIVE     0402WGF1502TCE
-        U3         5       ILIM           PASSIVE     AP22653A
-
-[00067] NetR27_1
+[00065] NetR27_1
         R27        1       1              PASSIVE     0402WGF1004TCE
         U2         4       VBUS_DET       PASSIVE     TUSB320
 
-[00066] NetQ3_2
-        Q3         2       E              PASSIVE     MMBT3904
-        R52        2       2              PASSIVE     0402WGF1501TCE
+[00064] NetQ2_2
+        Q2         2       E              PASSIVE     MMBT3904
+        R51        2       2              PASSIVE     0402WGF1501TCE
 
-[00065] NetQ2_3
-        Q2         3       D              PASSIVE     AO3400A
-        Q4         1       G              PASSIVE     AO3400A
-        R46        1       1              PASSIVE     0402WGF1502TCE
-
-[00063] NetJ19_B5
-        J19        B5      CC2            PASSIVE     TYPE-C-31-M-12
-        R37        2       2              PASSIVE     0402WGF5101TCE
-
-[00061] NetJ19_A5
-        J19        A5      CC1            PASSIVE     TYPE-C-31-M-12
-        R38        2       2              PASSIVE     0402WGF5101TCE
-
-[00058] NetF1_2
+[00059] NetF1_2
         F1         2       2              PASSIVE     R12.000.8
         J21        5       5              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
 
-[00057] NetD11_A
+[00058] NetD11_A
         D11        A       A              PASSIVE     KT-0603R
-        R41        1       1              PASSIVE     0402WGF1501TCE
-
-[00056] NetD10_A
-        D10        A       A              PASSIVE     KT-0603R
         R40        1       1              PASSIVE     0402WGF1501TCE
 
-[00053] NetD7_K
+[00057] NetD10_A
+        D10        A       A              PASSIVE     KT-0603R
+        R39        1       1              PASSIVE     0402WGF1501TCE
+
+[00054] NetD7_K
         D7         K       K              PASSIVE     KT-0603R
-        R36        2       2              PASSIVE     0402WGF5101TCE
+        R35        2       2              PASSIVE     0402WGF5101TCE
 
-[00052] NetD6_3
-        D6         3       3              PASSIVE     TPD4E1U06DBVR-TP
-        J18        B5      CC2            PASSIVE     TYPE-C-31-M-12
-        U2         2       CC2            PASSIVE     TUSB320
-
-[00051] NetD6_1
-        D6         1       1              PASSIVE     TPD4E1U06DBVR-TP
-        J18        A5      CC1            PASSIVE     TYPE-C-31-M-12
-        U2         1       CC1            PASSIVE     TUSB320
-
-[00050] NetD4_K
+[00053] NetD4_K
         D4         K       K              PASSIVE     KT-0603R
         R29        2       2              PASSIVE     0402WGF5101TCE
 
-[00049] NetD1_A
+[00052] NetD1_A
         D1         A       A              PASSIVE     KT-0603R
         R11        1       1              PASSIVE     0402WGF1501TCE
 
-[00048] NetC63_2
-        C63        2       2              PASSIVE     CL05B104KB54PNC
-        C64        2       2              PASSIVE     CL05B104KB54PNC
-        U6         12      dVdT           PASSIVE     TPS26600PWPR
-
-[00047] NetC63_1
-        C63        1       1              PASSIVE     CL05B104KB54PNC
-        C64        1       1              PASSIVE     CL05B104KB54PNC
-        R59        1       1              PASSIVE     0402WGF3302TCE
-        R60        1       1              PASSIVE     RC0402FR-076K04L
-        U6         8       RTN            PASSIVE     TPS26600PWPR
-        U6         17      EP             PASSIVE     TPS26600PWPR
-
-[00046] NetC57_2
+[00051] NetC57_2
         C57        2       2              PASSIVE     CL05A105KA5NQNC
         U7         6       VCC            PASSIVE     LMR36520ADDAR
 
-[00045] NetC51_A
-        C51        A       A              PASSIVE     63SEV47M8X10.5
-        C52        A       A              PASSIVE     63SEV47M8X10.5
-        C53        2       2              PASSIVE     CL31B225KCHSNNE
-        C54        2       2              PASSIVE     CL31B225KCHSNNE
-        C55        2       2              PASSIVE     CL31B225KCHSNNE
-        C56        2       2              PASSIVE     CL05B104KB54PNC
-        R53        1       1              PASSIVE     0402WGF2003TCE
-        U6         15      OUT            PASSIVE     TPS26600PWPR
-        U6         16      OUT            PASSIVE     TPS26600PWPR
-        U7         2       VIN            PASSIVE     LMR36520ADDAR
-
-[00044] NetC50_2
-        C50        2       2              PASSIVE     CL05B104KB54PNC
-        U7         7       BOOT           PASSIVE     LMR36520ADDAR
-
-[00043] NetC50_1
-        C50        1       1              PASSIVE     CL05B104KB54PNC
-        L1         1       1              PASSIVE     ASPI-0630LR-150M-T15
-        U7         8       SW             PASSIVE     LMR36520ADDAR
-
-[00042] NetC42_2
-        C42        2       2              PASSIVE     CL05C100JB5NNNC
-        U5         6       PD1            PASSIVE     STM32F103CBT6
-        X3         2       2              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
-
-[00041] NetC41_2
-        C41        2       2              PASSIVE     CL05C100JB5NNNC
-        U5         5       PD0            PASSIVE     STM32F103CBT6
-        X3         1       1              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
-
-[00040] NetC36_2
+[00050] NetC36_2
         C36        2       2              PASSIVE     CL10A225KO8NNNC
-        R35        1       1              PASSIVE     0603WAF100KT5E
+        R34        1       1              PASSIVE     0603WAF100KT5E
 
-[00039] NetC30_2
+[00049] NetC30_2
         C30        2       2              PASSIVE     CL10A225KO8NNNC
         R28        1       1              PASSIVE     0603WAF100KT5E
 
-[00038] NetC6_2
-        C6         2       2              PASSIVE     CL05C100JB5NNNC
-        U1         9       PC15_LS_XTAL_OUPASSIVE     STM32H523ZETx
-        X2         2       2              PASSIVE     FC-135 32.7680KA-AG3
-
-[00037] NetC5_2
-        C5         2       2              PASSIVE     CL05C100JB5NNNC
-        U1         8       PC14_LS_XTAL_INPASSIVE     STM32H523ZETx
-        X2         1       1              PASSIVE     FC-135 32.7680KA-AG3
-
-[00036] NetC3_2
-        C3         2       2              PASSIVE     CL10A225KO8NNNC
-        C4         2       2              PASSIVE     CL10A225KO8NNNC
-        U1         70      VCAP           PASSIVE     STM32H523ZETx
-        U1         142     VCAP           PASSIVE     STM32H523ZETx
-
-[00035] NetC2_2
-        C2         2       2              PASSIVE     CL05C100JB5NNNC
-        U1         24      PH1_HS_XTAL_OUTPASSIVE     STM32H523ZETx
-        X1         2       2              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
-
-[00034] NetC1_2
-        C1         2       2              PASSIVE     CL05C100JB5NNNC
-        U1         23      PH0_HS_XTAL_IN PASSIVE     STM32H523ZETx
-        X1         1       1              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
-
-[00033] MCO_3
+[00048] MCO_3
         TP1        1       1              PASSIVE     Test Point 2mm
         U1         100     PA8_MCO1       PASSIVE     STM32H523ZETx
 
-[00032] I2C2_SDA
+[00047] I2C2_SDA
         J13        3       3              PASSIVE     Connector - 4pin - 1mm
         J16        16      16             PASSIVE     PM254-2-15-Z-8.5
         R17        1       1              PASSIVE     0402WGF1501TCE
         TP79       1       1              PASSIVE     RH-5016
         U1         10      PF0            PASSIVE     STM32H523ZETx
 
-[00031] I2C2_SCL
+[00046] I2C2_SCL
         J13        4       4              PASSIVE     Connector - 4pin - 1mm
         J16        14      14             PASSIVE     PM254-2-15-Z-8.5
         R16        1       1              PASSIVE     0402WGF1501TCE
         TP75       1       1              PASSIVE     RH-5016
         U1         11      PF1            PASSIVE     STM32H523ZETx
 
-[00030] I2C1_SDA
+[00045] I2C1_SDA
         J12        3       3              PASSIVE     Connector - 4pin - 1mm
         J16        15      15             PASSIVE     PM254-2-15-Z-8.5
         R15        1       1              PASSIVE     0402WGF1501TCE
@@ -1043,7 +959,7 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         U1         140     PB9            PASSIVE     STM32H523ZETx
         U2         7       SDA/OUT1       PASSIVE     TUSB320
 
-[00029] I2C1_SCL
+[00044] I2C1_SCL
         J12        4       4              PASSIVE     Connector - 4pin - 1mm
         J16        13      13             PASSIVE     PM254-2-15-Z-8.5
         R14        1       1              PASSIVE     0402WGF1501TCE
@@ -1051,16 +967,16 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         U1         139     PB8            PASSIVE     STM32H523ZETx
         U2         8       SCL/OUT2       PASSIVE     TUSB320
 
-[00028] HVIN
+[00043] HVIN
         C62        2       2              PASSIVE     CL31B225KCHSNNE
         D12        2       2              PASSIVE     SMBJ36CA-13-F
         F1         1       1              PASSIVE     R12.000.8
         J22        5       5              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
-        R55        2       2              PASSIVE     0402WGF1004TCE
+        R54        2       2              PASSIVE     0402WGF1004TCE
         U6         1       IN             PASSIVE     TPS26600PWPR
         U6         2       IN             PASSIVE     TPS26600PWPR
 
-[00027] GND
+[00042] GND
         C1         1       1              PASSIVE     CL05C100JB5NNNC
         C2         1       1              PASSIVE     CL05C100JB5NNNC
         C3         1       1              PASSIVE     CL10A225KO8NNNC
@@ -1176,8 +1092,7 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         J21        1       1              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         J22        1       1              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         Q1         2       S              PASSIVE     AO3400A
-        Q2         2       S              PASSIVE     AO3400A
-        Q4         2       S              PASSIVE     AO3400A
+        Q3         2       S              PASSIVE     AO3400A
         R2         1       1              PASSIVE     0402WGF2003TCE
         R3         1       1              PASSIVE     0402WGF2003TCE
         R4         1       1              PASSIVE     0402WGF2003TCE
@@ -1188,19 +1103,19 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         R13        1       1              PASSIVE     RC0402FR-076K04L
         R19        1       1              PASSIVE     0402WGF1502TCE
         R29        1       1              PASSIVE     0402WGF5101TCE
-        R33        1       1              PASSIVE     0402WGF2003TCE
-        R34        1       1              PASSIVE     0402WGF1502TCE
+        R32        1       1              PASSIVE     0402WGF3302TCE
+        R33        1       1              PASSIVE     0402WGF1502TCE
+        R35        1       1              PASSIVE     0402WGF5101TCE
         R36        1       1              PASSIVE     0402WGF5101TCE
         R37        1       1              PASSIVE     0402WGF5101TCE
-        R38        1       1              PASSIVE     0402WGF5101TCE
-        R39        1       1              PASSIVE     0402WGF1502TCE
-        R44        1       1              PASSIVE     0402WGF1502TCE
-        R45        1       1              PASSIVE     0402WGF1004TCE
-        R48        2       2              PASSIVE     0402WGF1502TCE
-        R51        1       1              PASSIVE     0402WGF2003TCE
-        R58        1       1              PASSIVE     0402WGF1501TCE
+        R38        1       1              PASSIVE     0402WGF1502TCE
+        R43        1       1              PASSIVE     0402WGF1502TCE
+        R44        1       1              PASSIVE     0402WGF1004TCE
+        R47        2       2              PASSIVE     0402WGF1502TCE
+        R50        1       1              PASSIVE     0402WGF2003TCE
+        R57        1       1              PASSIVE     0402WGF1501TCE
+        R62        1       1              PASSIVE     0402WGF5101TCE
         R63        1       1              PASSIVE     0402WGF5101TCE
-        R64        1       1              PASSIVE     0402WGF5101TCE
         SW3        2       2              PASSIVE     TS-1088-AR02016
         U1         16      VSS            PASSIVE     STM32H523ZETx
         U1         31      VSSA           PASSIVE     STM32H523ZETx
@@ -1218,7 +1133,7 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         U2         5       ADDR           PASSIVE     TUSB320
         U2         10      GND            PASSIVE     TUSB320
         U2         11      E\N\           PASSIVE     TUSB320
-        U3         2       GND            PASSIVE     AP22653A
+        U3         2       GND            PASSIVE     AP22652
         U4         2       GND            PASSIVE     TCAN1044VDRBRQ1
         U4         8       STB            PASSIVE     TCAN1044VDRBRQ1
         U4         EP      EP             PASSIVE     TCAN1044VDRBRQ1
@@ -1240,107 +1155,184 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         U11        5       GND            PASSIVE     TLV76733DRVR
         U11        EP      EP             PASSIVE     TLV76733DRVR
 
-[00026] FDCAN_TX
+[00041] FDCAN_TX
         U1         115     PD1            PASSIVE     STM32H523ZETx
         U4         1       TXD            PASSIVE     TCAN1044VDRBRQ1
 
-[00025] FDCAN_RX
+[00040] FDCAN_RX
         U1         114     PD0            PASSIVE     STM32H523ZETx
         U4         4       RXD            PASSIVE     TCAN1044VDRBRQ1
 
-[00024] DIP5_2
+[00039] EFUSE_UVLO_10
+        R54        1       1              PASSIVE     0402WGF1004TCE
+        R56        2       2              PASSIVE     0402WGF2003TCE
+        U6         3       UVLO           PASSIVE     TPS26600PWPR
+
+[00038] EFUSE_PGOOD_10
+        R52        2       2              PASSIVE     0402WGF2003TCE
+        R53        2       2              PASSIVE     0402WGF2003TCE
+        U6         14      PGOOD/F\L\T\   PASSIVE     TPS26600PWPR
+
+[00037] EFUSE_OVP_10
+        R56        1       1              PASSIVE     0402WGF2003TCE
+        R58        2       2              PASSIVE     0402WGF3302TCE
+        U6         5       OVP            PASSIVE     TPS26600PWPR
+
+[00036] EFUSE_OUT_10
+        C51        A       A              PASSIVE     63SEV47M8X10.5
+        C52        A       A              PASSIVE     63SEV47M8X10.5
+        C53        2       2              PASSIVE     CL31B225KCHSNNE
+        C54        2       2              PASSIVE     CL31B225KCHSNNE
+        C55        2       2              PASSIVE     CL31B225KCHSNNE
+        C56        2       2              PASSIVE     CL05B104KB54PNC
+        R52        1       1              PASSIVE     0402WGF2003TCE
+        U6         15      OUT            PASSIVE     TPS26600PWPR
+        U6         16      OUT            PASSIVE     TPS26600PWPR
+        U7         2       VIN            PASSIVE     LMR36520ADDAR
+
+[00035] EFUSE_ILIM_10
+        R59        2       2              PASSIVE     RC0402FR-076K04L
+        U6         11      ILIM           PASSIVE     TPS26600PWPR
+
+[00034] EFUSE_DVDT_10
+        C63        2       2              PASSIVE     CL05B104KB54PNC
+        C64        2       2              PASSIVE     CL05B104KB54PNC
+        U6         12      dVdT           PASSIVE     TPS26600PWPR
+
+[00033] DIP5_2
         R2         2       2              PASSIVE     0402WGF2003TCE
         SW1        6       6              PASSIVE     SMXS-06K-TP
         U1         90      PG5            PASSIVE     STM32H523ZETx
 
-[00023] DIP4_2
+[00032] DIP4_2
         R3         2       2              PASSIVE     0402WGF2003TCE
         SW1        5       5              PASSIVE     SMXS-06K-TP
         U1         89      PG4            PASSIVE     STM32H523ZETx
 
-[00022] DIP3_2
+[00031] DIP3_2
         R4         2       2              PASSIVE     0402WGF2003TCE
         SW1        4       4              PASSIVE     SMXS-06K-TP
         U1         88      PG3            PASSIVE     STM32H523ZETx
 
-[00021] DIP2_2
+[00030] DIP2_2
         R5         2       2              PASSIVE     0402WGF2003TCE
         SW1        3       3              PASSIVE     SMXS-06K-TP
         U1         87      PG2            PASSIVE     STM32H523ZETx
 
-[00020] DIP1_2
+[00029] DIP1_2
         R6         2       2              PASSIVE     0402WGF2003TCE
         SW1        2       2              PASSIVE     SMXS-06K-TP
         U1         57      PG1            PASSIVE     STM32H523ZETx
 
-[00019] DIP0_2
+[00028] DIP0_2
         R7         2       2              PASSIVE     0402WGF2003TCE
         SW1        1       1              PASSIVE     SMXS-06K-TP
         U1         56      PG0            PASSIVE     STM32H523ZETx
 
-[00018] DAP_TX
-        R43        1       1              PASSIVE     0402WGF2003TCE
+[00027] DAP_XTAL2_9
+        C41        2       2              PASSIVE     CL05C100JB5NNNC
+        U5         5       PD0            PASSIVE     STM32F103CBT6
+        X3         1       1              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
+
+[00026] DAP_XTAL1_9
+        C42        2       2              PASSIVE     CL05C100JB5NNNC
+        U5         6       PD1            PASSIVE     STM32F103CBT6
+        X3         2       2              PASSIVE     NX3225GD-8MHZ-STD-CRA-3
+
+[00025] DAP_TX
+        R42        1       1              PASSIVE     0402WGF2003TCE
         U1         78      PD9_USART3_RX  PASSIVE     STM32H523ZETx
         U5         12      PA2            PASSIVE     STM32F103CBT6
 
-[00017] DAP_SWDIO_9
+[00024] DAP_SWDIO_9
         J20        4       4              PASSIVE     Connector_2.54mm-1x5-unpopulated
         U5         34      PA13           PASSIVE     STM32F103CBT6
 
-[00016] DAP_SWCLK_9
+[00023] DAP_SWCLK_9
         J20        2       2              PASSIVE     Connector_2.54mm-1x5-unpopulated
         U5         37      PA14           PASSIVE     STM32F103CBT6
 
-[00015] DAP_RX
+[00022] DAP_RX
         U1         77      PD8_USART3_TX  PASSIVE     STM32H523ZETx
         U5         13      PA3            PASSIVE     STM32F103CBT6
 
-[00014] DAP_R\E\S\E\T\_9
+[00021] DAP_R\E\S\E\T\_9
         C40        1       1              PASSIVE     CL05B104KB54PNC
         J20        5       5              PASSIVE     Connector_2.54mm-1x5-unpopulated
-        Q4         3       D              PASSIVE     AO3400A
-        R47        1       1              PASSIVE     0402WGF2003TCE
+        Q3         3       D              PASSIVE     AO3400A
+        R46        1       1              PASSIVE     0402WGF2003TCE
         U5         7       NRST           PASSIVE     STM32F103CBT6
 
-[00013] DAP_LED_2_9
+[00020] DAP_PB12_9
+        R41        2       2              PASSIVE     0402WGF1501TCE
+        U5         25      PB12           PASSIVE     STM32F103CBT6
+
+[00019] DAP_NRST_G_9
+        Q1         3       D              PASSIVE     AO3400A
+        Q3         1       G              PASSIVE     AO3400A
+        R45        1       1              PASSIVE     0402WGF1502TCE
+
+[00018] DAP_LED_2_9
         D10        K       K              PASSIVE     KT-0603R
         U5         42      PB6            PASSIVE     STM32F103CBT6
 
-[00012] DAP_LED_1_9
+[00017] DAP_LED_1_9
         D11        K       K              PASSIVE     KT-0603R
         U5         30      PA9            PASSIVE     STM32F103CBT6
 
-[00011] DAP_D_P
+[00016] DAP_D_P
         D9         6       6              PASSIVE     TPD4E1U06DBVR-TP
         J19        A6      DP1            PASSIVE     TYPE-C-31-M-12
         J19        B6      DP2            PASSIVE     TYPE-C-31-M-12
-        R52        1       1              PASSIVE     0402WGF1501TCE
+        R51        1       1              PASSIVE     0402WGF1501TCE
         U5         33      PA12           PASSIVE     STM32F103CBT6
 
-[00010] DAP_D_N
+[00015] DAP_D_N
         D9         4       4              PASSIVE     TPD4E1U06DBVR-TP
         J19        A7      DN1            PASSIVE     TYPE-C-31-M-12
         J19        B7      DN2            PASSIVE     TYPE-C-31-M-12
         U5         32      PA11           PASSIVE     STM32F103CBT6
 
-[00009] CAN_L
+[00014] DAP_BOOT_9
+        R38        2       2              PASSIVE     0402WGF1502TCE
+        U5         44      BOOT           PASSIVE     STM32F103CBT6
+
+[00013] CAN_L
         D13        1       1              PASSIVE     PESD2CANFD36VQB-QZ
         J21        2       2              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         J22        2       2              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         TP85       1       1              PASSIVE     RH-5016
         U4         6       CANL           PASSIVE     TCAN1044VDRBRQ1
 
-[00008] CAN_H
+[00012] CAN_H
         D13        2       2              PASSIVE     PESD2CANFD36VQB-QZ
         J21        4       4              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         J22        4       4              PASSIVE     WJ15EDGRC-3.81-05P-14-00A
         TP84       1       1              PASSIVE     RH-5016
         U4         7       CANH           PASSIVE     TCAN1044VDRBRQ1
 
-[00007] BUCK_DETECT_2
+[00011] BUCK_SW_10
+        C50        1       1              PASSIVE     CL05B104KB54PNC
+        L1         1       1              PASSIVE     ASPI-0630LR-150M-T15
+        U7         8       SW             PASSIVE     LMR36520ADDAR
+
+[00010] BUCK_FB_10
+        R55        1       1              PASSIVE     RC0402FR-076K04L
+        R57        2       2              PASSIVE     0402WGF1501TCE
+        U7         5       FB             PASSIVE     LMR36520ADDAR
+
+[00009] BUCK_EN_10
+        R53        1       1              PASSIVE     0402WGF2003TCE
+        U7         3       EN             PASSIVE     LMR36520ADDAR
+
+[00008] BUCK_DETECT_2
         R10        1       1              PASSIVE     0402WGF5101TCE
         R13        2       2              PASSIVE     RC0402FR-076K04L
         U1         53      PF13           PASSIVE     STM32H523ZETx
+
+[00007] BUCK_BOOT_10
+        C50        2       2              PASSIVE     CL05B104KB54PNC
+        U7         7       BOOT           PASSIVE     LMR36520ADDAR
 
 [00006] BOOT_0_3
         C26        2       2              PASSIVE     CL05B104KB54PNC
@@ -1362,8 +1354,8 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         C61        2       2              PASSIVE     CL31A226KAHNNNE
         L1         2       2              PASSIVE     ASPI-0630LR-150M-T15
         R10        2       2              PASSIVE     0402WGF5101TCE
-        R56        2       2              PASSIVE     RC0402FR-076K04L
-        R62        2       2              PASSIVE     0402WGF1502TCE
+        R55        2       2              PASSIVE     RC0402FR-076K04L
+        R61        2       2              PASSIVE     0402WGF1502TCE
         U10        3       VIN1           PASSIVE     TPS2116
         U10        5       MODE           PASSIVE     TPS2116
 
@@ -1381,7 +1373,8 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         J15        3       3              PASSIVE     Connector - 5pin - 1mm
         J16        25      25             PASSIVE     PM254-2-15-Z-8.5
         J16        26      26             PASSIVE     PM254-2-15-Z-8.5
-        U3         1       IN             PASSIVE     AP22653A
+        R30        2       2              PASSIVE     0402WGF1502TCE
+        U3         1       IN             PASSIVE     AP22652
         U4         3       VCC            PASSIVE     TCAN1044VDRBRQ1
         U8         4       EN             PASSIVE     TLV76733DRVR
         U8         6       IN             PASSIVE     TLV76733DRVR
@@ -1449,7 +1442,7 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         J16        28      28             PASSIVE     PM254-2-15-Z-8.5
         J17        4       VDD            PASSIVE     DM3AT-SF-PEJM5
         J20        1       1              PASSIVE     Connector_2.54mm-1x5-unpopulated
-        Q3         3       C              PASSIVE     MMBT3904
+        Q2         3       C              PASSIVE     MMBT3904
         R1         2       2              PASSIVE     0402WGF1502TCE
         R8         2       2              PASSIVE     0402WGF1502TCE
         R14        2       2              PASSIVE     0402WGF1501TCE
@@ -1464,15 +1457,13 @@ NX3225GD-8MHZ-STD-CRA-3         X3
         R24        2       2              PASSIVE     0402WGF1502TCE
         R25        2       2              PASSIVE     0402WGF2003TCE
         R26        2       2              PASSIVE     0402WGF1502TCE
-        R30        2       2              PASSIVE     0402WGF1502TCE
         R31        2       2              PASSIVE     0402WGF1502TCE
-        R32        2       2              PASSIVE     0402WGF1502TCE
+        R39        2       2              PASSIVE     0402WGF1501TCE
         R40        2       2              PASSIVE     0402WGF1501TCE
-        R41        2       2              PASSIVE     0402WGF1501TCE
-        R43        2       2              PASSIVE     0402WGF2003TCE
-        R46        2       2              PASSIVE     0402WGF1502TCE
-        R47        2       2              PASSIVE     0402WGF2003TCE
-        R49        1       1              PASSIVE     0402WGF1502TCE
+        R42        2       2              PASSIVE     0402WGF2003TCE
+        R45        2       2              PASSIVE     0402WGF1502TCE
+        R46        2       2              PASSIVE     0402WGF2003TCE
+        R48        1       1              PASSIVE     0402WGF1502TCE
         SW1        7       7              PASSIVE     SMXS-06K-TP
         SW1        8       8              PASSIVE     SMXS-06K-TP
         SW1        9       9              PASSIVE     SMXS-06K-TP
