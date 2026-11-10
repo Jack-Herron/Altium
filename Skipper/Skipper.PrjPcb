@@ -305,82 +305,86 @@ GenerateClassCluster=0
 DocumentUniqueId=SJIPGWBL
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.csv
+DocumentPath=Project Outputs for Skipper\Design Rule Check - Skipper.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.txt
+DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.csv
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Skipper\Skipper-RoundHoles.TXT
+DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.txt
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Skipper\Skipper-SlotHoles.TXT
+DocumentPath=Project Outputs for Skipper\Skipper-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Skipper\Skipper.DRR
+DocumentPath=Project Outputs for Skipper\Skipper-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Skipper\Skipper.EXTREP
+DocumentPath=Project Outputs for Skipper\Skipper.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Skipper\Skipper.G1
+DocumentPath=Project Outputs for Skipper\Skipper.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Skipper\Skipper.G2
+DocumentPath=Project Outputs for Skipper\Skipper.G1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Skipper\Skipper.GBL
+DocumentPath=Project Outputs for Skipper\Skipper.G2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Skipper\Skipper.GBO
+DocumentPath=Project Outputs for Skipper\Skipper.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Skipper\Skipper.GBP
+DocumentPath=Project Outputs for Skipper\Skipper.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Skipper\Skipper.GBS
+DocumentPath=Project Outputs for Skipper\Skipper.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Skipper\Skipper.GM
+DocumentPath=Project Outputs for Skipper\Skipper.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Skipper\Skipper.GTL
+DocumentPath=Project Outputs for Skipper\Skipper.GM
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Skipper\Skipper.GTO
+DocumentPath=Project Outputs for Skipper\Skipper.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Skipper\Skipper.GTP
+DocumentPath=Project Outputs for Skipper\Skipper.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Skipper\Skipper.GTS
+DocumentPath=Project Outputs for Skipper\Skipper.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Skipper\Skipper.LDP
+DocumentPath=Project Outputs for Skipper\Skipper.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Skipper\Skipper.NET
+DocumentPath=Project Outputs for Skipper\Skipper.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
+DocumentPath=Project Outputs for Skipper\Skipper.NET
+DItemRevisionGUID=
+
+[GeneratedDocument21]
 DocumentPath=Project Outputs for Skipper\Skipper.REP
 DItemRevisionGUID=
 
@@ -2233,99 +2237,101 @@ Net327=NetName=SCL|NetColor=$000066FF
 Net328=NetName=SDA|NetColor=$000066FF
 Net329=NetName=SDMMC_CLK|NetColor=clAqua
 Net330=NetName=SDMMC_CLK_1|NetColor=clAqua
-Net331=NetName=SDMMC_CMD|NetColor=clAqua
-Net332=NetName=SDMMC_CMD_1|NetColor=clAqua
-Net333=NetName=SDMMC_D0|NetColor=clAqua
-Net334=NetName=SDMMC_D0_1|NetColor=clAqua
-Net335=NetName=SDMMC_D1|NetColor=clAqua
-Net336=NetName=SDMMC_D1_1|NetColor=clAqua
-Net337=NetName=SDMMC_D2|NetColor=clAqua
-Net338=NetName=SDMMC_D2_1|NetColor=clAqua
-Net339=NetName=SDMMC_D3|NetColor=clAqua
-Net340=NetName=SDMMC_D3_1|NetColor=clAqua
-Net341=NetName=SDMMC_DETECT|NetColor=clAqua
-Net342=NetName=SDMMC_DETECT_1|NetColor=clAqua
-Net343=NetName=SHIELD|NetColor=$00505050
-Net344=NetName=SHIELD_11|NetColor=$00505050
-Net345=NetName=SPI1_C\S\|NetColor=$000066FF
-Net346=NetName=SPI1_C\S\_1|NetColor=$000066FF
-Net347=NetName=SPI1_MISO|NetColor=$000066FF
-Net348=NetName=SPI1_MISO_1|NetColor=$000066FF
-Net349=NetName=SPI1_MOSI|NetColor=$000066FF
-Net350=NetName=SPI1_MOSI_1|NetColor=$000066FF
-Net351=NetName=SPI1_SCLK|NetColor=$000066FF
-Net352=NetName=SPI1_SCLK_1|NetColor=$000066FF
-Net353=NetName=SPI2_C\S\|NetColor=$000066FF
-Net354=NetName=SPI2_C\S\_1|NetColor=$000066FF
-Net355=NetName=SPI2_MISO|NetColor=$000066FF
-Net356=NetName=SPI2_MISO_1|NetColor=$000066FF
-Net357=NetName=SPI2_MOSI|NetColor=$000066FF
-Net358=NetName=SPI2_MOSI_1|NetColor=$000066FF
-Net359=NetName=SPI2_SCLK|NetColor=$000066FF
-Net360=NetName=SPI2_SCLK_1|NetColor=$000066FF
-Net361=NetName=SWCLK|NetColor=$00003366
-Net362=NetName=SWCLK_1|NetColor=$00003366
-Net363=NetName=SWDIO|NetColor=$00003366
-Net364=NetName=SWDIO_1|NetColor=$00003366
-Net365=NetName=SWO|NetColor=$00003366
-Net366=NetName=SWO_1|NetColor=$00003366
-Net367=NetName=TGT_R\E\S\E\T\|NetColor=$00003366
-Net368=NetName=TGT_SWCLK|NetColor=$00003366
-Net369=NetName=TGT_SWDIO|NetColor=$00003366
-Net370=NetName=TGT_SWO|NetColor=$00003366
-Net371=NetName=U1_HSE_IN|NetColor=$00505050
-Net372=NetName=U1_HSE_IN_3|NetColor=$00505050
-Net373=NetName=U1_HSE_OUT|NetColor=$00505050
-Net374=NetName=U1_HSE_OUT_3|NetColor=$00505050
-Net375=NetName=U1_LSE_IN|NetColor=$00505050
-Net376=NetName=U1_LSE_IN_3|NetColor=$00505050
-Net377=NetName=U1_LSE_OUT|NetColor=$00505050
-Net378=NetName=U1_LSE_OUT_3|NetColor=$00505050
-Net379=NetName=U1_VCAP|NetColor=$00505050
-Net380=NetName=U1_VCAP_3|NetColor=$00505050
-Net381=NetName=U1_XTAL_IN|NetColor=$00505050
-Net382=NetName=U1_XTAL_IN_3|NetColor=$00505050
-Net383=NetName=U1_XTAL_OUT|NetColor=$00505050
-Net384=NetName=U1_XTAL_OUT_3|NetColor=$00505050
-Net385=NetName=UART1_RX|NetColor=$000066FF
-Net386=NetName=UART1_RX_1|NetColor=$000066FF
-Net387=NetName=UART1_TX|NetColor=$000066FF
-Net388=NetName=UART1_TX_1|NetColor=$000066FF
-Net389=NetName=UART2_RX|NetColor=$000066FF
-Net390=NetName=UART2_RX_1|NetColor=$000066FF
-Net391=NetName=UART2_TX|NetColor=$000066FF
-Net392=NetName=UART2_TX_1|NetColor=$000066FF
-Net393=NetName=UART3_RX|NetColor=$00003366
-Net394=NetName=UART3_RX_1|NetColor=$00003366
-Net395=NetName=UART3_TX|NetColor=$00003366
-Net396=NetName=UART3_TX_1|NetColor=$00003366
-Net397=NetName=USB_D_N|NetColor=$0000CC00
-Net398=NetName=USB_D_P|NetColor=$0000CC00
-Net399=NetName=USB_DRP_CC1|NetColor=$00505050
-Net400=NetName=USB_DRP_CC1_6|NetColor=$00505050
-Net401=NetName=USB_DRP_CC2|NetColor=$00505050
-Net402=NetName=USB_DRP_CC2_6|NetColor=$00505050
-Net403=NetName=USB_DRP_F\A\U\L\T\|NetColor=$00505050
-Net404=NetName=USB_DRP_I\N\T\|NetColor=$00505050
-Net405=NetName=USB_DRP_ID|NetColor=$00505050
-Net406=NetName=USB_DRP_ID_6|NetColor=$00505050
-Net407=NetName=USB_DRP_ILIM|NetColor=$00505050
-Net408=NetName=USB_DRP_ILIM_6|NetColor=$00505050
-Net409=NetName=USB_DRP_VBUS|NetColor=clRed
-Net410=NetName=USB_DRP_VBUS_DET|NetColor=$00505050
-Net411=NetName=USB_DRP_VBUS_DET_6|NetColor=$00505050
-Net412=NetName=USB_UFP_CC1|NetColor=$00505050
-Net413=NetName=USB_UFP_CC1_7|NetColor=$00505050
-Net414=NetName=USB_UFP_CC2|NetColor=$00505050
-Net415=NetName=USB_UFP_CC2_7|NetColor=$00505050
-Net416=NetName=USB_UFP_DETECT|NetColor=$00505050
-Net417=NetName=USB_UFP_DETECT_2|NetColor=$00505050
-Net418=NetName=USB_UFP_VBUS|NetColor=clRed
-Net419=NetName=V_TGT_DIV2|NetColor=$00505050
-Net420=NetName=V_TGT_DIV2_9|NetColor=$00505050
-Net421=NetName=VBAT|NetColor=clRed
-Net422=NetName=VBAT_PIN|NetColor=clRed
-Net423=NetName=VBAT_PIN_3|NetColor=clRed
+Net331=NetName=SDMMC_CLK_OUT|NetColor=clAqua
+Net332=NetName=SDMMC_CLK_OUT_2|NetColor=clAqua
+Net333=NetName=SDMMC_CMD|NetColor=clAqua
+Net334=NetName=SDMMC_CMD_1|NetColor=clAqua
+Net335=NetName=SDMMC_D0|NetColor=clAqua
+Net336=NetName=SDMMC_D0_1|NetColor=clAqua
+Net337=NetName=SDMMC_D1|NetColor=clAqua
+Net338=NetName=SDMMC_D1_1|NetColor=clAqua
+Net339=NetName=SDMMC_D2|NetColor=clAqua
+Net340=NetName=SDMMC_D2_1|NetColor=clAqua
+Net341=NetName=SDMMC_D3|NetColor=clAqua
+Net342=NetName=SDMMC_D3_1|NetColor=clAqua
+Net343=NetName=SDMMC_DETECT|NetColor=clAqua
+Net344=NetName=SDMMC_DETECT_1|NetColor=clAqua
+Net345=NetName=SHIELD|NetColor=$00505050
+Net346=NetName=SHIELD_11|NetColor=$00505050
+Net347=NetName=SPI1_C\S\|NetColor=$000066FF
+Net348=NetName=SPI1_C\S\_1|NetColor=$000066FF
+Net349=NetName=SPI1_MISO|NetColor=$000066FF
+Net350=NetName=SPI1_MISO_1|NetColor=$000066FF
+Net351=NetName=SPI1_MOSI|NetColor=$000066FF
+Net352=NetName=SPI1_MOSI_1|NetColor=$000066FF
+Net353=NetName=SPI1_SCLK|NetColor=$000066FF
+Net354=NetName=SPI1_SCLK_1|NetColor=$000066FF
+Net355=NetName=SPI2_C\S\|NetColor=$000066FF
+Net356=NetName=SPI2_C\S\_1|NetColor=$000066FF
+Net357=NetName=SPI2_MISO|NetColor=$000066FF
+Net358=NetName=SPI2_MISO_1|NetColor=$000066FF
+Net359=NetName=SPI2_MOSI|NetColor=$000066FF
+Net360=NetName=SPI2_MOSI_1|NetColor=$000066FF
+Net361=NetName=SPI2_SCLK|NetColor=$000066FF
+Net362=NetName=SPI2_SCLK_1|NetColor=$000066FF
+Net363=NetName=SWCLK|NetColor=$00003366
+Net364=NetName=SWCLK_1|NetColor=$00003366
+Net365=NetName=SWDIO|NetColor=$00003366
+Net366=NetName=SWDIO_1|NetColor=$00003366
+Net367=NetName=SWO|NetColor=$00003366
+Net368=NetName=SWO_1|NetColor=$00003366
+Net369=NetName=TGT_R\E\S\E\T\|NetColor=$00003366
+Net370=NetName=TGT_SWCLK|NetColor=$00003366
+Net371=NetName=TGT_SWDIO|NetColor=$00003366
+Net372=NetName=TGT_SWO|NetColor=$00003366
+Net373=NetName=U1_HSE_IN|NetColor=$00505050
+Net374=NetName=U1_HSE_IN_3|NetColor=$00505050
+Net375=NetName=U1_HSE_OUT|NetColor=$00505050
+Net376=NetName=U1_HSE_OUT_3|NetColor=$00505050
+Net377=NetName=U1_LSE_IN|NetColor=$00505050
+Net378=NetName=U1_LSE_IN_3|NetColor=$00505050
+Net379=NetName=U1_LSE_OUT|NetColor=$00505050
+Net380=NetName=U1_LSE_OUT_3|NetColor=$00505050
+Net381=NetName=U1_VCAP|NetColor=$00505050
+Net382=NetName=U1_VCAP_3|NetColor=$00505050
+Net383=NetName=U1_XTAL_IN|NetColor=$00505050
+Net384=NetName=U1_XTAL_IN_3|NetColor=$00505050
+Net385=NetName=U1_XTAL_OUT|NetColor=$00505050
+Net386=NetName=U1_XTAL_OUT_3|NetColor=$00505050
+Net387=NetName=UART1_RX|NetColor=$000066FF
+Net388=NetName=UART1_RX_1|NetColor=$000066FF
+Net389=NetName=UART1_TX|NetColor=$000066FF
+Net390=NetName=UART1_TX_1|NetColor=$000066FF
+Net391=NetName=UART2_RX|NetColor=$000066FF
+Net392=NetName=UART2_RX_1|NetColor=$000066FF
+Net393=NetName=UART2_TX|NetColor=$000066FF
+Net394=NetName=UART2_TX_1|NetColor=$000066FF
+Net395=NetName=UART3_RX|NetColor=$00003366
+Net396=NetName=UART3_RX_1|NetColor=$00003366
+Net397=NetName=UART3_TX|NetColor=$00003366
+Net398=NetName=UART3_TX_1|NetColor=$00003366
+Net399=NetName=USB_D_N|NetColor=$0000CC00
+Net400=NetName=USB_D_P|NetColor=$0000CC00
+Net401=NetName=USB_DRP_CC1|NetColor=$00505050
+Net402=NetName=USB_DRP_CC1_6|NetColor=$00505050
+Net403=NetName=USB_DRP_CC2|NetColor=$00505050
+Net404=NetName=USB_DRP_CC2_6|NetColor=$00505050
+Net405=NetName=USB_DRP_F\A\U\L\T\|NetColor=$00505050
+Net406=NetName=USB_DRP_I\N\T\|NetColor=$00505050
+Net407=NetName=USB_DRP_ID|NetColor=$00505050
+Net408=NetName=USB_DRP_ID_6|NetColor=$00505050
+Net409=NetName=USB_DRP_ILIM|NetColor=$00505050
+Net410=NetName=USB_DRP_ILIM_6|NetColor=$00505050
+Net411=NetName=USB_DRP_VBUS|NetColor=clRed
+Net412=NetName=USB_DRP_VBUS_DET|NetColor=$00505050
+Net413=NetName=USB_DRP_VBUS_DET_6|NetColor=$00505050
+Net414=NetName=USB_UFP_CC1|NetColor=$00505050
+Net415=NetName=USB_UFP_CC1_7|NetColor=$00505050
+Net416=NetName=USB_UFP_CC2|NetColor=$00505050
+Net417=NetName=USB_UFP_CC2_7|NetColor=$00505050
+Net418=NetName=USB_UFP_DETECT|NetColor=$00505050
+Net419=NetName=USB_UFP_DETECT_2|NetColor=$00505050
+Net420=NetName=USB_UFP_VBUS|NetColor=clRed
+Net421=NetName=V_TGT_DIV2|NetColor=$00505050
+Net422=NetName=V_TGT_DIV2_9|NetColor=$00505050
+Net423=NetName=VBAT|NetColor=clRed
+Net424=NetName=VBAT_PIN|NetColor=clRed
+Net425=NetName=VBAT_PIN_3|NetColor=clRed
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
