@@ -1,0 +1,1022 @@
+{
+ "body/alumina": {
+  "key": [
+   226,
+   222,
+   210
+  ],
+  "metallic": 0,
+  "roughness": 0.6,
+  "transmission": 0.0,
+  "description": "White alumina ceramic",
+  "examples": [
+   "chip resistor substrates",
+   "chip fuses",
+   "ceramic packages"
+  ]
+ },
+ "body/ceramic_black": {
+  "key": [
+   54,
+   52,
+   50
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Black ceramic",
+  "examples": [
+   "crystal and oscillator packages",
+   "ceramic LGA"
+  ]
+ },
+ "body/ceramic_mlcc": {
+  "key": [
+   190,
+   165,
+   115
+  ],
+  "metallic": 0,
+  "roughness": 0.6,
+  "transmission": 0.0,
+  "description": "MLCC ceramic (tan)",
+  "examples": [
+   "ceramic capacitors"
+  ]
+ },
+ "body/ceramic_mlcc_dark": {
+  "key": [
+   140,
+   128,
+   110
+  ],
+  "metallic": 0,
+  "roughness": 0.6,
+  "transmission": 0.0,
+  "description": "MLCC ceramic (grey-brown)",
+  "examples": [
+   "C0G / high-voltage MLCCs"
+  ]
+ },
+ "body/epoxy": {
+  "key": [
+   38,
+   38,
+   41
+  ],
+  "metallic": 0,
+  "roughness": 0.55,
+  "transmission": 0.0,
+  "description": "Black mould compound",
+  "examples": [
+   "IC packages",
+   "diodes",
+   "moulded crystals",
+   "polymer caps"
+  ]
+ },
+ "body/epoxy_grey": {
+  "key": [
+   82,
+   84,
+   88
+  ],
+  "metallic": 0,
+  "roughness": 0.55,
+  "transmission": 0.0,
+  "description": "Grey mould compound",
+  "examples": [
+   "grey IC packages",
+   "sensor bodies"
+  ]
+ },
+ "body/ferrite": {
+  "key": [
+   70,
+   68,
+   66
+  ],
+  "metallic": 0,
+  "roughness": 0.65,
+  "transmission": 0.0,
+  "description": "Ferrite",
+  "examples": [
+   "ferrite beads",
+   "wire-wound inductor cores"
+  ]
+ },
+ "body/glass": {
+  "key": [
+   200,
+   214,
+   214
+  ],
+  "metallic": 0,
+  "roughness": 0.05,
+  "transmission": 0.85,
+  "description": "Glass",
+  "examples": [
+   "MELF / glass diodes",
+   "glass fuses",
+   "reed switches"
+  ]
+ },
+ "body/inductor_composite": {
+  "key": [
+   58,
+   58,
+   62
+  ],
+  "metallic": 0,
+  "roughness": 0.6,
+  "transmission": 0.0,
+  "description": "Moulded metal composite",
+  "examples": [
+   "moulded power inductors"
+  ]
+ },
+ "body/overcoat": {
+  "key": [
+   30,
+   32,
+   35
+  ],
+  "metallic": 0,
+  "roughness": 0.3,
+  "transmission": 0.0,
+  "description": "Resistor overcoat (black glass)",
+  "examples": [
+   "chip resistor tops"
+  ]
+ },
+ "body/overcoat_blue": {
+  "key": [
+   42,
+   72,
+   130
+  ],
+  "metallic": 0,
+  "roughness": 0.3,
+  "transmission": 0.0,
+  "description": "Blue overcoat",
+  "examples": [
+   "thin-film / precision resistors"
+  ]
+ },
+ "body/overcoat_green": {
+  "key": [
+   36,
+   140,
+   46
+  ],
+  "metallic": 0,
+  "roughness": 0.4,
+  "transmission": 0.0,
+  "description": "Green protective coating",
+  "examples": [
+   "chip fuses",
+   "current-sense resistors"
+  ]
+ },
+ "body/pcb_black": {
+  "key": [
+   26,
+   30,
+   26
+  ],
+  "metallic": 0,
+  "roughness": 0.4,
+  "transmission": 0.0,
+  "description": "Black module PCB",
+  "examples": [
+   "module substrates"
+  ]
+ },
+ "body/pcb_blue": {
+  "key": [
+   20,
+   50,
+   120
+  ],
+  "metallic": 0,
+  "roughness": 0.4,
+  "transmission": 0.0,
+  "description": "Blue module PCB",
+  "examples": [
+   "module substrates"
+  ]
+ },
+ "body/pcb_green": {
+  "key": [
+   22,
+   96,
+   46
+  ],
+  "metallic": 0,
+  "roughness": 0.4,
+  "transmission": 0.0,
+  "description": "Green module PCB",
+  "examples": [
+   "module substrates",
+   "daughter boards"
+  ]
+ },
+ "body/sleeve_black": {
+  "key": [
+   34,
+   30,
+   44
+  ],
+  "metallic": 0,
+  "roughness": 0.35,
+  "transmission": 0.0,
+  "description": "Black capacitor sleeve",
+  "examples": [
+   "electrolytic capacitor sleeves"
+  ]
+ },
+ "body/sleeve_blue": {
+  "key": [
+   34,
+   64,
+   150
+  ],
+  "metallic": 0,
+  "roughness": 0.35,
+  "transmission": 0.0,
+  "description": "Blue capacitor sleeve",
+  "examples": [
+   "electrolytic capacitor sleeves"
+  ]
+ },
+ "body/tantalum": {
+  "key": [
+   222,
+   160,
+   40
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Tantalum capacitor moulding",
+  "examples": [
+   "tantalum capacitors"
+  ]
+ },
+ "body/varistor": {
+  "key": [
+   40,
+   84,
+   150
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Varistor / disc coating",
+  "examples": [
+   "MOVs",
+   "disc capacitors"
+  ]
+ },
+ "led/lens_amber": {
+  "key": [
+   245,
+   172,
+   20
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Amber LED",
+  "examples": [
+   "amber LEDs"
+  ]
+ },
+ "led/lens_blue": {
+  "key": [
+   40,
+   96,
+   240
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Blue LED",
+  "examples": [
+   "blue LEDs"
+  ]
+ },
+ "led/lens_clear": {
+  "key": [
+   222,
+   230,
+   240
+  ],
+  "metallic": 0,
+  "roughness": 0.05,
+  "transmission": 0.9,
+  "description": "Clear LED lens / encapsulant",
+  "examples": [
+   "water-clear LEDs"
+  ]
+ },
+ "led/lens_diffused": {
+  "key": [
+   236,
+   236,
+   244
+  ],
+  "metallic": 0,
+  "roughness": 0.4,
+  "transmission": 0.5,
+  "description": "Diffused LED lens",
+  "examples": [
+   "diffused LEDs"
+  ]
+ },
+ "led/lens_green": {
+  "key": [
+   30,
+   200,
+   60
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Green LED",
+  "examples": [
+   "green LEDs"
+  ]
+ },
+ "led/lens_ir": {
+  "key": [
+   122,
+   16,
+   16
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Infrared LED (dark red)",
+  "examples": [
+   "IR LEDs and receivers"
+  ]
+ },
+ "led/lens_lime": {
+  "key": [
+   80,
+   222,
+   36
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Lime / yellow-green LED",
+  "examples": [
+   "lime LEDs"
+  ]
+ },
+ "led/lens_orange": {
+  "key": [
+   245,
+   128,
+   24
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Orange LED",
+  "examples": [
+   "orange LEDs"
+  ]
+ },
+ "led/lens_purple": {
+  "key": [
+   118,
+   74,
+   236
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Purple / UV LED",
+  "examples": [
+   "UV and purple LEDs"
+  ]
+ },
+ "led/lens_red": {
+  "key": [
+   212,
+   28,
+   28
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Red LED",
+  "examples": [
+   "red LEDs"
+  ]
+ },
+ "led/lens_yellow": {
+  "key": [
+   246,
+   232,
+   50
+  ],
+  "metallic": 0,
+  "roughness": 0.1,
+  "transmission": 0.4,
+  "description": "Yellow LED",
+  "examples": [
+   "yellow LEDs"
+  ]
+ },
+ "led/phosphor": {
+  "key": [
+   236,
+   212,
+   66
+  ],
+  "metallic": 0,
+  "roughness": 0.2,
+  "transmission": 0.0,
+  "description": "Phosphor (white LEDs)",
+  "examples": [
+   "white LEDs"
+  ]
+ },
+ "marking/black": {
+  "key": [
+   12,
+   12,
+   13
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Black ink",
+  "examples": [
+   "polarity marks on light parts",
+   "label text"
+  ]
+ },
+ "marking/blue": {
+  "key": [
+   30,
+   60,
+   220
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Blue ink",
+  "examples": [
+   "labels"
+  ]
+ },
+ "marking/green": {
+  "key": [
+   30,
+   120,
+   30
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Green ink",
+  "examples": [
+   "LED polarity marks"
+  ]
+ },
+ "marking/laser": {
+  "key": [
+   142,
+   144,
+   146
+  ],
+  "metallic": 0,
+  "roughness": 0.6,
+  "transmission": 0.0,
+  "description": "Laser marking",
+  "examples": [
+   "laser-etched IC markings"
+  ]
+ },
+ "marking/red": {
+  "key": [
+   220,
+   30,
+   40
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Red ink",
+  "examples": [
+   "labels"
+  ]
+ },
+ "marking/white": {
+  "key": [
+   250,
+   250,
+   247
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "White ink",
+  "examples": [
+   "part markings",
+   "pin-1 dots",
+   "label text"
+  ]
+ },
+ "marking/yellow": {
+  "key": [
+   226,
+   196,
+   38
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Yellow ink",
+  "examples": [
+   "labels"
+  ]
+ },
+ "metal/aluminium": {
+  "key": [
+   188,
+   194,
+   203
+  ],
+  "metallic": 1,
+  "roughness": 0.3,
+  "transmission": 0.0,
+  "description": "Aluminium",
+  "examples": [
+   "electrolytic capacitor cans",
+   "heatsinks"
+  ]
+ },
+ "metal/aluminium_black": {
+  "key": [
+   46,
+   48,
+   54
+  ],
+  "metallic": 1,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Black anodised aluminium",
+  "examples": [
+   "heatsinks",
+   "enclosures"
+  ]
+ },
+ "metal/brass": {
+  "key": [
+   200,
+   166,
+   96
+  ],
+  "metallic": 1,
+  "roughness": 0.3,
+  "transmission": 0.0,
+  "description": "Brass",
+  "examples": [
+   "terminal screws",
+   "threaded inserts",
+   "standoffs"
+  ]
+ },
+ "metal/bronze": {
+  "key": [
+   160,
+   118,
+   74
+  ],
+  "metallic": 1,
+  "roughness": 0.35,
+  "transmission": 0.0,
+  "description": "Phosphor bronze (unplated)",
+  "examples": [
+   "spring contacts"
+  ]
+ },
+ "metal/copper": {
+  "key": [
+   184,
+   110,
+   62
+  ],
+  "metallic": 1,
+  "roughness": 0.35,
+  "transmission": 0.0,
+  "description": "Copper",
+  "examples": [
+   "inductor windings",
+   "exposed lead frame",
+   "bus bars"
+  ]
+ },
+ "metal/gold": {
+  "key": [
+   214,
+   178,
+   72
+  ],
+  "metallic": 1,
+  "roughness": 0.25,
+  "transmission": 0.0,
+  "description": "Gold plating",
+  "examples": [
+   "connector contacts",
+   "FPC contacts",
+   "crystal pads"
+  ]
+ },
+ "metal/nickel": {
+  "key": [
+   168,
+   172,
+   178
+  ],
+  "metallic": 1,
+  "roughness": 0.3,
+  "transmission": 0.0,
+  "description": "Nickel / plated steel",
+  "examples": [
+   "USB shells",
+   "RF shields",
+   "crystal cans",
+   "switch frames"
+  ]
+ },
+ "metal/silver": {
+  "key": [
+   232,
+   232,
+   236
+  ],
+  "metallic": 1,
+  "roughness": 0.12,
+  "transmission": 0.0,
+  "description": "Silver plating",
+  "examples": [
+   "RF connector contacts",
+   "silver-plated terminals"
+  ]
+ },
+ "metal/stainless": {
+  "key": [
+   150,
+   154,
+   160
+  ],
+  "metallic": 1,
+  "roughness": 0.35,
+  "transmission": 0.0,
+  "description": "Stainless steel",
+  "examples": [
+   "springs",
+   "screws",
+   "battery contacts"
+  ]
+ },
+ "metal/tin": {
+  "key": [
+   204,
+   206,
+   209
+  ],
+  "metallic": 1,
+  "roughness": 0.35,
+  "transmission": 0.0,
+  "description": "Matte tin plating",
+  "examples": [
+   "IC leads",
+   "chip terminations",
+   "header pins",
+   "test points"
+  ]
+ },
+ "metal/tin_bright": {
+  "key": [
+   222,
+   224,
+   227
+  ],
+  "metallic": 1,
+  "roughness": 0.15,
+  "transmission": 0.0,
+  "description": "Bright tin / solder-dipped",
+  "examples": [
+   "hot-dipped leads",
+   "bright-tin terminals"
+  ]
+ },
+ "plastic/beige": {
+  "key": [
+   222,
+   208,
+   164
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Beige plastic",
+  "examples": [
+   "LCP housings",
+   "relay bodies"
+  ]
+ },
+ "plastic/black": {
+  "key": [
+   22,
+   23,
+   26
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Black plastic",
+  "examples": [
+   "connector housings",
+   "switch bodies",
+   "black wire insulation"
+  ]
+ },
+ "plastic/blue": {
+  "key": [
+   30,
+   80,
+   180
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Blue plastic",
+  "examples": [
+   "terminal blocks",
+   "trimmers",
+   "blue wire insulation"
+  ]
+ },
+ "plastic/blue_light": {
+  "key": [
+   110,
+   170,
+   220
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Light blue plastic",
+  "examples": [
+   "housings"
+  ]
+ },
+ "plastic/brown": {
+  "key": [
+   110,
+   68,
+   22
+  ],
+  "metallic": 0,
+  "roughness": 0.5,
+  "transmission": 0.0,
+  "description": "Brown plastic / phenolic",
+  "examples": [
+   "potentiometer bases",
+   "brown wire insulation"
+  ]
+ },
+ "plastic/clear": {
+  "key": [
+   218,
+   238,
+   228
+  ],
+  "metallic": 0,
+  "roughness": 0.05,
+  "transmission": 0.9,
+  "description": "Clear plastic",
+  "examples": [
+   "light pipes",
+   "covers"
+  ]
+ },
+ "plastic/green": {
+  "key": [
+   24,
+   150,
+   72
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Green plastic",
+  "examples": [
+   "pluggable terminal blocks",
+   "green wire insulation"
+  ]
+ },
+ "plastic/green_light": {
+  "key": [
+   96,
+   205,
+   140
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Light green plastic",
+  "examples": [
+   "terminal block headers"
+  ]
+ },
+ "plastic/grey": {
+  "key": [
+   104,
+   107,
+   111
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Grey plastic",
+  "examples": [
+   "housings",
+   "FPC connectors"
+  ]
+ },
+ "plastic/grey_dark": {
+  "key": [
+   64,
+   66,
+   70
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Dark grey plastic",
+  "examples": [
+   "housings",
+   "actuators"
+  ]
+ },
+ "plastic/grey_light": {
+  "key": [
+   184,
+   186,
+   186
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Light grey plastic",
+  "examples": [
+   "housings",
+   "buttons"
+  ]
+ },
+ "plastic/natural": {
+  "key": [
+   236,
+   228,
+   190
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Natural nylon / ivory",
+  "examples": [
+   "JST / Molex housings",
+   "FPC housings",
+   "tactile caps"
+  ]
+ },
+ "plastic/orange": {
+  "key": [
+   232,
+   112,
+   30
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Orange plastic",
+  "examples": [
+   "housings",
+   "wire insulation"
+  ]
+ },
+ "plastic/purple": {
+  "key": [
+   110,
+   50,
+   160
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Purple plastic",
+  "examples": [
+   "housings"
+  ]
+ },
+ "plastic/red": {
+  "key": [
+   196,
+   40,
+   36
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Red plastic",
+  "examples": [
+   "red wire insulation",
+   "red housings"
+  ]
+ },
+ "plastic/white": {
+  "key": [
+   241,
+   241,
+   236
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "White plastic",
+  "examples": [
+   "LED housings",
+   "white housings"
+  ]
+ },
+ "plastic/yellow": {
+  "key": [
+   232,
+   200,
+   40
+  ],
+  "metallic": 0,
+  "roughness": 0.45,
+  "transmission": 0.0,
+  "description": "Yellow plastic",
+  "examples": [
+   "yellow wire insulation",
+   "housings"
+  ]
+ },
+ "rubber/black": {
+  "key": [
+   48,
+   46,
+   46
+  ],
+  "metallic": 0,
+  "roughness": 0.8,
+  "transmission": 0.0,
+  "description": "Black rubber / silicone",
+  "examples": [
+   "keypad buttons",
+   "gaskets"
+  ]
+ },
+ "rubber/clear": {
+  "key": [
+   216,
+   222,
+   222
+  ],
+  "metallic": 0,
+  "roughness": 0.3,
+  "transmission": 0.6,
+  "description": "Clear silicone",
+  "examples": [
+   "light-pipe keypads",
+   "potting"
+  ]
+ },
+ "rubber/grey": {
+  "key": [
+   132,
+   132,
+   128
+  ],
+  "metallic": 0,
+  "roughness": 0.8,
+  "transmission": 0.0,
+  "description": "Grey silicone",
+  "examples": [
+   "keypads",
+   "seals"
+  ]
+ }
+}
