@@ -361,170 +361,406 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Skipper\Design Rule Check - Panel.html
+DocumentPath=Project Outputs for Skipper\BOM\Bill of Materials-Skipper.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Skipper\Design Rule Check - Skipper.html
+DocumentPath=Project Outputs for Skipper\Fabrication\Bill of Materials-Skipper.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Skipper\Panel-RoundHoles.TXT
+DocumentPath=Project Outputs for Skipper\Design Rule Check - Panel.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Skipper\Panel-SlotHoles.TXT
+DocumentPath=Project Outputs for Skipper\Design Rule Check - Skipper.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Skipper\Panel.DRR
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Skipper\Panel.EXTREP
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Skipper\Panel.G1
+DocumentPath=Project Outputs for Skipper\Gerber\NC Drill\Panel-RoundHoles-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Skipper\Panel.G2
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Skipper\Panel.GBL
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Skipper\Panel.GBO
+DocumentPath=Project Outputs for Skipper\Gerber\NC Drill\Panel-RoundHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Skipper\Panel.GBP
+DocumentPath=Project Outputs for Skipper\Panel-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Skipper\Panel.GBS
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Skipper\Panel.GM
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Skipper\Panel.GTL
+DocumentPath=Project Outputs for Skipper\Gerber\NC Drill\Panel-SlotHoles-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Skipper\Panel.GTO
+DocumentPath=Project Outputs for Skipper\Panel-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Skipper\Panel.GTP
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Skipper\Panel.GTS
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Skipper\Panel.LDP
+DocumentPath=Project Outputs for Skipper\Gerber\NC Drill\Panel.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Skipper\Panel.REP
+DocumentPath=Project Outputs for Skipper\Panel.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Skipper\Pick Place for Panel.csv
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.csv
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.txt
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Skipper\Skipper-RoundHoles.TXT
+DocumentPath=Project Outputs for Skipper\Panel.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Skipper\Skipper-SlotHoles.TXT
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.G1
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Skipper\Skipper.DRR
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.G1
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Skipper\Skipper.EXTREP
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.G1
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for Skipper\Skipper.G1
+DocumentPath=Project Outputs for Skipper\Panel.G1
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for Skipper\Skipper.G2
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.G2
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for Skipper\Skipper.GBL
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.G2
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for Skipper\Skipper.GBO
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.G2
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for Skipper\Skipper.GBP
+DocumentPath=Project Outputs for Skipper\Panel.G2
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for Skipper\Skipper.GBS
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for Skipper\Skipper.GM
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for Skipper\Skipper.GM6
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for Skipper\Skipper.GM7
+DocumentPath=Project Outputs for Skipper\Panel.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for Skipper\Skipper.GTL
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for Skipper\Skipper.GTO
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for Skipper\Skipper.GTP
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for Skipper\Skipper.GTS
+DocumentPath=Project Outputs for Skipper\Panel.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for Skipper\Skipper.LDP
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for Skipper\Skipper.NET
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument42]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for Skipper\Panel.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for Skipper\Panel.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GM
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GM
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GM
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for Skipper\Panel.GM
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for Skipper\Panel.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for Skipper\Panel.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for Skipper\Panel.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for Skipper\Panel.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for Skipper\Gerber\NC Drill\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for Skipper\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for Skipper\Fabrication 11-18-2026 19-20-48\Gerber\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for Skipper\Fabrication\Gerber\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for Skipper\Gerber\Gerber\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for Skipper\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Project Outputs for Skipper\Fabrication\Pick Place for Panel.csv
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for Skipper\Pick Place for Panel.csv
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for Skipper\Fabrication\Pick Place for Panel.txt
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Project Outputs for Skipper\Pick Place\Pick Place for Panel.txt
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.csv
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Project Outputs for Skipper\Pick Place for Skipper.txt
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Project Outputs for Skipper\Skipper-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument83]
+DocumentPath=Project Outputs for Skipper\Skipper-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Project Outputs for Skipper\Skipper.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument85]
+DocumentPath=Project Outputs for Skipper\Skipper.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Project Outputs for Skipper\Skipper.G1
+DItemRevisionGUID=
+
+[GeneratedDocument87]
+DocumentPath=Project Outputs for Skipper\Skipper.G2
+DItemRevisionGUID=
+
+[GeneratedDocument88]
+DocumentPath=Project Outputs for Skipper\Skipper.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument89]
+DocumentPath=Project Outputs for Skipper\Skipper.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument90]
+DocumentPath=Project Outputs for Skipper\Skipper.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument91]
+DocumentPath=Project Outputs for Skipper\Skipper.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument92]
+DocumentPath=Project Outputs for Skipper\Skipper.GM
+DItemRevisionGUID=
+
+[GeneratedDocument93]
+DocumentPath=Project Outputs for Skipper\Skipper.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument94]
+DocumentPath=Project Outputs for Skipper\Skipper.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument95]
+DocumentPath=Project Outputs for Skipper\Skipper.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument96]
+DocumentPath=Project Outputs for Skipper\Skipper.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument97]
+DocumentPath=Project Outputs for Skipper\Skipper.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument98]
+DocumentPath=Project Outputs for Skipper\Skipper.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument99]
+DocumentPath=Project Outputs for Skipper\Skipper.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument100]
+DocumentPath=Project Outputs for Skipper\Skipper.NET
+DItemRevisionGUID=
+
+[GeneratedDocument101]
 DocumentPath=Project Outputs for Skipper\Skipper.REP
 DItemRevisionGUID=
 
